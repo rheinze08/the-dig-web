@@ -1,0 +1,43 @@
+# Daily rebuild of The Dig website.
+# One short run a day: fetch the feeds, regenerate docs/, commit and push if
+# anything changed, then confirm the live site serves the new build.
+# GitHub runs this only from .github/workflows/. See README, "Daily rebuild".
+name: Daily rebuild
+
+on:
+  schedule:
+    # 11:37 UTC is 5:37 AM Central in winter and 6:37 AM in summer, before sales open.
+    - cron: '37 11 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: daily-rebuild
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Rebuild and publish
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          ./build.sh
+
+      - name: Confirm the live site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if node test/live.mjs --wait 240; then exit 0; fi
+          echo 'The push has not reached the live site. Asking GitHub Pages to build.'
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds"
+          node test/live.mjs --wait 240
