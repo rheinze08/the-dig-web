@@ -1,11 +1,7 @@
 # Daily rebuild of The Dig website.
-#
-# This file only runs once it lives at .github/workflows/daily-rebuild.yml.
-# It waits here in ci/ because the login that built the site may not write
-# workflow files. To install it, run ci/install-daily-rebuild.sh (see README).
-#
 # One short run a day: fetch the feeds, regenerate docs/, commit and push if
 # anything changed, then confirm the live site serves the new build.
+# GitHub runs this only from .github/workflows/. See README, "Daily rebuild".
 name: Daily rebuild
 
 on:
@@ -27,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Rebuild and publish
         env:

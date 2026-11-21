@@ -56,6 +56,8 @@ gh auth refresh -h github.com -s workflow   # once; approve in the browser
 ./ci/install-daily-rebuild.sh               # moves it to .github/workflows/ and starts the first run
 ```
 
+Or add it on the GitHub website: create the file `.github/workflows/daily-rebuild.yml` with the contents of `ci/daily-rebuild.yml`, then delete the copy in `ci/`.
+
 Until it is installed, the site changes only when someone runs `./build.sh`.
 
 Pages are built for one calendar day in the city's time zone. If a visitor arrives after that day, `assets/site.js` corrects the "Open today" and "Ended" labels in the browser.
