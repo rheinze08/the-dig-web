@@ -1,0 +1,32 @@
+# The Dig
+
+> The Dig pools estate sales from the public listing boards into one map per city. Facts shown, always linked back to the source listing.
+
+## What it is
+- A free map and list of estate sales, one page per city, rebuilt once a day from public JSON feeds.
+- Each sale shows what its source listing published: title, company, dates, hours, and the street address once the company releases it.
+- The Dig does not run or verify sales. The source listing is the authority.
+
+## Cities
+- Houston: https://rheinze08.github.io/the-dig-web/houston/
+  This weekend: https://rheinze08.github.io/the-dig-web/houston/this-weekend/
+  JSON feed: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/houston/sales.json
+  28 sales in the feed, collected 2026-11-21T01:26:19.206Z. Times are America/Chicago.
+
+## Public data
+- City index: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities.json
+- Per-city feeds follow the pattern https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/<slug>/sales.json
+- In a feed, "addressHidden": true means no street address has been released and the map point is approximate.
+
+## Pages
+- One page per sale: https://rheinze08.github.io/the-dig-web/sale/<sale-id>/ where <sale-id> is the sale's "id" in the feed. Each has schema.org Event data.
+- Sale pages are removed when a sale leaves the feed.
+- Sitemap: https://rheinze08.github.io/the-dig-web/sitemap.xml
+
+## How to cite
+Link the sale's page on The Dig and the source listing that page names. Example:
+"Estate sale listed on The Dig (https://rheinze08.github.io/the-dig-web/sale/<sale-id>/), original listing: <source listing URL>."
+Do not present The Dig as the organizer of a sale.
+
+## Contact
+No contact address is live yet. listings@thedig.example is a placeholder and does not receive mail.

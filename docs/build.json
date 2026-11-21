@@ -1,0 +1,29 @@
+{
+  "site": "https://rheinze08.github.io/the-dig-web",
+  "cityIndex": "https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities.json",
+  "defaultCity": "houston",
+  "cities": [
+    {
+      "slug": "houston",
+      "name": "Houston",
+      "timeZone": "America/Chicago",
+      "feedUrl": "https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/houston/sales.json",
+      "collectedAt": "2026-11-21T01:26:19.206Z",
+      "sales": 28,
+      "weekendSales": 22,
+      "builtFor": "2026-11-20",
+      "weekend": [
+        "2026-11-20",
+        "2026-11-22"
+      ]
+    }
+  ],
+  "salePages": 28,
+  "app": {
+    "tag": "v0.2.0",
+    "url": "https://github.com/rheinze08/the-dig-data/releases/download/v0.2.0/The-Dig-v0.2.0.apk",
+    "page": "https://github.com/rheinze08/the-dig-data/releases/tag/v0.2.0"
+  },
+  "listingEmail": "listings@thedig.example",
+  "listingEmailIsPlaceholder": true
+}

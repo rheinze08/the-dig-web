@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rheinze08.github.io/the-dig-web/sitemap.xml
