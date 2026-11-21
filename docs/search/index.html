@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Search estate sales across every city | The Dig</title>
-<meta name="description" content="Search 28 estate sales across Houston by keyword or category: tools, furniture, vinyl and records, jewelry, collectibles and more. Every result links to its sale page.">
+<meta name="description" content="Search 207 estate sales across 4 cities by keyword or category: tools, furniture, vinyl and records, jewelry, collectibles and more. Every result links to its sale page.">
 <link rel="canonical" href="https://rheinze08.github.io/the-dig-web/search/">
 <meta name="theme-color" content="#233e30">
 <meta property="og:site_name" content="The Dig">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Search estate sales across every city">
-<meta property="og:description" content="Search 28 estate sales across Houston by keyword or category: tools, furniture, vinyl and records, jewelry, collectibles and more. Every result links to its sale page.">
+<meta property="og:description" content="Search 207 estate sales across 4 cities by keyword or category: tools, furniture, vinyl and records, jewelry, collectibles and more. Every result links to its sale page.">
 <meta property="og:url" content="https://rheinze08.github.io/the-dig-web/search/">
 <meta property="og:image" content="https://rheinze08.github.io/the-dig-web/assets/og.png">
 <meta property="og:image:width" content="1200">
@@ -46,7 +46,7 @@
 <div class="frame">
   <div class="search-head">
     <h1>Search every city</h1>
-    <p class="lede">One search across every city on The Dig. Today that is Houston. Type a word, pick a category, or both.</p>
+    <p class="lede">One search across all 4 cities on The Dig, live and preview. Type a word, pick a category, or both.</p>
   </div>
   <form class="search-form" id="search-form" role="search" action="/the-dig-web/search/" method="get">
     <label for="q">Search sale titles and companies</label>
@@ -55,23 +55,23 @@
       <button class="button button-primary" type="submit"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>Search</button>
     </div>
     <div class="chips" id="chips" role="group" aria-label="Categories">
-      <button type="button" class="chip" data-cat="tools" aria-pressed="false" disabled>Tools <span>0</span></button>
-      <button type="button" class="chip" data-cat="furniture" aria-pressed="false">Furniture <span>2</span></button>
+      <button type="button" class="chip" data-cat="tools" aria-pressed="false">Tools <span>5</span></button>
+      <button type="button" class="chip" data-cat="furniture" aria-pressed="false">Furniture <span>13</span></button>
       <button type="button" class="chip" data-cat="vinyl-records" aria-pressed="false" disabled>Vinyl &amp; records <span>0</span></button>
-      <button type="button" class="chip" data-cat="jewelry" aria-pressed="false" disabled>Jewelry <span>0</span></button>
-      <button type="button" class="chip" data-cat="collectibles" aria-pressed="false">Collectibles <span>4</span></button>
-      <button type="button" class="chip" data-cat="vehicles" aria-pressed="false" disabled>Vehicles <span>0</span></button>
-      <button type="button" class="chip" data-cat="kitchen" aria-pressed="false" disabled>Kitchen <span>0</span></button>
-      <button type="button" class="chip" data-cat="clothing" aria-pressed="false" disabled>Clothing <span>0</span></button>
-      <button type="button" class="chip" data-cat="books" aria-pressed="false" disabled>Books <span>0</span></button>
-      <button type="button" class="chip" data-cat="art" aria-pressed="false">Art <span>2</span></button>
-      <button type="button" class="chip" data-cat="electronics" aria-pressed="false" disabled>Electronics <span>0</span></button>
-      <button type="button" class="chip" data-cat="toys-games" aria-pressed="false" disabled>Toys &amp; games <span>0</span></button>
+      <button type="button" class="chip" data-cat="jewelry" aria-pressed="false">Jewelry <span>6</span></button>
+      <button type="button" class="chip" data-cat="collectibles" aria-pressed="false">Collectibles <span>16</span></button>
+      <button type="button" class="chip" data-cat="vehicles" aria-pressed="false">Vehicles <span>1</span></button>
+      <button type="button" class="chip" data-cat="kitchen" aria-pressed="false">Kitchen <span>3</span></button>
+      <button type="button" class="chip" data-cat="clothing" aria-pressed="false">Clothing <span>9</span></button>
+      <button type="button" class="chip" data-cat="books" aria-pressed="false">Books <span>3</span></button>
+      <button type="button" class="chip" data-cat="art" aria-pressed="false">Art <span>16</span></button>
+      <button type="button" class="chip" data-cat="electronics" aria-pressed="false">Electronics <span>2</span></button>
+      <button type="button" class="chip" data-cat="toys-games" aria-pressed="false">Toys &amp; games <span>4</span></button>
       <button type="button" class="chip chip-clear" id="clear-filters" hidden>Clear</button>
     </div>
   </form>
-  <p class="count" id="result-count" role="status" data-total="28" data-cities="1"><strong>28</strong> sales across 1 city.</p>
-  <p class="fresh" id="search-scope">Search covers listing titles and companies today — searching inside photos is coming later. Categories are read from each listing’s title, so a sale can be missing from a category it belongs in.</p>
+  <p class="count" id="result-count" role="status" data-total="207" data-cities="4"><strong>207</strong> sales across 4 cities.</p>
+  <p class="fresh" id="search-scope">Search covers listing titles and companies today — searching inside photos is coming later. Categories come from The Dig’s combined search feed.</p>
   <p class="note" id="search-status" hidden>Search could not load its data. Every sale is still listed below.</p>
   <noscript><p class="note">Filtering needs JavaScript. Every sale is listed below, grouped by city.</p></noscript>
   <p class="empty" id="no-results" hidden>No sale matches. Try a shorter word, or clear a category.</p>
@@ -119,7 +119,7 @@
             <span class="sale-title">Fabulous Heights Sale- Antique, Mid-Century, Architecturale &amp; Historic Home</span>
             <span class="company">Treasure Hunt Auction Co.</span>
             <span class="place">Houston</span>
-            <span class="cats"><span class="cat">Furniture</span><span class="cat">Collectibles</span></span>
+            
           </span>
         </a>
       </li>
@@ -317,7 +317,7 @@
             <span class="sale-title">THE BELLAIRE COLLECTION – An Extraordinary Estate of Fine Art, Antiques &amp; Global Treasures</span>
             <span class="company">River Oaks Estate Sales</span>
             <span class="place">Houston · Bellaire</span>
-            <span class="cats"><span class="cat">Collectibles</span><span class="cat">Art</span></span>
+            <span class="cats"><span class="cat">Art</span></span>
           </span>
         </a>
       </li>
@@ -389,6 +389,1990 @@
       </li>
       </ol>
     </section>
+    <section class="search-group" id="results-dallas-fort-worth" data-city="dallas-fort-worth" data-status="proving" data-total="110" data-time-zone="America/Chicago" data-built-for="2026-11-20" aria-labelledby="group-dallas-fort-worth">
+      <h2 id="group-dallas-fort-worth"><a href="/the-dig-web/dallas-fort-worth/">Dallas–Fort Worth</a> <span class="tag tag-preview">Preview</span> <span class="group-count">110 sales</span></h2>
+      <ol class="hit-list">
+      <li class="sale hit" data-id="8e139d1e0e55d28c" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/8e139d1e0e55d28c/">
+          <span class="sale-text">
+            <span class="dates">Wed, Nov 18 – Sat, Nov 21</span>
+            <span class="sale-title">2ND PHASE! 8K+ CLOTHING (BABY-6XL), SHOES, PURSES, SUITS $2 EACH! JEWELRY $5 OR LESS! PACKED</span>
+            <span class="company">Tiffany Nicole&#39;s Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Garland</span>
+            <span class="cats"><span class="cat">Jewelry</span><span class="cat">Clothing</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="c2c80c3df0e4101f" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/c2c80c3df0e4101f/">
+          <span class="sale-text">
+            <span class="dates">Wed, Nov 18 – Sat, Nov 21</span>
+            <span class="sale-title">Denton (ROBSON RANCH): 50% OFF + STUFF-A-BAG + Unbeatable Deals by Dayspring</span>
+            <span class="company">Dayspring Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Denton</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="c712fd8fb9b61ad0" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/c712fd8fb9b61ad0/">
+          <span class="sale-text">
+            <span class="dates">Wed, Nov 18 – Sat, Nov 21</span>
+            <span class="sale-title">Fort Worth: 50% OFF + STUFF-A-BAG + Unbeatable Deals by Dayspring</span>
+            <span class="company">Dayspring Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="a1aecd517a8dcd97" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/a1aecd517a8dcd97/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sun, Nov 22</span>
+            <span class="sale-title">25% OFF FRIDAY!!!</span>
+            <span class="company">The Spann Group Estate Sales, LLC</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Arlington</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="685c871de4819428" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/685c871de4819428/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">25% off! TNT in Richardson</span>
+            <span class="company">TNT Estate Sale Services</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Richardson</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="30bf9380ac89a297" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/30bf9380ac89a297/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">50% OFF EVERYTHING SATURDAY!!!* Copper Canyon (Lewisville) MANSION has something for everyone !</span>
+            <span class="company">J &amp; S Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Copper Canyon</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="5f203c81e7272911" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/5f203c81e7272911/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sun, Nov 22</span>
+            <span class="sale-title">50% off Huge Trophy Club Sale</span>
+            <span class="company">Trophy Estate Sale</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Trophy Club</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="5a90cf43949ca89a" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/5a90cf43949ca89a/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">50% Off RARE FIND: VINTAGE APPLE MACINTOSH • TIFFANY LAMPS • ANTIQUES • CRYSTAL • JEWELRY &amp; MORE!</span>
+            <span class="company">Rare Find Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Lewisville</span>
+            <span class="cats"><span class="cat">Jewelry</span><span class="cat">Electronics</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="0358a4c711f71a3b" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/0358a4c711f71a3b/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">50% OFF SATURDAY! / THE ART OF ELEGANT LIVING - A PRESTON HOLLOW ESTATE SALE</span>
+            <span class="company">Dallas Estate Sellers</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="c2fe5a3ffe833d00" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/c2fe5a3ffe833d00/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">50% OFF SATURDAY!!! Garland Time Capsule Estate Sale</span>
+            <span class="company">Stardust Antiques &amp; Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Garland</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="203ea7ec9a0f35f9" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/203ea7ec9a0f35f9/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sun, Nov 22</span>
+            <span class="sale-title">50% OFF SATURDAY!Fantastic Haslet Estate!Firearms,Ammo,Vintage,Antique,Tools,Fishing,and More!</span>
+            <span class="company">Remains Of Yesterday</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Haslet</span>
+            <span class="cats"><span class="cat">Tools</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="c3675a0be8f53d45" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/c3675a0be8f53d45/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">50% off! Perfect in Plano!</span>
+            <span class="company">Skymarc Estate Sales, LLC</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Plano</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="6a7c87e7b68ace06" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/6a7c87e7b68ace06/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">50% OFF!! Helping Hands in Plano</span>
+            <span class="company">Helping Hands By Ms.kay</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Plano</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="9f757dd99eaf3e6a" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/9f757dd99eaf3e6a/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">60% OFF THRILL HUNT VINTAGE FURNITURE BOOKS &amp; POTPOURRI ESTATE SALE BY ALAMO AZTEK ESTATE SALES DFW</span>
+            <span class="company">Alamo Aztek Estate Sales DFW</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            <span class="cats"><span class="cat">Furniture</span><span class="cat">Books</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="528a11d8b68be36b" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/528a11d8b68be36b/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">60% OFF THRILL OF THE HUNT VINTAGE FURNITURE BOOKS POTPOURRI ESTATE SALE BY ALAMO AZTEK ESTATE SALES</span>
+            <span class="company">Alamo Aztek Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            <span class="cats"><span class="cat">Furniture</span><span class="cat">Books</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="210f27aaecff14c1" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/210f27aaecff14c1/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Bedford Estate Sale</span>
+            <span class="company">John Hunnicutt</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Bedford</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="c86fcdbfabf548b5" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/c86fcdbfabf548b5/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Curated Collections in Carrollton 25% OFF</span>
+            <span class="company">Chickadee Lane Estate And Moving Sales, LLC</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Carrollton</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="90976f4e9b06d605" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/90976f4e9b06d605/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Dallas Sale (Near Walnut Hill/35)</span>
+            <span class="company">All Treasures Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="dcc8fa3388f97b80" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/dcc8fa3388f97b80/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Dazzling in Dallas 50% OFF</span>
+            <span class="company">Chickadee Lane Estate And Moving Sales, LLC</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="fa81405d5714654d" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/fa81405d5714654d/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">ESTATE SALE~CLEARHURST DR by DAVID C TURNER, DALLAS ESTATE SALES</span>
+            <span class="company">David C.Turner</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="8b57fa84c228e8b5" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/8b57fa84c228e8b5/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Fort Worth Memories and Treasures</span>
+            <span class="company">Enchanted Tree Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="aedb60f48f8578bb" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/aedb60f48f8578bb/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Garland: 25% OFF &amp; STUFF-A-BAG + Unbeatable Deals by Dayspring</span>
+            <span class="company">Dayspring Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Garland</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="cd8d08b305a5724d" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/cd8d08b305a5724d/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Grand Prairie Sale - Americana, Coins, Tools and Much More!</span>
+            <span class="company">My Jennarocity Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Grand Prairie</span>
+            <span class="cats"><span class="cat">Tools</span><span class="cat">Collectibles</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="6a4f73dcb15380b8" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/6a4f73dcb15380b8/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Little Elm: 25% OFF &amp; STUFF-A-BAG + Unbeatable Deals by Dayspring</span>
+            <span class="company">Dayspring Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Little Elm</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="0b0109343b47586d" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/0b0109343b47586d/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Mid-Century Delight in Dallas 25% OFF</span>
+            <span class="company">Chickadee Lane Estate And Moving Sales, LLC</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="88a22b845ff7d3f1" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/88a22b845ff7d3f1/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">More hand stitched quilts found at Haltom City Estate sale</span>
+            <span class="company">Ritzy Red Auctions and Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Haltom City</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="198d005543dd367e" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/198d005543dd367e/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sun, Nov 22</span>
+            <span class="sale-title">North Arlington Randol Mill Park Homes Subdivision</span>
+            <span class="company">Newhouse-Héron and Warr Estate Liquidators</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Arlington</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="f538cec1531361fc" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/f538cec1531361fc/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">One and Done Estate Sales</span>
+            <span class="company">One And Done Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Keller</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="be7d2bf774f3e817" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/be7d2bf774f3e817/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Plano Estate Sale</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Plano</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="e4fa7a6c64dd10fa" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/e4fa7a6c64dd10fa/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sun, Nov 22</span>
+            <span class="sale-title">Pool Table, Vintage collectibles, Art, Furniture, Rugs, More</span>
+            <span class="company">Annice Antiques, Inc.</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Duncanville</span>
+            <span class="cats"><span class="cat">Furniture</span><span class="cat">Collectibles</span><span class="cat">Art</span><span class="cat">Toys &amp; games</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="83cd93e2911b4ea2" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/83cd93e2911b4ea2/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Super Estate Sale in Dallas</span>
+            <span class="company">Dawn Stubbs Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="539684cb47388a4b" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/539684cb47388a4b/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Vintage Sale on Salado</span>
+            <span class="company">Wild Hautzi</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Plano</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="1e8fdaca3a6a5646" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/1e8fdaca3a6a5646/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">~Incredible Bedford Estate Sale! Modern Italian, Leather, Jewelry, Fashion, Appliances, Accents, Art</span>
+            <span class="company">DFW Estate Liquidators</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Bedford</span>
+            <span class="cats"><span class="cat">Jewelry</span><span class="cat">Clothing</span><span class="cat">Art</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="6b432fc68bc5f353" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/6b432fc68bc5f353/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">~Massive Southlake Estate Sale! Collectors Dream! Lexus, Bang &amp; Olufsen, MCM, Fashion, Paintings..</span>
+            <span class="company">DFW Estate Liquidators</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Southlake</span>
+            <span class="cats"><span class="cat">Collectibles</span><span class="cat">Vehicles</span><span class="cat">Clothing</span><span class="cat">Art</span><span class="cat">Electronics</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="03d3345da4dc5205" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/03d3345da4dc5205/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">25% OFF SATURDAY - Preston Hollow Rarities</span>
+            <span class="company">Millo Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="c4e6bad9cfe373f0" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/c4e6bad9cfe373f0/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">25% OFF Saturday!!!James Major Estate Sales : Bachelor Pad Blowout in Richardson</span>
+            <span class="company">James Major Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Richardson</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="b26fbcc42db32da0" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/b26fbcc42db32da0/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">50 % OFF L &amp; J Estate Sale</span>
+            <span class="company">L &amp; J Estate Sales, Llc.</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Duncanville</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="a4440405f38113a9" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/a4440405f38113a9/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Annabelle’s Treasures</span>
+            <span class="company">Annabelle&#39;s Treasures</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="e63cc7d0030fdf06" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/e63cc7d0030fdf06/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Antique Christmas on my Porch</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="13748b519ddd05f7" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/13748b519ddd05f7/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Blue Moon 50% OFF Euless Thanksgiving Treasure Hunt</span>
+            <span class="company">Blue Moon Estate Sales - Ft. Worth Tx.</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Euless</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="8d6371d408160485" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/8d6371d408160485/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">By Urban Potluck: 50% OFF SATURDAY Upscale Estate Sale in Mansfield&#39;s Kings Mill</span>
+            <span class="company">Urban Potluck Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Mansfield</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="80bad8b31b559ee1" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/80bad8b31b559ee1/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Duncanville Estate Sale coins, jewelry, comics, Bev Doolittle</span>
+            <span class="company">Kitchens To Closets Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Duncanville</span>
+            <span class="cats"><span class="cat">Jewelry</span><span class="cat">Collectibles</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="d8ea2ce61baf37bc" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/d8ea2ce61baf37bc/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Elite Legacy- Prestonwood- Patio, Henredon, Snap-on, Knives, Appliances, Women’s Clothing, Floral</span>
+            <span class="company">Elite Legacy Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            <span class="cats"><span class="cat">Tools</span><span class="cat">Furniture</span><span class="cat">Clothing</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="371568f2a726e3c3" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/371568f2a726e3c3/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">ELS Etate Sales ... Another Beautiful Home Filled with Holiday Cheer!</span>
+            <span class="company">ELS Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="0b34bed1e6fcef4f" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/0b34bed1e6fcef4f/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Estate Sale</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Duncanville</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="9a88a3b7fbc8c286" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/9a88a3b7fbc8c286/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Estate Sale</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Duncanville</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="b7eac799ac7dfa00" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/b7eac799ac7dfa00/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Estate Sale</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Duncanville</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="9f18e6e891b9c280" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/9f18e6e891b9c280/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Estate Sale by Marian</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Arlington</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="77be28ce1c798c9d" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/77be28ce1c798c9d/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Estate Sale- Monticello</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · FORT WORTH</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="ef2570f39c72c899" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/ef2570f39c72c899/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Estate Sales by Anthony ... Another Great Sale</span>
+            <span class="company">Estate Sales By Anthony</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Frisco</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="ed7d49c4e84ecee9" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/ed7d49c4e84ecee9/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Fabulous Finds El Campo</span>
+            <span class="company">Kazen Property Rescue Services</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="6f65516474e18361" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/6f65516474e18361/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Jewel Box Estate Sale</span>
+            <span class="company">The Jewel Box</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="2383175fe77ff0a5" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/2383175fe77ff0a5/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">LANN Estate Sales - Bent Tree North</span>
+            <span class="company">Lann Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="1056959962c26dc7" data-last="2026-11-20">
+        <a href="/the-dig-web/sale/1056959962c26dc7/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20</span>
+            <span class="sale-title">Living Estate Sale</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Carrollton</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="f5906d411fc84284" data-last="2026-11-20">
+        <a href="/the-dig-web/sale/f5906d411fc84284/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20</span>
+            <span class="sale-title">MASSIVE ESTATE SALE IN 4000 SQFT RACNH HOME PACKED FOR 60 YEARS!</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Denton</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="e9b6bb0dddd5a5ba" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/e9b6bb0dddd5a5ba/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Monticello Estate Sale</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="1caac9641240a4aa" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/1caac9641240a4aa/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Multi Estate Clearance Sale - Fort Worth Odd Fellows Hall</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="03a23c9ee56839e3" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/03a23c9ee56839e3/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Multi-Family Estate Yard Sale</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Arlington</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="3bfa7e6776de0515" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/3bfa7e6776de0515/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">North Dallas Estate Sale</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="97e99feb6aedfe64" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/97e99feb6aedfe64/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Opening up at 75 off 11/20 Shop lots of beautiful art, furniture, so much more By appointment only!</span>
+            <span class="company">Jackson And Co</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            <span class="cats"><span class="cat">Furniture</span><span class="cat">Art</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="ecae07eb664f1bd1" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/ecae07eb664f1bd1/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Our RoadRunner is racing towards Highland Village with deals worth Chasing!</span>
+            <span class="company">Wright Choice Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Highland Village</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="d92f8211525d944e" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/d92f8211525d944e/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Plaid Door Christmas Market</span>
+            <span class="company">Estate Sales by Elaine</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="88683feb64e8442f" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/88683feb64e8442f/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Relocating Everything must go</span>
+            <span class="company">Bright Ridge Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Lewisville</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="c86714149bfc44a0" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/c86714149bfc44a0/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Relocating everything must go!</span>
+            <span class="company">Bright Ridge Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Lewisville</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="a5bfc531856c1e21" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/a5bfc531856c1e21/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">River Oaks Estate Sale - Brass, Christmas &amp; More!</span>
+            <span class="company">Cowtown Liquidation</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="8db86517e76e44c0" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/8db86517e76e44c0/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Something for Everybody</span>
+            <span class="company">Texoma Auctions &amp; Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Euless</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="0eb294fb7e3fcaba" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/0eb294fb7e3fcaba/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Stella’s Estate Sales</span>
+            <span class="company">Stella&#39;s Estate Sales LLC.</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · North Richland Hills</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="ac3fe73ab9312bde" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/ac3fe73ab9312bde/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Tally Ho</span>
+            <span class="company">Sunshine Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="556fec54a5ff6918" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/556fec54a5ff6918/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Weir Family Personal Property Sale — Repriced, Owner-Run, Furniture &amp; Decor in Dallas</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            <span class="cats"><span class="cat">Furniture</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="15f3d21f1192af98" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/15f3d21f1192af98/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Woo Hoo! Sale for Everyone!</span>
+            <span class="company">Kite-like Estate Sales LLC</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Richardson</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="9a728d505ba40345" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/9a728d505ba40345/">
+          <span class="sale-text">
+            <span class="dates">Mon, Nov 16 – Sun, Nov 22</span>
+            <span class="sale-title">Estate Sale — Addison, TX — Bedroom, Living Room &amp; Dining Room Furnitu</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Addison</span>
+            <span class="cats"><span class="cat">Furniture</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="418671912572871a" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/418671912572871a/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">SHIRLEY&#39;S ESTATE SALE .....50% OFF SATURDAY ..../ ......75% OFF STARTS AT 2pm.</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Arlington</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="a1e9b8fede2a2df1" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/a1e9b8fede2a2df1/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21</span>
+            <span class="sale-title">2ND Chance NRHills 50% off</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · North Richland Hills</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="d4149b9c4cc3a953" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/d4149b9c4cc3a953/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21</span>
+            <span class="sale-title">Downsizing One Day Flash Sale -- Loads of Vintage Items for Resellers and Collectors</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Plano</span>
+            <span class="cats"><span class="cat">Collectibles</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="2081835b521a3efd" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/2081835b521a3efd/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">East Dallas Sale by Blue Ribbon</span>
+            <span class="company">Blue Ribbon Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="c20fbdc8538e9993" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/c20fbdc8538e9993/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21</span>
+            <span class="sale-title">Estate Sale</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Richardson</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="9588f8e0bb5fa8d6" data-last="2026-11-23">
+        <a href="/the-dig-web/sale/9588f8e0bb5fa8d6/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Mon, Nov 23</span>
+            <span class="sale-title">FABULOUS ARLINGTON ESTATE SALE!! SPORTS MEMORABILIA, VINTAGE TOYS &amp; GAMES, JEWELRY &amp; MORE!!!!</span>
+            <span class="company">Serenade Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Arlington</span>
+            <span class="cats"><span class="cat">Jewelry</span><span class="cat">Collectibles</span><span class="cat">Toys &amp; games</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="77f896d020937ccc" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/77f896d020937ccc/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">GARAGE &amp; ESTATE SALE</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Desoto</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="8cfe20b069385d64" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/8cfe20b069385d64/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">Higher Ground - Christmas, Like new Clothes, New Shoes, &amp; Tons of Jewelry!</span>
+            <span class="company">Higher Ground Estate Sales (Formerly Discovering Brighter Horizons)</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Garland</span>
+            <span class="cats"><span class="cat">Jewelry</span><span class="cat">Clothing</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="7d63dc7792667483" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/7d63dc7792667483/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">Huge estate in West Fort Worth off Byers Ave and Roaring Springs Rd</span>
+            <span class="company">Estate &amp; Specialty Sales LLC</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="3b8dac4d070328b8" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/3b8dac4d070328b8/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21</span>
+            <span class="sale-title">JUDY HIGDON ESTATE SALE SERVICES, LLC</span>
+            <span class="company">Judy Higdon Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="b0d4b0bea60fe663" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/b0d4b0bea60fe663/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">Kates Greats Modern Mini Sale</span>
+            <span class="company">Kate&#39;s Greats</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="9b588dcdffa91f6c" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/9b588dcdffa91f6c/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21</span>
+            <span class="sale-title">Knox home sale 1of 3</span>
+            <span class="company">3-g&#39;s Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Keller</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="510f9b0d3bbff46d" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/510f9b0d3bbff46d/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">MASSIVE ESTATE SALE IN NOSTALGIC NORTH DENTON RANCH HOME PACKED FOR NEARLY 60 YEARS!</span>
+            <span class="company">Brent&#39;s Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Denton</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="932662fed89e8d9b" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/932662fed89e8d9b/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21</span>
+            <span class="sale-title">Mid-Month Warehouse Sale!</span>
+            <span class="company">Chickadee Lane Estate And Moving Sales, LLC</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Plano</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="ce881c72715069d8" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/ce881c72715069d8/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21</span>
+            <span class="sale-title">Moving and Downsizing Estate Private Sale</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="80ec354dc4a23ea1" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/80ec354dc4a23ea1/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21</span>
+            <span class="sale-title">Moving/Estate sale Saturday 11/21 9:00 am - 2:00 pm Carrollton</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Carrollton</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="3e502141f7d1ead5" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/3e502141f7d1ead5/">
+          <span class="sale-text">
+            <span class="dates">Sun, Nov 22</span>
+            <span class="sale-title">Estate SALE Selling lots of items Contact for BUYING</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Bedford</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="6d176e2c350eeb23" data-last="2026-11-27">
+        <a href="/the-dig-web/sale/6d176e2c350eeb23/">
+          <span class="sale-text">
+            <span class="dates">Tue, Nov 24 – Fri, Nov 27</span>
+            <span class="sale-title">$1 EACH MASSIVE CLOTHING &amp; SHOE SALE!! MENS, WOMENS &amp; CHILDREN SIZES NEWBORN - 6XL!</span>
+            <span class="company">Tiffany Nicole&#39;s Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Garland</span>
+            <span class="cats"><span class="cat">Clothing</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="304f9dc77d01baf9" data-last="2026-11-28">
+        <a href="/the-dig-web/sale/304f9dc77d01baf9/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sat, Nov 28</span>
+            <span class="sale-title">~Incredible Denton Estate Sale! More info coming soon!</span>
+            <span class="company">DFW ESTATE LIQUIDATORS</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Denton</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="01c05ce21ccaac37" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/01c05ce21ccaac37/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">~Massive *2 Phase* Garland, TX -Black Friday Weekend- Estate Sale! More info coming soon!</span>
+            <span class="company">DFW Estate Liquidators</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Garland</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="f903d523e89bc65b" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/f903d523e89bc65b/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">ABOUT THE HOUSE in Highland Park</span>
+            <span class="company">About The House</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="a2f0046e04618118" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/a2f0046e04618118/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">Annie&#39;s Estate Sales ~ Arlington</span>
+            <span class="company">Annie&#39;s Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Arlington</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="d4475059aff12f8a" data-last="2026-11-28">
+        <a href="/the-dig-web/sale/d4475059aff12f8a/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sat, Nov 28</span>
+            <span class="sale-title">Arlington Estate Sale</span>
+            <span class="company">Cowtown Liquidation</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Arlington</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="b99d78f12d5f1c32" data-last="2026-11-30">
+        <a href="/the-dig-web/sale/b99d78f12d5f1c32/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Mon, Nov 30</span>
+            <span class="sale-title">BLACK FRIDAY SALE! COLLEYVILLE | UPSCALE TRADITIONAL ESTATE FILLED WITH TIMELESS TREASURES!</span>
+            <span class="company">Lori&#39;s Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Colleyville</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="d3fedafa7b9d917d" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/d3fedafa7b9d917d/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">Black Friday Signature Estate Sale</span>
+            <span class="company">When Pigs Fly Estate, Consignment &amp; Auctions</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="e7d26568e2b5c40e" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/e7d26568e2b5c40e/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">Black Friday Warehouse Sale : by Treme</span>
+            <span class="company">Treme Realty LLC</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Arlington</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="959f00f7e370f8b8" data-last="2026-11-28">
+        <a href="/the-dig-web/sale/959f00f7e370f8b8/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sat, Nov 28</span>
+            <span class="sale-title">Denton Black Friday Estate Sale Stunning Vtg. Viking Swung Vases, Blenko Glass, Saladmaster &amp;More</span>
+            <span class="company">Kitty Wade Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Denton</span>
+            <span class="cats"><span class="cat">Kitchen</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="f356dd3ddcf8883d" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/f356dd3ddcf8883d/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">FABULOUS MID CENTURY TIME CAPSULE in PRESTONWOOD w/ANOTHER’S TREASURE ESTATE SALES</span>
+            <span class="company">Another&#39;s Treasure Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Plano</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="cf771fca93be4e7c" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/cf771fca93be4e7c/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">James Major presents Santa’s Workshop estate sale in Mansfield</span>
+            <span class="company">James Major Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Mansfield</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="09eaa9f45509e3de" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/09eaa9f45509e3de/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">Plano Remodeling Spectacular Black Friday Weekend</span>
+            <span class="company">Treasures Once More, LLC</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Plano</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="4a8b36b6b63c940c" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/4a8b36b6b63c940c/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">Plano Remodeling Spectacular Black Friday Weekend</span>
+            <span class="company">Treasures Once More Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Plano</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="aeecb0444133422b" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/aeecb0444133422b/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">Preston Hollow: DEMOLITION SALE: Unbeatable Deals by Dayspring</span>
+            <span class="company">Dayspring Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="274ec09330214d26" data-last="2026-11-28">
+        <a href="/the-dig-web/sale/274ec09330214d26/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sat, Nov 28</span>
+            <span class="sale-title">Start “Black Friday” with us! Fort Worth/Texas History and More!</span>
+            
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="44781583afdd37a6" data-last="2026-12-03">
+        <a href="/the-dig-web/sale/44781583afdd37a6/">
+          <span class="sale-text">
+            <span class="dates">Mon, Nov 30 – Thu, Dec 3</span>
+            <span class="sale-title">7 Straight Days-Largest Vintage Sale of the Year! 63 Years of Collecting</span>
+            <span class="company">Kitty Wade Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="08af83067aed0314" data-last="2026-12-06">
+        <a href="/the-dig-web/sale/08af83067aed0314/">
+          <span class="sale-text">
+            <span class="dates">Thu, Dec 3 – Sun, Dec 6</span>
+            <span class="sale-title">Bulls-Eye Estate Sales of Texas</span>
+            <span class="company">Bulls-Eye Estate Sales of Texas</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Dallas</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="73bb8cbc7214f60c" data-last="2026-12-05">
+        <a href="/the-dig-web/sale/73bb8cbc7214f60c/">
+          <span class="sale-text">
+            <span class="dates">Thu, Dec 3 – Sat, Dec 5</span>
+            <span class="sale-title">DESIGNER DREAMS &amp; CHRISTMAS THINGS IN ARGYLE</span>
+            <span class="company">HammerDown Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Argyle</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="6bb7d2547f3d5e5b" data-last="2026-12-05">
+        <a href="/the-dig-web/sale/6bb7d2547f3d5e5b/">
+          <span class="sale-text">
+            <span class="dates">Thu, Dec 3 – Sat, Dec 5</span>
+            <span class="sale-title">Groovy Mid Century Time Capsule Estate Sale on Wood Cliff Ct.</span>
+            <span class="company">The Groovy Estate Sale Company</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Arlington</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="112e1359aaffa0b8" data-last="2026-12-06">
+        <a href="/the-dig-web/sale/112e1359aaffa0b8/">
+          <span class="sale-text">
+            <span class="dates">Thu, Dec 3 – Sun, Dec 6</span>
+            <span class="sale-title">NYM meets Handley</span>
+            <span class="company">Not Your Mama&#39;s Estate Liquidators L.l.c.</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Fort Worth</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="5d8a059bd75e7055" data-last="2026-12-05">
+        <a href="/the-dig-web/sale/5d8a059bd75e7055/">
+          <span class="sale-text">
+            <span class="dates">Thu, Dec 3 – Sat, Dec 5</span>
+            <span class="sale-title">Plano: Unbeatable Deals by Dayspring</span>
+            <span class="company">Dayspring Estate Sales</span>
+            <span class="place">Dallas–Fort Worth <span class="tag tag-preview">Preview</span> · Plano</span>
+            
+          </span>
+        </a>
+      </li>
+      </ol>
+    </section>
+    <section class="search-group" id="results-austin" data-city="austin" data-status="proving" data-total="26" data-time-zone="America/Chicago" data-built-for="2026-11-20" aria-labelledby="group-austin">
+      <h2 id="group-austin"><a href="/the-dig-web/austin/">Austin</a> <span class="tag tag-preview">Preview</span> <span class="group-count">26 sales</span></h2>
+      <ol class="hit-list">
+      <li class="sale hit" data-id="ec76dc8d2c42cdd1" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/ec76dc8d2c42cdd1/">
+          <span class="sale-text">
+            <span class="dates">Wed, Nov 18 – Sat, Nov 21</span>
+            <span class="sale-title">*50% OFF* Everything For Sale — Right Down to the Fixtures!</span>
+            <span class="company">Aloe Vera Estate Sales</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="06ff283ab90df965" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/06ff283ab90df965/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">* SATURDAY DISCOUNTS!* Brilliant Barton Hills</span>
+            <span class="company">Remember When Estate Sales</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="2fea399087f36c66" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/2fea399087f36c66/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Christmas Gift Treasure Hunt! Cowboys, Fazzino Art, Vintage Toys, Gaming &amp; More</span>
+            <span class="company">Heirloom Harvesters</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            <span class="cats"><span class="cat">Art</span><span class="cat">Toys &amp; games</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="c90a49519e934627" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/c90a49519e934627/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sun, Nov 22</span>
+            <span class="sale-title">Dripping Springs Blue Moon Estate Sale, Old World Elegance, Hill Country Soul - Thurs 19 *VIP EVENT*</span>
+            <span class="company">Blue Moon Estate Sales of Hill Country/Greater Austin</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="47b0c73100bbe19e" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/47b0c73100bbe19e/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sun, Nov 22</span>
+            <span class="sale-title">The O. G.</span>
+            <span class="company">Simplify Life</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="8ed96edece4bebd1" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/8ed96edece4bebd1/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">25-50% off Friday -Sunday Estate Sale</span>
+            <span class="company">Country Estate Auction And Estate Liquidators</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span> · Bastrop</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="22d863f7429790ed" data-last="2026-11-23">
+        <a href="/the-dig-web/sale/22d863f7429790ed/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Mon, Nov 23</span>
+            <span class="sale-title">3 Home Estate Sale</span>
+            
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="912abaaf5a933572" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/912abaaf5a933572/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Designer Furniture, Original Art and More in Tarrytown!</span>
+            <span class="company">Burgess Estate Sales</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            <span class="cats"><span class="cat">Furniture</span><span class="cat">Art</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="82c515db01a37476" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/82c515db01a37476/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Discount SAT! Behind the French Doors: A Taste of Paris in Lakeway!</span>
+            <span class="company">Simply Felicia Estate Sales</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="4494ccdf99b8539d" data-last="2026-11-23">
+        <a href="/the-dig-web/sale/4494ccdf99b8539d/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Mon, Nov 23</span>
+            <span class="sale-title">Huge Collector’s Estate Sale | Vintage Finds, Furniture &amp; Art</span>
+            
+            <span class="place">Austin <span class="tag tag-preview">Preview</span> · Pflugerville</span>
+            <span class="cats"><span class="cat">Furniture</span><span class="cat">Collectibles</span><span class="cat">Art</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="b14d2b101b268fda" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/b14d2b101b268fda/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">HUGE VINTAGE NOVEMBER ESTATE SALE</span>
+            <span class="company">My Estate To Liquidate</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="a64975670ff873de" data-last="2026-11-23">
+        <a href="/the-dig-web/sale/a64975670ff873de/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Mon, Nov 23</span>
+            <span class="sale-title">Treasures in Onion Creek (Cypress Ridge)</span>
+            <span class="company">Austin Capital Estate Sales</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="2105c54c8bfa22a2" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/2105c54c8bfa22a2/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Vintage and Antique Estate sale</span>
+            
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="059bc691bb95ed2d" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/059bc691bb95ed2d/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">50% OFF Estate Treasures~Collectibles~Art~Baskets~Vintage Ladies Clothing/Hats~Baskets~Household</span>
+            <span class="company">DownSizing Estates</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span> · Round Rock</span>
+            <span class="cats"><span class="cat">Collectibles</span><span class="cat">Clothing</span><span class="cat">Art</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="3b66de8337cd9798" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/3b66de8337cd9798/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">50% Off in Rocky Creek</span>
+            <span class="company">Dixie Chatham</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="349cef1eeb47df8e" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/349cef1eeb47df8e/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">Blue Moon Estate Sale in Tarrytown with vintage books, decor, collectibles, music, and more!</span>
+            <span class="company">Blue Moon Estate Sales</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            <span class="cats"><span class="cat">Collectibles</span><span class="cat">Books</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="cd806ff94bb5497c" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/cd806ff94bb5497c/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">Everything you are looking for!</span>
+            <span class="company">Evelyn&#39;s Estate Sales</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="438808997173b381" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/438808997173b381/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">Kerr</span>
+            
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="89ab26f05b515577" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/89ab26f05b515577/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21</span>
+            <span class="sale-title">Lovely Pieces in Circle C!</span>
+            <span class="company">Golden Soul Estate Sales</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="b769bcb8baef84dd" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/b769bcb8baef84dd/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">THE BEST ESTATE SALE OF NOVEMBER! CANT MISS!!!</span>
+            <span class="company">My Estate To Liquidate</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="1a66b073473a3d9a" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/1a66b073473a3d9a/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">The Colony Cutie</span>
+            <span class="company">Dixie Chatham</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span> · Bastrop</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="6741133fee31dea5" data-last="2026-11-28">
+        <a href="/the-dig-web/sale/6741133fee31dea5/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sat, Nov 28</span>
+            <span class="sale-title">All We Want For Christmas is Vintage Sale!</span>
+            <span class="company">Next Chapter Co. Estate Sales</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span> · Leander</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="f7dbe7c3f81b1239" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/f7dbe7c3f81b1239/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">Black Friday sale for FASHIONISTAS</span>
+            <span class="company">ATX &amp; Beyond Estate Sales</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span> · Cedar Park</span>
+            <span class="cats"><span class="cat">Clothing</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="d0c6bdf31800b6d7" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/d0c6bdf31800b6d7/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">MASSIVE 6,000 SQ FT ESTATE MOVED TO HUTTO! 3 DAYS OF TREASURES!</span>
+            <span class="company">Driftwood Estate Sales</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span> · Hutto</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="50b912945174ae6e" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/50b912945174ae6e/">
+          <span class="sale-text">
+            <span class="dates">Sun, Nov 29</span>
+            <span class="sale-title">A Sweet Dripping Springs Casita! Appt Day Nov 29</span>
+            <span class="company">Golden Soul Estate Sales</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span> · Dripping Springs</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="e6ac053eb6beb2e7" data-last="2026-12-05">
+        <a href="/the-dig-web/sale/e6ac053eb6beb2e7/">
+          <span class="sale-text">
+            <span class="dates">Thu, Dec 3 – Sat, Dec 5</span>
+            <span class="sale-title">Vintage Estate off Balcones: Meissen, U.T., Aqua Fest, Texas Politics, Musical Machines &amp; more!</span>
+            <span class="company">Austin Estate Sales</span>
+            <span class="place">Austin <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      </ol>
+    </section>
+    <section class="search-group" id="results-san-antonio" data-city="san-antonio" data-status="proving" data-total="43" data-time-zone="America/Chicago" data-built-for="2026-11-20" aria-labelledby="group-san-antonio">
+      <h2 id="group-san-antonio"><a href="/the-dig-web/san-antonio/">San Antonio</a> <span class="tag tag-preview">Preview</span> <span class="group-count">43 sales</span></h2>
+      <ol class="hit-list">
+      <li class="sale hit" data-id="c0420bbe0c6f9d01" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/c0420bbe0c6f9d01/">
+          <span class="sale-text">
+            <span class="dates">Wed, Nov 18 – Sat, Nov 21</span>
+            <span class="sale-title">Blowout sale! 50% OFF</span>
+            <span class="company">1dandelion LLC</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="6ce119ba7bc00ccc" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/6ce119ba7bc00ccc/">
+          <span class="sale-text">
+            <span class="dates">Wed, Nov 18 – Sat, Nov 21</span>
+            <span class="sale-title">GIGIS ESTATE-TREASURE’S SAT AND SUN buy $20 and take one extra equal to price or lesser</span>
+            <span class="company">Gigis Treasures</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="2ee5949af932c0fa" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/2ee5949af932c0fa/">
+          <span class="sale-text">
+            <span class="dates">Wed, Nov 18 – Sat, Nov 21</span>
+            <span class="sale-title">Massive Germany - Lladro - Murano - Clocks - Bronzes</span>
+            <span class="company">About Face Estate Sales Service LLC</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            <span class="cats"><span class="cat">Collectibles</span><span class="cat">Art</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="b386bac47ccb221f" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/b386bac47ccb221f/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">20% OFF Christopher Estate Sales on Estate Gate</span>
+            <span class="company">Christopher Estate Sales, LLC</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="3ee833925f6f0f73" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/3ee833925f6f0f73/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">25% off Friday WeDo Estate Liquidations in Leon Valley</span>
+            <span class="company">WeDo Estate Liquidations LLC</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="b6e8f172e24529f3" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/b6e8f172e24529f3/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Alamo Ranch Estate Sale – Furniture, Danish China, Clocks &amp; Artwork –</span>
+            
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            <span class="cats"><span class="cat">Furniture</span><span class="cat">Art</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="61c55a8aca980b91" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/61c55a8aca980b91/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Beauty in Cibolo Estate Sale</span>
+            <span class="company">Texas Treasure Estate Sales</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span> · Cibolo</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="ce527e2ebc98f989" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/ce527e2ebc98f989/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Collector of All things</span>
+            <span class="company">Top Hat Estate Sales</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            <span class="cats"><span class="cat">Collectibles</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="cdb008c2d16cb1b9" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/cdb008c2d16cb1b9/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Fox Run</span>
+            <span class="company">Crystal&#39;s Estate Sales</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="8a2bec391b93540d" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/8a2bec391b93540d/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sun, Nov 22</span>
+            <span class="sale-title">Huge Warehouse Sale Collectibles Antiques Wizard OZ Comics Die Cast Hallmark Xmas Tools Cow Stuff</span>
+            <span class="company">Alamo City Mercantale</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            <span class="cats"><span class="cat">Tools</span><span class="cat">Collectibles</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="5edf17d244683724" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/5edf17d244683724/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Saturday 50% off in Castle Hills with Antiques, MCM, Art, Rugs, Furniture, Furs, and Decor</span>
+            <span class="company">Professional Estate Sales LLC</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            <span class="cats"><span class="cat">Furniture</span><span class="cat">Clothing</span><span class="cat">Art</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="b23b641e1e602f39" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/b23b641e1e602f39/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">SPECTACULAR HOLLYWOOD PARK ESTATE SALE</span>
+            <span class="company">Complete Estate Sale Services</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="8c9ce50cb0d83a8d" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/8c9ce50cb0d83a8d/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Vintage in Castle Hills</span>
+            <span class="company">Lions Estate Sales Co.</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="8ed576ea1c0b4cb7" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/8ed576ea1c0b4cb7/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">#633: Texas Art, Christmas Wishes &amp; Plentiful Dishes</span>
+            <span class="company">A Better Estate Sale Co.</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            <span class="cats"><span class="cat">Kitchen</span><span class="cat">Art</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="7260c12af7ae5845" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/7260c12af7ae5845/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">25% off!! Hidden Meadow</span>
+            <span class="company">Southern Charm Estate Sales</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="f8e3d9b53528e5c1" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/f8e3d9b53528e5c1/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">25% off!! Massive warehouse sale. Sterling AMMO games comics everything</span>
+            <span class="company">Back Again Resale</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            <span class="cats"><span class="cat">Collectibles</span><span class="cat">Toys &amp; games</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="d234243e07a47d55" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/d234243e07a47d55/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">50% OFF - MCM and More In Windcrest</span>
+            
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span> · Windcrest</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="f18cd2449cc3ae76" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/f18cd2449cc3ae76/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">50% Off Evans an Bulverde Road Area</span>
+            <span class="company">Wonderful Life Estate Sales</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="71f83a879888d805" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/71f83a879888d805/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">50% off most things Oakwell Farms Sale</span>
+            <span class="company">June Hayes, Heritage Estates</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="3fa45716d940ce60" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/3fa45716d940ce60/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Alamo Ranch Estate Sale</span>
+            <span class="company">Denny Harrison</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="59bf93d65b76bc7e" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/59bf93d65b76bc7e/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Bulverde Home Sweet Home! 25% off on 11/21!</span>
+            <span class="company">Overstreet Estates, LLC</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span> · Bulverde</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="1fd129ce69eaa99f" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/1fd129ce69eaa99f/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Eclectic Multigenerational Sale in SATX by Golden Bow</span>
+            <span class="company">Golden Bow Estate Sales</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="5c93d5424c250a6d" data-last="2026-11-20">
+        <a href="/the-dig-web/sale/5c93d5424c250a6d/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20</span>
+            <span class="sale-title">Estate sale</span>
+            
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="aa11361b64ab4c8b" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/aa11361b64ab4c8b/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Huge Estate Sale</span>
+            
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span> · Live Oak</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="742906a1b83fcde9" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/742906a1b83fcde9/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">LOTS OF TEMPTATIONS COOKWARE, CHRISTMAS, &amp; EVERTHING ELSE !!</span>
+            <span class="company">From Trash To Treasure</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            <span class="cats"><span class="cat">Kitchen</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="10d00aff10fd27d1" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/10d00aff10fd27d1/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Lovers of Home Economics!</span>
+            
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="2dc9d38168c25dcf" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/2dc9d38168c25dcf/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Soulshine in Universal City | A Christmas Wonderland &amp; Vintage Treasures Galore!</span>
+            <span class="company">Soulshine Estate Sale Company</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span> · Universal City</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="18da4466b4ee5d66" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/18da4466b4ee5d66/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Thousand Oaks Estate Sale</span>
+            <span class="company">Casablanca Estate Sale Company</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="0b29fdedccaaff05" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/0b29fdedccaaff05/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Updated! Vintage Dealer—Brass, Pottery, Silver, Depression Glass &amp; more!</span>
+            
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="34b5227346b96a7f" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/34b5227346b96a7f/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">Caring Transitions @ The Knolls of Woodlake</span>
+            <span class="company">Caring Transitions Of San Antonio North</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="e194b21d79ac8618" data-last="2026-11-23">
+        <a href="/the-dig-web/sale/e194b21d79ac8618/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Mon, Nov 23</span>
+            <span class="sale-title">Cozy Texas Classics</span>
+            <span class="company">Satx Select Liquidators LLC</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="2d56b81a9e1923d5" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/2d56b81a9e1923d5/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">Famous American Record Producer from the 70s</span>
+            
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span> · Bulverde</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="02ab56acec837dcf" data-last="2026-11-23">
+        <a href="/the-dig-web/sale/02ab56acec837dcf/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Mon, Nov 23</span>
+            <span class="sale-title">Grainfather Brewing System, Western Cowboy Art, Tools &amp; Furniture</span>
+            <span class="company">San Antonio Estate Sales LLC</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            <span class="cats"><span class="cat">Tools</span><span class="cat">Furniture</span><span class="cat">Art</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="e3e538763c4513ab" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/e3e538763c4513ab/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">Great Bargains in Great Northwest</span>
+            <span class="company">Heritage Senior Downsizing LLC</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="88d9511fd8f151ff" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/88d9511fd8f151ff/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">South San Antonio Treasure Hunt!</span>
+            <span class="company">Overstreet Estates, LLC</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="8cddb4f0624c5600" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/8cddb4f0624c5600/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">THE FINAL TWO DAYS!! 30%-50% OFF!!!</span>
+            
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span> · Live Oak</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="024609b28b867c3b" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/024609b28b867c3b/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">Thunder Gulch</span>
+            
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="a3e380a9b0a15a3d" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/a3e380a9b0a15a3d/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">#634: Sale of the Season!</span>
+            <span class="company">A Better Estate Sale Co.</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="4bc5fc63cacb8916" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/4bc5fc63cacb8916/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">Dellview Estate Sale — A House Full of Finds</span>
+            
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="ee3eaedc0d2cbf88" data-last="2026-12-05">
+        <a href="/the-dig-web/sale/ee3eaedc0d2cbf88/">
+          <span class="sale-text">
+            <span class="dates">Thu, Dec 3 – Sat, Dec 5</span>
+            <span class="sale-title">Fabulous Art, Folk Art, &amp; Collectibles</span>
+            <span class="company">June Hayes, Heritage Estates</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            <span class="cats"><span class="cat">Collectibles</span><span class="cat">Art</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="a79f908b58fbfa02" data-last="2026-12-05">
+        <a href="/the-dig-web/sale/a79f908b58fbfa02/">
+          <span class="sale-text">
+            <span class="dates">Thu, Dec 3 – Sat, Dec 5</span>
+            <span class="sale-title">Secret stash in Monte Vista</span>
+            <span class="company">Top Hat Estate Sales</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="2c0914ce4fcdc73f" data-last="2026-12-05">
+        <a href="/the-dig-web/sale/2c0914ce4fcdc73f/">
+          <span class="sale-text">
+            <span class="dates">Thu, Dec 3 – Sat, Dec 5</span>
+            <span class="sale-title">SHAVANO PARK -FABULOUS UNIQUE COLLECTING - READ THE AD :)) TIS THE SEASON TO HAVE GREAT SALES !!</span>
+            <span class="company">Always Remembered</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="e38fcaaf6994ecf3" data-last="2026-12-05">
+        <a href="/the-dig-web/sale/e38fcaaf6994ecf3/">
+          <span class="sale-text">
+            <span class="dates">Thu, Dec 3 – Sat, Dec 5</span>
+            <span class="sale-title">Windcrest Accumulator Sale</span>
+            <span class="company">Crystal&#39;s Estate Sales</span>
+            <span class="place">San Antonio <span class="tag tag-preview">Preview</span></span>
+            
+          </span>
+        </a>
+      </li>
+      </ol>
+    </section>
   </div>
 </div>
 </main>
@@ -403,6 +2387,9 @@
       <h2>Regions</h2>
       <ul>
           <li><a href="/the-dig-web/houston/">Estate sales in Houston</a></li>
+          <li><a href="/the-dig-web/dallas-fort-worth/">Estate sales in Dallas–Fort Worth</a> (preview)</li>
+          <li><a href="/the-dig-web/austin/">Estate sales in Austin</a> (preview)</li>
+          <li><a href="/the-dig-web/san-antonio/">Estate sales in San Antonio</a> (preview)</li>
           <li><a href="/the-dig-web/regions/">All regions</a></li>
       </ul>
     </div>
@@ -410,7 +2397,7 @@
       <h2>The Dig</h2>
       <ul>
         <li><a href="/the-dig-web/search/">Search every city</a></li>
-        <li><a href="https://github.com/rheinze08/the-dig-data/releases/download/v0.2.0/The-Dig-v0.2.0.apk">Android app (v0.2.0)</a></li>
+        <li><a href="https://github.com/rheinze08/the-dig-data/releases/download/v0.3.0/The-Dig-v0.3.0.apk">Android app (v0.3.0)</a></li>
         <li><a href="/the-dig-web/list-your-sale/">List your sale</a></li>
         <li><a href="/the-dig-web/llms.txt">For AI agents</a></li>
         <li><a href="https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/houston/sales.json">Public JSON feed</a></li>

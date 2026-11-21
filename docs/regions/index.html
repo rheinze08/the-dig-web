@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Regions: where The Dig maps estate sales | The Dig</title>
-<meta name="description" content="The Dig is live in Houston with 28 estate sales on the map. See every live city, the cities on the way, and what comes next. Texas is first.">
+<meta name="description" content="The Dig is live in Houston with 28 estate sales on the map, and in preview in Dallas–Fort Worth, Austin, San Antonio. See every live city, the cities on the way, and what comes next. Texas is first.">
 <link rel="canonical" href="https://rheinze08.github.io/the-dig-web/regions/">
 <meta name="theme-color" content="#233e30">
 <meta property="og:site_name" content="The Dig">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Regions: where The Dig maps estate sales">
-<meta property="og:description" content="The Dig is live in Houston with 28 estate sales on the map. See every live city, the cities on the way, and what comes next. Texas is first.">
+<meta property="og:description" content="The Dig is live in Houston with 28 estate sales on the map, and in preview in Dallas–Fort Worth, Austin, San Antonio. See every live city, the cities on the way, and what comes next. Texas is first.">
 <meta property="og:url" content="https://rheinze08.github.io/the-dig-web/regions/">
 <meta property="og:image" content="https://rheinze08.github.io/the-dig-web/assets/og.png">
 <meta property="og:image:width" content="1200">
@@ -22,7 +22,7 @@
 <link rel="preload" href="/the-dig-web/assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/the-dig-web/assets/fonts/dm-serif-text.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/the-dig-web/assets/site.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Cities on The Dig","numberOfItems":1,"itemListElement":[{"@type":"ListItem","position":1,"name":"Estate sales in Houston","url":"https://rheinze08.github.io/the-dig-web/houston/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Cities on The Dig","numberOfItems":4,"itemListElement":[{"@type":"ListItem","position":1,"name":"Estate sales in Houston","url":"https://rheinze08.github.io/the-dig-web/houston/"},{"@type":"ListItem","position":2,"name":"Estate sales in Dallas–Fort Worth (preview)","url":"https://rheinze08.github.io/the-dig-web/dallas-fort-worth/"},{"@type":"ListItem","position":3,"name":"Estate sales in Austin (preview)","url":"https://rheinze08.github.io/the-dig-web/austin/"},{"@type":"ListItem","position":4,"name":"Estate sales in San Antonio (preview)","url":"https://rheinze08.github.io/the-dig-web/san-antonio/"}]}</script>
 </head>
 <body>
 <svg class="symbols" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +56,7 @@
         <a href="/the-dig-web/houston/">
           <span class="region-name"><strong>Houston</strong></span>
           <span class="region-count"><b>28</b> estate sales in the feed</span>
-          <span class="region-meta">22 open this weekend · collected <time datetime="2026-11-21T01:26:19.206Z">Nov 20, 2026</time></span>
+          <span class="region-meta">22 open this weekend · collected <time datetime="2026-11-21T03:01:16.170Z">Nov 20, 2026</time></span>
           <span class="region-go">See Houston sales<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
         </a>
       </li>
@@ -65,7 +65,32 @@
   <section class="region-block" id="preview" aria-labelledby="preview-heading">
     <h2 id="preview-heading">On the way <span class="tag tag-preview">Preview</span></h2>
     <p class="region-intro">A preview city is collected the same way as a live one, but it is still proving itself. Its count is real and current, and a sale can be missing. It moves up to Live now once its daily collection has held up.</p>
-    <p class="empty" id="no-preview">No city is in preview today. A city appears here, with its real count, on the first daily rebuild after its feed is published.</p>
+    <ul class="region-list" id="preview-list">
+      <li class="region is-preview" data-region="dallas-fort-worth" data-status="proving" data-count="110">
+        <a href="/the-dig-web/dallas-fort-worth/">
+          <span class="region-name"><strong>Dallas–Fort Worth</strong> <span class="tag tag-preview">Preview</span></span>
+          <span class="region-count"><b>110</b> estate sales in the feed</span>
+          <span class="region-meta">88 open this weekend · collected <time datetime="2026-11-21T03:04:36.874Z">Nov 20, 2026</time> · 1 clean collection run so far</span>
+          <span class="region-go">Preview Dallas–Fort Worth<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+        </a>
+      </li>
+      <li class="region is-preview" data-region="austin" data-status="proving" data-count="26">
+        <a href="/the-dig-web/austin/">
+          <span class="region-name"><strong>Austin</strong> <span class="tag tag-preview">Preview</span></span>
+          <span class="region-count"><b>26</b> estate sales in the feed</span>
+          <span class="region-meta">21 open this weekend · collected <time datetime="2026-11-21T03:05:39.165Z">Nov 20, 2026</time> · 1 clean collection run so far</span>
+          <span class="region-go">Preview Austin<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+        </a>
+      </li>
+      <li class="region is-preview" data-region="san-antonio" data-status="proving" data-count="43">
+        <a href="/the-dig-web/san-antonio/">
+          <span class="region-name"><strong>San Antonio</strong> <span class="tag tag-preview">Preview</span></span>
+          <span class="region-count"><b>43</b> estate sales in the feed</span>
+          <span class="region-meta">37 open this weekend · collected <time datetime="2026-11-21T03:07:01.016Z">Nov 20, 2026</time> · 1 clean collection run so far</span>
+          <span class="region-go">Preview San Antonio<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+        </a>
+      </li>
+    </ul>
   </section>
   <section class="region-block" id="more-states" aria-labelledby="states-heading">
     <h2 id="states-heading">More states coming</h2>
@@ -85,6 +110,9 @@
       <h2>Regions</h2>
       <ul>
           <li><a href="/the-dig-web/houston/">Estate sales in Houston</a></li>
+          <li><a href="/the-dig-web/dallas-fort-worth/">Estate sales in Dallas–Fort Worth</a> (preview)</li>
+          <li><a href="/the-dig-web/austin/">Estate sales in Austin</a> (preview)</li>
+          <li><a href="/the-dig-web/san-antonio/">Estate sales in San Antonio</a> (preview)</li>
           <li><a href="/the-dig-web/regions/">All regions</a></li>
       </ul>
     </div>
@@ -92,7 +120,7 @@
       <h2>The Dig</h2>
       <ul>
         <li><a href="/the-dig-web/search/">Search every city</a></li>
-        <li><a href="https://github.com/rheinze08/the-dig-data/releases/download/v0.2.0/The-Dig-v0.2.0.apk">Android app (v0.2.0)</a></li>
+        <li><a href="https://github.com/rheinze08/the-dig-data/releases/download/v0.3.0/The-Dig-v0.3.0.apk">Android app (v0.3.0)</a></li>
         <li><a href="/the-dig-web/list-your-sale/">List your sale</a></li>
         <li><a href="/the-dig-web/llms.txt">For AI agents</a></li>
         <li><a href="https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/houston/sales.json">Public JSON feed</a></li>

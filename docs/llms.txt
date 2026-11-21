@@ -14,25 +14,36 @@ Live and proving are what the city index said when this site was built. Texas is
 - Houston: https://rheinze08.github.io/the-dig-web/houston/
   This weekend: https://rheinze08.github.io/the-dig-web/houston/this-weekend/
   JSON feed: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/houston/sales.json
-  28 sales in the feed, collected 2026-11-21T01:26:19.206Z. Times are America/Chicago.
+  28 sales in the feed, collected 2026-11-21T03:01:16.170Z. Times are America/Chicago.
 
 ### Proving (preview)
-None at this build. A proving city appears here on the first rebuild after its feed is published at https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/<slug>/sales.json
-The index names 3 more cities with no pages on this site yet (no feed yet).
+- Dallas–Fort Worth (preview, still proving itself): https://rheinze08.github.io/the-dig-web/dallas-fort-worth/
+  This weekend: https://rheinze08.github.io/the-dig-web/dallas-fort-worth/this-weekend/
+  JSON feed: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/dallas-fort-worth/sales.json
+  110 sales in the feed, collected 2026-11-21T03:04:36.874Z. Times are America/Chicago.
+- Austin (preview, still proving itself): https://rheinze08.github.io/the-dig-web/austin/
+  This weekend: https://rheinze08.github.io/the-dig-web/austin/this-weekend/
+  JSON feed: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/austin/sales.json
+  26 sales in the feed, collected 2026-11-21T03:05:39.165Z. Times are America/Chicago.
+- San Antonio (preview, still proving itself): https://rheinze08.github.io/the-dig-web/san-antonio/
+  This weekend: https://rheinze08.github.io/the-dig-web/san-antonio/this-weekend/
+  JSON feed: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/san-antonio/sales.json
+  43 sales in the feed, collected 2026-11-21T03:07:01.016Z. Times are America/Chicago.
+A proving city's pages carry a "Preview — still proving itself" banner. Its counts are real, and a sale can be missing.
 
 ## Regions and search
 - Regions page (live cities, preview cities, what comes next): https://rheinze08.github.io/the-dig-web/regions/
 - Search page, across every live and proving city: https://rheinze08.github.io/the-dig-web/search/
   Link straight to a search: https://rheinze08.github.io/the-dig-web/search/?q=<words>&cat=<category-id>[,<category-id>]
 - Search data the page filters in the browser: https://rheinze08.github.io/the-dig-web/search/data.json
-  28 records, one per sale page: id, city, title, company, categories, first and last day, lat, lng, sale page URL, source listing URL.
+  207 records, one per sale page: id, city, title, company, categories, first and last day, lat, lng, sale page URL, source listing URL.
 - Category ids: tools, furniture, vinyl-records, jewelry, collectibles, vehicles, kitchen, clothing, books, art, electronics, toys-games
 - A keyword matches the start of any word in a sale's title, company or categories. Search does not look inside photos yet.
 
 ## Public data
 - City index: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities.json
 - Combined search feed, every sale from the live and proving cities in one file: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/search.json
-  Not published when this site was built (HTTP 404). Until it is, use the search data file above.
+  Published. This site takes each sale's categories from it.
 - Per-city feeds follow the pattern https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/<slug>/sales.json
 - In a feed, "addressHidden": true means no street address has been released and the map point is approximate.
 
