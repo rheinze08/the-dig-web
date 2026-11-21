@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1caac9641240a4aa-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T170000Z
+DTEND:20261122T010000Z
+SUMMARY:Multi Estate Clearance Sale - Fort Worth Odd Fellows Hall
+LOCATION:1501 Hemphill St\, Fort Worth\, TX 76104
+DESCRIPTION:Hours: 11 AM – 7 PM (Saturday\, November 21\, local to Dalla
+ s–Fort Worth).\nOriginal listing (EstateSales.net): https://www.estates
+ ales.net/TX/Fort-Worth/76104/5150721\nSale page on The Dig: https://rhein
+ ze08.github.io/the-dig-web/sale/1caac9641240a4aa/\nConfirm the address an
+ d hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1caac9641240a4aa/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6f65516474e18361-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261120T160000Z
+DTEND:20261120T220000Z
+SUMMARY:Jewel Box Estate Sale
+LOCATION:4903 Bellerive\, Dallas\, TX 75287
+DESCRIPTION:Hours: 10 AM – 4 PM (Friday\, November 20\, local to Dallas
+ –Fort Worth).\nRun by The Jewel Box.\nOriginal listing (EstateSales.net
+ ): https://www.estatesales.net/TX/Dallas/75287/5166312\nSale page on The 
+ Dig: https://rheinze08.github.io/the-dig-web/sale/6f65516474e18361/\nConf
+ irm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/6f65516474e18361/
+END:VEVENT
+END:VCALENDAR

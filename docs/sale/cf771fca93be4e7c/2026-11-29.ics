@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cf771fca93be4e7c-2026-11-29@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261129T180000Z
+DTEND:20261129T220000Z
+SUMMARY:James Major presents Santa’s Workshop estate sale in Mansfield
+LOCATION:Mansfield\, TX 76063 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 12 PM – 4 PM (Sunday\, November 29\, local to Dallas
+ –Fort Worth).\nRun by James Major Estate Sales.\nOriginal listing (Esta
+ teSales.net): https://www.estatesales.net/TX/Mansfield/76063/5164554\nSal
+ e page on The Dig: https://rheinze08.github.io/the-dig-web/sale/cf771fca9
+ 3be4e7c/\nConfirm the address and hours on the original listing before yo
+ u travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/cf771fca93be4e7c/
+END:VEVENT
+END:VCALENDAR

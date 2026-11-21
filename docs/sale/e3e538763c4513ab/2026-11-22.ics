@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e3e538763c4513ab-2026-11-22@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261122T160000Z
+DTEND:20261122T200000Z
+SUMMARY:Great Bargains in Great Northwest
+LOCATION:9231 Ridge Path\, San Antonio\, TX 78250
+DESCRIPTION:Hours: 10 AM – 2 PM (Sunday\, November 22\, local to San Ant
+ onio).\nRun by Heritage Senior Downsizing LLC.\nOriginal listing (EstateS
+ ales.net): https://www.estatesales.net/TX/San-Antonio/78250/5160894\nSale
+  page on The Dig: https://rheinze08.github.io/the-dig-web/sale/e3e538763c
+ 4513ab/\nConfirm the address and hours on the original listing before you
+  travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/e3e538763c4513ab/
+END:VEVENT
+END:VCALENDAR

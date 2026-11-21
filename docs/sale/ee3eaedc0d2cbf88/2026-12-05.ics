@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ee3eaedc0d2cbf88-2026-12-05@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261205T160000Z
+DTEND:20261205T210000Z
+SUMMARY:Fabulous Art\, Folk Art\, & Collectibles
+LOCATION:San Antonio\, TX 78209 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 3 PM (Saturday\, December 5\, local to San An
+ tonio).\nRun by June Hayes\, Heritage Estates.\nOriginal listing (EstateS
+ ales.net): https://www.estatesales.net/TX/San-Antonio/78209/5163522\nSale
+  page on The Dig: https://rheinze08.github.io/the-dig-web/sale/ee3eaedc0d
+ 2cbf88/\nConfirm the address and hours on the original listing before you
+  travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/ee3eaedc0d2cbf88/
+END:VEVENT
+END:VCALENDAR

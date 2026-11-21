@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1552ae954159c57f-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261122T000000Z
+SUMMARY:Willow Meadows Estate Sale
+LOCATION:4307 Firestone Dr.\, Houston\, TX 77035
+DESCRIPTION:Hours: 9 AM – 6 PM (Saturday\, November 21\, local to Housto
+ n).\nRun by Yolanda's Estate Sales.\nOriginal listing (EstateSales.net): 
+ https://www.estatesales.net/TX/Houston/77035/5133270\nSale page on The Di
+ g: https://rheinze08.github.io/the-dig-web/sale/1552ae954159c57f/\nConfir
+ m the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1552ae954159c57f/
+END:VEVENT
+END:VCALENDAR

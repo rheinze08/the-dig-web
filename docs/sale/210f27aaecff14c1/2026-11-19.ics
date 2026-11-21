@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:210f27aaecff14c1-2026-11-19@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261119T160000Z
+DTEND:20261119T220000Z
+SUMMARY:Bedford Estate Sale
+LOCATION:1501 Martha Drive\, Bedford\, TX 76022
+DESCRIPTION:Hours: 10 AM – 4 PM (Thursday\, November 19\, local to Dalla
+ s–Fort Worth).\nRun by John Hunnicutt.\nOriginal listing (EstateSales.n
+ et): https://www.estatesales.net/TX/Bedford/76022/5164782\nSale page on T
+ he Dig: https://rheinze08.github.io/the-dig-web/sale/210f27aaecff14c1/\nC
+ onfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/210f27aaecff14c1/
+END:VEVENT
+END:VCALENDAR

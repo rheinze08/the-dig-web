@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:34b5227346b96a7f-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T210000Z
+SUMMARY:Caring Transitions @ The Knolls of Woodlake
+LOCATION:7222 Sunset Terrace\, San Antonio\, TX 78244
+DESCRIPTION:Hours: 9 AM – 3 PM (Saturday\, November 21\, local to San An
+ tonio).\nRun by Caring Transitions Of San Antonio North.\nOriginal listin
+ g (EstateSales.net): https://www.estatesales.net/TX/San-Antonio/78244/516
+ 5934\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/
+ 34b5227346b96a7f/\nConfirm the address and hours on the original listing 
+ before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/34b5227346b96a7f/
+END:VEVENT
+END:VCALENDAR

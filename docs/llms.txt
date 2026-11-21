@@ -4,7 +4,8 @@
 
 ## What it is
 - A free map and list of estate sales, one page per city, rebuilt once a day from public JSON feeds.
-- Each sale shows what its source listing published: title, company, dates, hours, and the street address once the company releases it.
+- Each sale shows what its source listing published: title, company, dates, hours, and the full street address whenever the feed has it. While an address is still held, the sale page shows the city and ZIP and says when it releases: 9:00 AM the day before the first sale day.
+- When a feed carries them, a sale page also shows: a Dig rating (Deep Dig, Worth a Look or Slim Pickings) with the reasons for it, a one-line contents summary and keyword chips describing what is being sold, how many photos are at the source (the photos stay at the source and are never copied), and Call and Company page buttons when the source publishes a phone or a company page. Every sale page and sale card has a Directions link, every sale day has an Add to calendar download, and every sale card and page has a heart so a visitor can keep favorites in their own browser. Features appear only when that sale's feed record carries the field behind them.
 - The Dig does not run or verify sales. The source listing is the authority.
 
 ## Cities
@@ -34,11 +35,11 @@ A proving city's pages carry a "Preview — still proving itself" banner. Its co
 ## Regions and search
 - Regions page (live cities, preview cities, what comes next): https://rheinze08.github.io/the-dig-web/regions/
 - Search page, across every live and proving city: https://rheinze08.github.io/the-dig-web/search/
-  Link straight to a search: https://rheinze08.github.io/the-dig-web/search/?q=<words>&cat=<category-id>[,<category-id>]
+  Link straight to a search: https://rheinze08.github.io/the-dig-web/search/?q=<words>&cat=<category-id>[,<category-id>]. Add &fav=1 to open the Favorites-only view (favorites are stored in the visitor's browser only; there is no account and nothing is sent to a server).
 - Search data the page filters in the browser: https://rheinze08.github.io/the-dig-web/search/data.json
-  207 records, one per sale page: id, city, title, company, categories, first and last day, lat, lng, sale page URL, source listing URL.
+  207 records, one per sale page: id, city, title, company, categories, first and last day, lat, lng, sale page URL, source listing URL. A record also carries keywords, contentsLine and digRating when that sale's feed record has them.
 - Category ids: tools, furniture, vinyl-records, jewelry, collectibles, vehicles, kitchen, clothing, books, art, electronics, toys-games
-- A keyword matches the start of any word in a sale's title, company or categories. Search does not look inside photos yet.
+- A keyword matches the start of any word in a sale's title, company, categories, photo keywords or contents line.
 
 ## Public data
 - City index: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities.json
@@ -48,7 +49,8 @@ A proving city's pages carry a "Preview — still proving itself" banner. Its co
 - In a feed, "addressHidden": true means no street address has been released and the map point is approximate.
 
 ## Pages
-- One page per sale: https://rheinze08.github.io/the-dig-web/sale/<sale-id>/ where <sale-id> is the sale's "id" in the feed. Each has schema.org Event data.
+- One page per sale: https://rheinze08.github.io/the-dig-web/sale/<sale-id>/ where <sale-id> is the sale's "id" in the feed. Each has schema.org Event data, a Directions link, and a favorite heart.
+- One calendar file per sale day: https://rheinze08.github.io/the-dig-web/sale/<sale-id>/<YYYY-MM-DD>.ics with the day's hours, the address (or the city and ZIP and release time while it is held), the contents line when the feed has one, and links to the sale page and the original listing.
 - Sale pages are removed when a sale leaves the feed.
 - Sitemap: https://rheinze08.github.io/the-dig-web/sitemap.xml
 

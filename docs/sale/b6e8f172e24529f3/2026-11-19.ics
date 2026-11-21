@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b6e8f172e24529f3-2026-11-19@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261119T160000Z
+DTEND:20261119T230000Z
+SUMMARY:Alamo Ranch Estate Sale – Furniture\, Danish China\, Clocks & Ar
+ twork –
+LOCATION:San Antonio\, TX (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 5 PM (Thursday\, November 19\, local to San A
+ ntonio).\nOriginal listing (Craigslist San Antonio): https://www.craigsli
+ st.org/view/d/san-antonio-alamo-ranch-estate-sale/gAtgP3gke9URX3WwZit9LA\
+ nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/b6e8f
+ 172e24529f3/\nConfirm the address and hours on the original listing befor
+ e you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/b6e8f172e24529f3/
+END:VEVENT
+END:VCALENDAR

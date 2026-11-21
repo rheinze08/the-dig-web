@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3e502141f7d1ead5-2026-11-22@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Estate SALE Selling lots of items Contact for BUYING
+LOCATION:Bedford\, TX (Address releases Saturday 9:00 AM)
+DESCRIPTION:Hours: Hours not listed (Sunday\, November 22\, local to Dalla
+ s–Fort Worth).\nOriginal listing (Craigslist Dallas / Fort Worth): http
+ s://www.craigslist.org/view/d/hurst-estate-sale-selling-lots-of-items/kKb
+ thyHar7Uh65zH3mm54Z\nSale page on The Dig: https://rheinze08.github.io/th
+ e-dig-web/sale/3e502141f7d1ead5/\nConfirm the address and hours on the or
+ iginal listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/3e502141f7d1ead5/
+END:VEVENT
+END:VCALENDAR

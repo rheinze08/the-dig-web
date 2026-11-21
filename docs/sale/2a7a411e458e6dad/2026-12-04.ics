@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2a7a411e458e6dad-2026-12-04@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261204T150000Z
+DTEND:20261205T000000Z
+SUMMARY:A World of Wonder: A Legacy of Love\, Art and Exploration
+LOCATION:Houston\, TX 77059 (Address releases Tuesday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 6 PM (Friday\, December 4\, local to Houston).
+ \nRun by Virtue Estate Sales.\nOriginal listing (EstateSales.net): https:
+ //www.estatesales.net/TX/Houston/77059/5148087\nSale page on The Dig: htt
+ ps://rheinze08.github.io/the-dig-web/sale/2a7a411e458e6dad/\nConfirm the 
+ address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/2a7a411e458e6dad/
+END:VEVENT
+END:VCALENDAR

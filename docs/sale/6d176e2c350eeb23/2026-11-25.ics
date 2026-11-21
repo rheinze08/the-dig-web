@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6d176e2c350eeb23-2026-11-25@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261125T153000Z
+DTEND:20261125T230000Z
+SUMMARY:$1 EACH MASSIVE CLOTHING & SHOE SALE!! MENS\, WOMENS & CHILDREN SI
+ ZES NEWBORN - 6XL!
+LOCATION:4002 Commonwealth Drive\, Garland\, TX 75043
+DESCRIPTION:Hours: 9:30 AM – 5 PM (Wednesday\, November 25\, local to Da
+ llas–Fort Worth).\nRun by Tiffany Nicole's Estate Sales.\nOriginal list
+ ing (EstateSales.net): https://www.estatesales.net/TX/Garland/75043/51683
+ 01\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/6d
+ 176e2c350eeb23/\nConfirm the address and hours on the original listing be
+ fore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/6d176e2c350eeb23/
+END:VEVENT
+END:VCALENDAR

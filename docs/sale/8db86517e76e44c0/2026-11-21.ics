@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8db86517e76e44c0-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T204500Z
+SUMMARY:Something for Everybody
+LOCATION:1808 Tyler Ave\, Euless\, TX 76040
+DESCRIPTION:Hours: 9 AM – 2:45 PM (Saturday\, November 21\, local to Dal
+ las–Fort Worth).\nRun by Texoma Auctions & Estate Sales.\nOriginal list
+ ing (EstateSales.net): https://www.estatesales.net/TX/Euless/76040/516567
+ 6\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/8db
+ 86517e76e44c0/\nConfirm the address and hours on the original listing bef
+ ore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/8db86517e76e44c0/
+END:VEVENT
+END:VCALENDAR

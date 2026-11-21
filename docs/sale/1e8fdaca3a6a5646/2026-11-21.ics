@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1e8fdaca3a6a5646-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T220000Z
+SUMMARY:~Incredible Bedford Estate Sale! Modern Italian\, Leather\, Jewelr
+ y\, Fashion\, Appliances\, Accents\, Art
+LOCATION:3204 Rustic Meadows Dr\, Bedford\, TX 76021
+DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to Dallas
+ –Fort Worth).\nRun by DFW Estate Liquidators.\nOriginal listing (Estate
+ Sales.org): https://estatesales.org/estate-sales/tx/bedford/76021/incredi
+ ble-bedford-estate-sale-modern-2468032\nSale page on The Dig: https://rhe
+ inze08.github.io/the-dig-web/sale/1e8fdaca3a6a5646/\nConfirm the address 
+ and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1e8fdaca3a6a5646/
+END:VEVENT
+END:VCALENDAR

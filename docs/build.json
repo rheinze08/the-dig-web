@@ -78,6 +78,14 @@
   ],
   "offSite": [],
   "salePages": 207,
+  "enriched": {
+    "withRating": 0,
+    "withKeywords": 0,
+    "withContentsLine": 0,
+    "withContact": 0,
+    "withPhotoCount": 0,
+    "calendarFiles": 560
+  },
   "search": {
     "page": "https://rheinze08.github.io/the-dig-web/search/",
     "dataFile": "https://rheinze08.github.io/the-dig-web/search/data.json",
@@ -86,7 +94,8 @@
     "combinedFeedPublished": true,
     "combinedFeedProblem": null,
     "categoriesFromCombinedFeed": 207,
-    "categoriesFromTitles": 0
+    "categoriesFromTitles": 0,
+    "photoSearchSales": 0
   },
   "app": {
     "tag": "v0.3.0",

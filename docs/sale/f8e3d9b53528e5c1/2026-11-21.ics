@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f8e3d9b53528e5c1-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T220000Z
+SUMMARY:25% off!! Massive warehouse sale. Sterling AMMO games comics every
+ thing
+LOCATION:11725 warfield st\, San Antonio\, TX 78216
+DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to San An
+ tonio).\nRun by Back Again Resale.\nOriginal listing (EstateSales.net): h
+ ttps://www.estatesales.net/TX/San-Antonio/78216/5157204\nSale page on The
+  Dig: https://rheinze08.github.io/the-dig-web/sale/f8e3d9b53528e5c1/\nCon
+ firm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/f8e3d9b53528e5c1/
+END:VEVENT
+END:VCALENDAR

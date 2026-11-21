@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0eb294fb7e3fcaba-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261120T150000Z
+DTEND:20261120T220000Z
+SUMMARY:Stella’s Estate Sales
+LOCATION:3601 Wendell Dr\, North Richland Hills\, TX 76117
+DESCRIPTION:Hours: 9 AM – 4 PM (Friday\, November 20\, local to Dallas
+ –Fort Worth).\nRun by Stella's Estate Sales LLC..\nOriginal listing (Es
+ tateSales.net): https://www.estatesales.net/TX/Haltom-City/76117/5118684\
+ nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/0eb29
+ 4fb7e3fcaba/\nConfirm the address and hours on the original listing befor
+ e you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/0eb294fb7e3fcaba/
+END:VEVENT
+END:VCALENDAR

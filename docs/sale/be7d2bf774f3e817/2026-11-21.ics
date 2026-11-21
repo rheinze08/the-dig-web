@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:be7d2bf774f3e817-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T160000Z
+DTEND:20261121T220000Z
+SUMMARY:Plano Estate Sale
+LOCATION:4616 Brook Meadow Ln.\, Plano\, TX 75093
+DESCRIPTION:Hours: 10 AM – 4 PM (Saturday\, November 21\, local to Dalla
+ s–Fort Worth).\nOriginal listing (EstateSales.net): https://www.estates
+ ales.net/TX/Plano/75093/5163531\nSale page on The Dig: https://rheinze08.
+ github.io/the-dig-web/sale/be7d2bf774f3e817/\nConfirm the address and hou
+ rs on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/be7d2bf774f3e817/
+END:VEVENT
+END:VCALENDAR

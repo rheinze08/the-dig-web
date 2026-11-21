@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a3e380a9b0a15a3d-2026-11-29@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261129T170000Z
+DTEND:20261129T220000Z
+SUMMARY:#634: Sale of the Season!
+LOCATION:San Antonio\, TX 78232 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 11 AM – 4 PM (Sunday\, November 29\, local to San Ant
+ onio).\nRun by A Better Estate Sale Co..\nOriginal listing (EstateSales.n
+ et): https://www.estatesales.net/TX/San-Antonio/78232/5163381\nSale page 
+ on The Dig: https://rheinze08.github.io/the-dig-web/sale/a3e380a9b0a15a3d
+ /\nConfirm the address and hours on the original listing before you trave
+ l.
+URL:https://rheinze08.github.io/the-dig-web/sale/a3e380a9b0a15a3d/
+END:VEVENT
+END:VCALENDAR

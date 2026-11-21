@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3bfa7e6776de0515-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261120T150000Z
+DTEND:20261120T230000Z
+SUMMARY:North Dallas Estate Sale
+LOCATION:Dallas\, TX 75244 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 5 PM (Friday\, November 20\, local to Dallas
+ –Fort Worth).\nOriginal listing (EstateSales.net): https://www.estatesa
+ les.net/TX/Dallas/75244/5158272\nSale page on The Dig: https://rheinze08.
+ github.io/the-dig-web/sale/3bfa7e6776de0515/\nConfirm the address and hou
+ rs on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/3bfa7e6776de0515/
+END:VEVENT
+END:VCALENDAR

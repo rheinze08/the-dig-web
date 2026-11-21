@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f903d523e89bc65b-2026-11-29@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261129T150000Z
+DTEND:20261129T200000Z
+SUMMARY:ABOUT THE HOUSE in Highland Park
+LOCATION:Dallas\, TX 75205 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 2 PM (Sunday\, November 29\, local to Dallas
+ –Fort Worth).\nRun by About The House.\nOriginal listing (EstateSales.n
+ et): https://www.estatesales.net/TX/Dallas/75205/5129922\nSale page on Th
+ e Dig: https://rheinze08.github.io/the-dig-web/sale/f903d523e89bc65b/\nCo
+ nfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/f903d523e89bc65b/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6741133fee31dea5-2026-11-27@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261127T170000Z
+DTEND:20261127T200000Z
+SUMMARY:All We Want For Christmas is Vintage Sale!
+LOCATION:1304 Leander Dr. Ste. 630\, Leander\, TX 78641
+DESCRIPTION:Hours: 11 AM – 2 PM (Friday\, November 27\, local to Austin)
+ .\nRun by Next Chapter Co. Estate Sales.\nOriginal listing (EstateSales.n
+ et): https://www.estatesales.net/TX/Leander/78641/5162514\nSale page on T
+ he Dig: https://rheinze08.github.io/the-dig-web/sale/6741133fee31dea5/\nC
+ onfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/6741133fee31dea5/
+END:VEVENT
+END:VCALENDAR

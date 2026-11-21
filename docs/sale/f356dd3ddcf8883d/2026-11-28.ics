@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f356dd3ddcf8883d-2026-11-28@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261128T170000Z
+DTEND:20261128T230000Z
+SUMMARY:FABULOUS MID CENTURY TIME CAPSULE in PRESTONWOOD w/ANOTHER’S TRE
+ ASURE ESTATE SALES
+LOCATION:Plano\, TX 75093 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 11 AM – 5 PM (Saturday\, November 28\, local to Dalla
+ s–Fort Worth).\nRun by Another's Treasure Estate Sales.\nOriginal listi
+ ng (EstateSales.net): https://www.estatesales.net/TX/Plano/75093/5167116\
+ nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/f356d
+ d3ddcf8883d/\nConfirm the address and hours on the original listing befor
+ e you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/f356dd3ddcf8883d/
+END:VEVENT
+END:VCALENDAR

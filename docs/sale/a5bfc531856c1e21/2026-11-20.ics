@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a5bfc531856c1e21-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261120T160000Z
+DTEND:20261120T210000Z
+SUMMARY:River Oaks Estate Sale - Brass\, Christmas & More!
+LOCATION:5415 Pomona Ave\, Fort Worth\, TX 76114
+DESCRIPTION:Hours: 10 AM – 3 PM (Friday\, November 20\, local to Dallas
+ –Fort Worth).\nRun by Cowtown Liquidation.\nOriginal listing (EstateSal
+ es.net): https://www.estatesales.net/TX/Fort-Worth/76114/5145414\nSale pa
+ ge on The Dig: https://rheinze08.github.io/the-dig-web/sale/a5bfc531856c1
+ e21/\nConfirm the address and hours on the original listing before you tr
+ avel.
+URL:https://rheinze08.github.io/the-dig-web/sale/a5bfc531856c1e21/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9b588dcdffa91f6c-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T070000Z
+DTEND:20261121T220000Z
+SUMMARY:Knox home sale 1of 3
+LOCATION:601 Rhonda rd.\, Keller\, TX 76248
+DESCRIPTION:Hours: 1 AM – 4 PM (Saturday\, November 21\, local to Dallas
+ –Fort Worth).\nRun by 3-g's Estate Sales.\nOriginal listing (EstateSale
+ s.net): https://www.estatesales.net/TX/Keller/76248/5168400\nSale page on
+  The Dig: https://rheinze08.github.io/the-dig-web/sale/9b588dcdffa91f6c/\
+ nConfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/9b588dcdffa91f6c/
+END:VEVENT
+END:VCALENDAR

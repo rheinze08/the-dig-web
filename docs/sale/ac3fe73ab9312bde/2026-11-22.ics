@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ac3fe73ab9312bde-2026-11-22@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261122T150000Z
+DTEND:20261122T230000Z
+SUMMARY:Tally Ho
+LOCATION:2325 San Marcus\, Dallas\, Dallas\, TX 75228
+DESCRIPTION:Hours: 9 AM – 5 PM (Sunday\, November 22\, local to Dallas
+ –Fort Worth).\nRun by Sunshine Estate Sales.\nOriginal listing (EstateS
+ ales.net): https://www.estatesales.net/TX/Dallas/75228/5162943\nSale page
+  on The Dig: https://rheinze08.github.io/the-dig-web/sale/ac3fe73ab9312bd
+ e/\nConfirm the address and hours on the original listing before you trav
+ el.
+URL:https://rheinze08.github.io/the-dig-web/sale/ac3fe73ab9312bde/
+END:VEVENT
+END:VCALENDAR

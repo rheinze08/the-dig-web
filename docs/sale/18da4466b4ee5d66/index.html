@@ -34,6 +34,9 @@
   <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
   <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m4 7.5 8 6 8-6"/></symbol>
   <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.5C7 16.7 3.5 13.2 3.5 9.3A4.6 4.6 0 0 1 8.1 4.7c1.6 0 3 .8 3.9 2 .9-1.2 2.3-2 3.9-2a4.6 4.6 0 0 1 4.6 4.6c0 3.9-3.5 7.4-8.5 11.2Z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3h3l1.7 4.5-2 1.6a13 13 0 0 0 5.6 5.6l1.6-2L21 14.4v3a2.6 2.6 0 0 1-2.8 2.6C10 19.3 4.7 14 4 5.8A2.6 2.6 0 0 1 6.6 3Z"/></symbol>
+  <symbol id="i-directions" viewBox="0 0 24 24"><path d="M12 3 19 12l-7 9-7-9Z"/><path d="M12 8v8m0-8-2.5 2.5M12 8l2.5 2.5"/></symbol>
 </svg>
 <a class="skip" href="#main">Skip to content</a>
 <header class="mast">
@@ -52,23 +55,28 @@
     <p class="dates dates-large">Fri, Nov 20 – Sat, Nov 21 <span class="tag tag-open" data-day="2026-11-20">Open today · 9 AM – 4 PM</span></p>
     <h1>Thousand Oaks Estate Sale</h1>
     <p class="by">Run by Casablanca Estate Sale Company</p>
+    
+    <p class="save-line"><button type="button" class="button fav-button" data-fav="18da4466b4ee5d66" aria-pressed="false"><svg class="icon icon-heart" aria-hidden="true"><use href="#i-heart"/></svg><span data-fav-label>Save as favorite</span></button> <span class="note">Favorites are kept in this browser only.</span></p>
     <div class="sale-grid">
       <div class="sale-facts">
         <section>
           <h2>Where</h2>
           <p class="address">2422 Bluffridge St.<br>San Antonio, TX 78232</p>
         <p class="note">Confirm the address on the original listing before you travel.</p>
+          <p class="directions-line"><a class="button" href="https://www.google.com/maps/dir/?api=1&amp;destination=2422%20Bluffridge%20St.%2C%20San%20Antonio%2C%20TX%2078232" rel="noopener external"><svg class="icon" aria-hidden="true"><use href="#i-directions"/></svg>Get directions</a></p>
         </section>
         <section>
           <h2>When</h2>
           <table class="sessions">
           <tbody>
-          <tr class="is-today" data-day="2026-11-20"><th scope="row"><time datetime="2026-11-20">Friday, November 20</time></th><td>9 AM – 4 PM</td></tr>
-          <tr data-day="2026-11-21"><th scope="row"><time datetime="2026-11-21">Saturday, November 21</time></th><td>10 AM – 3 PM</td></tr>
+          <tr class="is-today" data-day="2026-11-20"><th scope="row"><time datetime="2026-11-20">Friday, November 20</time></th><td>9 AM – 4 PM</td><td class="cal"><a href="/the-dig-web/sale/18da4466b4ee5d66/2026-11-20.ics" download>Add to calendar</a></td></tr>
+          <tr data-day="2026-11-21"><th scope="row"><time datetime="2026-11-21">Saturday, November 21</time></th><td>10 AM – 3 PM</td><td class="cal"><a href="/the-dig-web/sale/18da4466b4ee5d66/2026-11-21.ics" download>Add to calendar</a></td></tr>
           </tbody>
           </table>
-          <p class="note">Times are local to San Antonio, Central Time.</p>
+          <p class="note">Times are local to San Antonio, Central Time. “Add to calendar” downloads a calendar file for that day.</p>
         </section>
+        
+        
         
         <section class="source">
           <h2>Original listing</h2>
@@ -122,5 +130,6 @@
 <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script defer src="/the-dig-web/assets/map.js"></script>
 <script defer src="/the-dig-web/assets/site.js"></script>
+<script defer src="/the-dig-web/assets/favorites.js"></script>
 </body>
 </html>

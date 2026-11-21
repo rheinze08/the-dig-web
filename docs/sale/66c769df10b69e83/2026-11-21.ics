@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:66c769df10b69e83-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T160000Z
+DTEND:20261121T220000Z
+SUMMARY:Friendswoood Estate Sale!!!
+LOCATION:909 Leslie ln\, Friendswood\, TX 77546
+DESCRIPTION:Hours: 10 AM – 4 PM (Saturday\, November 21\, local to Houst
+ on).\nRun by J&a Findings.\nOriginal listing (EstateSales.net): https://w
+ ww.estatesales.net/TX/Friendswood/77546/5166603\nSale page on The Dig: ht
+ tps://rheinze08.github.io/the-dig-web/sale/66c769df10b69e83/\nConfirm the
+  address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/66c769df10b69e83/
+END:VEVENT
+END:VCALENDAR

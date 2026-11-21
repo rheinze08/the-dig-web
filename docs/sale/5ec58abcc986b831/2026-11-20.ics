@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5ec58abcc986b831-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261120T160000Z
+DTEND:20261120T210000Z
+SUMMARY:60% OFF SALE Blowout
+LOCATION:1915 Doliver Cir\, Missouri City\, TX 77489
+DESCRIPTION:Hours: 10 AM – 3 PM (Friday\, November 20\, local to Houston
+ ).\nRun by Kingdom Realty Estate Sales.\nOriginal listing (EstateSales.or
+ g): https://estatesales.org/estate-sales/tx/missouri-city/77489/60-off-tw
+ o-days-sale-2474184\nSale page on The Dig: https://rheinze08.github.io/th
+ e-dig-web/sale/5ec58abcc986b831/\nConfirm the address and hours on the or
+ iginal listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/5ec58abcc986b831/
+END:VEVENT
+END:VCALENDAR

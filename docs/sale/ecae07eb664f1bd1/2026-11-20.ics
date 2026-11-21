@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ecae07eb664f1bd1-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261120T160000Z
+DTEND:20261120T220000Z
+SUMMARY:Our RoadRunner is racing towards Highland Village with deals worth
+  Chasing!
+LOCATION:2980 Hillside Dr\, Highland Village\, TX 75077
+DESCRIPTION:Hours: 10 AM – 4 PM (Friday\, November 20\, local to Dallas
+ –Fort Worth).\nRun by Wright Choice Estate Sales.\nOriginal listing (Es
+ tateSales.net): https://www.estatesales.net/TX/Lewisville/75077/5161068\n
+ Sale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/ecae07
+ eb664f1bd1/\nConfirm the address and hours on the original listing before
+  you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/ecae07eb664f1bd1/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:47b0c73100bbe19e-2026-11-22@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261122T170000Z
+DTEND:20261122T210000Z
+SUMMARY:The O. G.
+LOCATION:2209 Quarry Rd\, Austin\, TX 78703
+DESCRIPTION:Hours: 11 AM – 3 PM (Sunday\, November 22\, local to Austin)
+ .\nRun by Simplify Life.\nOriginal listing (EstateSales.net): https://www
+ .estatesales.net/TX/Austin/78703/5148483\nSale page on The Dig: https://r
+ heinze08.github.io/the-dig-web/sale/47b0c73100bbe19e/\nConfirm the addres
+ s and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/47b0c73100bbe19e/
+END:VEVENT
+END:VCALENDAR

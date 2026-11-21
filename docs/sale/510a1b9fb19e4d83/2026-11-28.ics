@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:510a1b9fb19e4d83-2026-11-28@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261128T160000Z
+DTEND:20261128T210000Z
+SUMMARY:Estate Sale by Family Tree Estates
+LOCATION:Kemah\, TX 77565 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 3 PM (Saturday\, November 28\, local to Houst
+ on).\nRun by Family Tree Estate Sales.\nOriginal listing (EstateSales.net
+ ): https://www.estatesales.net/TX/Kemah/77565/5156790\nSale page on The D
+ ig: https://rheinze08.github.io/the-dig-web/sale/510a1b9fb19e4d83/\nConfi
+ rm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/510a1b9fb19e4d83/
+END:VEVENT
+END:VCALENDAR

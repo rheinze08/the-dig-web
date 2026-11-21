@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9a728d505ba40345-2026-11-16@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Estate Sale — Addison\, TX — Bedroom\, Living Room & Dining Ro
+ om Furnitu
+LOCATION:14620 Waterview Cir\, Addison\, TX
+DESCRIPTION:Hours: Opens 10 AM (Monday\, November 16\, local to Dallas–F
+ ort Worth).\nOriginal listing (Craigslist Dallas / Fort Worth): https://w
+ ww.craigslist.org/view/d/addison-estate-sale-addison-tx-bedroom/4d56bAs4q
+ Yx1HKCCxP9gD2\nSale page on The Dig: https://rheinze08.github.io/the-dig-
+ web/sale/9a728d505ba40345/\nConfirm the address and hours on the original
+  listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/9a728d505ba40345/
+END:VEVENT
+END:VCALENDAR

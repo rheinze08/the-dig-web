@@ -126,6 +126,21 @@ h3 { font-size: 1.3rem; line-height: 1.2; letter-spacing: -.02em; }
 .tag-ended { background: #e8e6df; color: #5c5a52; }
 .is-ended .dates, .is-ended .sale-title { color: #6a6f68; }
 .is-ended { background: #f5f4ee; }
+.sale-actions { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 14px 10px; border-top: 1px solid var(--line); }
+.directions { display: inline-flex; align-items: center; gap: 6px; font-size: .9rem; font-weight: 650; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.directions .icon { width: 1rem; height: 1rem; color: var(--accent); }
+.fav { display: inline-grid; place-items: center; width: 38px; height: 38px; padding: 0; border: 1.5px solid #9aa897; border-radius: 50%; background: var(--card); color: var(--muted); cursor: pointer; }
+.fav:hover { border-color: var(--accent); color: var(--accent); }
+.fav .icon-heart { width: 1.15rem; height: 1.15rem; }
+.fav[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+.fav[aria-pressed="true"] .icon-heart { fill: var(--accent); }
+.rating-badge { display: inline-block; padding: 1px 9px; border-radius: 10px; font-size: .76rem; font-weight: 750; line-height: 1.5; white-space: nowrap; vertical-align: 1px; }
+.rating-deep { background: var(--ink); color: #fffdf3; }
+.rating-worth { background: #f3ddba; color: #6d4416; }
+.rating-slim { background: #e8e6df; color: #5c5a52; }
+.rating-other { background: #e6ebdf; color: #2c4a39; }
+.contents { display: block; margin-top: 4px; font-size: .9rem; line-height: 1.4; color: #33493d; }
+.fav-warning { position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 2000; padding: 10px 14px; border: 1.5px solid var(--accent); border-radius: 6px; background: #fff4e3; font-size: .93rem; }
 .empty { padding: 18px; border: 1px dashed #99aa99; border-radius: 6px; }
 
 /* Map pins */
@@ -177,6 +192,23 @@ h3 { font-size: 1.3rem; line-height: 1.2; letter-spacing: -.02em; }
 .sessions .past th, .sessions .past td { color: #7a8179; }
 .sessions .is-today th::after { content: "Today"; margin-left: 8px; padding: 1px 8px; border-radius: 10px; background: #dcebdc; color: #1e4a2c; font-size: .76rem; font-weight: 700; }
 .excerpt { max-width: 38rem; }
+.rating { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 16px; }
+.rating .rating-badge { font-size: .92rem; padding: 3px 13px; border-radius: 12px; }
+.rating-reasons { display: flex; flex-wrap: wrap; gap: 2px 0; font-size: .93rem; color: var(--muted); }
+.rating-reasons li + li::before { content: "·"; margin: 0 7px; }
+.save-line { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 16px; }
+.fav-button { cursor: pointer; font: inherit; }
+.fav-button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+.fav-button[aria-pressed="true"] .icon-heart { fill: var(--accent); }
+.directions-line { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 12px; }
+.sessions { max-width: 36rem; }
+.sessions td.cal { text-align: right; white-space: nowrap; font-size: .88rem; padding-left: 14px; }
+.sessions td.cal a { font-weight: 650; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.contents-line { font-size: 1.08rem; max-width: 38rem; }
+.keywords { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 9px; }
+.keyword { padding: 1px 9px; border: 1px solid #9aa897; border-radius: 10px; background: var(--card); font-size: .8rem; font-weight: 650; line-height: 1.5; }
+.photos { margin-top: 10px; font-size: .95rem; }
+.photos a { font-weight: 650; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .source .actions { margin-top: 12px; }
 .source .button .icon { width: 1rem; height: 1rem; }
 .more { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--line); }
@@ -242,6 +274,9 @@ h2 .tag, .region-name .tag { margin-left: 6px; font-family: "DM Sans", Arial, sa
 .chip[aria-pressed="true"] span { color: #d5ddcf; }
 .chip:disabled { border-style: dashed; color: #7a857c; cursor: default; }
 .chip-clear { border-color: transparent; background: transparent; text-decoration: underline; text-underline-offset: 3px; }
+.chip-fav { display: inline-flex; align-items: center; gap: 7px; }
+.chip-fav .icon { width: 1rem; height: 1rem; }
+.chip-fav[aria-pressed="true"] .icon { fill: currentColor; }
 .search-group { margin-top: 30px; }
 .search-group h2 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
 .search-group h2 a { text-decoration-thickness: 1px; text-underline-offset: 4px; }

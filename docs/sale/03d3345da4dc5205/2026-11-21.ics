@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:03d3345da4dc5205-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T220000Z
+SUMMARY:25% OFF SATURDAY - Preston Hollow Rarities
+LOCATION:12114 Shiremont Drive\, Dallas\, TX 75230
+DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to Dallas
+ –Fort Worth).\nRun by Millo Estate Sales.\nOriginal listing (EstateSale
+ s.net): https://www.estatesales.net/TX/Dallas/75230/5160411\nSale page on
+  The Dig: https://rheinze08.github.io/the-dig-web/sale/03d3345da4dc5205/\
+ nConfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/03d3345da4dc5205/
+END:VEVENT
+END:VCALENDAR

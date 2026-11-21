@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c63b83155d9796a0-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T210000Z
+SUMMARY:WOODSIDE ESTATE SALE - 610 & Stella Link
+LOCATION:9115 Marlive Ln\, Houston\, TX 77025
+DESCRIPTION:Hours: 9 AM – 3 PM (Saturday\, November 21\, local to Housto
+ n).\nRun by Two Moms Estate Sales.\nOriginal listing (EstateSales.net): h
+ ttps://www.estatesales.net/TX/Houston/77025/5164365\nSale page on The Dig
+ : https://rheinze08.github.io/the-dig-web/sale/c63b83155d9796a0/\nConfirm
+  the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/c63b83155d9796a0/
+END:VEVENT
+END:VCALENDAR

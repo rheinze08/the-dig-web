@@ -1,5 +1,5 @@
 {
- "about": "Every sale page on The Dig, for the search box on /search/. Rebuilt with the site. A keyword matches the start of any word in a sale's title, company or categories.",
+ "about": "Every sale page on The Dig, for the search box on /search/. Rebuilt with the site. A keyword matches the start of any word in a sale's title, company, categories, photo keywords or contents line. Records carry keywords, contentsLine and digRating only when the feed has them.",
  "site": "https://rheinze08.github.io/the-dig-web",
  "categoriesFrom": "https://raw.githubusercontent.com/rheinze08/the-dig-data/main/search.json",
  "categories": [

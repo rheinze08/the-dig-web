@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8c9ce50cb0d83a8d-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T230000Z
+SUMMARY:Vintage in Castle Hills
+LOCATION:114 E. Castle Ln.\, San Antonio\, TX 78213
+DESCRIPTION:Hours: 9 AM – 5 PM (Saturday\, November 21\, local to San An
+ tonio).\nRun by Lions Estate Sales Co..\nOriginal listing (EstateSales.ne
+ t): https://www.estatesales.net/TX/San-Antonio/78213/5166285\nSale page o
+ n The Dig: https://rheinze08.github.io/the-dig-web/sale/8c9ce50cb0d83a8d/
+ \nConfirm the address and hours on the original listing before you travel
+ .
+URL:https://rheinze08.github.io/the-dig-web/sale/8c9ce50cb0d83a8d/
+END:VEVENT
+END:VCALENDAR

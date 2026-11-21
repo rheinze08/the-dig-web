@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8b57fa84c228e8b5-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T210000Z
+SUMMARY:Fort Worth Memories and Treasures
+LOCATION:2021 Queen St\, Fort Worth\, TX 76103
+DESCRIPTION:Hours: 9 AM – 3 PM (Saturday\, November 21\, local to Dallas
+ –Fort Worth).\nRun by Enchanted Tree Estate Sales.\nOriginal listing (E
+ stateSales.net): https://www.estatesales.net/TX/Fort-Worth/76103/5163921\
+ nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/8b57f
+ a84c228e8b5/\nConfirm the address and hours on the original listing befor
+ e you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/8b57fa84c228e8b5/
+END:VEVENT
+END:VCALENDAR

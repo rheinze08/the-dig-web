@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:274ec09330214d26-2026-11-27@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261127T150000Z
+DTEND:20261127T220000Z
+SUMMARY:Start “Black Friday” with us! Fort Worth/Texas History and Mor
+ e!
+LOCATION:Fort Worth\, TX 76109 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 4 PM (Friday\, November 27\, local to Dallas
+ –Fort Worth).\nOriginal listing (EstateSales.net): https://www.estatesa
+ les.net/TX/Fort-Worth/76109/5153937\nSale page on The Dig: https://rheinz
+ e08.github.io/the-dig-web/sale/274ec09330214d26/\nConfirm the address and
+  hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/274ec09330214d26/
+END:VEVENT
+END:VCALENDAR

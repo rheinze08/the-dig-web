@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5c93d5424c250a6d-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261120T150000Z
+DTEND:20261120T080000Z
+SUMMARY:Estate sale
+LOCATION:310 Eugene Sasser\, San Antonio\, TX 78260
+DESCRIPTION:Hours: 9 AM – 2 AM (Friday\, November 20\, local to San Anto
+ nio).\nOriginal listing (EstateSales.org): https://estatesales.org/estate
+ -sales/tx/san-antonio/78260/estate-sale-2474765\nSale page on The Dig: ht
+ tps://rheinze08.github.io/the-dig-web/sale/5c93d5424c250a6d/\nConfirm the
+  address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/5c93d5424c250a6d/
+END:VEVENT
+END:VCALENDAR

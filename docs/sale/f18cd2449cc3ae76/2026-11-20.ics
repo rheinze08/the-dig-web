@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f18cd2449cc3ae76-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261120T160000Z
+DTEND:20261120T220000Z
+SUMMARY:50% Off Evans an Bulverde Road Area
+LOCATION:21527 Tenore\, San Antonio\, TX 78259
+DESCRIPTION:Hours: 10 AM – 4 PM (Friday\, November 20\, local to San Ant
+ onio).\nRun by Wonderful Life Estate Sales.\nOriginal listing (Craigslist
+  San Antonio): https://www.craigslist.org/view/d/san-antonio-bedroom-set-
+ at-estate-sale/oopuutJZHfhsyjVJBx5ZNq\nSale page on The Dig: https://rhei
+ nze08.github.io/the-dig-web/sale/f18cd2449cc3ae76/\nConfirm the address a
+ nd hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/f18cd2449cc3ae76/
+END:VEVENT
+END:VCALENDAR

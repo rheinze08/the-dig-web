@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cd8d08b305a5724d-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T160000Z
+DTEND:20261121T220000Z
+SUMMARY:Grand Prairie Sale - Americana\, Coins\, Tools and Much More!
+LOCATION:2037 Oxford Cr\, Grand Prairie\, TX 75051
+DESCRIPTION:Hours: 10 AM – 4 PM (Saturday\, November 21\, local to Dalla
+ s–Fort Worth).\nRun by My Jennarocity Estate Sales.\nOriginal listing (
+ EstateSales.net): https://www.estatesales.net/TX/Grand-Prairie/75051/5146
+ 983\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/c
+ d8d08b305a5724d/\nConfirm the address and hours on the original listing b
+ efore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/cd8d08b305a5724d/
+END:VEVENT
+END:VCALENDAR

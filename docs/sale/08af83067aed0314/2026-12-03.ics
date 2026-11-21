@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:08af83067aed0314-2026-12-03@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261203T160000Z
+DTEND:20261203T233000Z
+SUMMARY:Bulls-Eye Estate Sales of Texas
+LOCATION:Dallas\, TX 75229 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 5:30 PM (Thursday\, December 3\, local to Dal
+ las–Fort Worth).\nRun by Bulls-Eye Estate Sales of Texas.\nOriginal lis
+ ting (EstateSales.net): https://www.estatesales.net/TX/Dallas/75229/51201
+ 87\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/08
+ af83067aed0314/\nConfirm the address and hours on the original listing be
+ fore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/08af83067aed0314/
+END:VEVENT
+END:VCALENDAR

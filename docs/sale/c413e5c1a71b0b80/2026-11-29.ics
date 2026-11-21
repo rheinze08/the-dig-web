@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c413e5c1a71b0b80-2026-11-29@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261129T180000Z
+DTEND:20261129T230000Z
+SUMMARY:Montrose Museum Quality Estate!
+LOCATION:Houston\, TX 77006 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 12 PM – 5 PM (Sunday\, November 29\, local to Houston
+ ).\nRun by Aloha Estate Sales Of Houston.\nOriginal listing (EstateSales.
+ net): https://www.estatesales.net/TX/Houston/77006/5148879\nSale page on 
+ The Dig: https://rheinze08.github.io/the-dig-web/sale/c413e5c1a71b0b80/\n
+ Confirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/c413e5c1a71b0b80/
+END:VEVENT
+END:VCALENDAR

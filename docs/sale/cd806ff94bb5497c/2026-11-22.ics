@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cd806ff94bb5497c-2026-11-22@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261122T160000Z
+DTEND:20261122T230000Z
+SUMMARY:Everything you are looking for!
+LOCATION:11500 Highview Dr\, Austin\, TX 78750
+DESCRIPTION:Hours: 10 AM – 5 PM (Sunday\, November 22\, local to Austin)
+ .\nRun by Evelyn's Estate Sales.\nOriginal listing (EstateSales.net): htt
+ ps://www.estatesales.net/TX/Austin/78750/5162256\nSale page on The Dig: h
+ ttps://rheinze08.github.io/the-dig-web/sale/cd806ff94bb5497c/\nConfirm th
+ e address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/cd806ff94bb5497c/
+END:VEVENT
+END:VCALENDAR

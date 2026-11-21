@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:aedb60f48f8578bb-2026-11-19@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261119T143000Z
+DTEND:20261119T220000Z
+SUMMARY:Garland: 25% OFF & STUFF-A-BAG + Unbeatable Deals by Dayspring
+LOCATION:710 Ballybunion Circle\, Garland\, TX 75044
+DESCRIPTION:Hours: 8:30 AM – 4 PM (Thursday\, November 19\, local to Dal
+ las–Fort Worth).\nRun by Dayspring Estate Sales.\nOriginal listing (Est
+ ateSales.net): https://www.estatesales.net/TX/Garland/75044/5112783\nSale
+  page on The Dig: https://rheinze08.github.io/the-dig-web/sale/aedb60f48f
+ 8578bb/\nConfirm the address and hours on the original listing before you
+  travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/aedb60f48f8578bb/
+END:VEVENT
+END:VCALENDAR

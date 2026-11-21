@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b7eac799ac7dfa00-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Estate Sale
+LOCATION:Duncanville\, TX (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: Opens 8 AM (Friday\, November 20\, local to Dallas–Fo
+ rt Worth).\nOriginal listing (Craigslist Dallas / Fort Worth): https://ww
+ w.craigslist.org/view/d/duncanville-estate-sale/8J4CFXAweFM1WwFyTEqWo1\nS
+ ale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/b7eac79
+ 9ac7dfa00/\nConfirm the address and hours on the original listing before 
+ you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/b7eac799ac7dfa00/
+END:VEVENT
+END:VCALENDAR

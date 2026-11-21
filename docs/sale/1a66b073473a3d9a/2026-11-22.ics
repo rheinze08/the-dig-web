@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1a66b073473a3d9a-2026-11-22@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261122T143000Z
+DTEND:20261122T203000Z
+SUMMARY:The Colony Cutie
+LOCATION:126 Joshua Smith\, Bastrop\, TX 78602
+DESCRIPTION:Hours: 8:30 AM – 2:30 PM (Sunday\, November 22\, local to Au
+ stin).\nRun by Dixie Chatham.\nOriginal listing (EstateSales.net): https:
+ //www.estatesales.net/TX/Bastrop/78602/5166678\nSale page on The Dig: htt
+ ps://rheinze08.github.io/the-dig-web/sale/1a66b073473a3d9a/\nConfirm the 
+ address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1a66b073473a3d9a/
+END:VEVENT
+END:VCALENDAR

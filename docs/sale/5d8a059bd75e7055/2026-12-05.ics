@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5d8a059bd75e7055-2026-12-05@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261205T143000Z
+DTEND:20261205T220000Z
+SUMMARY:Plano: Unbeatable Deals by Dayspring
+LOCATION:Plano\, TX 75025 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Hours: 8:30 AM – 4 PM (Saturday\, December 5\, local to Dall
+ as–Fort Worth).\nRun by Dayspring Estate Sales.\nOriginal listing (Esta
+ teSales.net): https://www.estatesales.net/TX/Plano/75025/5156826\nSale pa
+ ge on The Dig: https://rheinze08.github.io/the-dig-web/sale/5d8a059bd75e7
+ 055/\nConfirm the address and hours on the original listing before you tr
+ avel.
+URL:https://rheinze08.github.io/the-dig-web/sale/5d8a059bd75e7055/
+END:VEVENT
+END:VCALENDAR

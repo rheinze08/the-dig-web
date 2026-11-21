@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e1946804b0f8f3fd-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261120T160000Z
+DTEND:20261120T220000Z
+SUMMARY:Fabulous Heights Sale- Antique\, Mid-Century\, Architecturale & Hi
+ storic Home
+LOCATION:1425 Columbia St\, Houston\, TX 77008
+DESCRIPTION:Hours: 10 AM – 4 PM (Friday\, November 20\, local to Houston
+ ).\nRun by Treasure Hunt Auction Co..\nOriginal listing (EstateSales.net)
+ : https://www.estatesales.net/TX/Houston/77008/5152926\nSale page on The 
+ Dig: https://rheinze08.github.io/the-dig-web/sale/e1946804b0f8f3fd/\nConf
+ irm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/e1946804b0f8f3fd/
+END:VEVENT
+END:VCALENDAR

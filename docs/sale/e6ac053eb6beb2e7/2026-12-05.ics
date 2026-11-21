@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e6ac053eb6beb2e7-2026-12-05@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261205T160000Z
+DTEND:20261205T210000Z
+SUMMARY:Vintage Estate off Balcones: Meissen\, U.T.\, Aqua Fest\, Texas Po
+ litics\, Musical Machines & more!
+LOCATION:Austin\, TX 78731 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 3 PM (Saturday\, December 5\, local to Austin
+ ).\nRun by Austin Estate Sales.\nOriginal listing (EstateSales.net): http
+ s://www.estatesales.net/TX/Austin/78731/5151762\nSale page on The Dig: ht
+ tps://rheinze08.github.io/the-dig-web/sale/e6ac053eb6beb2e7/\nConfirm the
+  address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/e6ac053eb6beb2e7/
+END:VEVENT
+END:VCALENDAR

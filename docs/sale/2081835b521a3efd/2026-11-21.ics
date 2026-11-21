@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2081835b521a3efd-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T170000Z
+DTEND:20261121T220000Z
+SUMMARY:East Dallas Sale by Blue Ribbon
+LOCATION:2441 Pinebluff Dr\, Dallas\, TX 75228
+DESCRIPTION:Hours: 11 AM – 4 PM (Saturday\, November 21\, local to Dalla
+ s–Fort Worth).\nRun by Blue Ribbon Estate Sales.\nOriginal listing (Est
+ ateSales.net): https://www.estatesales.net/TX/Dallas/75228/5164200\nSale 
+ page on The Dig: https://rheinze08.github.io/the-dig-web/sale/2081835b521
+ a3efd/\nConfirm the address and hours on the original listing before you 
+ travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/2081835b521a3efd/
+END:VEVENT
+END:VCALENDAR

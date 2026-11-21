@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b386bac47ccb221f-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261120T160000Z
+DTEND:20261120T210000Z
+SUMMARY:20% OFF Christopher Estate Sales on Estate Gate
+LOCATION:2207 Estate Gate Drive\, San Antonio\, TX 78260
+DESCRIPTION:Hours: 10 AM – 3 PM (Friday\, November 20\, local to San Ant
+ onio).\nRun by Christopher Estate Sales\, LLC.\nOriginal listing (EstateS
+ ales.net): https://www.estatesales.net/TX/San-Antonio/78260/5159355\nSale
+  page on The Dig: https://rheinze08.github.io/the-dig-web/sale/b386bac47c
+ cb221f/\nConfirm the address and hours on the original listing before you
+  travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/b386bac47ccb221f/
+END:VEVENT
+END:VCALENDAR

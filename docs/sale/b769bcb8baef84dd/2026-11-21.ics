@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b769bcb8baef84dd-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T160000Z
+DTEND:20261121T220000Z
+SUMMARY:THE BEST ESTATE SALE OF NOVEMBER! CANT MISS!!!
+LOCATION:11604 Sweet Basil Ct\, Austin\, TX 78726
+DESCRIPTION:Hours: 10 AM – 4 PM (Saturday\, November 21\, local to Austi
+ n).\nRun by My Estate To Liquidate.\nOriginal listing (Craigslist Austin)
+ : https://www.craigslist.org/view/d/austin-estate-sale-furniture-art/kkDJ
+ FKVgBKEVwwtjGDvnZj\nSale page on The Dig: https://rheinze08.github.io/the
+ -dig-web/sale/b769bcb8baef84dd/\nConfirm the address and hours on the ori
+ ginal listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/b769bcb8baef84dd/
+END:VEVENT
+END:VCALENDAR

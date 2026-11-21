@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f5906d411fc84284-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261120T150000Z
+DTEND:20261120T090000Z
+SUMMARY:MASSIVE ESTATE SALE IN 4000 SQFT RACNH HOME PACKED FOR 60 YEARS!
+LOCATION:4109 Cooper Creek Rd\, Denton\, TX 76208
+DESCRIPTION:Hours: 9 AM – 3 AM (Friday\, November 20\, local to Dallas
+ –Fort Worth).\nOriginal listing (EstateSales.org): https://estatesales.
+ org/estate-sales/tx/denton/76208/massive-estate-sale-in-4000-2474567\nSal
+ e page on The Dig: https://rheinze08.github.io/the-dig-web/sale/f5906d411
+ fc84284/\nConfirm the address and hours on the original listing before yo
+ u travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/f5906d411fc84284/
+END:VEVENT
+END:VCALENDAR

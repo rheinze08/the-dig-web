@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d3fedafa7b9d917d-2026-11-28@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261128T150000Z
+DTEND:20261128T210000Z
+SUMMARY:Black Friday Signature Estate Sale
+LOCATION:Dallas\, TX 75207 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 3 PM (Saturday\, November 28\, local to Dallas
+ –Fort Worth).\nRun by When Pigs Fly Estate\, Consignment & Auctions.\nO
+ riginal listing (EstateSales.net): https://www.estatesales.net/TX/Dallas/
+ 75207/5013480\nSale page on The Dig: https://rheinze08.github.io/the-dig-
+ web/sale/d3fedafa7b9d917d/\nConfirm the address and hours on the original
+  listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/d3fedafa7b9d917d/
+END:VEVENT
+END:VCALENDAR

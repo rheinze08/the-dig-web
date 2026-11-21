@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b14d2b101b268fda-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T160000Z
+DTEND:20261121T220000Z
+SUMMARY:HUGE VINTAGE NOVEMBER ESTATE SALE
+LOCATION:4308 Yellow Rose\, Austin\, TX 78704
+DESCRIPTION:Hours: 10 AM – 4 PM (Saturday\, November 21\, local to Austi
+ n).\nRun by My Estate To Liquidate.\nOriginal listing (EstateSales.net): 
+ https://www.estatesales.net/TX/Austin/78704/5161803\nSale page on The Dig
+ : https://rheinze08.github.io/the-dig-web/sale/b14d2b101b268fda/\nConfirm
+  the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/b14d2b101b268fda/
+END:VEVENT
+END:VCALENDAR

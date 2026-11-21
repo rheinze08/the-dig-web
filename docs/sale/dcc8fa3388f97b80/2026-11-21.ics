@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dcc8fa3388f97b80-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T220000Z
+SUMMARY:Dazzling in Dallas 50% OFF
+LOCATION:5616 Netherland Ct\, Dallas\, TX 75229
+DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to Dallas
+ –Fort Worth).\nRun by Chickadee Lane Estate And Moving Sales\, LLC.\nOr
+ iginal listing (EstateSales.org): https://estatesales.org/estate-sales/tx
+ /dallas/75229/dazzling-in-dallas-25-off-2473573\nSale page on The Dig: ht
+ tps://rheinze08.github.io/the-dig-web/sale/dcc8fa3388f97b80/\nConfirm the
+  address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/dcc8fa3388f97b80/
+END:VEVENT
+END:VCALENDAR

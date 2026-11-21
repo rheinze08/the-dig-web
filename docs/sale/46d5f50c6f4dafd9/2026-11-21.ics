@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:46d5f50c6f4dafd9-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T213000Z
+SUMMARY:A and S Estate Sales....Eclectic sale to say the least....
+LOCATION:3318 Deerwood lane\, Missouri City\, TX 77459
+DESCRIPTION:Hours: 9 AM – 3:30 PM (Saturday\, November 21\, local to Hou
+ ston).\nRun by A And S Estate Sales.\nOriginal listing (EstateSales.net):
+  https://www.estatesales.net/TX/Missouri-City/77459/5164497\nSale page on
+  The Dig: https://rheinze08.github.io/the-dig-web/sale/46d5f50c6f4dafd9/\
+ nConfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/46d5f50c6f4dafd9/
+END:VEVENT
+END:VCALENDAR

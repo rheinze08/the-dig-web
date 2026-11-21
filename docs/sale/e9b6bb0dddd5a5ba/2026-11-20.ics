@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e9b6bb0dddd5a5ba-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261120T150000Z
+DTEND:20261120T220000Z
+SUMMARY:Monticello Estate Sale
+LOCATION:3766 W. 6th Street\, Fort Worth\, TX 76107
+DESCRIPTION:Hours: 9 AM – 4 PM (Friday\, November 20\, local to Dallas
+ –Fort Worth).\nOriginal listing (EstateSales.org): https://estatesales.
+ org/estate-sales/tx/fort-worth/76107/estate-sale-monticello-3766-w-247444
+ 0\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/e9b
+ 6bb0dddd5a5ba/\nConfirm the address and hours on the original listing bef
+ ore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/e9b6bb0dddd5a5ba/
+END:VEVENT
+END:VCALENDAR

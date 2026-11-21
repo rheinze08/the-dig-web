@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e38fcaaf6994ecf3-2026-12-05@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261205T150000Z
+DTEND:20261205T200000Z
+SUMMARY:Windcrest Accumulator Sale
+LOCATION:San Antonio\, TX 78239 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 2 PM (Saturday\, December 5\, local to San Ant
+ onio).\nRun by Crystal's Estate Sales.\nOriginal listing (EstateSales.net
+ ): https://www.estatesales.net/TX/San-Antonio/78239/5155791\nSale page on
+  The Dig: https://rheinze08.github.io/the-dig-web/sale/e38fcaaf6994ecf3/\
+ nConfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/e38fcaaf6994ecf3/
+END:VEVENT
+END:VCALENDAR

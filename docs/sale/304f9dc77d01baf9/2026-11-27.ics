@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:304f9dc77d01baf9-2026-11-27@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261127T150000Z
+DTEND:20261127T220000Z
+SUMMARY:~Incredible Denton Estate Sale! More info coming soon!
+LOCATION:10500 Cascade Dr\, Denton\, TX 76207
+DESCRIPTION:Hours: 9 AM – 4 PM (Friday\, November 27\, local to Dallas
+ –Fort Worth).\nRun by DFW ESTATE LIQUIDATORS.\nOriginal listing (Estate
+ Sales.org): https://estatesales.org/estate-sales/tx/denton-/76207/incredi
+ ble-denton-estate-sale-more-2468441\nSale page on The Dig: https://rheinz
+ e08.github.io/the-dig-web/sale/304f9dc77d01baf9/\nConfirm the address and
+  hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/304f9dc77d01baf9/
+END:VEVENT
+END:VCALENDAR

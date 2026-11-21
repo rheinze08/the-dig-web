@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c86fcdbfabf548b5-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T220000Z
+SUMMARY:Curated Collections in Carrollton 25% OFF
+LOCATION:2813 Carriage Ln\, Carrollton\, TX 75006
+DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to Dallas
+ –Fort Worth).\nRun by Chickadee Lane Estate And Moving Sales\, LLC.\nOr
+ iginal listing (EstateSales.org): https://estatesales.org/estate-sales/tx
+ /carrollton/75006/curated-collections-in-carrollton-2473766\nSale page on
+  The Dig: https://rheinze08.github.io/the-dig-web/sale/c86fcdbfabf548b5/\
+ nConfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/c86fcdbfabf548b5/
+END:VEVENT
+END:VCALENDAR

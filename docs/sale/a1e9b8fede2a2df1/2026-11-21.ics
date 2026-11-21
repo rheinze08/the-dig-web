@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a1e9b8fede2a2df1-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T230000Z
+SUMMARY:2ND Chance NRHills 50% off
+LOCATION:5732 Havana Dr\, North Richland Hills\, TX 76180
+DESCRIPTION:Hours: 9 AM – 5 PM (Saturday\, November 21\, local to Dallas
+ –Fort Worth).\nOriginal listing (EstateSales.org): https://estatesales.
+ org/estate-sales/tx/fort-worth/76180/2nd-chance-nrhills-sale-starting-247
+ 4452\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/
+ a1e9b8fede2a2df1/\nConfirm the address and hours on the original listing 
+ before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/a1e9b8fede2a2df1/
+END:VEVENT
+END:VCALENDAR

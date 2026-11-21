@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6a7c87e7b68ace06-2026-11-19@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261119T160000Z
+DTEND:20261119T210000Z
+SUMMARY:50% OFF!! Helping Hands in Plano
+LOCATION:1808 Lake Crest Ln\, Plano\, TX 75023
+DESCRIPTION:Hours: 10 AM – 3 PM (Thursday\, November 19\, local to Dalla
+ s–Fort Worth).\nRun by Helping Hands By Ms.kay.\nOriginal listing (Esta
+ teSales.net): https://www.estatesales.net/TX/Plano/75023/5160399\nSale pa
+ ge on The Dig: https://rheinze08.github.io/the-dig-web/sale/6a7c87e7b68ac
+ e06/\nConfirm the address and hours on the original listing before you tr
+ avel.
+URL:https://rheinze08.github.io/the-dig-web/sale/6a7c87e7b68ace06/
+END:VEVENT
+END:VCALENDAR

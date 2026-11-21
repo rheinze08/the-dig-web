@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cac6c44b629d8beb-2026-11-22@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261122T160000Z
+DTEND:20261122T220000Z
+SUMMARY:Galleria Area Mansion Estate Sale TREASURES for ALL!
+LOCATION:Houston\, TX 77027 (Address releases Friday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 4 PM (Sunday\, November 22\, local to Houston
+ ).\nRun by Margie Beegle Sales.\nOriginal listing (EstateSales.net): http
+ s://www.estatesales.net/TX/Houston/77027/5149494\nSale page on The Dig: h
+ ttps://rheinze08.github.io/the-dig-web/sale/cac6c44b629d8beb/\nConfirm th
+ e address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/cac6c44b629d8beb/
+END:VEVENT
+END:VCALENDAR

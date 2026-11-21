@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:09eaa9f45509e3de-2026-11-27@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261127T150000Z
+DTEND:20261127T220000Z
+SUMMARY:Plano Remodeling Spectacular Black Friday Weekend
+LOCATION:Plano\, TX 75023 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 4 PM (Friday\, November 27\, local to Dallas
+ –Fort Worth).\nRun by Treasures Once More\, LLC.\nOriginal listing (Est
+ ateSales.net): https://www.estatesales.net/TX/Plano/75023/5162430\nSale p
+ age on The Dig: https://rheinze08.github.io/the-dig-web/sale/09eaa9f45509
+ e3de/\nConfirm the address and hours on the original listing before you t
+ ravel.
+URL:https://rheinze08.github.io/the-dig-web/sale/09eaa9f45509e3de/
+END:VEVENT
+END:VCALENDAR

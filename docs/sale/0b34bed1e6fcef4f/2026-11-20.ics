@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0b34bed1e6fcef4f-2026-11-20@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Estate Sale
+LOCATION:1310 Briarmeade Dr\, Duncanville\, TX
+DESCRIPTION:Hours: Hours not listed (Friday\, November 20\, local to Dalla
+ s–Fort Worth).\nOriginal listing (Craigslist Dallas / Fort Worth): http
+ s://www.craigslist.org/view/d/duncanville-estate-sale/8QqtAFZTibPxq7bq8fA
+ Fk8\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/0
+ b34bed1e6fcef4f/\nConfirm the address and hours on the original listing b
+ efore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/0b34bed1e6fcef4f/
+END:VEVENT
+END:VCALENDAR

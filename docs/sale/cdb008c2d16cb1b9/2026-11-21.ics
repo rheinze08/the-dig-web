@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cdb008c2d16cb1b9-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T200000Z
+SUMMARY:Fox Run
+LOCATION:16506 Martins Ferry\, San Antonio\, TX 78247
+DESCRIPTION:Hours: 9 AM – 2 PM (Saturday\, November 21\, local to San An
+ tonio).\nRun by Crystal's Estate Sales.\nOriginal listing (EstateSales.ne
+ t): https://www.estatesales.net/TX/San-Antonio/78247/5155767\nSale page o
+ n The Dig: https://rheinze08.github.io/the-dig-web/sale/cdb008c2d16cb1b9/
+ \nConfirm the address and hours on the original listing before you travel
+ .
+URL:https://rheinze08.github.io/the-dig-web/sale/cdb008c2d16cb1b9/
+END:VEVENT
+END:VCALENDAR

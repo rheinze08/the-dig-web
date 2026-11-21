@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2fea399087f36c66-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T150000Z
+DTEND:20261121T210000Z
+SUMMARY:Christmas Gift Treasure Hunt! Cowboys\, Fazzino Art\, Vintage Toys
+ \, Gaming & More
+LOCATION:13402 Montview Dr\, Austin\, TX 78732
+DESCRIPTION:Hours: 9 AM – 3 PM (Saturday\, November 21\, local to Austin
+ ).\nRun by Heirloom Harvesters.\nOriginal listing (EstateSales.net): http
+ s://www.estatesales.net/TX/Austin/78732/5160939\nSale page on The Dig: ht
+ tps://rheinze08.github.io/the-dig-web/sale/2fea399087f36c66/\nConfirm the
+  address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/2fea399087f36c66/
+END:VEVENT
+END:VCALENDAR

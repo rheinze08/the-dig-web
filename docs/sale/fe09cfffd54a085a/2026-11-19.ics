@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fe09cfffd54a085a-2026-11-19@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261119T160000Z
+DTEND:20261119T210000Z
+SUMMARY:Emergency PopUp Estate Sale
+LOCATION:3119 SilverSprings Dr.\, La Porte\, TX 77571
+DESCRIPTION:Hours: 10 AM – 3 PM (Thursday\, November 19\, local to Houst
+ on).\nRun by Family Tree Estate Sales.\nOriginal listing (EstateSales.net
+ ): https://www.estatesales.net/TX/La-Porte/77571/5157048\nSale page on Th
+ e Dig: https://rheinze08.github.io/the-dig-web/sale/fe09cfffd54a085a/\nCo
+ nfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/fe09cfffd54a085a/
+END:VEVENT
+END:VCALENDAR

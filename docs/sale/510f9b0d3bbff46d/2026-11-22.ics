@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:510f9b0d3bbff46d-2026-11-22@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261122T180000Z
+DTEND:20261122T210000Z
+SUMMARY:MASSIVE ESTATE SALE IN NOSTALGIC NORTH DENTON RANCH HOME PACKED FO
+ R NEARLY 60 YEARS!
+LOCATION:4109 COOPER CREEK RD\, Denton\, TX 76208
+DESCRIPTION:Hours: 12 PM – 3 PM (Sunday\, November 22\, local to Dallas
+ –Fort Worth).\nRun by Brent's Estate Sales.\nOriginal listing (EstateSa
+ les.net): https://www.estatesales.net/TX/Denton/76208/5157231\nSale page 
+ on The Dig: https://rheinze08.github.io/the-dig-web/sale/510f9b0d3bbff46d
+ /\nConfirm the address and hours on the original listing before you trave
+ l.
+URL:https://rheinze08.github.io/the-dig-web/sale/510f9b0d3bbff46d/
+END:VEVENT
+END:VCALENDAR

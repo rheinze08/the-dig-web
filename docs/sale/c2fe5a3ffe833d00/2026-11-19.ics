@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c2fe5a3ffe833d00-2026-11-19@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261119T150000Z
+DTEND:20261119T210000Z
+SUMMARY:50% OFF SATURDAY!!! Garland Time Capsule Estate Sale
+LOCATION:1709 Douglas Dr\, Garland\, TX 75041
+DESCRIPTION:Hours: 9 AM – 3 PM (Thursday\, November 19\, local to Dallas
+ –Fort Worth).\nRun by Stardust Antiques & Estate Sales.\nOriginal listi
+ ng (EstateSales.net): https://www.estatesales.net/TX/Garland/75041/513342
+ 0\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/c2f
+ e5a3ffe833d00/\nConfirm the address and hours on the original listing bef
+ ore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/c2fe5a3ffe833d00/
+END:VEVENT
+END:VCALENDAR

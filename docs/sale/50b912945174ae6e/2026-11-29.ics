@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:50b912945174ae6e-2026-11-29@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261129T170000Z
+DTEND:20261129T220000Z
+SUMMARY:A Sweet Dripping Springs Casita! Appt Day Nov 29
+LOCATION:Dripping Springs\, Dripping Springs\, TX 78620
+DESCRIPTION:Hours: 11 AM – 4 PM (Sunday\, November 29\, local to Austin)
+ .\nRun by Golden Soul Estate Sales.\nOriginal listing (EstateSales.org): 
+ https://estatesales.org/estate-sales/tx/dripping-springs/78620/a-sweet-dr
+ ipping-springs-casita-2474633\nSale page on The Dig: https://rheinze08.gi
+ thub.io/the-dig-web/sale/50b912945174ae6e/\nConfirm the address and hours
+  on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/50b912945174ae6e/
+END:VEVENT
+END:VCALENDAR

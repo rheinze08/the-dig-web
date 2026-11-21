@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b26fbcc42db32da0-2026-11-22@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261122T163000Z
+DTEND:20261123T000000Z
+SUMMARY:50 % OFF L & J Estate Sale
+LOCATION:1046 Plateau Drive\, Duncanville\, TX 75116
+DESCRIPTION:Hours: 10:30 AM – 6 PM (Sunday\, November 22\, local to Dall
+ as–Fort Worth).\nRun by L & J Estate Sales\, Llc..\nOriginal listing (E
+ stateSales.net): https://www.estatesales.net/TX/Duncanville/75116/5123247
+ \nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/b26f
+ bcc42db32da0/\nConfirm the address and hours on the original listing befo
+ re you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/b26fbcc42db32da0/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:89ab26f05b515577-2026-11-21@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261121T160000Z
+DTEND:20261121T210000Z
+SUMMARY:Lovely Pieces in Circle C!
+LOCATION:7412 Doswell Ln\, Austin\, TX 78739
+DESCRIPTION:Hours: 10 AM – 3 PM (Saturday\, November 21\, local to Austi
+ n).\nRun by Golden Soul Estate Sales.\nOriginal listing (EstateSales.org)
+ : https://estatesales.org/estate-sales/tx/austin/78739/lovely-pieces-in-c
+ ircle-c-2472679\nSale page on The Dig: https://rheinze08.github.io/the-di
+ g-web/sale/89ab26f05b515577/\nConfirm the address and hours on the origin
+ al listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/89ab26f05b515577/
+END:VEVENT
+END:VCALENDAR

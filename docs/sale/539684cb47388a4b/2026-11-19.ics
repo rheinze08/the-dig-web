@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:539684cb47388a4b-2026-11-19@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261119T150000Z
+DTEND:20261119T220000Z
+SUMMARY:Vintage Sale on Salado
+LOCATION:8116 Salado Springs\, Plano\, TX 75025
+DESCRIPTION:Hours: 9 AM – 4 PM (Thursday\, November 19\, local to Dallas
+ –Fort Worth).\nRun by Wild Hautzi.\nOriginal listing (EstateSales.net):
+  https://www.estatesales.net/TX/Plano/75025/5152056\nSale page on The Dig
+ : https://rheinze08.github.io/the-dig-web/sale/539684cb47388a4b/\nConfirm
+  the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/539684cb47388a4b/
+END:VEVENT
+END:VCALENDAR

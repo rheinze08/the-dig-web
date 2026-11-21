@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2ee5949af932c0fa-2026-11-18@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261118T150000Z
+DTEND:20261118T230000Z
+SUMMARY:Massive Germany - Lladro - Murano - Clocks - Bronzes
+LOCATION:7406 MidCrown Dr\, San Antonio\, TX 78218
+DESCRIPTION:Hours: 9 AM – 5 PM (Wednesday\, November 18\, local to San A
+ ntonio).\nRun by About Face Estate Sales Service LLC.\nOriginal listing (
+ EstateSales.net): https://www.estatesales.net/TX/San-Antonio/78218/515649
+ 0\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/2ee
+ 5949af932c0fa/\nConfirm the address and hours on the original listing bef
+ ore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/2ee5949af932c0fa/
+END:VEVENT
+END:VCALENDAR

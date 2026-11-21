@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8a2bec391b93540d-2026-11-19@rheinze08.github.io
+DTSTAMP:20261121T043456Z
+DTSTART:20261119T150000Z
+DTEND:20261119T220000Z
+SUMMARY:Huge Warehouse Sale Collectibles Antiques Wizard OZ Comics Die Cas
+ t Hallmark Xmas Tools Cow Stuff
+LOCATION:3903 Eisenhauer\, San Antonio\, TX 78218
+DESCRIPTION:Hours: 9 AM – 4 PM (Thursday\, November 19\, local to San An
+ tonio).\nRun by Alamo City Mercantale.\nOriginal listing (EstateSales.net
+ ): https://www.estatesales.net/TX/San-Antonio/78218/5158599\nSale page on
+  The Dig: https://rheinze08.github.io/the-dig-web/sale/8a2bec391b93540d/\
+ nConfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/8a2bec391b93540d/
+END:VEVENT
+END:VCALENDAR
