@@ -192,6 +192,67 @@ h3 { font-size: 1.3rem; line-height: 1.2; letter-spacing: -.02em; }
 .prose a:not(.button) { font-weight: 650; text-underline-offset: 3px; text-decoration-thickness: 1px; }
 .notice { padding: 12px 15px; border-left: 3px solid var(--accent); background: #fff4e3; border-radius: 0 6px 6px 0; }
 
+/* Preview cities */
+[hidden] { display: none !important; }
+.tag-preview { background: #fbe3c2; color: #74300f; }
+h2 .tag, .region-name .tag { margin-left: 6px; font-family: "DM Sans", Arial, sans-serif; letter-spacing: 0; vertical-align: .25em; }
+.preview-banner { margin-bottom: 22px; padding: 12px 15px; border-left: 3px solid var(--accent); background: #fff4e3; border-radius: 0 6px 6px 0; max-width: 62rem; }
+
+/* Regions */
+.mast nav a[aria-current] { text-decoration: underline; text-decoration-color: var(--sand); text-decoration-thickness: 2px; text-underline-offset: 6px; }
+.regions-strip { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; padding: 14px 18px; margin-bottom: 30px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); }
+.regions-strip h2 { font: 700 .8rem/1.4 "DM Sans", Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.regions-strip ul { display: flex; flex-wrap: wrap; gap: 8px 10px; flex: 1; }
+.regions-strip li a { display: flex; align-items: baseline; gap: 8px; padding: 6px 12px; border: 1px solid var(--line); border-radius: 6px; text-decoration: none; }
+.regions-strip li a:hover { border-color: var(--ink); }
+.regions-strip strong { font: 400 1.2rem/1.2 var(--display); letter-spacing: -.02em; }
+.regions-strip li span:last-child { font-size: .9rem; color: var(--muted); }
+.regions-strip .tag { margin-left: 0; }
+.regions-head { padding-bottom: 6px; }
+.regions-head .lede, .search-head .lede { margin-top: 14px; }
+.region-block { margin-top: 34px; padding-top: 26px; border-top: 1px solid var(--line); }
+.region-block > p { margin-top: 8px; max-width: 46rem; color: #33493d; }
+.region-block > .empty { margin-top: 16px; }
+.region-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 12px; margin-top: 18px; }
+.region a { display: flex; flex-direction: column; gap: 4px; height: 100%; padding: 18px 20px; border: 1px solid var(--line); border-top: 3px solid var(--ink); border-radius: 6px; background: var(--card); text-decoration: none; }
+.region.is-preview a { border-top-color: #cc966b; }
+.region a:hover { border-color: var(--ink); }
+.region-name strong { font: 400 1.75rem/1.15 var(--display); letter-spacing: -.03em; }
+.region-count { margin-top: 8px; color: #33493d; }
+.region-count b { display: block; font: 400 3rem/1 var(--display); letter-spacing: -.04em; color: var(--ink); }
+.region-meta { font-size: .9rem; color: var(--muted); }
+.region-go { display: flex; align-items: center; gap: 6px; margin-top: auto; padding-top: 12px; font-weight: 650; }
+.region a:hover .region-go { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.region-go .icon { width: 1rem; height: 1rem; }
+
+/* Search */
+.search-form { margin-top: 22px; }
+.search-form label { display: block; margin-bottom: 6px; font-size: .9rem; font-weight: 650; }
+.search-box { display: flex; gap: 10px; max-width: 46rem; }
+.split .search-box { margin-top: 14px; }
+.search-box input { flex: 1; min-width: 0; min-height: 48px; padding: 10px 14px; border: 1.5px solid var(--ink); border-radius: 6px; background: #fff; color: var(--ink); font: inherit; font-size: 1.05rem; }
+.search-box input::placeholder { color: #6d7b71; }
+.search-box .button { cursor: pointer; font: inherit; font-weight: 650; }
+.split .search-box .button { margin-top: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.chip { min-height: 38px; padding: 6px 13px; border: 1.5px solid #9aa897; border-radius: 999px; background: var(--card); color: var(--ink); font: inherit; font-size: .92rem; font-weight: 650; cursor: pointer; }
+.chip:hover:not(:disabled) { border-color: var(--ink); }
+.chip span { margin-left: 3px; font-size: .8rem; font-weight: 700; color: var(--muted); }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: #fffdf3; }
+.chip[aria-pressed="true"] span { color: #d5ddcf; }
+.chip:disabled { border-style: dashed; color: #7a857c; cursor: default; }
+.chip-clear { border-color: transparent; background: transparent; text-decoration: underline; text-underline-offset: 3px; }
+.search-group { margin-top: 30px; }
+.search-group h2 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.search-group h2 a { text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.group-count { font: 600 .9rem/1.4 "DM Sans", Arial, sans-serif; letter-spacing: 0; color: var(--muted); }
+.hit-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 8px; margin-top: 12px; }
+.hit-list .sale { margin-bottom: 0; }
+.hit .place .tag { margin-left: 2px; }
+.cats { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+.cat { padding: 1px 8px; border-radius: 10px; background: #e6ebdf; color: #2c4a39; font-size: .76rem; font-weight: 700; line-height: 1.5; }
+#no-results { margin-top: 18px; }
+
 /* Footer */
 .foot { background: var(--ink); color: #e9ece2; border-top: 3px solid #cc966b; font-size: .93rem; }
 .foot-inner { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr); gap: 26px clamp(24px, 5vw, 72px); padding-block: 34px 26px; }
@@ -231,9 +292,14 @@ h3 { font-size: 1.3rem; line-height: 1.2; letter-spacing: -.02em; }
   .legend { font-size: .8rem; gap: 4px 10px; }
   .sessions td { white-space: normal; }
   h2 { font-size: 1.55rem; }
+  .search-box { flex-wrap: wrap; }
+  .search-box input { flex: 1 1 100%; }
+  .search-box .button { flex: 1 1 100%; justify-content: center; }
+  .hit-list { grid-template-columns: 1fr; }
+  .region-count b { font-size: 2.5rem; }
 }
 @media print {
-  .mast nav, .foot, .map-pane, .sale-map, .tabs, .skip { display: none; }
+  .mast nav, .foot, .map-pane, .sale-map, .tabs, .skip, .search-form { display: none; }
   .results { display: block; }
   .sale-list { max-height: none; overflow: visible; }
 }

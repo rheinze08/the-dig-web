@@ -6,11 +6,15 @@
     {
       "slug": "houston",
       "name": "Houston",
+      "status": "live",
       "timeZone": "America/Chicago",
       "feedUrl": "https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/houston/sales.json",
       "collectedAt": "2026-11-21T01:26:19.206Z",
       "sales": 28,
+      "indexCount": 28,
+      "cleanRuns": null,
       "weekendSales": 22,
+      "salePages": 28,
       "builtFor": "2026-11-20",
       "weekend": [
         "2026-11-20",
@@ -18,7 +22,34 @@
       ]
     }
   ],
+  "offSite": [
+    {
+      "slug": "dallas-fort-worth",
+      "name": "Dallas–Fort Worth",
+      "reason": "no feed yet"
+    },
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "reason": "no feed yet"
+    },
+    {
+      "slug": "san-antonio",
+      "name": "San Antonio",
+      "reason": "no feed yet"
+    }
+  ],
   "salePages": 28,
+  "search": {
+    "page": "https://rheinze08.github.io/the-dig-web/search/",
+    "dataFile": "https://rheinze08.github.io/the-dig-web/search/data.json",
+    "records": 28,
+    "combinedFeed": "https://raw.githubusercontent.com/rheinze08/the-dig-data/main/search.json",
+    "combinedFeedPublished": false,
+    "combinedFeedProblem": null,
+    "categoriesFromCombinedFeed": 0,
+    "categoriesFromTitles": 28
+  },
   "app": {
     "tag": "v0.2.0",
     "url": "https://github.com/rheinze08/the-dig-data/releases/download/v0.2.0/The-Dig-v0.2.0.apk",

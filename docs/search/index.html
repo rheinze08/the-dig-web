@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search estate sales across every city | The Dig</title>
+<meta name="description" content="Search 28 estate sales across Houston by keyword or category: tools, furniture, vinyl and records, jewelry, collectibles and more. Every result links to its sale page.">
+<link rel="canonical" href="https://rheinze08.github.io/the-dig-web/search/">
+<meta name="theme-color" content="#233e30">
+<meta property="og:site_name" content="The Dig">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Search estate sales across every city">
+<meta property="og:description" content="Search 28 estate sales across Houston by keyword or category: tools, furniture, vinyl and records, jewelry, collectibles and more. Every result links to its sale page.">
+<meta property="og:url" content="https://rheinze08.github.io/the-dig-web/search/">
+<meta property="og:image" content="https://rheinze08.github.io/the-dig-web/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Dig. Estate sales on one map.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/the-dig-web/assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/the-dig-web/assets/icon-180.png">
+<link rel="preload" href="/the-dig-web/assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/the-dig-web/assets/fonts/dm-serif-text.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/the-dig-web/assets/site.css">
+
+</head>
+<body>
+<svg class="symbols" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="16" rx="2"/><path d="M7.5 3v4m9-4v4m-13 3.5h17"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7m-8 0h8v8"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m4 7.5 8 6 8-6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></symbol>
+</svg>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast">
+  <div class="frame mast-inner">
+    <a class="brand" href="/the-dig-web/" aria-label="The Dig home"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="m7 26 13-13 7 7-13 13-9 2z"/><path d="m22 15 7-7m-3-2 3-3 8 8-3 3zM9 30l10-10"/></svg>The Dig<span>.</span></a>
+    <nav aria-label="Site">
+      <a href="/the-dig-web/houston/">Houston</a><a href="/the-dig-web/houston/this-weekend/">This weekend</a><a href="/the-dig-web/regions/">Regions</a><a href="/the-dig-web/search/" aria-current="page">Search</a><a href="/the-dig-web/list-your-sale/">List your sale</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<div class="frame">
+  <div class="search-head">
+    <h1>Search every city</h1>
+    <p class="lede">One search across every city on The Dig. Today that is Houston. Type a word, pick a category, or both.</p>
+  </div>
+  <form class="search-form" id="search-form" role="search" action="/the-dig-web/search/" method="get">
+    <label for="q">Search sale titles and companies</label>
+    <div class="search-box">
+      <input type="search" id="q" name="q" placeholder="A word from a title or a company name" autocomplete="off" spellcheck="false" enterkeyhint="search">
+      <button class="button button-primary" type="submit"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>Search</button>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Categories">
+      <button type="button" class="chip" data-cat="tools" aria-pressed="false" disabled>Tools <span>0</span></button>
+      <button type="button" class="chip" data-cat="furniture" aria-pressed="false">Furniture <span>2</span></button>
+      <button type="button" class="chip" data-cat="vinyl-records" aria-pressed="false" disabled>Vinyl &amp; records <span>0</span></button>
+      <button type="button" class="chip" data-cat="jewelry" aria-pressed="false" disabled>Jewelry <span>0</span></button>
+      <button type="button" class="chip" data-cat="collectibles" aria-pressed="false">Collectibles <span>4</span></button>
+      <button type="button" class="chip" data-cat="vehicles" aria-pressed="false" disabled>Vehicles <span>0</span></button>
+      <button type="button" class="chip" data-cat="kitchen" aria-pressed="false" disabled>Kitchen <span>0</span></button>
+      <button type="button" class="chip" data-cat="clothing" aria-pressed="false" disabled>Clothing <span>0</span></button>
+      <button type="button" class="chip" data-cat="books" aria-pressed="false" disabled>Books <span>0</span></button>
+      <button type="button" class="chip" data-cat="art" aria-pressed="false">Art <span>2</span></button>
+      <button type="button" class="chip" data-cat="electronics" aria-pressed="false" disabled>Electronics <span>0</span></button>
+      <button type="button" class="chip" data-cat="toys-games" aria-pressed="false" disabled>Toys &amp; games <span>0</span></button>
+      <button type="button" class="chip chip-clear" id="clear-filters" hidden>Clear</button>
+    </div>
+  </form>
+  <p class="count" id="result-count" role="status" data-total="28" data-cities="1"><strong>28</strong> sales across 1 city.</p>
+  <p class="fresh" id="search-scope">Search covers listing titles and companies today — searching inside photos is coming later. Categories are read from each listing’s title, so a sale can be missing from a category it belongs in.</p>
+  <p class="note" id="search-status" hidden>Search could not load its data. Every sale is still listed below.</p>
+  <noscript><p class="note">Filtering needs JavaScript. Every sale is listed below, grouped by city.</p></noscript>
+  <p class="empty" id="no-results" hidden>No sale matches. Try a shorter word, or clear a category.</p>
+  <div id="results" data-source="/the-dig-web/search/data.json">
+    <section class="search-group" id="results-houston" data-city="houston" data-status="live" data-total="28" data-time-zone="America/Chicago" data-built-for="2026-11-20" aria-labelledby="group-houston">
+      <h2 id="group-houston"><a href="/the-dig-web/houston/">Houston</a> <span class="group-count">28 sales</span></h2>
+      <ol class="hit-list">
+      <li class="sale hit" data-id="917efdb9740a5300" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/917efdb9740a5300/">
+          <span class="sale-text">
+            <span class="dates">Wed, Nov 18 – Sat, Nov 21</span>
+            <span class="sale-title">A Lifetime of Memories, Beautifully Collected: Decor, Beatles, Star Wars &amp; More!</span>
+            <span class="company">Virtue Estate Sales</span>
+            <span class="place">Houston</span>
+            <span class="cats"><span class="cat">Collectibles</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="297bcc2d690b4b51" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/297bcc2d690b4b51/">
+          <span class="sale-text">
+            <span class="dates">Wed, Nov 18 – Sat, Nov 21</span>
+            <span class="sale-title">Warehouse sale</span>
+            <span class="company">C &amp; M Estate Sales</span>
+            <span class="place">Houston · Alvin</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="fe09cfffd54a085a" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/fe09cfffd54a085a/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sat, Nov 21</span>
+            <span class="sale-title">Emergency PopUp Estate Sale</span>
+            <span class="company">Family Tree Estate Sales</span>
+            <span class="place">Houston · La Porte</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="e1946804b0f8f3fd" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/e1946804b0f8f3fd/">
+          <span class="sale-text">
+            <span class="dates">Thu, Nov 19 – Sun, Nov 22</span>
+            <span class="sale-title">Fabulous Heights Sale- Antique, Mid-Century, Architecturale &amp; Historic Home</span>
+            <span class="company">Treasure Hunt Auction Co.</span>
+            <span class="place">Houston</span>
+            <span class="cats"><span class="cat">Furniture</span><span class="cat">Collectibles</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="7421d47c515af257" data-last="2026-11-23">
+        <a href="/the-dig-web/sale/7421d47c515af257/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Mon, Nov 23</span>
+            <span class="sale-title">| 25%-50% OFF The Grand Estate Extravaganza High-End Furniture &amp; One-of-a-Kind Finds from River Oaks</span>
+            <span class="company">Sharp Family Estate Sales</span>
+            <span class="place">Houston</span>
+            <span class="cats"><span class="cat">Furniture</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="770f8455c94feb76" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/770f8455c94feb76/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">50% Off Everything! Houston Estate Sale!</span>
+            <span class="company">Elite Estate Sales Inc</span>
+            <span class="place">Houston</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="5ec58abcc986b831" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/5ec58abcc986b831/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">60% OFF SALE Blowout</span>
+            <span class="company">Kingdom Realty Estate Sales</span>
+            <span class="place">Houston · Missouri City</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="46d5f50c6f4dafd9" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/46d5f50c6f4dafd9/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">A and S Estate Sales....Eclectic sale to say the least....</span>
+            <span class="company">A And S Estate Sales</span>
+            <span class="place">Houston · Missouri City</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="780dc1aaf34cab51" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/780dc1aaf34cab51/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Collector’s Corner on Camden by Heritage Estate Sales</span>
+            <span class="company">Heritage Estate Sales</span>
+            <span class="place">Houston · Pasadena</span>
+            <span class="cats"><span class="cat">Collectibles</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="b5c48691b6fb568f" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/b5c48691b6fb568f/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Estate Sale (Enret at Guard Shack 2662 Admiral)</span>
+            <span class="company">Family Tree Estate Sales</span>
+            <span class="place">Houston · League City</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="66c769df10b69e83" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/66c769df10b69e83/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Friendswoood Estate Sale!!!</span>
+            <span class="company">J&amp;a Findings</span>
+            <span class="place">Houston · Friendswood</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="a9e67e831f781fda" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/a9e67e831f781fda/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Pearland estate sale</span>
+            <span class="company">Yolanda&#39;s Estate Sales</span>
+            <span class="place">Houston · Pearland</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="e74c90b9852b95c2" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/e74c90b9852b95c2/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">Texas City Downsizing Estate Sale</span>
+            <span class="company">Patrice&#39;s Estate Sales</span>
+            <span class="place">Houston · Texas City</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="823b4cd74da69572" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/823b4cd74da69572/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">West University Estate Sale!</span>
+            <span class="company">Dominique Kendall Estate Sales</span>
+            <span class="place">Houston · West University Place</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="1552ae954159c57f" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/1552ae954159c57f/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sun, Nov 22</span>
+            <span class="sale-title">Willow Meadows Estate Sale</span>
+            <span class="company">Yolanda&#39;s Estate Sales</span>
+            <span class="place">Houston</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="c63b83155d9796a0" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/c63b83155d9796a0/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 20 – Sat, Nov 21</span>
+            <span class="sale-title">WOODSIDE ESTATE SALE - 610 &amp; Stella Link</span>
+            <span class="company">Two Moms Estate Sales</span>
+            <span class="place">Houston</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="fbcf939ac65da22f" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/fbcf939ac65da22f/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21</span>
+            <span class="sale-title">Estate Sale</span>
+            
+            <span class="place">Houston · Kemah</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="8bd880d82eda54d5" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/8bd880d82eda54d5/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">Estate Sale by Family Tree Estates</span>
+            <span class="company">Family Tree Estate Sales</span>
+            <span class="place">Houston</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="cac6c44b629d8beb" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/cac6c44b629d8beb/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">Galleria Area Mansion Estate Sale TREASURES for ALL!</span>
+            <span class="company">Margie Beegle Sales</span>
+            <span class="place">Houston</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="cde9db70e3835f53" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/cde9db70e3835f53/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21</span>
+            <span class="sale-title">HUGE Garage &amp; Moving Sale with Hundreds of Items</span>
+            
+            <span class="place">Houston · Friendswood</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="2310faa0e6a1f7db" data-last="2026-11-21">
+        <a href="/the-dig-web/sale/2310faa0e6a1f7db/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21</span>
+            <span class="sale-title">Huge...Friendswood Garage &amp; Moving Sale...Hundreds of Items New &amp; Used</span>
+            
+            <span class="place">Houston · Friendswood</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="131cf95e8fb2e961" data-last="2026-11-22">
+        <a href="/the-dig-web/sale/131cf95e8fb2e961/">
+          <span class="sale-text">
+            <span class="dates">Sat, Nov 21 – Sun, Nov 22</span>
+            <span class="sale-title">THE BELLAIRE COLLECTION – An Extraordinary Estate of Fine Art, Antiques &amp; Global Treasures</span>
+            <span class="company">River Oaks Estate Sales</span>
+            <span class="place">Houston · Bellaire</span>
+            <span class="cats"><span class="cat">Collectibles</span><span class="cat">Art</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="510a1b9fb19e4d83" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/510a1b9fb19e4d83/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">Estate Sale by Family Tree Estates</span>
+            <span class="company">Family Tree Estate Sales</span>
+            <span class="place">Houston · Kemah</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="bb9090b41a98fa85" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/bb9090b41a98fa85/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">Estate Sale by Family Tree Estates</span>
+            <span class="company">Family Tree Estate Sales</span>
+            <span class="place">Houston</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="c413e5c1a71b0b80" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/c413e5c1a71b0b80/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">Montrose Museum Quality Estate!</span>
+            <span class="company">Aloha Estate Sales Of Houston</span>
+            <span class="place">Houston</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="60ec3b8089dbba26" data-last="2026-11-29">
+        <a href="/the-dig-web/sale/60ec3b8089dbba26/">
+          <span class="sale-text">
+            <span class="dates">Fri, Nov 27 – Sun, Nov 29</span>
+            <span class="sale-title">THANKSGIVING PICKER ESTATE</span>
+            <span class="company">Family Tree Estate Sales</span>
+            <span class="place">Houston · Santa Fe</span>
+            
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="2a7a411e458e6dad" data-last="2026-12-05">
+        <a href="/the-dig-web/sale/2a7a411e458e6dad/">
+          <span class="sale-text">
+            <span class="dates">Wed, Dec 2 – Sat, Dec 5</span>
+            <span class="sale-title">A World of Wonder: A Legacy of Love, Art and Exploration</span>
+            <span class="company">Virtue Estate Sales</span>
+            <span class="place">Houston</span>
+            <span class="cats"><span class="cat">Art</span></span>
+          </span>
+        </a>
+      </li>
+      <li class="sale hit" data-id="59e88589a519be1a" data-last="2026-12-06">
+        <a href="/the-dig-web/sale/59e88589a519be1a/">
+          <span class="sale-text">
+            <span class="dates">Thu, Dec 3 – Sun, Dec 6</span>
+            <span class="sale-title">THE BEST ESTATE SALE before CHRISTMAS Ever!!! by GET RID OF IT...Estate Services - MUST SEE!!</span>
+            <span class="company">Get Rid Of It</span>
+            <span class="place">Houston · Friendswood</span>
+            
+          </span>
+        </a>
+      </li>
+      </ol>
+    </section>
+  </div>
+</div>
+</main>
+<footer class="foot">
+  <div class="frame foot-inner">
+    <div class="foot-about">
+      <p class="foot-brand">The Dig<span>.</span></p>
+      <p>The Dig pools estate sales from the public listing boards into one map per city. Facts shown, always linked back to the source listing.</p>
+      <p>The Dig does not run these sales. Check the original listing before you travel.</p>
+    </div>
+    <div>
+      <h2>Regions</h2>
+      <ul>
+          <li><a href="/the-dig-web/houston/">Estate sales in Houston</a></li>
+          <li><a href="/the-dig-web/regions/">All regions</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>The Dig</h2>
+      <ul>
+        <li><a href="/the-dig-web/search/">Search every city</a></li>
+        <li><a href="https://github.com/rheinze08/the-dig-data/releases/download/v0.2.0/The-Dig-v0.2.0.apk">Android app (v0.2.0)</a></li>
+        <li><a href="/the-dig-web/list-your-sale/">List your sale</a></li>
+        <li><a href="/the-dig-web/llms.txt">For AI agents</a></li>
+        <li><a href="https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/houston/sales.json">Public JSON feed</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="frame foot-legal">Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. Sale details belong to their original listings.</div>
+</footer>
+<script defer src="/the-dig-web/assets/search.js"></script>
+</body>
+</html>

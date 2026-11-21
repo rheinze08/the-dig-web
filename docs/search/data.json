@@ -1,0 +1,445 @@
+{
+ "about": "Every sale page on The Dig, for the search box on /search/. Rebuilt with the site. A keyword matches the start of any word in a sale's title, company or categories.",
+ "site": "https://rheinze08.github.io/the-dig-web",
+ "categoriesFrom": "listing titles",
+ "categories": [
+  {
+   "id": "tools",
+   "label": "Tools"
+  },
+  {
+   "id": "furniture",
+   "label": "Furniture"
+  },
+  {
+   "id": "vinyl-records",
+   "label": "Vinyl & records"
+  },
+  {
+   "id": "jewelry",
+   "label": "Jewelry"
+  },
+  {
+   "id": "collectibles",
+   "label": "Collectibles"
+  },
+  {
+   "id": "vehicles",
+   "label": "Vehicles"
+  },
+  {
+   "id": "kitchen",
+   "label": "Kitchen"
+  },
+  {
+   "id": "clothing",
+   "label": "Clothing"
+  },
+  {
+   "id": "books",
+   "label": "Books"
+  },
+  {
+   "id": "art",
+   "label": "Art"
+  },
+  {
+   "id": "electronics",
+   "label": "Electronics"
+  },
+  {
+   "id": "toys-games",
+   "label": "Toys & games"
+  }
+ ],
+ "cities": [
+  {
+   "slug": "houston",
+   "name": "Houston",
+   "status": "live",
+   "timeZone": "America/Chicago",
+   "results": 28,
+   "url": "https://rheinze08.github.io/the-dig-web/houston/"
+  }
+ ],
+ "sales": [
+  {
+   "id": "917efdb9740a5300",
+   "city": "houston",
+   "title": "A Lifetime of Memories, Beautifully Collected: Decor, Beatles, Star Wars & More!",
+   "company": "Virtue Estate Sales",
+   "categories": [
+    "collectibles"
+   ],
+   "first": "2026-11-18",
+   "last": "2026-11-21",
+   "lat": 29.5907995,
+   "lng": -95.135576,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/917efdb9740a5300/",
+   "source": "https://www.estatesales.net/TX/Houston/77062/5135811"
+  },
+  {
+   "id": "297bcc2d690b4b51",
+   "city": "houston",
+   "title": "Warehouse sale",
+   "company": "C & M Estate Sales",
+   "categories": [],
+   "first": "2026-11-18",
+   "last": "2026-11-21",
+   "lat": 29.373381,
+   "lng": -95.207595,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/297bcc2d690b4b51/",
+   "source": "https://www.estatesales.net/TX/Alvin/77511/5162373"
+  },
+  {
+   "id": "fe09cfffd54a085a",
+   "city": "houston",
+   "title": "Emergency PopUp Estate Sale",
+   "company": "Family Tree Estate Sales",
+   "categories": [],
+   "first": "2026-11-19",
+   "last": "2026-11-21",
+   "lat": 29.626681,
+   "lng": -95.024068,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/fe09cfffd54a085a/",
+   "source": "https://www.estatesales.net/TX/La-Porte/77571/5157048"
+  },
+  {
+   "id": "e1946804b0f8f3fd",
+   "city": "houston",
+   "title": "Fabulous Heights Sale- Antique, Mid-Century, Architecturale & Historic Home",
+   "company": "Treasure Hunt Auction Co.",
+   "categories": [
+    "furniture",
+    "collectibles"
+   ],
+   "first": "2026-11-19",
+   "last": "2026-11-22",
+   "lat": 29.797206,
+   "lng": -95.3933285,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/e1946804b0f8f3fd/",
+   "source": "https://www.estatesales.net/TX/Houston/77008/5152926"
+  },
+  {
+   "id": "7421d47c515af257",
+   "city": "houston",
+   "title": "| 25%-50% OFF The Grand Estate Extravaganza High-End Furniture & One-of-a-Kind Finds from River Oaks",
+   "company": "Sharp Family Estate Sales",
+   "categories": [
+    "furniture"
+   ],
+   "first": "2026-11-20",
+   "last": "2026-11-23",
+   "lat": 29.681483,
+   "lng": -95.4012959,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/7421d47c515af257/",
+   "source": "https://www.estatesales.net/TX/Houston/77054/5159607"
+  },
+  {
+   "id": "770f8455c94feb76",
+   "city": "houston",
+   "title": "50% Off Everything! Houston Estate Sale!",
+   "company": "Elite Estate Sales Inc",
+   "categories": [],
+   "first": "2026-11-20",
+   "last": "2026-11-21",
+   "lat": 29.707844,
+   "lng": -95.430615,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/770f8455c94feb76/",
+   "source": "https://estatesales.org/estate-sales/tx/houston/77005/houston-estate-sale-2461570"
+  },
+  {
+   "id": "5ec58abcc986b831",
+   "city": "houston",
+   "title": "60% OFF SALE Blowout",
+   "company": "Kingdom Realty Estate Sales",
+   "categories": [],
+   "first": "2026-11-20",
+   "last": "2026-11-21",
+   "lat": 29.5824494,
+   "lng": -95.5317175,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/5ec58abcc986b831/",
+   "source": "https://estatesales.org/estate-sales/tx/missouri-city/77489/60-off-two-days-sale-2474184"
+  },
+  {
+   "id": "46d5f50c6f4dafd9",
+   "city": "houston",
+   "title": "A and S Estate Sales....Eclectic sale to say the least....",
+   "company": "A And S Estate Sales",
+   "categories": [],
+   "first": "2026-11-20",
+   "last": "2026-11-21",
+   "lat": 29.5706355,
+   "lng": -95.5388768,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/46d5f50c6f4dafd9/",
+   "source": "https://www.estatesales.net/TX/Missouri-City/77459/5164497"
+  },
+  {
+   "id": "780dc1aaf34cab51",
+   "city": "houston",
+   "title": "Collector’s Corner on Camden by Heritage Estate Sales",
+   "company": "Heritage Estate Sales",
+   "categories": [
+    "collectibles"
+   ],
+   "first": "2026-11-20",
+   "last": "2026-11-22",
+   "lat": 29.6736904,
+   "lng": -95.1962186,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/780dc1aaf34cab51/",
+   "source": "https://www.estatesales.net/TX/Pasadena/77502/5161326"
+  },
+  {
+   "id": "b5c48691b6fb568f",
+   "city": "houston",
+   "title": "Estate Sale (Enret at Guard Shack 2662 Admiral)",
+   "company": "Family Tree Estate Sales",
+   "categories": [],
+   "first": "2026-11-20",
+   "last": "2026-11-22",
+   "lat": 29.5290373,
+   "lng": -95.0612558,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/b5c48691b6fb568f/",
+   "source": "https://www.estatesales.net/TX/League-City/77573/5146677"
+  },
+  {
+   "id": "66c769df10b69e83",
+   "city": "houston",
+   "title": "Friendswoood Estate Sale!!!",
+   "company": "J&a Findings",
+   "categories": [],
+   "first": "2026-11-20",
+   "last": "2026-11-22",
+   "lat": 29.5173354,
+   "lng": -95.2004314,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/66c769df10b69e83/",
+   "source": "https://www.estatesales.net/TX/Friendswood/77546/5166603"
+  },
+  {
+   "id": "a9e67e831f781fda",
+   "city": "houston",
+   "title": "Pearland estate sale",
+   "company": "Yolanda's Estate Sales",
+   "categories": [],
+   "first": "2026-11-20",
+   "last": "2026-11-22",
+   "lat": 29.5499358,
+   "lng": -95.2589919,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/a9e67e831f781fda/",
+   "source": "https://www.estatesales.net/TX/Pearland/77581/5160993"
+  },
+  {
+   "id": "e74c90b9852b95c2",
+   "city": "houston",
+   "title": "Texas City Downsizing Estate Sale",
+   "company": "Patrice's Estate Sales",
+   "categories": [],
+   "first": "2026-11-20",
+   "last": "2026-11-21",
+   "lat": 29.4089021,
+   "lng": -94.9146776,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/e74c90b9852b95c2/",
+   "source": "https://estatesales.org/estate-sales/tx/texas-city-/77590/texas-city-downsizing-estate-sale-2474169"
+  },
+  {
+   "id": "823b4cd74da69572",
+   "city": "houston",
+   "title": "West University Estate Sale!",
+   "company": "Dominique Kendall Estate Sales",
+   "categories": [],
+   "first": "2026-11-20",
+   "last": "2026-11-21",
+   "lat": 29.7117941,
+   "lng": -95.4454381,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/823b4cd74da69572/",
+   "source": "https://www.estatesales.net/TX/Houston/77005/5161413"
+  },
+  {
+   "id": "1552ae954159c57f",
+   "city": "houston",
+   "title": "Willow Meadows Estate Sale",
+   "company": "Yolanda's Estate Sales",
+   "categories": [],
+   "first": "2026-11-20",
+   "last": "2026-11-22",
+   "lat": 29.6716301,
+   "lng": -95.4492793,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/1552ae954159c57f/",
+   "source": "https://www.estatesales.net/TX/Houston/77035/5133270"
+  },
+  {
+   "id": "c63b83155d9796a0",
+   "city": "houston",
+   "title": "WOODSIDE ESTATE SALE - 610 & Stella Link",
+   "company": "Two Moms Estate Sales",
+   "categories": [],
+   "first": "2026-11-20",
+   "last": "2026-11-21",
+   "lat": 29.6828267,
+   "lng": -95.4373251,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/c63b83155d9796a0/",
+   "source": "https://www.estatesales.net/TX/Houston/77025/5164365"
+  },
+  {
+   "id": "fbcf939ac65da22f",
+   "city": "houston",
+   "title": "Estate Sale",
+   "company": "",
+   "categories": [],
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "lat": 29.5411706,
+   "lng": -95.0295891,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/fbcf939ac65da22f/",
+   "source": "https://estatesales.org/estate-sales/tx/kemah/77565/estate-sale-2474736"
+  },
+  {
+   "id": "8bd880d82eda54d5",
+   "city": "houston",
+   "title": "Estate Sale by Family Tree Estates",
+   "company": "Family Tree Estate Sales",
+   "categories": [],
+   "first": "2026-11-21",
+   "last": "2026-11-22",
+   "lat": 29.6454992,
+   "lng": -95.2357832,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/8bd880d82eda54d5/",
+   "source": "https://www.estatesales.net/TX/Houston/77034/5159586"
+  },
+  {
+   "id": "cac6c44b629d8beb",
+   "city": "houston",
+   "title": "Galleria Area Mansion Estate Sale TREASURES for ALL!",
+   "company": "Margie Beegle Sales",
+   "categories": [],
+   "first": "2026-11-21",
+   "last": "2026-11-22",
+   "lat": 29.7413958,
+   "lng": -95.4487318,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/cac6c44b629d8beb/",
+   "source": "https://www.estatesales.net/TX/Houston/77027/5149494"
+  },
+  {
+   "id": "cde9db70e3835f53",
+   "city": "houston",
+   "title": "HUGE Garage & Moving Sale with Hundreds of Items",
+   "company": "",
+   "categories": [],
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "lat": 29.5293998,
+   "lng": -95.2010447,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/cde9db70e3835f53/",
+   "source": "https://www.craigslist.org/view/d/friendswood-huge-garage-moving-sale/2y596qVKsBH7oCUsLBjd5z"
+  },
+  {
+   "id": "2310faa0e6a1f7db",
+   "city": "houston",
+   "title": "Huge...Friendswood Garage & Moving Sale...Hundreds of Items New & Used",
+   "company": "",
+   "categories": [],
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "lat": 29.5293998,
+   "lng": -95.2010447,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/2310faa0e6a1f7db/",
+   "source": "https://www.craigslist.org/view/d/friendswood-hugefriendswood-garage/4pVNsngimYAyQZw3fJkHC8"
+  },
+  {
+   "id": "131cf95e8fb2e961",
+   "city": "houston",
+   "title": "THE BELLAIRE COLLECTION – An Extraordinary Estate of Fine Art, Antiques & Global Treasures",
+   "company": "River Oaks Estate Sales",
+   "categories": [
+    "collectibles",
+    "art"
+   ],
+   "first": "2026-11-21",
+   "last": "2026-11-22",
+   "lat": 29.7125865,
+   "lng": -95.4527704,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/131cf95e8fb2e961/",
+   "source": "https://www.estatesales.net/TX/Bellaire/77401/5138013"
+  },
+  {
+   "id": "510a1b9fb19e4d83",
+   "city": "houston",
+   "title": "Estate Sale by Family Tree Estates",
+   "company": "Family Tree Estate Sales",
+   "categories": [],
+   "first": "2026-11-27",
+   "last": "2026-11-29",
+   "lat": 29.5411706,
+   "lng": -95.0295891,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/510a1b9fb19e4d83/",
+   "source": "https://www.estatesales.net/TX/Kemah/77565/5156790"
+  },
+  {
+   "id": "bb9090b41a98fa85",
+   "city": "houston",
+   "title": "Estate Sale by Family Tree Estates",
+   "company": "Family Tree Estate Sales",
+   "categories": [],
+   "first": "2026-11-27",
+   "last": "2026-11-29",
+   "lat": 29.5750991,
+   "lng": -95.1319716,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/bb9090b41a98fa85/",
+   "source": "https://www.estatesales.net/TX/Houston/77062/5156793"
+  },
+  {
+   "id": "c413e5c1a71b0b80",
+   "city": "houston",
+   "title": "Montrose Museum Quality Estate!",
+   "company": "Aloha Estate Sales Of Houston",
+   "categories": [],
+   "first": "2026-11-27",
+   "last": "2026-11-29",
+   "lat": 29.7422405,
+   "lng": -95.3902848,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/c413e5c1a71b0b80/",
+   "source": "https://www.estatesales.net/TX/Houston/77006/5148879"
+  },
+  {
+   "id": "60ec3b8089dbba26",
+   "city": "houston",
+   "title": "THANKSGIVING PICKER ESTATE",
+   "company": "Family Tree Estate Sales",
+   "categories": [],
+   "first": "2026-11-27",
+   "last": "2026-11-29",
+   "lat": 29.3856773,
+   "lng": -95.1281039,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/60ec3b8089dbba26/",
+   "source": "https://www.estatesales.net/TX/Santa-Fe/77517/5107233"
+  },
+  {
+   "id": "2a7a411e458e6dad",
+   "city": "houston",
+   "title": "A World of Wonder: A Legacy of Love, Art and Exploration",
+   "company": "Virtue Estate Sales",
+   "categories": [
+    "art"
+   ],
+   "first": "2026-12-02",
+   "last": "2026-12-05",
+   "lat": 29.5991448,
+   "lng": -95.1188624,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/2a7a411e458e6dad/",
+   "source": "https://www.estatesales.net/TX/Houston/77059/5148087"
+  },
+  {
+   "id": "59e88589a519be1a",
+   "city": "houston",
+   "title": "THE BEST ESTATE SALE before CHRISTMAS Ever!!! by GET RID OF IT...Estate Services - MUST SEE!!",
+   "company": "Get Rid Of It",
+   "categories": [],
+   "first": "2026-12-03",
+   "last": "2026-12-06",
+   "lat": 29.5244089,
+   "lng": -95.191409,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/59e88589a519be1a/",
+   "source": "https://www.estatesales.net/TX/Friendswood/77546/5160081"
+  }
+ ]
+}
