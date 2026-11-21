@@ -51,7 +51,7 @@ if git diff --cached --quiet -- docs; then
 fi
 summary=$(node -e '
   const build = JSON.parse(require("fs").readFileSync("docs/build.json", "utf8"));
-  console.log(build.cities.map(city => `${city.slug} ${city.sales} sales`).join(", ") + ` (for ${build.cities[0].builtFor})`);
+  console.log(build.cities.map(city => `${city.slug} ${city.sales} sales${city.status === "live" ? "" : " (preview)"}`).join(", ") + ` (for ${build.cities[0].builtFor})`);
 ')
 git commit --quiet -m "Rebuild site: $summary" -- docs
 

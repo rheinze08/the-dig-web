@@ -1,0 +1,22 @@
+{
+  "asOf": "2026-11-20",
+  "collectedAt": "2026-11-20T12:00:00.000Z",
+  "window": {"start": "2026-11-20", "end": "2026-12-03", "timeZone": "America/Chicago"},
+  "area": {"lat": 29.5, "lng": -95.1, "radiusMiles": 25},
+  "coverage": {"Example Board": {"status": "reached", "candidates": 3, "included": 3}},
+  "counts": {"listings": 3, "sales": 3},
+  "sales": [
+    {"id": "aaaa000000000001", "title": "Workshop Clear-Out: Tools & Vinyl Records", "company": "Test Fixture Sales Co",
+      "streetAddress": "1 Example Street", "city": "Rivertown", "state": "TX", "zip": "70001", "addressHidden": false,
+      "sessions": [{"date": "2026-11-21", "start": "09:00", "end": "15:00"}, {"date": "2026-11-22", "start": "10:00", "end": "14:00"}],
+      "sources": [{"name": "Example Board", "url": "https://example.com/listing/1"}], "lat": 29.51, "lng": -95.11, "approximate": false},
+    {"id": "aaaa000000000002", "title": "Downsizing Sale", "company": "Second Fixture Estates",
+      "city": "Rivertown", "state": "TX", "zip": "70002", "addressHidden": true,
+      "sessions": [{"date": "2026-11-27", "start": "08:00", "end": "12:00"}],
+      "sources": [{"name": "Example Board", "url": "https://example.com/listing/2"}], "lat": 29.52, "lng": -95.12, "approximate": true},
+    {"id": "aaaa0000000000ff", "title": "Border Town Sale Both Cities List", "company": "Shared Fixture Sales",
+      "streetAddress": "9 Shared Road", "city": "Midway", "state": "TX", "zip": "70009", "addressHidden": false,
+      "sessions": [{"date": "2026-11-18", "start": "09:00", "end": "13:00"}],
+      "sources": [{"name": "Example Board", "url": "https://example.com/listing/ff"}], "lat": 29.8, "lng": -96.3, "approximate": false}
+  ]
+}

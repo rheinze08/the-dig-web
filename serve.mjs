@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 // Local preview of docs/ at the same path the live site uses.
 //   node serve.mjs [port]      then open the address it prints
+//   DIG_OUT=/some/folder node serve.mjs   preview a test build instead
 import {createServer} from 'node:http';
 import {readFile} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {pathToFileURL} from 'node:url';
 
-const docs = new URL('./docs/', import.meta.url);
+const docs = process.env.DIG_OUT ? pathToFileURL(resolve(process.env.DIG_OUT) + '/') : new URL('./docs/', import.meta.url);
 const summary = JSON.parse(await readFile(new URL('build.json', docs), 'utf8'));
 const base = new URL(summary.site + '/').pathname.replace(/\/+$/, '');
 const port = Number(process.argv[2]) || 4173;

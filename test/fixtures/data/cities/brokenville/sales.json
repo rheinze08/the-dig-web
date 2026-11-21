@@ -1,0 +1,6 @@
+{
+  "collectedAt": "2026-11-20T12:45:00.000Z",
+  "sales": [
+    {"id": "cccc000000000001", "title": "A sale with no sessions", "company": "Broken Fixture Co", "sessions": []}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "collectedAt": "2026-11-20T12:50:00.000Z",
+  "sales": [
+    {"id": "aaaa000000000001", "city": "rivertown", "title": "Workshop Clear-Out: Tools & Vinyl Records", "company": "Test Fixture Sales Co",
+      "categories": ["Tools", "Vinyl & Records", "toys and games"], "dates": ["2026-11-21", "2026-11-22"], "lat": 29.51, "lng": -95.11,
+      "sourceUrl": "https://example.com/listing/1"},
+    {"id": "bbbb000000000001", "city": "lakeside", "title": "Lakeside Bungalow: Antique Clocks & Fishing Gear", "company": "Preview Fixture Liquidators",
+      "categories": ["collectibles", "Clocks"], "dates": ["2026-11-21"], "lat": 30.21, "lng": -97.71,
+      "sourceUrl": "https://example.com/listing/b1"},
+    {"id": "aaaa0000000000ff", "city": "rivertown", "title": "Border Town Sale Both Cities List", "company": "Shared Fixture Sales",
+      "categories": [], "dates": ["2026-11-18"], "lat": 29.8, "lng": -96.3, "sourceUrl": "https://example.com/listing/ff"},
+    {"id": "dddd000000000009", "city": "lakeside", "title": "A sale that has already left the feeds", "company": "Gone Fixture Co",
+      "categories": ["furniture"], "dates": ["2026-11-10"], "lat": 30.2, "lng": -97.7, "sourceUrl": "https://example.com/listing/d9"}
+  ]
+}

@@ -1,9 +1,12 @@
 #!/usr/bin/env node
 // Checks the generated site in docs/ before it is published. Exits 1 on any problem.
 //   node test/check.mjs
+//   DIG_OUT=/some/folder node test/check.mjs    check a test build instead
 import {readdir, readFile} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {pathToFileURL} from 'node:url';
 
-const docs = new URL('../docs/', import.meta.url);
+const docs = process.env.DIG_OUT ? pathToFileURL(resolve(process.env.DIG_OUT) + '/') : new URL('../docs/', import.meta.url);
 const problems = [];
 const fail = message => problems.push(message);
 
@@ -52,6 +55,13 @@ for (const file of htmlFiles) {
   const canonical = attribute(html.match(/<link rel="canonical"[^>]*>/)?.[0] ?? '', 'href');
   if (canonical) pagesWithCanonical.set(canonical, file);
   else if (file !== '404.html') fail(`${where}: no canonical link`);
+
+  // Regions and Search are linked from the header and the footer of every page.
+  for (const [name, part] of [['header', html.match(/<header class="mast">[\s\S]*?<\/header>/)?.[0] ?? ''], ['footer', html.match(/<footer class="foot">[\s\S]*?<\/footer>/)?.[0] ?? '']]) {
+    for (const target of ['/regions/', '/search/']) {
+      if (!part.includes(`href="${base}${target}"`)) fail(`${where}: the ${name} does not link ${target}`);
+    }
+  }
 
   // Every internal link, script, style and image must resolve to a generated file.
   for (const tag of html.match(/<(?:a|link|script|img)\b[^>]*>/g) ?? []) {
@@ -135,6 +145,139 @@ for (const file of saleFiles) {
   if (!/rel="noopener external"/.test(html) && !html.includes('does not carry a source link')) fail(`/${file}: no link to the source listing`);
 }
 
+// Regions: every city with pages is listed once, in the right section, with the count the feed gave.
+const regionCards = html => [...html.matchAll(/<li[^>]*data-region="([^"]+)" data-status="([^"]+)" data-count="(\d+)"[^>]*>([\s\S]*?)<\/li>/g)]
+  .map(match => ({slug: match[1], status: match[2], count: Number(match[3]), html: match[4]}));
+const proving = summary.cities.filter(city => city.status !== 'live');
+if (!summary.cities.some(city => city.status === 'live')) fail('build.json has no live city');
+if (summary.cities[0].status !== 'live') fail('The home page city is not a live city');
+
+if (!all.has('regions/index.html')) fail('/regions/: missing');
+else {
+  const html = await read('regions/index.html');
+  const cards = regionCards(html);
+  const liveSection = html.match(/<section class="region-block" id="live"[\s\S]*?<\/section>/)?.[0] ?? '';
+  const previewSection = html.match(/<section class="region-block" id="preview"[\s\S]*?<\/section>/)?.[0] ?? '';
+  const statesSection = html.match(/<section class="region-block" id="more-states"[\s\S]*?<\/section>/)?.[0] ?? '';
+  if (cards.length !== summary.cities.length) fail(`/regions/: lists ${cards.length} cities, the build has pages for ${summary.cities.length}`);
+  for (const city of summary.cities) {
+    const card = cards.find(item => item.slug === city.slug);
+    if (!card) {
+      fail(`/regions/: ${city.name} is not listed`);
+      continue;
+    }
+    if (card.count !== city.sales || !card.html.includes(`<b>${city.sales}</b>`)) fail(`/regions/: ${city.name} shows ${card.count} sales, its feed has ${city.sales}`);
+    if (card.status !== city.status) fail(`/regions/: ${city.name} is marked ${card.status}, the build read ${city.status}`);
+    if (!card.html.includes(`href="${base}/${city.slug}/"`)) fail(`/regions/: ${city.name} does not link its city page`);
+    if (card.html.includes('tag-preview') !== (city.status !== 'live')) fail(`/regions/: ${city.name} has the wrong Preview label`);
+    if (!(city.status === 'live' ? liveSection : previewSection).includes(`data-region="${city.slug}"`)) fail(`/regions/: ${city.name} is in the wrong section`);
+    if (city.status !== 'live' && city.collectedAt && !card.html.includes('collected <time')) fail(`/regions/: ${city.name} does not show when it was collected`);
+  }
+  if (!proving.length && !previewSection.includes('id="no-preview"')) fail('/regions/: no preview city, but the page does not say so');
+  if (!/Texas is first/.test(statesSection) || !/more states are being scouted/.test(statesSection)) fail('/regions/: the "More states coming" statement is missing');
+  if (/\d/.test(statesSection.replace(/<[^>]*>/g, ''))) fail('/regions/: "More states coming" must not carry a number');
+  // A city with no feed has nothing real to show, so it is not named.
+  for (const city of summary.offSite ?? []) {
+    if (html.replace(/<head>[\s\S]*?<\/head>/, '').includes(city.name)) fail(`/regions/: names ${city.name}, which has no pages in this build`);
+  }
+}
+
+// Home page: the regions strip shows the same cities and counts and links /regions/.
+{
+  const strip = (await read('index.html')).match(/<section class="regions-strip"[\s\S]*?<\/section>/)?.[0] ?? '';
+  const cards = regionCards(strip);
+  if (!strip.includes(`href="${base}/regions/"`)) fail('/: the regions strip does not link /regions/');
+  if (cards.length !== summary.cities.length) fail(`/: the regions strip lists ${cards.length} cities, expected ${summary.cities.length}`);
+  for (const city of summary.cities) {
+    const card = cards.find(item => item.slug === city.slug);
+    if (!card || card.count !== city.sales || card.status !== city.status) fail(`/: the regions strip is wrong for ${city.name}`);
+    else if (card.html.includes('tag-preview') !== (city.status !== 'live')) fail(`/: the regions strip has the wrong Preview label for ${city.name}`);
+  }
+}
+
+// Search: the page, the data file and the sale pages all describe the same sales.
+const categoryIds = ['tools', 'furniture', 'vinyl-records', 'jewelry', 'collectibles', 'vehicles', 'kitchen', 'clothing', 'books', 'art', 'electronics', 'toys-games'];
+let searchData = {sales: [], cities: [], categories: []};
+if (!all.has('search/index.html') || !all.has('search/data.json') || !all.has('assets/search.js')) fail('/search/: the page, its data file or assets/search.js is missing');
+else {
+  const html = await read('search/index.html');
+  searchData = JSON.parse(await read('search/data.json'));
+  const records = searchData.sales;
+  const cityStatus = new Map(summary.cities.map(city => [city.slug, city.status]));
+  if (records.length !== summary.salePages) fail(`search/data.json has ${records.length} records, the site has ${summary.salePages} sale pages`);
+  if (new Set(records.map(record => record.id)).size !== records.length) fail('search/data.json lists a sale twice');
+  if (searchData.categories.map(category => category.id).join() !== categoryIds.join()) fail('search/data.json does not carry the twelve categories');
+  for (const record of records) {
+    if (!all.has(`sale/${record.id}/index.html`)) fail(`search/data.json: ${record.id} has no sale page`);
+    if (record.url !== `${summary.site}/sale/${record.id}/`) fail(`search/data.json: ${record.id} has the wrong page address`);
+    if (!cityStatus.has(record.city)) fail(`search/data.json: ${record.id} is in ${record.city}, which has no pages`);
+    if (!record.title || typeof record.company !== 'string') fail(`search/data.json: ${record.id} lacks a title or company field`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(record.first) || !/^\d{4}-\d{2}-\d{2}$/.test(record.last) || record.last < record.first) fail(`search/data.json: ${record.id} has invalid dates`);
+    if (!Array.isArray(record.categories) || record.categories.some(id => !categoryIds.includes(id))) fail(`search/data.json: ${record.id} has an unknown category`);
+  }
+
+  if (!/<input type="search" id="q" name="q"/.test(html)) fail('/search/: no search box');
+  if (!html.includes('Search covers listing titles and companies today — searching inside photos is coming later.')) fail('/search/: the line about what search covers is missing');
+  if (!html.includes(`data-source="${base}/search/data.json"`) || !html.includes(`src="${base}/assets/search.js"`)) fail('/search/: the page does not load its data file and script');
+  const total = Number(html.match(/id="result-count"[^>]*data-total="(\d+)"/)?.[1]);
+  if (total !== records.length || !html.includes(`id="result-count"`) || !new RegExp(`data-total="${records.length}"[^>]*><strong>${records.length}</strong>`).test(html)) fail(`/search/: shows ${total} results, expected ${records.length}`);
+  const chips = [...html.matchAll(/<button type="button" class="chip" data-cat="([^"]+)" aria-pressed="false"( disabled)?>[^<]*<span>(\d+)<\/span>/g)];
+  if (chips.map(chip => chip[1]).join() !== categoryIds.join()) fail('/search/: the twelve category chips are not all there, in order');
+  for (const [, id, disabled, count] of chips) {
+    const real = records.filter(record => record.categories.includes(id)).length;
+    if (Number(count) !== real || Boolean(disabled) !== (real === 0)) fail(`/search/: the ${id} chip says ${count}, the data has ${real}`);
+  }
+  const groups = [...html.matchAll(/<section class="search-group"[^>]*data-city="([^"]+)" data-status="([^"]+)" data-total="(\d+)"[^>]*>([\s\S]*?)<\/section>/g)];
+  const shown = new Set();
+  for (const [, slug, status, groupTotal, inner] of groups) {
+    const expected = records.filter(record => record.city === slug);
+    const heading = inner.match(/<h2[\s\S]*?<\/h2>/)?.[0] ?? '';
+    const hits = [...inner.matchAll(/<li class="sale hit[^"]*" data-id="([^"]+)"[^>]*>([\s\S]*?)<\/li>/g)];
+    if (status !== cityStatus.get(slug)) fail(`/search/: ${slug} is marked ${status}`);
+    if (Number(groupTotal) !== expected.length || hits.length !== expected.length) fail(`/search/: ${slug} lists ${hits.length} results, the data has ${expected.length}`);
+    if (heading.includes('tag-preview') !== (status !== 'live')) fail(`/search/: ${slug} heading has the wrong Preview label`);
+    for (const [, id, body] of hits) {
+      const record = expected.find(item => item.id === id);
+      shown.add(id);
+      if (!record) {
+        fail(`/search/: result ${id} is not in ${slug} in the data file`);
+        continue;
+      }
+      if (!body.includes(`href="${base}/sale/${id}/"`)) fail(`/search/: result ${id} does not link its sale page`);
+      if (!body.includes('class="sale-title"') || !body.includes('class="dates"') || !body.includes('class="place"')) fail(`/search/: result ${id} lacks a title, dates or city`);
+      if (Boolean(record.company) !== body.includes('class="company"')) fail(`/search/: result ${id} shows the wrong company line`);
+      if (body.includes('tag-preview') !== (status !== 'live')) fail(`/search/: result ${id} has the wrong Preview label`);
+      if ((body.match(/class="cat"/g) ?? []).length !== record.categories.length + (record.tags ?? []).length) fail(`/search/: result ${id} does not show its categories`);
+    }
+  }
+  if (shown.size !== records.length) fail(`/search/: ${shown.size} results on the page, ${records.length} in the data file`);
+
+  // The same code the browser runs: every sale can be found by its own title and by its company.
+  const holder = {exports: {}};
+  new Function('module', await read('assets/search.js'))(holder);
+  const prepared = holder.exports.prepare(searchData);
+  for (const record of records) {
+    if (!holder.exports.find(prepared, record.title, []).some(item => item.id === record.id)) fail(`Search does not find ${record.id} by its title`);
+    if (record.company && !holder.exports.find(prepared, record.company, []).some(item => item.id === record.id)) fail(`Search does not find ${record.id} by its company`);
+  }
+  for (const id of categoryIds) {
+    const real = records.filter(record => record.categories.includes(id)).length;
+    if (holder.exports.find(prepared, '', [id]).length !== real) fail(`Search returns the wrong sales for the ${id} chip`);
+  }
+  if (holder.exports.find(prepared, 'zzqqxxnotaword', []).length) fail('Search returns sales for a word no sale has');
+}
+
+// Preview cities: the banner is on every page of a proving city and on no other page.
+const previewPages = new Set(proving.flatMap(city => [`${city.slug}/index.html`, `${city.slug}/this-weekend/index.html`]));
+for (const record of searchData.sales) {
+  if (proving.some(city => city.slug === record.city)) previewPages.add(`sale/${record.id}/index.html`);
+}
+for (const file of htmlFiles) {
+  const html = await read(file);
+  const banner = html.includes('id="preview-banner"') && html.includes('Preview — still proving itself');
+  if (banner !== previewPages.has(file)) fail(`/${file}: ${banner ? 'has a preview banner but is not a preview page' : 'is a preview page without the "Preview — still proving itself" banner'}`);
+}
+
 // Sitemap: every listed URL exists, and every indexable page is listed.
 const sitemap = await read('sitemap.xml');
 const listed = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => unescape(match[1]));
@@ -160,6 +303,18 @@ for (const name of ['agents.txt', 'llms.txt']) {
     if (!card.includes(city.feedUrl)) fail(`${name} does not give the ${city.name} feed address`);
     if (!card.includes(`${summary.site}/${city.slug}/`)) fail(`${name} does not link the ${city.name} page`);
   }
+  // Live and proving cities sit under their own headings, as the index stated them.
+  const liveAt = card.indexOf('### Live');
+  const provingAt = card.indexOf('### Proving (preview)');
+  if (liveAt < 0 || provingAt < liveAt) fail(`${name} does not list live and proving cities separately`);
+  for (const city of summary.cities) {
+    const at = card.indexOf(`${summary.site}/${city.slug}/`);
+    if (liveAt >= 0 && provingAt >= 0 && (city.status === 'live') !== (at > liveAt && at < provingAt)) fail(`${name} lists ${city.name} under the wrong heading`);
+  }
+  if (!proving.length && !card.slice(provingAt).startsWith('### Proving (preview)\nNone at this build.')) fail(`${name} does not say that no city is proving`);
+  for (const address of [`${summary.site}/regions/`, `${summary.site}/search/`, summary.search.dataFile, summary.search.combinedFeed]) {
+    if (!card.includes(address)) fail(`${name} does not give ${address}`);
+  }
   if (!card.includes('How to cite')) fail(`${name} does not say how to cite The Dig`);
   if (!card.includes(summary.listingEmail)) fail(`${name} has no contact note`);
 }
@@ -174,7 +329,7 @@ if (summary.listingEmailIsPlaceholder && !listing.includes('id="email-notice"'))
   fail('/list-your-sale/: the address is a placeholder but the page does not say so');
 }
 
-for (const file of ['404.html', '.nojekyll', 'assets/site.css', 'assets/map.js', 'assets/og.png', 'assets/icon.svg']) {
+for (const file of ['404.html', '.nojekyll', 'assets/site.css', 'assets/map.js', 'assets/search.js', 'assets/og.png', 'assets/icon.svg']) {
   if (!all.has(file)) fail(`${file} is missing`);
 }
 
@@ -183,4 +338,5 @@ if (problems.length) {
   for (const problem of problems.slice(0, 40)) console.error('  ' + problem);
   process.exit(1);
 }
-console.log(`Site check passed: ${htmlFiles.length} pages, ${saleFiles.length} sale pages with Event data, ${listed.length} sitemap URLs.`);
+console.log(`Site check passed: ${htmlFiles.length} pages, ${saleFiles.length} sale pages with Event data, ${listed.length} sitemap URLs, `
+  + `${summary.cities.length - proving.length} live and ${proving.length} preview ${summary.cities.length === 1 ? 'city' : 'cities'}, ${searchData.sales.length} search records.`);

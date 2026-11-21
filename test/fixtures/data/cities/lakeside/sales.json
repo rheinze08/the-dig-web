@@ -1,0 +1,18 @@
+{
+  "asOf": "2026-11-20",
+  "collectedAt": "2026-11-20T12:30:00.000Z",
+  "window": {"start": "2026-11-20", "end": "2026-12-03", "timeZone": "America/Chicago"},
+  "area": {"lat": 30.2, "lng": -97.7, "radiusMiles": 25},
+  "coverage": {"Example Board": {"status": "reached", "candidates": 2, "included": 2}},
+  "counts": {"listings": 2, "sales": 2},
+  "sales": [
+    {"id": "bbbb000000000001", "title": "Lakeside Bungalow: Antique Clocks & Fishing Gear", "company": "Preview Fixture Liquidators",
+      "streetAddress": "5 Sample Lane", "city": "Lakeside", "state": "TX", "zip": "70101", "addressHidden": false,
+      "sessions": [{"date": "2026-11-21", "start": "09:00", "end": "16:00"}],
+      "sources": [{"name": "Example Board", "url": "https://example.com/listing/b1"}], "lat": 30.21, "lng": -97.71, "approximate": false},
+    {"id": "aaaa0000000000ff", "title": "Border Town Sale Both Cities List", "company": "Shared Fixture Sales",
+      "streetAddress": "9 Shared Road", "city": "Midway", "state": "TX", "zip": "70009", "addressHidden": false,
+      "sessions": [{"date": "2026-11-18", "start": "09:00", "end": "13:00"}],
+      "sources": [{"name": "Example Board", "url": "https://example.com/listing/ff"}], "lat": 29.8, "lng": -96.3, "approximate": false}
+  ]
+}

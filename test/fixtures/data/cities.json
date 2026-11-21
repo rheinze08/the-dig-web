@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "defaultCity": "rivertown",
+  "cities": [
+    {"slug": "lakeside", "name": "Lakeside", "status": "proving", "cleanRuns": 2, "count": 2, "timeZone": "America/Chicago",
+      "center": {"lat": 30.2, "lng": -97.7, "label": "downtown Lakeside"}, "radiusMiles": 25},
+    {"slug": "rivertown", "name": "Rivertown", "status": "live", "count": 3, "timeZone": "America/Chicago",
+      "center": {"lat": 29.5, "lng": -95.1, "label": "Rivertown square"}, "radiusMiles": 25},
+    {"slug": "hilltop", "name": "Hilltop", "status": "proving", "cleanRuns": 0, "count": null, "timeZone": "America/Chicago"},
+    {"slug": "brokenville", "name": "Brokenville", "status": "proving", "timeZone": "America/Chicago"},
+    {"slug": "oldport", "name": "Oldport", "status": "retired", "timeZone": "America/Chicago"}
+  ]
+}

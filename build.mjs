@@ -2,6 +2,8 @@
 // Generates The Dig website. Every run reads the live public feeds and rewrites
 // the whole site into docs/. Nothing about any sale is stored in this repo's source.
 import {cp, mkdir, readdir, readFile, rename, rm, writeFile} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {pathToFileURL} from 'node:url';
 
 // ── Settings ────────────────────────────────────────────────────────────────
 // PLACEHOLDER ADDRESS. /list-your-sale/ cannot take listings until this is a
@@ -34,17 +36,50 @@ const LEAFLET = {
 
 const TAGLINE = 'The Dig pools estate sales from the public listing boards into one map per city. '
   + 'Facts shown, always linked back to the source listing.';
+
+// The category chips on /search/, in the order shown. When the-dig-data
+// publishes search.json, a sale's categories come from there and "aliases" map
+// its labels onto these chips. Until then, and for any sale search.json leaves
+// out, a sale gets a category when its title, company or excerpt contains one
+// of "words" as whole words (a plural s is allowed).
+const CATEGORIES = [
+  {id: 'tools', label: 'Tools', aliases: ['tool'],
+    words: ['tool', 'toolbox', 'workshop', 'woodworking', 'machinist', 'lathe', 'table saw', 'welder', 'compressor', 'mower', 'dewalt', 'makita', 'snap on']},
+  {id: 'furniture', label: 'Furniture', aliases: [],
+    words: ['furniture', 'furnishing', 'sofa', 'couch', 'sectional', 'loveseat', 'recliner', 'dresser', 'armoire', 'hutch', 'credenza', 'sideboard', 'bookcase', 'nightstand', 'ottoman', 'dining table', 'dining set', 'bedroom set', 'china cabinet', 'mid century', 'midcentury', 'mcm']},
+  {id: 'vinyl-records', label: 'Vinyl & records', aliases: ['vinyl', 'records', 'record', 'vinyl records'],
+    words: ['vinyl', 'record', 'lp', 'turntable', '45s', '78s']},
+  {id: 'jewelry', label: 'Jewelry', aliases: ['jewellery'],
+    words: ['jewelry', 'jewellery', 'jewel', 'diamond', 'sterling', 'necklace', 'bracelet', 'earring', 'gemstone', 'pearl', 'wristwatch', 'pocket watch', 'rolex', '14k', '18k']},
+  {id: 'collectibles', label: 'Collectibles', aliases: ['collectables', 'collectible', 'collectable'],
+    words: ['collectible', 'collectable', 'collector', 'memorabilia', 'antique', 'vintage', 'coin', 'stamp', 'figurine', 'hummel', 'lladro', 'comic', 'baseball card', 'sports card', 'trading card', 'militaria', 'depression glass', 'carnival glass', 'star wars']},
+  {id: 'vehicles', label: 'Vehicles', aliases: ['vehicle', 'cars', 'autos'],
+    words: ['vehicle', 'car', 'truck', 'pickup', 'automobile', 'motorcycle', 'boat', 'trailer', 'rv', 'camper', 'golf cart', 'tractor', 'atv', 'harley', 'corvette', 'jeep']},
+  {id: 'kitchen', label: 'Kitchen', aliases: ['kitchenware'],
+    words: ['kitchen', 'kitchenware', 'cookware', 'bakeware', 'glassware', 'dish', 'flatware', 'silverware', 'fine china', 'cast iron', 'small appliance', 'pyrex', 'corningware', 'corning ware', 'le creuset', 'kitchenaid']},
+  {id: 'clothing', label: 'Clothing', aliases: ['clothes', 'apparel'],
+    words: ['clothing', 'clothes', 'apparel', 'shoe', 'boot', 'handbag', 'purse', 'fur', 'dress', 'jacket', 'hat', 'western wear']},
+  {id: 'books', label: 'Books', aliases: ['book'],
+    words: ['book', 'cookbook', 'library', 'first edition', 'novel', 'bible', 'encyclopedia']},
+  {id: 'art', label: 'Art', aliases: ['artwork', 'fine art'],
+    words: ['art', 'artwork', 'painting', 'sculpture', 'watercolor', 'lithograph', 'etching', 'bronze', 'pottery', 'artist']},
+  {id: 'electronics', label: 'Electronics', aliases: ['electronic'],
+    words: ['electronic', 'tv', 'television', 'stereo', 'speaker', 'audio', 'amplifier', 'receiver', 'computer', 'laptop', 'camera', 'radio', 'hifi', 'hi fi']},
+  {id: 'toys-games', label: 'Toys & games', aliases: ['toys', 'games', 'toy', 'game', 'toys games'],
+    words: ['toy', 'game', 'lego', 'doll', 'dollhouse', 'barbie', 'puzzle', 'hot wheels', 'matchbox', 'board game', 'video game', 'model train', 'train set', 'action figure', 'teddy bear', 'nintendo', 'playstation', 'xbox']},
+];
 // ────────────────────────────────────────────────────────────────────────────
 
 const root = new URL('./', import.meta.url);
-const outDir = new URL('docs/', root);
-const tmpDir = new URL('docs.tmp/', root);
+// DIG_OUT sends a test build somewhere other than docs/.
+const outDir = process.env.DIG_OUT ? pathToFileURL(resolve(process.env.DIG_OUT) + '/') : new URL('docs/', root);
+const tmpDir = new URL(outDir.href.replace(/\/$/, '.tmp/'));
 const site = new URL(SITE_URL + '/');
 const BASE = site.pathname.replace(/\/+$/, '');
 const now = process.env.DIG_NOW ? new Date(process.env.DIG_NOW) : new Date();
 const offline = process.env.DIG_OFFLINE === '1';
 const placeholderEmail = /\.example$/i.test(LISTING_EMAIL);
-const reservedSlugs = new Set(['sale', 'list-your-sale', 'assets', 'this-weekend']);
+const reservedSlugs = new Set(['sale', 'list-your-sale', 'assets', 'this-weekend', 'regions', 'search']);
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 // A failed build leaves docs/ exactly as it was.
@@ -66,6 +101,9 @@ const scriptJson = value => JSON.stringify(value).replace(unsafeInScript,
   ch => '\\u' + ch.charCodeAt(0).toString(16).padStart(4, '0'));
 const clean = value => String(value ?? '').replace(/[\u0000-\u001f\u007f]+/g, ' ').replace(/\s+/g, ' ').trim();
 const plural = (count, one, many = one + 's') => `${count} ${count === 1 ? one : many}`;
+// Lower case, no accents or apostrophes, single spaces. static/assets/search.js folds text the same way.
+const fold = value => String(value ?? '').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '')
+  .replace(/['‘’]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 
 function clip(text, max) {
   if (text.length <= max) return text;
@@ -208,18 +246,43 @@ function nameFromSlug(slug) {
   return slug.split('-').map(word => word[0].toUpperCase() + word.slice(1)).join(' ');
 }
 
-// cities.json is the authority once the-dig-data publishes it.
+// cities.json is the authority once the-dig-data publishes it. For each city it names:
+//   live     the index says status "live" or, in an index without statuses,
+//            "enabled": true. Its feed must be readable or the build stops.
+//   proving  the index says status "proving", or names the city without marking
+//            it live. It gets preview pages on the first build that finds its
+//            feed. Until then it is not on the site: no feed, no count, no page.
 function citiesFromIndex(index) {
   check(Array.isArray(index.cities), 'cities.json has no city list');
-  const enabled = index.cities.filter(city => city && city.enabled === true && typeof city.feedUrl === 'string');
-  check(enabled.length, 'cities.json lists no enabled city with a feed');
-  const first = enabled.find(city => city.slug === index.defaultCity) ?? enabled[0];
-  return [first, ...enabled.filter(city => city !== first)].map(city => {
+  const entries = [];
+  const offSite = [];
+  const seen = new Set();
+  for (const city of index.cities) {
+    if (!city || typeof city !== 'object') continue;
     checkSlug(city.slug);
-    check(/^(https:|file:)/.test(city.feedUrl), `${city.slug}: feedUrl must be HTTPS`);
-    return {slug: city.slug, name: clean(city.name) || nameFromSlug(city.slug), timeZone: city.timeZone,
-      feedUrl: city.feedUrl, center: city.center, radiusMiles: city.radiusMiles, required: true};
-  });
+    check(!seen.has(city.slug), `cities.json names ${city.slug} twice`);
+    seen.add(city.slug);
+    const name = clean(city.name) || nameFromSlug(city.slug);
+    const stated = typeof city.status === 'string' ? city.status.trim().toLowerCase() : '';
+    const status = stated === 'live' || (!stated && city.enabled === true) ? 'live'
+      : !stated || stated === 'proving' || stated === 'preview' ? 'proving' : null;
+    if (!status) {
+      offSite.push({slug: city.slug, name, reason: `index status "${clean(city.status)}" is neither live nor proving`});
+      continue;
+    }
+    const feedUrl = [city.feedUrl, city.feed].find(value => typeof value === 'string' && value)
+      ?? `${DATA_BASE}/cities/${city.slug}/sales.json`;
+    check(/^(https:|file:)/.test(feedUrl), `${city.slug}: feedUrl must be HTTPS`);
+    entries.push({slug: city.slug, name, status, timeZone: city.timeZone, feedUrl, center: city.center,
+      radiusMiles: city.radiusMiles, required: status === 'live',
+      indexCount: [city.count, city.sales].find(Number.isInteger) ?? null,
+      cleanRuns: Number.isInteger(city.cleanRuns) && city.cleanRuns >= 0 ? city.cleanRuns : null});
+  }
+  const live = entries.filter(entry => entry.status === 'live');
+  check(live.length, 'cities.json names no live city');
+  const first = live.find(city => city.slug === index.defaultCity) ?? live[0];
+  // The home page city first, then the other live cities, then the proving ones.
+  return {entries: [first, ...live.filter(city => city !== first), ...entries.filter(entry => entry.status === 'proving')], offSite};
 }
 
 async function cityFolders() {
@@ -239,12 +302,13 @@ async function cityFolders() {
   return JSON.parse(listing.text).filter(entry => entry.type === 'dir').map(entry => entry.name);
 }
 
-// Without an index: Houston from the root feed, plus every cities/<slug>/sales.json that exists.
+// Without an index: Houston live from the root feed, plus every cities/<slug>/sales.json
+// that exists. With no index to call those live, they are shown as previews.
 async function citiesFromFeeds() {
-  const cities = [{...DEFAULT_CITY, feedUrl: `${DATA_BASE}/sales.json`, required: true}];
+  const cities = [{...DEFAULT_CITY, status: 'live', feedUrl: `${DATA_BASE}/sales.json`, required: true}];
   for (const slug of (await cityFolders()).sort()) {
     if (slug === DEFAULT_CITY.slug || !slugPattern.test(slug) || reservedSlugs.has(slug)) continue;
-    cities.push({slug, name: nameFromSlug(slug), feedUrl: `${DATA_BASE}/cities/${slug}/sales.json`, required: false});
+    cities.push({slug, name: nameFromSlug(slug), status: 'proving', feedUrl: `${DATA_BASE}/cities/${slug}/sales.json`, required: false});
   }
   return cities;
 }
@@ -290,7 +354,20 @@ async function loadCity(entry) {
   const response = await get(entry.feedUrl);
   if (response.status === 404 && !entry.required) return null;
   check(response.status === 200, `${entry.slug}: feed ${entry.feedUrl} answered HTTP ${response.status}`);
-  const feed = JSON.parse(response.text);
+  try {
+    return readCity(entry, response.text);
+  } catch (error) {
+    if (entry.required) throw error;
+    // A proving feed that does not read cleanly keeps that city off the site.
+    // It never stops the live cities from rebuilding.
+    console.warn(`${entry.slug}: preview feed left off the site (${error.message})`);
+    entry.problem = error.message;
+    return null;
+  }
+}
+
+function readCity(entry, text) {
+  const feed = JSON.parse(text);
   check(Array.isArray(feed.sales), `${entry.slug}: feed has no sales list`);
   const timeZone = entry.timeZone || feed.window?.timeZone || 'America/Chicago';
   try {
@@ -321,6 +398,10 @@ async function loadCity(entry) {
   return {
     slug: entry.slug,
     name: entry.name,
+    status: entry.status,
+    preview: entry.status !== 'live',
+    indexCount: entry.indexCount ?? null,
+    cleanRuns: entry.cleanRuns ?? null,
     timeZone,
     zone: zoneName(timeZone),
     feedUrl: entry.feedUrl,
@@ -342,10 +423,62 @@ async function loadCities() {
   const index = await get(`${DATA_BASE}/cities.json`);
   check(index.status === 200 || index.status === 404, `cities.json answered HTTP ${index.status}`);
   const fromIndex = index.status === 200;
-  const entries = fromIndex ? citiesFromIndex(JSON.parse(index.text)) : await citiesFromFeeds();
-  const cities = (await Promise.all(entries.map(loadCity))).filter(Boolean);
-  check(cities.length, 'No city feed could be read');
-  return {cities, cityIndex: fromIndex ? `${DATA_BASE}/cities.json` : null};
+  const {entries, offSite} = fromIndex ? citiesFromIndex(JSON.parse(index.text)) : {entries: await citiesFromFeeds(), offSite: []};
+  const loaded = await Promise.all(entries.map(loadCity));
+  entries.forEach((entry, position) => {
+    if (!loaded[position]) offSite.push({slug: entry.slug, name: entry.name, reason: entry.problem ? `its feed does not read cleanly: ${entry.problem}` : 'no feed yet'});
+  });
+  const cities = loaded.filter(Boolean);
+  check(cities.some(city => !city.preview), 'No live city feed could be read');
+  // offSite: cities the index names that have no pages in this build, and why.
+  return {cities, offSite, cityIndex: fromIndex ? `${DATA_BASE}/cities.json` : null};
+}
+
+// search.json is the combined feed of every sale in the live and proving cities.
+// The site takes each sale's categories from it. Until the-dig-data publishes it,
+// and for any sale it leaves out, categories are read from the listing text here.
+async function loadSearchFeed() {
+  const url = `${DATA_BASE}/search.json`;
+  const response = await get(url);
+  if (response.status === 404) return {url, published: false, problem: null, sales: new Map()};
+  check(response.status === 200, `search.json answered HTTP ${response.status}`);
+  try {
+    const data = JSON.parse(response.text);
+    const list = Array.isArray(data) ? data : [data.sales, data.results, data.items, data.entries].find(Array.isArray);
+    check(list, 'it has no sale list');
+    const sales = new Map();
+    for (const raw of list) {
+      if (!raw || typeof raw.id !== 'string' || !Array.isArray(raw.categories)) continue;
+      sales.set(raw.id, raw.categories
+        .map(item => clean(typeof item === 'string' ? item : item?.label ?? item?.name ?? item?.id)).filter(Boolean));
+    }
+    return {url, published: true, problem: null, sales};
+  } catch (error) {
+    console.warn(`search.json could not be used (${error.message}). Categories are read from listing titles instead.`);
+    return {url, published: true, problem: error.message, sales: new Map()};
+  }
+}
+
+const squash = value => fold(value).replace(/\band\b/g, ' ').replace(/ /g, '');
+const categoryAlias = new Map(CATEGORIES.flatMap(category =>
+  [category.id, category.label, ...category.aliases].map(name => [squash(name), category.id])));
+const categoryWords = CATEGORIES.map(category => ({id: category.id,
+  pattern: new RegExp(`(?:^| )(?:${category.words.map(fold).join('|')})(?:s|es)?(?= |$)`)}));
+
+// One sale's categories: chip ids in chip order, plus any search.json labels that are not chips.
+function categorize(sale, listed) {
+  if (listed) {
+    const ids = new Set();
+    const tags = [];
+    for (const label of listed) {
+      const id = categoryAlias.get(squash(label));
+      if (id) ids.add(id);
+      else if (!tags.includes(clip(label, 40))) tags.push(clip(label, 40));
+    }
+    return {cats: CATEGORIES.filter(category => ids.has(category.id)).map(category => category.id), tags: tags.slice(0, 8)};
+  }
+  const text = fold([sale.title, sale.company, sale.excerpt].join(' '));
+  return {cats: categoryWords.filter(category => category.pattern.test(text)).map(category => category.id), tags: []};
 }
 
 async function latestApk() {
@@ -387,17 +520,21 @@ const symbols = `<svg class="symbols" aria-hidden="true" xmlns="http://www.w3.or
   <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7m-8 0h8v8"/></symbol>
   <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
   <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m4 7.5 8 6 8-6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></symbol>
 </svg>`;
 const icon = name => `<svg class="icon" aria-hidden="true"><use href="#i-${name}"/></svg>`;
 const brandMark = '<svg viewBox="0 0 40 40" aria-hidden="true"><path d="m7 26 13-13 7 7-13 13-9 2z"/><path d="m22 15 7-7m-3-2 3-3 8 8-3 3zM9 30l10-10"/></svg>';
 
-function layout({path, title, description, body, cities, apk, jsonLd = [], map = null, city = null, index = true}) {
+function layout({path, title, description, body, cities, apk, jsonLd = [], map = null, city = null, index = true, search = false}) {
   const home = cities[0];
-  const cityLinks = cities.length <= 3
-    ? cities.map(item => `<a href="${href(`/${item.slug}/`)}">${esc(item.name)}</a>`).join('')
-    : `<a href="${href('/#cities')}">Cities</a>`;
+  // Live cities get their own link while there are few. Every city is on /regions/.
+  const live = cities.filter(item => !item.preview);
+  const cityLinks = live.length <= 2
+    ? live.map(item => `<a href="${href(`/${item.slug}/`)}">${esc(item.name)}</a>`).join('')
+    : '';
+  const here = target => path === target ? ' aria-current="page"' : '';
   const weekendCity = city ?? home;
-  const footerCities = cities.map(item => `<li><a href="${href(`/${item.slug}/`)}">Estate sales in ${esc(item.name)}</a></li>`).join('\n          ');
+  const footerCities = cities.map(item => `<li><a href="${href(`/${item.slug}/`)}">Estate sales in ${esc(item.name)}</a>${item.preview ? ' (preview)' : ''}</li>`).join('\n          ');
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -431,7 +568,7 @@ ${symbols}
   <div class="frame mast-inner">
     <a class="brand" href="${href('/')}" aria-label="The Dig home">${brandMark}The Dig<span>.</span></a>
     <nav aria-label="Site">
-      ${cityLinks}<a href="${href(`/${weekendCity.slug}/this-weekend/`)}">This weekend</a><a href="${href('/list-your-sale/')}">List your sale</a>
+      ${cityLinks}<a href="${href(`/${weekendCity.slug}/this-weekend/`)}">This weekend</a><a href="${href('/regions/')}"${here('/regions/')}>Regions</a><a href="${href('/search/')}"${here('/search/')}>Search</a><a href="${href('/list-your-sale/')}"${here('/list-your-sale/')}>List your sale</a>
     </nav>
   </div>
 </header>
@@ -446,14 +583,16 @@ ${body}
       <p>The Dig does not run these sales. Check the original listing before you travel.</p>
     </div>
     <div>
-      <h2>Cities</h2>
+      <h2>Regions</h2>
       <ul>
           ${footerCities}
+          <li><a href="${href('/regions/')}">All regions</a></li>
       </ul>
     </div>
     <div>
       <h2>The Dig</h2>
       <ul>
+        <li><a href="${href('/search/')}">Search every city</a></li>
         <li><a href="${esc(apk.url)}">Android app (${esc(apk.tag)})</a></li>
         <li><a href="${href('/list-your-sale/')}">List your sale</a></li>
         <li><a href="${href('/llms.txt')}">For AI agents</a></li>
@@ -466,7 +605,7 @@ ${body}
 ${map ? `<script type="application/json" id="map-data">${scriptJson(map)}</script>
 <script defer src="${LEAFLET.js}" integrity="${LEAFLET.jsHash}" crossorigin=""></script>
 <script defer src="${href('/assets/map.js')}"></script>
-` : ''}${city ? `<script defer src="${href('/assets/site.js')}"></script>\n` : ''}</body>
+` : ''}${city ? `<script defer src="${href('/assets/site.js')}"></script>\n` : ''}${search ? `<script defer src="${href('/assets/search.js')}"></script>\n` : ''}</body>
 </html>
 `;
 }
@@ -532,6 +671,27 @@ function results(city, sales, {weekend = false} = {}) {
   </div>`;
 }
 
+const previewTag = '<span class="tag tag-preview">Preview</span>';
+
+// Shown at the top of every page of a proving city: its map, its weekend page and its sale pages.
+function previewBanner(city) {
+  if (!city.preview) return '';
+  return `<p class="preview-banner" id="preview-banner"><strong>Preview — still proving itself.</strong> ${esc(city.name)} is new on The Dig. Its sales are collected the same way as a live city's, but the feed is still being checked day by day, so a sale can be missing. Confirm every sale on its original listing.</p>
+  `;
+}
+
+// The short "where The Dig works" row on the home page.
+function regionsStrip(cities) {
+  const item = city => `<li data-region="${city.slug}" data-status="${city.status}" data-count="${city.sales.length}"><a href="${href(`/${city.slug}/`)}"><strong>${esc(city.name)}</strong>${city.preview ? ' ' + previewTag : ''}<span>${plural(city.sales.length, 'sale')}</span></a></li>`;
+  return `<section class="regions-strip" id="regions-strip" aria-labelledby="regions-strip-heading">
+    <h2 id="regions-strip-heading">Where The Dig works</h2>
+    <ul>
+      ${cities.map(item).join('\n      ')}
+    </ul>
+    <a class="text-link" href="${href('/regions/')}">All regions</a>
+  </section>`;
+}
+
 function countLine(city) {
   const ended = city.sales.filter(sale => sale.ended).length;
   const split = ended ? ` <span class="count-split">${city.sales.length - ended} still to come, ${ended} ended</span>` : '';
@@ -584,12 +744,6 @@ function homePage(context) {
   const city = cities[0];
   const title = `Estate sales near me: ${city.name} estate sale map | The Dig`;
   const description = clip(`Find estate sales near you. The Dig pools ${plural(city.sales.length, 'estate sale')} in ${city.name} from the public listing boards onto one map, with dates, hours and a link back to every original listing.`, 300);
-  const otherCities = cities.length > 1
-    ? `<ul class="city-cards">
-      ${cities.map(item => `<li><a href="${href(`/${item.slug}/`)}"><strong>${esc(item.name)}</strong><span>${plural(item.sales.length, 'sale')} · ${item.weekendSales.length} this weekend</span></a></li>`).join('\n      ')}
-    </ul>`
-    : `<p>${esc(city.name)} is the first city on The Dig. More cities appear here as their feeds come online.</p>
-    <p><a class="text-link" href="${href(`/${city.slug}/`)}">Estate sales in ${esc(city.name)}</a> · <a class="text-link" href="${href(`/${city.slug}/this-weekend/`)}">${esc(city.name)} this weekend</a></p>`;
   const body = `<div class="frame">
   <section class="hero">
     <div class="hero-text">
@@ -607,6 +761,7 @@ function homePage(context) {
       <div><dt>Feed collected</dt><dd class="facts-text">${city.collected ? esc(city.collected.day) : 'Not stated'}</dd></div>
     </dl>
   </section>
+  ${regionsStrip(cities)}
   <section aria-labelledby="city-heading">
     <div class="section-intro">
       <div>
@@ -628,10 +783,14 @@ function homePage(context) {
       <div><h3>Always linked back</h3><p>Every sale links to its original listing for photos, terms and the latest changes. The listing is the authority. Check it before you travel.</p></div>
     </div>
   </section>
-  <section class="split" id="cities" aria-labelledby="cities-heading">
+  <section class="split" aria-labelledby="find-heading">
     <div>
-      <h2 id="cities-heading">Cities</h2>
-      ${otherCities}
+      <h2 id="find-heading">Search every city</h2>
+      <p>Look for a word in a sale's title or company across ${cities.length === 1 ? esc(city.name) : `all ${cities.length} cities`}, or pick a category such as tools, furniture or vinyl.</p>
+      <form class="search-box" role="search" action="${href('/search/')}" method="get">
+        <input type="search" name="q" aria-label="Search sale titles and companies" placeholder="Search sales" autocomplete="off" enterkeyhint="search">
+        <button class="button button-primary" type="submit">${icon('search')}Search</button>
+      </form>
     </div>
     <div>
       <h2>Run estate sales?</h2>
@@ -641,17 +800,18 @@ function homePage(context) {
   </section>
 </div>`;
   put('/', layout({...context, path: '/', title, description, body, city, map: mapData(city, city.sales),
-    jsonLd: [{'@context': 'https://schema.org', '@type': 'WebSite', name: 'The Dig', url: abs('/'), description: TAGLINE},
+    jsonLd: [{'@context': 'https://schema.org', '@type': 'WebSite', name: 'The Dig', url: abs('/'), description: TAGLINE,
+      potentialAction: {'@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string'}},
       itemList(`Estate sales in ${city.name}`, city.sales)]}));
   pages.push({path: '/', lastmod: city.collectedAt});
 }
 
 function cityPage(context, city) {
   const path = `/${city.slug}/`;
-  const title = `Estate sales in ${city.name}: map, dates and hours | The Dig`;
-  const description = clip(`${plural(city.sales.length, 'estate sale')} in ${city.name} on one map. See what is open this weekend, with dates, hours and a link back to each original listing. Find estate sales near you${city.collected ? `, updated ${city.collected.day}` : ''}.`, 300);
+  const title = `Estate sales in ${city.name}${city.preview ? ' (preview)' : ''}: map, dates and hours | The Dig`;
+  const description = clip(`${city.preview ? 'Preview: ' : ''}${plural(city.sales.length, 'estate sale')} in ${city.name} on one map. See what is open this weekend, with dates, hours and a link back to each original listing. Find estate sales near you${city.collected ? `, updated ${city.collected.day}` : ''}.`, 300);
   const body = `<div class="frame">
-  <div class="page-head">
+  ${previewBanner(city)}<div class="page-head">
     <div>
       <h1>Estate sales in ${esc(city.name)}</h1>
       <p class="area">${icon('pin')}${areaLine(city)}</p>
@@ -673,10 +833,10 @@ function weekendPage(context, city) {
   const path = `/${city.slug}/this-weekend/`;
   const {weekend, weekendSales} = city;
   const span = dayRange(weekend.first, weekend.last, longDay);
-  const title = `Estate sales in ${city.name} this weekend (${compactRange(weekend.first, weekend.last)}) | The Dig`;
-  const description = clip(`${plural(weekendSales.length, 'estate sale')} in ${city.name} open this weekend, ${span}. One map with hours and a link back to each original listing. Find estate sales near you.`, 300);
+  const title = `Estate sales in ${city.name} this weekend (${compactRange(weekend.first, weekend.last)})${city.preview ? ', preview' : ''} | The Dig`;
+  const description = clip(`${city.preview ? 'Preview: ' : ''}${plural(weekendSales.length, 'estate sale')} in ${city.name} open this weekend, ${span}. One map with hours and a link back to each original listing. Find estate sales near you.`, 300);
   const body = `<div class="frame">
-  <div class="page-head">
+  ${previewBanner(city)}<div class="page-head">
     <div>
       <h1>Estate sales in ${esc(city.name)} this weekend</h1>
       <p class="area">${icon('calendar')}${esc(span)}</p>
@@ -755,7 +915,7 @@ function salePage(context, sale, city) {
     : sale.approximate ? '<p class="note">The circle marks the general area, not the house.</p>'
     : '<p class="note">Pin placed from the listed street address.</p>';
   const body = `<div class="frame">
-  <article class="sale-page">
+  ${previewBanner(city)}<article class="sale-page">
     <p class="crumbs"><a href="${href(`/${city.slug}/`)}">Estate sales in ${esc(city.name)}</a></p>
     <p class="dates dates-large">${esc(span)} ${statusTag(sale)}</p>
     <h1>${esc(sale.title)}</h1>
@@ -799,6 +959,155 @@ function salePage(context, sale, city) {
   put(path, layout({...context, path, title, description, body, city, jsonLd: [eventData(sale, city)],
     map: sale.lat === null ? null : {...mapData(city, [sale]), single: true}}));
   pages.push({path, lastmod: city.collectedAt});
+}
+
+function regionCard(city) {
+  const meta = [
+    `${city.weekendSales.length} open this weekend`,
+    city.collected ? `collected <time datetime="${city.collected.iso}">${esc(city.collected.day)}</time>` : 'collection time not stated',
+    ...(city.preview && city.cleanRuns !== null ? [`${plural(city.cleanRuns, 'clean collection run')} so far`] : []),
+  ];
+  return `<li class="region${city.preview ? ' is-preview' : ''}" data-region="${city.slug}" data-status="${city.status}" data-count="${city.sales.length}">
+        <a href="${href(`/${city.slug}/`)}">
+          <span class="region-name"><strong>${esc(city.name)}</strong>${city.preview ? ' ' + previewTag : ''}</span>
+          <span class="region-count"><b>${city.sales.length}</b> ${city.sales.length === 1 ? 'estate sale' : 'estate sales'} in the feed</span>
+          <span class="region-meta">${meta.join(' · ')}</span>
+          <span class="region-go">${city.preview ? `Preview ${esc(city.name)}` : `See ${esc(city.name)} sales`}${icon('arrow')}</span>
+        </a>
+      </li>`;
+}
+
+// /regions/: where The Dig works. Every city and count on it comes from the index and the feeds.
+function regionsPage(context) {
+  const {cities, cityIndex} = context;
+  const path = '/regions/';
+  const live = cities.filter(city => !city.preview);
+  const proving = cities.filter(city => city.preview);
+  const names = list => list.map(city => city.name).join(', ');
+  const title = 'Regions: where The Dig maps estate sales | The Dig';
+  const description = clip(`The Dig is live in ${names(live)} with ${plural(live.reduce((sum, city) => sum + city.sales.length, 0), 'estate sale')} on the map`
+    + (proving.length ? `, and in preview in ${names(proving)}` : '')
+    + '. See every live city, the cities on the way, and what comes next. Texas is first.', 300);
+  const body = `<div class="frame">
+  <div class="regions-head">
+    <h1>Where The Dig works</h1>
+    <p class="lede">The Dig covers one metro area at a time, and Texas is first. Every count on this page is read from that city's public feed each time the site is rebuilt.</p>
+  </div>
+  <section class="region-block" id="live" aria-labelledby="live-heading">
+    <h2 id="live-heading">Live now</h2>
+    <p class="region-intro">Collected every day, with a map, a weekend page and a page for every sale.</p>
+    <ul class="region-list" id="live-list">
+      ${live.map(regionCard).join('\n      ')}
+    </ul>
+  </section>
+  <section class="region-block" id="preview" aria-labelledby="preview-heading">
+    <h2 id="preview-heading">On the way ${previewTag}</h2>
+    <p class="region-intro">A preview city is collected the same way as a live one, but it is still proving itself. Its count is real and current, and a sale can be missing. It moves up to Live now once its daily collection has held up.</p>
+    ${proving.length ? `<ul class="region-list" id="preview-list">
+      ${proving.map(regionCard).join('\n      ')}
+    </ul>` : '<p class="empty" id="no-preview">No city is in preview today. A city appears here, with its real count, on the first daily rebuild after its feed is published.</p>'}
+  </section>
+  <section class="region-block" id="more-states" aria-labelledby="states-heading">
+    <h2 id="states-heading">More states coming</h2>
+    <p>Texas is first, and more states are being scouted. No place is named here and no count is shown until a real feed stands behind it.</p>
+  </section>
+  <p class="feed-link">Looking for one thing? <a href="${href('/search/')}">Search every city at once</a>.${cityIndex ? ` The same list as data: <a href="${esc(cityIndex)}">city index</a>.` : ''}</p>
+</div>`;
+  put(path, layout({...context, path, title, description, body, jsonLd: [{
+    '@context': 'https://schema.org', '@type': 'ItemList', name: 'Cities on The Dig', numberOfItems: cities.length,
+    itemListElement: cities.map((city, position) => ({'@type': 'ListItem', position: position + 1,
+      name: `Estate sales in ${city.name}${city.preview ? ' (preview)' : ''}`, url: abs(`/${city.slug}/`)})),
+  }]}));
+  pages.push({path, lastmod: latestCollected(cities)});
+}
+
+const latestCollected = cities => cities.map(city => city.collectedAt).filter(Boolean).sort().at(-1) ?? null;
+const categoryLabel = new Map(CATEGORIES.map(category => [category.id, category.label]));
+
+function searchHit({sale, city, cats, tags}) {
+  const town = sale.town && fold(sale.town) !== fold(city.name) ? ` · ${esc(sale.town)}` : '';
+  const labels = [...cats.map(id => categoryLabel.get(id)), ...tags];
+  return `<li class="sale hit${sale.ended ? ' is-ended' : ''}" data-id="${sale.id}" data-last="${sale.last}">
+        <a href="${href(salePath(sale))}">
+          <span class="sale-text">
+            <span class="dates">${esc(dayRange(sale.first, sale.last))}${sale.ended ? ' <span class="tag tag-ended">Ended</span>' : ''}</span>
+            <span class="sale-title">${esc(sale.title)}</span>
+            ${sale.company ? `<span class="company">${esc(sale.company)}</span>` : ''}
+            <span class="place">${esc(city.name)}${city.preview ? ' ' + previewTag : ''}${town}</span>
+            ${labels.length ? `<span class="cats">${labels.map(label => `<span class="cat">${esc(label)}</span>`).join('')}</span>` : ''}
+          </span>
+        </a>
+      </li>`;
+}
+
+// /search/: every sale page, grouped by city. The page holds every result;
+// assets/search.js hides the ones that do not match, using /search/data.json.
+function searchPage(context) {
+  const {cities, hits, searchFeed} = context;
+  const path = '/search/';
+  const groups = cities.map(city => ({city, hits: hits.filter(hit => hit.city === city)})).filter(group => group.hits.length);
+  const where = groups.length === 1 ? groups[0].city.name : `${groups.length} cities`;
+  const title = 'Search estate sales across every city | The Dig';
+  const description = clip(`Search ${plural(hits.length, 'estate sale')} across ${where} by keyword or category: tools, furniture, vinyl and records, jewelry, collectibles and more. Every result links to its sale page.`, 300);
+  const chips = CATEGORIES.map(category => {
+    const count = hits.filter(hit => hit.cats.includes(category.id)).length;
+    return `<button type="button" class="chip" data-cat="${category.id}" aria-pressed="false"${count ? '' : ' disabled'}>${esc(category.label)} <span>${count}</span></button>`;
+  });
+  const fromFeed = hits.filter(hit => hit.fromFeed).length;
+  const categoryNote = !fromFeed
+    ? 'Categories are read from each listing’s title, so a sale can be missing from a category it belongs in.'
+    : 'Categories come from The Dig’s combined search feed.'
+      + (fromFeed < hits.length ? ` For ${plural(hits.length - fromFeed, 'sale')} it does not list yet, they are read from the listing’s title.` : '');
+  const body = `<div class="frame">
+  <div class="search-head">
+    <h1>Search every city</h1>
+    <p class="lede">${groups.length === 1 ? `One search across every city on The Dig. Today that is ${esc(where)}.` : `One search across all ${esc(where)} on The Dig, live and preview.`} Type a word, pick a category, or both.</p>
+  </div>
+  <form class="search-form" id="search-form" role="search" action="${href(path)}" method="get">
+    <label for="q">Search sale titles and companies</label>
+    <div class="search-box">
+      <input type="search" id="q" name="q" placeholder="A word from a title or a company name" autocomplete="off" spellcheck="false" enterkeyhint="search">
+      <button class="button button-primary" type="submit">${icon('search')}Search</button>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Categories">
+      ${chips.join('\n      ')}
+      <button type="button" class="chip chip-clear" id="clear-filters" hidden>Clear</button>
+    </div>
+  </form>
+  <p class="count" id="result-count" role="status" data-total="${hits.length}" data-cities="${groups.length}"><strong>${hits.length}</strong> ${hits.length === 1 ? 'sale' : 'sales'} across ${plural(groups.length, 'city', 'cities')}.</p>
+  <p class="fresh" id="search-scope">Search covers listing titles and companies today — searching inside photos is coming later. ${categoryNote}</p>
+  <p class="note" id="search-status" hidden>Search could not load its data. Every sale is still listed below.</p>
+  <noscript><p class="note">Filtering needs JavaScript. Every sale is listed below, grouped by city.</p></noscript>
+  <p class="empty" id="no-results" hidden>No sale matches. Try a shorter word, or clear a category.</p>
+  <div id="results" data-source="${href('/search/data.json')}">
+    ${groups.length ? '' : '<p class="empty">No feed has a sale right now. The site is rebuilt every day, so check back soon.</p>'}${groups.map(group => `<section class="search-group" id="results-${group.city.slug}" data-city="${group.city.slug}" data-status="${group.city.status}" data-total="${group.hits.length}" data-time-zone="${esc(group.city.timeZone)}" data-built-for="${group.city.today}" aria-labelledby="group-${group.city.slug}">
+      <h2 id="group-${group.city.slug}"><a href="${href(`/${group.city.slug}/`)}">${esc(group.city.name)}</a>${group.city.preview ? ' ' + previewTag : ''} <span class="group-count">${plural(group.hits.length, 'sale')}</span></h2>
+      <ol class="hit-list">
+      ${group.hits.map(searchHit).join('\n      ')}
+      </ol>
+    </section>`).join('\n    ')}
+  </div>
+</div>`;
+  put(path, layout({...context, path, title, description, body, search: true}));
+  pages.push({path, lastmod: latestCollected(cities)});
+  put('/search/data.json', JSON.stringify(searchData(context), null, 1) + '\n');
+}
+
+// The file the search box reads. One record per sale page, so a result can never link to a missing page.
+function searchData({cities, hits, searchFeed}) {
+  const fromFeed = hits.filter(hit => hit.fromFeed).length;
+  return {
+    about: 'Every sale page on The Dig, for the search box on /search/. Rebuilt with the site. A keyword matches the start of any word in a sale\'s title, company or categories.',
+    site: SITE_URL,
+    categoriesFrom: !fromFeed ? 'listing titles' : fromFeed === hits.length ? searchFeed.url
+      : `${searchFeed.url} for ${plural(fromFeed, 'sale')}, listing titles for ${hits.length - fromFeed}`,
+    categories: CATEGORIES.map(({id, label}) => ({id, label})),
+    cities: cities.map(city => ({slug: city.slug, name: city.name, status: city.status, timeZone: city.timeZone,
+      results: hits.filter(hit => hit.city === city).length, url: abs(`/${city.slug}/`)})),
+    sales: hits.map(({sale, city, cats, tags}) => ({id: sale.id, city: city.slug, title: sale.title, company: sale.company,
+      categories: cats, ...(tags.length ? {tags} : {}), first: sale.first, last: sale.last, lat: sale.lat, lng: sale.lng,
+      url: abs(salePath(sale)), source: sale.sources[0]?.url ?? null})),
+  };
 }
 
 function listingPage(context) {
@@ -855,12 +1164,20 @@ function notFoundPage(context) {
     description: 'This page is not on The Dig. Sale pages come down when a sale leaves the feed.', body, index: false}));
 }
 
-// The plain-text card served as both /agents.txt and /llms.txt.
-function agentCard({cities, cityIndex}) {
-  const cityLines = cities.map(city => `- ${city.name}: ${abs(`/${city.slug}/`)}
+// The plain-text card served as both /agents.txt and /llms.txt. Rebuilt from the index every time.
+function agentCard({cities, offSite, cityIndex, searchFeed, hits}) {
+  const cityLine = city => `- ${city.name}${city.preview ? ' (preview, still proving itself)' : ''}: ${abs(`/${city.slug}/`)}
   This weekend: ${abs(`/${city.slug}/this-weekend/`)}
   JSON feed: ${city.feedUrl}
-  ${plural(city.sales.length, 'sale')} in the feed${city.collectedAt ? `, collected ${city.collectedAt}` : ''}. Times are ${city.timeZone}.`).join('\n');
+  ${plural(city.sales.length, 'sale')} in the feed${city.collectedAt ? `, collected ${city.collectedAt}` : ''}. Times are ${city.timeZone}.`;
+  const live = cities.filter(city => !city.preview);
+  const proving = cities.filter(city => city.preview);
+  const waiting = offSite.length
+    ? `\nThe index names ${plural(offSite.length, 'more city', 'more cities')} with no pages on this site yet (${[...new Set(offSite.map(city => city.reason.split(':')[0]))].join('; ')}).`
+    : '';
+  const combined = searchFeed.problem ? `Published, but this build could not read it (${searchFeed.problem}), so categories were read from listing titles.`
+    : searchFeed.published ? 'Published. This site takes each sale\'s categories from it.'
+    : 'Not published when this site was built (HTTP 404). Until it is, use the search data file above.';
   return `# The Dig
 
 > ${TAGLINE}
@@ -871,10 +1188,29 @@ function agentCard({cities, cityIndex}) {
 - The Dig does not run or verify sales. The source listing is the authority.
 
 ## Cities
-${cityLines}
+Live and proving are what the city index said when this site was built. Texas is first. More states are being scouted and none is named until it has a real feed.
+
+### Live
+${live.map(cityLine).join('\n')}
+
+### Proving (preview)
+${proving.length ? `${proving.map(cityLine).join('\n')}
+A proving city's pages carry a "Preview — still proving itself" banner. Its counts are real, and a sale can be missing.`
+    : `None at this build. A proving city appears here on the first rebuild after its feed is published at ${DATA_BASE}/cities/<slug>/sales.json`}${waiting}
+
+## Regions and search
+- Regions page (live cities, preview cities, what comes next): ${abs('/regions/')}
+- Search page, across every live and proving city: ${abs('/search/')}
+  Link straight to a search: ${abs('/search/')}?q=<words>&cat=<category-id>[,<category-id>]
+- Search data the page filters in the browser: ${abs('/search/data.json')}
+  ${plural(hits.length, 'record')}, one per sale page: id, city, title, company, categories, first and last day, lat, lng, sale page URL, source listing URL.
+- Category ids: ${CATEGORIES.map(category => category.id).join(', ')}
+- A keyword matches the start of any word in a sale's title, company or categories. Search does not look inside photos yet.
 
 ## Public data
 - ${cityIndex ? `City index: ${cityIndex}` : `City index: not published yet. It will be ${DATA_BASE}/cities.json`}
+- Combined search feed, every sale from the live and proving cities in one file: ${searchFeed.url}
+  ${combined}
 - Per-city feeds follow the pattern ${DATA_BASE}/cities/<slug>/sales.json
 - In a feed, "addressHidden": true means no street address has been released and the map point is approximate.
 
@@ -904,33 +1240,56 @@ function sitemap() {
 }
 
 // ── Build ───────────────────────────────────────────────────────────────────
-const [{cities, cityIndex}, apk] = await Promise.all([loadCities(), latestApk()]);
-const context = {cities, cityIndex, apk};
+const [{cities, offSite, cityIndex}, apk, searchFeed] = await Promise.all([loadCities(), latestApk(), loadSearchFeed()]);
+
+// One page and one search result per sale. A sale two cities share belongs to
+// the first city that lists it, and live cities come before proving ones.
+const hits = [];
+const placed = new Map();
+for (const city of cities) {
+  for (const sale of city.sales) {
+    if (placed.has(sale.id)) continue;
+    placed.set(sale.id, city.slug);
+    const listed = searchFeed.sales.get(sale.id);
+    hits.push({sale, city, fromFeed: Boolean(listed), ...categorize(sale, listed)});
+  }
+}
+const context = {cities, offSite, cityIndex, apk, searchFeed, hits};
 
 homePage(context);
-const placed = new Map();
+regionsPage(context);
+searchPage(context);
 for (const city of cities) {
   cityPage(context, city);
   weekendPage(context, city);
-  for (const sale of city.sales) {
-    // A sale two cities share keeps one page, under the first city that lists it.
-    if (placed.has(sale.id)) continue;
-    placed.set(sale.id, city.slug);
-    salePage(context, sale, city);
-  }
 }
+for (const hit of hits) salePage(context, hit.sale, hit.city);
 listingPage(context);
 notFoundPage(context);
 
 const card = agentCard(context);
+const fromFeed = hits.filter(hit => hit.fromFeed).length;
 const summary = {
   site: SITE_URL,
   cityIndex,
   defaultCity: cities[0].slug,
-  cities: cities.map(city => ({slug: city.slug, name: city.name, timeZone: city.timeZone, feedUrl: city.feedUrl,
-    collectedAt: city.collectedAt, sales: city.sales.length, weekendSales: city.weekendSales.length,
+  cities: cities.map(city => ({slug: city.slug, name: city.name, status: city.status, timeZone: city.timeZone, feedUrl: city.feedUrl,
+    collectedAt: city.collectedAt, sales: city.sales.length, indexCount: city.indexCount, cleanRuns: city.cleanRuns,
+    weekendSales: city.weekendSales.length, salePages: hits.filter(hit => hit.city === city).length,
     builtFor: city.today, weekend: [city.weekend.first, city.weekend.last]})),
+  // Cities the index names that have no pages in this build, and why.
+  offSite,
   salePages: placed.size,
+  search: {
+    page: abs('/search/'),
+    dataFile: abs('/search/data.json'),
+    records: hits.length,
+    combinedFeed: searchFeed.url,
+    combinedFeedPublished: searchFeed.published,
+    combinedFeedProblem: searchFeed.problem,
+    categoriesFromCombinedFeed: fromFeed,
+    categoriesFromTitles: hits.length - fromFeed,
+  },
   app: apk,
   listingEmail: LISTING_EMAIL,
   listingEmailIsPlaceholder: placeholderEmail,
@@ -955,7 +1314,13 @@ await rm(outDir, {recursive: true, force: true});
 await rename(tmpDir, outDir);
 
 for (const city of cities) {
-  console.log(`${city.slug}: ${plural(city.sales.length, 'sale')}, ${city.weekendSales.length} this weekend, feed collected ${city.collectedAt ?? 'unknown'}, built for ${city.today}`);
+  console.log(`${city.slug} (${city.status}): ${plural(city.sales.length, 'sale')}, ${city.weekendSales.length} this weekend, feed collected ${city.collectedAt ?? 'unknown'}, built for ${city.today}`);
+  if (city.indexCount !== null && city.indexCount !== city.sales.length) {
+    console.warn(`NOTE: ${city.slug}: the index says ${city.indexCount} sales, its feed has ${city.sales.length}. The site shows the feed.`);
+  }
 }
-console.log(`Wrote ${files.size} pages to docs/ (${cityIndex ? 'city index' : 'no city index yet, Houston root feed'}; app ${apk.tag}).`);
+for (const city of offSite) console.log(`${city.slug}: not on the site (${city.reason})`);
+console.log(`Search: ${plural(hits.length, 'record')}; categories from search.json for ${fromFeed}, from listing titles for ${hits.length - fromFeed}`
+  + ` (search.json ${searchFeed.problem ? 'unreadable' : searchFeed.published ? 'published' : 'not published yet'}).`);
+console.log(`Wrote ${files.size} files to ${process.env.DIG_OUT ? outDir.pathname : 'docs/'} (${cityIndex ? 'city index' : 'no city index yet, Houston root feed'}; app ${apk.tag}).`);
 if (placeholderEmail) console.log(`NOTE: the listing address is still the placeholder ${LISTING_EMAIL}.`);
