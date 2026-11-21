@@ -12,15 +12,16 @@ The site is static. `build.mjs` reads the live public feeds in [the-dig-data](ht
 | --- | --- |
 | `/` | What The Dig is, the map and list for the default city, and the Android app download |
 | `/regions/` | Where The Dig works: live cities, preview cities, and the note that more states are coming |
-| `/search/` | One search box and twelve category chips across every live and preview city. The page holds every result and `assets/search.js` filters it in the browser |
-| `/search/data.json` | The search data the page filters: one record per sale page |
+| `/search/` | One search box, twelve category chips and a Favorites-only filter across every live and preview city. The page holds every result and `assets/search.js` filters it in the browser |
+| `/search/data.json` | The search data the page filters: one record per sale page, with `keywords`, `contentsLine` and `digRating` when the feed carries them |
 | `/<city>/` | Map and list of every sale in that city's feed. A preview city's pages carry a "Preview — still proving itself" banner |
 | `/<city>/this-weekend/` | The same city, only sales open the coming Friday to Sunday (city time) |
-| `/sale/<sale-id>/` | One sale: title, company, address or "Address releases closer to the sale", session dates and hours, source link, and schema.org Event data |
+| `/sale/<sale-id>/` | One sale: title, company, full address or city + ZIP with the release time, session dates and hours, source link, schema.org Event data, a Directions link and a favorite heart. When the feed carries them, also the Dig rating with its reasons, the contents line and keyword chips, the photo count at the source, and Call / Company page buttons |
+| `/sale/<sale-id>/<date>.ics` | An "Add to calendar" file for one sale day, with the address, the source link and the contents line |
 | `/list-your-sale/` | How direct listing will work, with a button that opens a prefilled email |
 | `/agents.txt`, `/llms.txt` | A short plain-text card for AI agents and search tools |
 | `/sitemap.xml`, `/robots.txt` | For search engines |
-| `/build.json` | What the last build read: cities and their status, sale counts, feed times, cities left off and why, where search categories came from |
+| `/build.json` | What the last build read: cities and their status, sale counts, feed times, cities left off and why, where search categories came from, and how many sales carry each photo-derived field (`enriched`) |
 
 ## Rebuild and publish
 
@@ -31,6 +32,7 @@ node serve.mjs         # preview docs/ at http://127.0.0.1:4173/the-dig-web/
 node test/live.mjs --feed   # prove the live site matches docs/, the feeds and the city index
 node test/live.mjs --feed --keyword beatles   # the same, searching the live data for a word you choose
 node test/preview.mjs       # test preview cities and search.json with made-up feeds (never touches docs/)
+node test/favorites.mjs     # test the favorites hearts against a fake browser
 ```
 
 The push is the deploy. If a feed cannot be read or the generated site fails `test/check.mjs`, nothing is committed and the published site stays as it was.
@@ -54,7 +56,9 @@ New cities need no change here. A proving city appears on the first rebuild afte
 
 ## Search
 
-`/search/` is a static page. The build writes every sale into it, grouped by city, and writes `/search/data.json` beside it. `assets/search.js` fetches that file and hides the results that do not match. A keyword matches the start of any word in a sale's title, company or categories. Chips narrow to sales in any of the chosen categories. A search can be linked: `/search/?q=tools&cat=furniture,art`.
+`/search/` is a static page. The build writes every sale into it, grouped by city, and writes `/search/data.json` beside it. `assets/search.js` fetches that file and hides the results that do not match. A keyword matches the start of any word in a sale's title, company, categories, photo keywords (`photoKeywords` in the feed) or contents line (`contentsLine`). Chips narrow to sales in any of the chosen categories. A search can be linked: `/search/?q=tools&cat=furniture,art`.
+
+Favorites need no account and no server: the heart on a sale card or page stores the sale id in the visitor's browser (`localStorage`, `assets/favorites.js`), and the Favorites-only chip on `/search/` (or `/search/?fav=1`) shows only those sales.
 
 Where a sale's categories come from:
 
@@ -62,6 +66,10 @@ Where a sale's categories come from:
 2. Until then, and for any sale `search.json` leaves out, the words in the listing's title, company and excerpt (`CATEGORIES` at the top of `build.mjs`).
 
 The switch is automatic. `build.json` and `agents.txt` say which one the last build used. Search results are always the sale pages this build made, so a result cannot link to a missing page.
+
+## Per-sale details from the feeds
+
+The city feeds may carry `digRating` with `ratingReasons`, `photoKeywords`, `contentsLine`, `contactPhone`, `contactUrl` and `photoCount` per sale. The build shows each one only when it is present and reads cleanly — a rating badge with its reasons, a "What's there" section with the contents line and keyword chips, "N photos at the source" linking to the listing (photos are never copied), and Call / Company page buttons — so the site is correct before and after the data lands. Every sale also gets a Google Maps directions link and one `.ics` calendar file per sale day. While a street address is held, pages show the city and ZIP and "Address releases <weekday> 9:00 AM" for the day before the first session.
 
 ## Settings
 

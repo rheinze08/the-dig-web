@@ -12,24 +12,27 @@
       .replace(/[^a-z0-9]+/g, ' ').trim();
   }
 
-  // The words a sale can be found by: its title, its company and its categories.
+  // The words a sale can be found by: its title, its company, its categories,
+  // and — when the feed carries them — its photo keywords and contents line.
   function prepare(data) {
     var labels = {};
     (data.categories || []).forEach(function (category) { labels[category.id] = category.label; });
     return (data.sales || []).map(function (sale) {
       var categories = sale.categories || [];
-      var text = [sale.title, sale.company]
-        .concat(categories.map(function (id) { return labels[id] || id; }), sale.tags || []).join(' ');
+      var text = [sale.title, sale.company, sale.contentsLine || '']
+        .concat(categories.map(function (id) { return labels[id] || id; }), sale.tags || [], sale.keywords || []).join(' ');
       return {sale: sale, words: fold(text).split(' '), categories: categories};
     });
   }
 
   // Every word typed must start a word of the sale. With categories chosen,
-  // the sale must be in at least one of them.
-  function find(prepared, query, categories) {
+  // the sale must be in at least one of them. With favorites given (an array
+  // of sale ids), only those sales match.
+  function find(prepared, query, categories, favorites) {
     var terms = fold(query).split(' ').filter(Boolean);
     var chosen = categories || [];
     return prepared.filter(function (entry) {
+      if (favorites && favorites.indexOf(entry.sale.id) === -1) return false;
       if (chosen.length && !chosen.some(function (id) { return entry.categories.indexOf(id) !== -1; })) return false;
       return terms.every(function (term) {
         return entry.words.some(function (word) { return word.lastIndexOf(term, 0) === 0; });
@@ -103,22 +106,42 @@
       : (total === 1 ? ' sale' : ' sales') + ' across ' + cityCount + (cityCount === 1 ? ' city.' : ' cities.')));
   }
 
+  var favOnly = document.getElementById('fav-only');
+  var favCount = document.getElementById('fav-count');
+  function favorites() {
+    if (window.DigFavorites) return window.DigFavorites.list();
+    try {
+      var parsed = JSON.parse(window.localStorage.getItem('dig-favorites') || '[]');
+      return Array.isArray(parsed) ? parsed : [];
+    } catch (error) {
+      return [];
+    }
+  }
+  function favsOn() {
+    return favOnly && favOnly.getAttribute('aria-pressed') === 'true';
+  }
+  function paintFavCount() {
+    if (favCount) favCount.textContent = String(favorites().length);
+  }
+
   function remember(query, categories) {
     if (!window.history || !window.history.replaceState) return;
     var parts = [];
     if (query.trim()) parts.push('q=' + encodeURIComponent(query.trim()).replace(/%20/g, '+'));
     if (categories.length) parts.push('cat=' + categories.join(','));
+    if (favsOn()) parts.push('fav=1');
     var address = window.location.pathname + (parts.length ? '?' + parts.join('&') : '');
     if (address !== window.location.pathname + window.location.search) window.history.replaceState(null, '', address);
   }
 
   function show() {
+    paintFavCount();
     if (!prepared) return;
     var query = input.value;
     var categories = chosen();
-    var filtering = fold(query) !== '' || categories.length > 0;
+    var filtering = fold(query) !== '' || categories.length > 0 || favsOn();
     var keep = {};
-    var found = find(prepared, query, categories);
+    var found = find(prepared, query, categories, favsOn() ? favorites() : null);
     found.forEach(function (sale) { keep[sale.id] = true; });
     var shown = 0;
     hits.forEach(function (hit) {
@@ -150,6 +173,15 @@
       show();
     });
   });
+  if (favOnly) {
+    if (asked.get('fav') === '1') favOnly.setAttribute('aria-pressed', 'true');
+    favOnly.addEventListener('click', function () {
+      favOnly.setAttribute('aria-pressed', favsOn() ? 'false' : 'true');
+      show();
+    });
+  }
+  window.addEventListener('dig:favorites', show);
+  paintFavCount();
   input.addEventListener('input', show);
   form.addEventListener('submit', function (event) {
     event.preventDefault();
@@ -158,6 +190,7 @@
   clear.addEventListener('click', function () {
     input.value = '';
     chips.forEach(function (chip) { chip.setAttribute('aria-pressed', 'false'); });
+    if (favOnly) favOnly.setAttribute('aria-pressed', 'false');
     show();
     input.focus();
   });

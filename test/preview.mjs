@@ -35,7 +35,7 @@ async function build(name, change) {
   new Function('module', await read('assets/search.js'))(holder);
   const data_ = JSON.parse(await read('search/data.json'));
   return {out, log, read, summary: JSON.parse(await read('build.json')), data: data_,
-    find: (query, categories = []) => holder.exports.find(holder.exports.prepare(data_), query, categories).map(sale => sale.id)};
+    find: (query, categories = [], favorites = null) => holder.exports.find(holder.exports.prepare(data_), query, categories, favorites).map(sale => sale.id)};
 }
 
 const banner = 'Preview — still proving itself';
@@ -88,6 +88,53 @@ try {
   const search = await site.read('search/index.html');
   expect(/<section class="search-group"[^>]*data-city="lakeside" data-status="proving"[\s\S]*?tag-preview/.test(search), 'Search should label the Lakeside group Preview');
   expect(search.includes('combined search feed'), 'Search should say categories come from the combined feed');
+
+  // Phase 9 per-sale features: fully enriched, partly enriched, and plain sales.
+  const enriched = await site.read('sale/aaaa000000000001/index.html');
+  expect(enriched.includes('id="dig-rating"') && enriched.includes('Deep Dig') && enriched.includes('38 photos') && enriched.includes('runs 2 days'),
+    'The enriched sale page should show the rating badge with its reasons');
+  expect(enriched.includes('Porcelain figurines, workshop tools and vinyl records.') && enriched.includes('class="keyword">figurines<'),
+    'The enriched sale page should show the contents line and keyword chips');
+  expect(enriched.includes('38 photos at the source') && enriched.includes('https://example.com/listing/1') && !/<img[^>]*example\.com/.test(enriched),
+    'The photo count should link to the source without republishing photos');
+  expect(enriched.includes('href="tel:+15550101234"') && enriched.includes('Call Test Fixture Sales Co') && enriched.includes('https://example.com/company/test-fixture'),
+    'Call and Company page buttons should appear when the feed carries contact fields');
+  expect(enriched.includes('google.com/maps/dir/?api=1') && enriched.includes('1%20Example%20Street'),
+    'Directions should use the full street address when the feed has it');
+  expect(enriched.includes('data-fav="aaaa000000000001"'), 'The sale page should carry a favorite heart');
+  const dayOne = await site.read('sale/aaaa000000000001/2026-11-21.ics');
+  const unfoldedDay = dayOne.replace(/\r\n /g, '');
+  expect(unfoldedDay.includes('BEGIN:VEVENT') && unfoldedDay.includes('DTSTART:20261121T150000Z') && unfoldedDay.includes('DTEND:20261121T210000Z'),
+    'The calendar file should carry the session hours for that day (9 AM–3 PM Central)');
+  expect(unfoldedDay.includes('1 Example Street') && unfoldedDay.includes('https://example.com/listing/1') && unfoldedDay.includes('Porcelain figurines'),
+    'The calendar file should carry the address, the source link and the contents line');
+  expect(existsSync(join(site.out, 'sale/aaaa000000000001/2026-11-22.ics')), 'Each sale day gets its own calendar file');
+
+  const partial = await site.read('sale/bbbb000000000001/index.html');
+  expect(partial.includes('Worth a Look') && partial.includes('Antique clocks and fishing gear.') && partial.includes('12 photos at the source'),
+    'A partly enriched sale should show the fields it has');
+  expect(!partial.includes('id="contact-company"'), 'Contact buttons stay hidden when the feed has no contact fields');
+
+  const plainSale = await site.read('sale/aaaa000000000002/index.html');
+  expect(!plainSale.includes('id="dig-rating"') && !plainSale.includes('id="whats-there"') && !plainSale.includes('id="contact-company"'),
+    'A sale without the new fields should render none of the new sections');
+  expect(plainSale.includes('Address releases Thursday 9:00 AM') && plainSale.includes('Rivertown, TX 70002'),
+    'A held address should show city + ZIP and the weekday it releases (day before Friday Nov 27)');
+  expect(plainSale.includes('google.com/maps/dir/?api=1') && !plainSale.includes('Example%20Street'),
+    'Directions for a held address go to the published city and ZIP, not a guessed street');
+  expect(record('aaaa000000000001')?.keywords?.join() === 'figurines,brass lamps,vinyl records' && record('aaaa000000000001')?.digRating === 'Deep Dig',
+    'Search data should carry keywords and the rating when the feed has them');
+  expect(record('aaaa000000000002')?.keywords === undefined && record('aaaa000000000002')?.contentsLine === undefined,
+    'Search data should omit the new fields when the feed does not have them');
+  expect(site.find('brass').join() === 'aaaa000000000001', 'A word only in photoKeywords should find the sale');
+  expect(site.find('porcelain').join() === 'aaaa000000000001', 'A word only in the contents line should find the sale');
+  expect(site.find('', [], ['bbbb000000000001']).join() === 'bbbb000000000001', 'The favorites filter should return only favorites');
+  expect(site.find('', [], []).length === 0, 'The favorites filter with no favorites returns nothing');
+  expect(summary.enriched.withRating === 2 && summary.enriched.withKeywords === 2 && summary.enriched.withContact === 1 && summary.enriched.withPhotoCount === 2,
+    'build.json should count the sales carrying each new field');
+  expect(summary.enriched.calendarFiles === 5, 'build.json should count one calendar file per sale day (2 + 1 + 1 + 1)');
+  expect(search.includes('id="fav-only"'), 'Search should offer the Favorites-only filter');
+  expect((await site.read('rivertown/index.html')).includes('data-fav="aaaa000000000001"'), 'City cards should carry favorite hearts');
 
   const card = await site.read('agents.txt');
   expect(/### Proving \(preview\)\n- Lakeside \(preview, still proving itself\)/.test(card), 'agents.txt should list Lakeside as proving');

@@ -68,7 +68,7 @@ for (const file of htmlFiles) {
     const target = attribute(tag, 'href') ?? attribute(tag, 'src');
     if (!target) continue;
     const link = unescape(target);
-    if (/^(mailto:|#)/.test(link)) continue;
+    if (/^(mailto:|tel:|#)/.test(link)) continue;
     // Feed links are file: addresses only when a test points the build at local feeds.
     if (link.startsWith('file:') && summary.cities.some(city => city.feedUrl.startsWith('file:'))) continue;
     if (/^https?:\/\//.test(link)) {
@@ -109,6 +109,8 @@ for (const city of summary.cities) {
     const visible = Number(html.match(/id="sale-count"[^>]*><strong>(\d+)<\/strong>/)?.[1]);
     if (shown !== city.sales || visible !== city.sales) fail(`/${file}: shows ${visible} sales, the feed has ${city.sales}`);
     if (cardCount(html) !== city.sales) fail(`/${file}: lists ${cardCount(html)} sale cards, the feed has ${city.sales}`);
+    if ((html.match(/data-fav="/g) ?? []).length !== city.sales) fail(`/${file}: every sale card needs a favorite heart`);
+    if ((html.match(/google\.com\/maps\/dir\//g) ?? []).length !== city.sales) fail(`/${file}: every sale card needs a Directions link`);
     if (!html.includes('id="map"') || !html.includes('id="map-data"')) fail(`/${file}: no map`);
   }
   const weekendFile = `${city.slug}/this-weekend/index.html`;
@@ -143,6 +145,32 @@ for (const file of saleFiles) {
   if (!/<table class="sessions">/.test(html)) fail(`/${file}: no session table`);
   if (!/class="address/.test(html)) fail(`/${file}: no address line`);
   if (!/rel="noopener external"/.test(html) && !html.includes('does not carry a source link')) fail(`/${file}: no link to the source listing`);
+  if (!html.includes('google.com/maps/dir/?api=1&destination=') && !html.includes('google.com/maps/dir/?api=1&amp;destination=')) fail(`/${file}: no Directions link`);
+  if (!/data-fav="/.test(html)) fail(`/${file}: no favorite heart`);
+  if (html.includes('address-hidden') && !/Address releases (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday) 9:00 AM/.test(html)) {
+    fail(`/${file}: a held address must say which weekday it releases at 9:00 AM`);
+  }
+  // One calendar file per session row, each a readable VEVENT for that day.
+  const table = html.match(/<table class="sessions">[\s\S]*?<\/table>/)?.[0] ?? '';
+  const rows = [...table.matchAll(/data-day="(\d{4}-\d{2}-\d{2})"/g)].map(match => match[1]);
+  const icsLinks = [...html.matchAll(new RegExp(`href="${base}/sale/[^"]+/(\\d{4}-\\d{2}-\\d{2})\\.ics"`, 'g'))].map(match => match[1]);
+  if (icsLinks.length !== rows.length || rows.some(day => !icsLinks.includes(day))) fail(`/${file}: calendar downloads do not match the session days`);
+  for (const day of new Set(icsLinks)) {
+    const icsFile = file.replace('index.html', `${day}.ics`);
+    if (!all.has(icsFile)) {
+      fail(`/${file}: missing calendar file ${icsFile}`);
+      continue;
+    }
+    const ics = await read(icsFile);
+    const unfolded = ics.replace(/\r\n /g, '');
+    const dtstart = unfolded.match(/DTSTART(?:;VALUE=DATE)?:(\d{8})(?:T\d{6}Z)?/)?.[1];
+    const allDay = /DTSTART;VALUE=DATE:/.test(unfolded);
+    if (!unfolded.startsWith('BEGIN:VCALENDAR') || !unfolded.includes('BEGIN:VEVENT') || !unfolded.includes('SUMMARY:')
+      || !unfolded.includes('LOCATION:') || !unfolded.includes('DESCRIPTION:') || !dtstart
+      || (allDay && dtstart !== day.replace(/-/g, ''))
+      || !unfolded.includes('/sale/')) fail(`/${icsFile}: not a complete calendar event for ${day}`);
+    if (ics.split('\r\n').some(line => new TextEncoder().encode(line).length > 75)) fail(`/${icsFile}: a folded line is longer than 75 octets`);
+  }
 }
 
 // Regions: every city with pages is listed once, in the right section, with the count the feed gave.
@@ -217,7 +245,26 @@ else {
   }
 
   if (!/<input type="search" id="q" name="q"/.test(html)) fail('/search/: no search box');
-  if (!html.includes('Search covers listing titles and companies today — searching inside photos is coming later.')) fail('/search/: the line about what search covers is missing');
+  if (!html.includes('id="fav-only"') || !html.includes('id="fav-count"')) fail('/search/: no Favorites-only filter');
+  const photoSearchSales = records.filter(record => record.keywords?.length || record.contentsLine).length;
+  if (summary.search.photoSearchSales !== photoSearchSales) fail(`build.json says ${summary.search.photoSearchSales} photo-searchable sales, the data has ${photoSearchSales}`);
+  if (photoSearchSales ? !html.includes('photo keywords and contents line') : !html.includes('Search covers listing titles and companies in this build')) {
+    fail('/search/: the line about what search covers does not match this build');
+  }
+  for (const record of records) {
+    if (record.keywords !== undefined && (!Array.isArray(record.keywords) || record.keywords.some(word => typeof word !== 'string' || !word))) fail(`search/data.json: ${record.id} has malformed keywords`);
+    if (record.contentsLine !== undefined && typeof record.contentsLine !== 'string') fail(`search/data.json: ${record.id} has a malformed contentsLine`);
+    if (record.digRating !== undefined && typeof record.digRating !== 'string') fail(`search/data.json: ${record.id} has a malformed digRating`);
+    const saleHtml = await read(`sale/${record.id}/index.html`);
+    if (Boolean(record.digRating) !== saleHtml.includes('id="dig-rating"')) fail(`/sale/${record.id}/: rating section does not match the feed data`);
+    if (Boolean(record.keywords?.length || record.contentsLine) && !saleHtml.includes('id="whats-there"')) fail(`/sale/${record.id}/: has keywords or a contents line but no What's there section`);
+    if (!record.keywords?.length && !record.contentsLine && saleHtml.includes('class="contents-line"')) fail(`/sale/${record.id}/: shows a contents line the data does not have`);
+  }
+  const enriched = summary.enriched ?? {};
+  if (enriched.withRating !== records.filter(record => record.digRating).length) fail('build.json enriched.withRating does not match the search data');
+  if (enriched.withKeywords !== records.filter(record => record.keywords?.length).length) fail('build.json enriched.withKeywords does not match the search data');
+  if (enriched.withContentsLine !== records.filter(record => record.contentsLine).length) fail('build.json enriched.withContentsLine does not match the search data');
+  if (enriched.calendarFiles !== [...all].filter(file => file.endsWith('.ics')).length) fail('build.json enriched.calendarFiles does not match the calendar files written');
   if (!html.includes(`data-source="${base}/search/data.json"`) || !html.includes(`src="${base}/assets/search.js"`)) fail('/search/: the page does not load its data file and script');
   const total = Number(html.match(/id="result-count"[^>]*data-total="(\d+)"/)?.[1]);
   if (total !== records.length || !html.includes(`id="result-count"`) || !new RegExp(`data-total="${records.length}"[^>]*><strong>${records.length}</strong>`).test(html)) fail(`/search/: shows ${total} results, expected ${records.length}`);
@@ -265,6 +312,21 @@ else {
     if (holder.exports.find(prepared, '', [id]).length !== real) fail(`Search returns the wrong sales for the ${id} chip`);
   }
   if (holder.exports.find(prepared, 'zzqqxxnotaword', []).length) fail('Search returns sales for a word no sale has');
+  for (const record of records) {
+    for (const keyword of record.keywords ?? []) {
+      const word = holder.exports.fold(keyword).split(' ')[0];
+      if (word && !holder.exports.find(prepared, word, []).some(item => item.id === record.id)) fail(`Search does not find ${record.id} by its photo keyword "${keyword}"`);
+    }
+    if (record.contentsLine) {
+      const word = holder.exports.fold(record.contentsLine).split(' ').sort((a, b) => b.length - a.length)[0];
+      if (word && !holder.exports.find(prepared, word, []).some(item => item.id === record.id)) fail(`Search does not find ${record.id} by its contents line`);
+    }
+  }
+  if (records.length) {
+    const only = holder.exports.find(prepared, '', [], [records[0].id]);
+    if (only.length !== 1 || only[0].id !== records[0].id) fail('Search favorites filter does not narrow to the favorite sale');
+    if (holder.exports.find(prepared, '', [], []).length !== 0) fail('Search favorites filter with no favorites must return nothing');
+  }
 }
 
 // Preview cities: the banner is on every page of a proving city and on no other page.
@@ -317,6 +379,9 @@ for (const name of ['agents.txt', 'llms.txt']) {
   }
   if (!card.includes('How to cite')) fail(`${name} does not say how to cite The Dig`);
   if (!card.includes(summary.listingEmail)) fail(`${name} has no contact note`);
+  for (const feature of ['Dig rating', 'Directions link', 'Add to calendar', 'favorites', 'photo keywords']) {
+    if (!card.includes(feature)) fail(`${name} does not mention the per-sale feature "${feature}"`);
+  }
 }
 
 // The listing page: one mailto button, addressed to the configured address.
@@ -329,7 +394,7 @@ if (summary.listingEmailIsPlaceholder && !listing.includes('id="email-notice"'))
   fail('/list-your-sale/: the address is a placeholder but the page does not say so');
 }
 
-for (const file of ['404.html', '.nojekyll', 'assets/site.css', 'assets/map.js', 'assets/search.js', 'assets/og.png', 'assets/icon.svg']) {
+for (const file of ['404.html', '.nojekyll', 'assets/site.css', 'assets/map.js', 'assets/search.js', 'assets/favorites.js', 'assets/og.png', 'assets/icon.svg']) {
   if (!all.has(file)) fail(`${file} is missing`);
 }
 

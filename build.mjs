@@ -330,6 +330,26 @@ function readSale(raw, where) {
   const located = Number.isFinite(raw.lat) && Number.isFinite(raw.lng) && Math.abs(raw.lat) <= 90 && Math.abs(raw.lng) <= 180;
   const street = raw.addressHidden ? '' : clean(raw.streetAddress);
   const excerpt = clean(typeof raw.excerpt === 'string' ? raw.excerpt : typeof raw.description === 'string' ? raw.description : '');
+  // Phase 9 fields. Every one is optional: a sale without them renders exactly
+  // as before, and a sale with them lights up on the next rebuild. Values that
+  // do not read cleanly are dropped here, never shown half-parsed.
+  const lines = (value, max, each) => (Array.isArray(value) ? value : [])
+    .map(item => clip(clean(item), each)).filter(Boolean).slice(0, max);
+  const keywords = [];
+  for (const word of lines(raw.photoKeywords, 24, 40)) {
+    if (!keywords.some(seen => fold(seen) === fold(word))) keywords.push(word);
+  }
+  const phone = clean(raw.contactPhone);
+  const phoneDigits = phone.replace(/\D/g, '');
+  const tel = phoneDigits.length >= 7
+    ? 'tel:' + (phoneDigits.length === 10 ? '+1' + phoneDigits
+      : phoneDigits.length === 11 && phoneDigits.startsWith('1') ? '+' + phoneDigits : phoneDigits)
+    : null;
+  let contactUrl = null;
+  try {
+    const parsed = new URL(String(raw.contactUrl ?? ''));
+    if (parsed.protocol === 'https:' || parsed.protocol === 'http:') contactUrl = parsed.href;
+  } catch { /* no usable company page: the button stays hidden */ }
   return {
     id: raw.id,
     title: clean(raw.title) || 'Estate sale',
@@ -345,6 +365,14 @@ function readSale(raw, where) {
     lng: located ? raw.lng : null,
     approximate: raw.approximate !== false || !street,
     excerpt: excerpt ? clip(excerpt, 320) : '',
+    digRating: clip(clean(raw.digRating), 30) || null,
+    ratingReasons: lines(raw.ratingReasons, 6, 120),
+    photoKeywords: keywords.slice(0, 12),
+    contentsLine: clip(clean(raw.contentsLine), 300),
+    contactPhone: tel ? phone : null,
+    tel,
+    contactUrl,
+    photoCount: Number.isInteger(raw.photoCount) && raw.photoCount > 0 ? raw.photoCount : null,
     first: sessions[0].date,
     last: sessions.at(-1).date,
   };
@@ -514,6 +542,77 @@ const salePath = sale => `/sale/${sale.id}/`;
 const placeOf = sale => [sale.town && sale.state ? `${sale.town}, ${sale.state}` : sale.town || sale.state, sale.zip]
   .filter(Boolean).join(' ');
 
+// Address rule: the full street address whenever the feed has it. While the
+// source still holds it, the release moment is 9:00 AM the day before the
+// first session (America/Chicago; feed dates are local calendar days).
+const releaseDay = sale => addDays(sale.first, -1);
+const releaseLabel = sale => `Address releases ${formatDay(releaseDay(sale), {weekday: 'long'})} 9:00 AM`;
+
+// Directions: a Google Maps directions link. A held address routes to the
+// city and ZIP the feed does publish, never to a guessed house.
+function directionsUrl(sale, city) {
+  const place = placeOf(sale);
+  const query = !sale.addressHidden && sale.street
+    ? [sale.street, place].filter(Boolean).join(', ')
+    : place || (sale.lat !== null ? `${sale.lat},${sale.lng}` : city.name);
+  return 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(query);
+}
+
+const ratingClass = rating => ({'Deep Dig': 'rating-deep', 'Worth a Look': 'rating-worth', 'Slim Pickings': 'rating-slim'}[rating] ?? 'rating-other');
+const ratingBadge = sale => sale.digRating
+  ? `<span class="rating-badge ${ratingClass(sale.digRating)}">${esc(sale.digRating)}</span>` : '';
+// The heart on a card. Favorites live in the visitor's browser only
+// (assets/favorites.js); the build only prints the button.
+const favButton = sale => `<button type="button" class="fav" data-fav="${sale.id}" aria-pressed="false" aria-label="Save ${esc(sale.title)} as a favorite"><svg class="icon icon-heart" aria-hidden="true"><use href="#i-heart"/></svg></button>`;
+
+// ── Calendar files. One .ics per sale day, written beside the sale page. ─────
+const icsPath = (sale, session) => `${salePath(sale)}${session.date}.ics`;
+const icsEscape = value => String(value ?? '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\r?\n/g, '\\n');
+function icsFold(line) {
+  const bytes = new TextEncoder();
+  let out = '';
+  let size = 0;
+  for (const ch of line) {
+    const width = bytes.encode(ch).length;
+    if (size + width > 74) {
+      out += '\r\n ';
+      size = 1;
+    }
+    out += ch;
+    size += width;
+  }
+  return out;
+}
+const icsMoment = date => date.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+function calendarFile(sale, city, session) {
+  const place = placeOf(sale);
+  const location = sale.addressHidden
+    ? `${place || city.name} (${releaseLabel(sale)})`
+    : [sale.street, place].filter(Boolean).join(', ');
+  const source = sale.sources[0];
+  const description = [
+    sale.contentsLine || null,
+    `Hours: ${hours(session)} (${longDay(session.date)}, local to ${city.name}).`,
+    sale.company ? `Run by ${sale.company}.` : null,
+    source ? `Original listing (${source.name}): ${source.url}` : null,
+    `Sale page on The Dig: ${abs(salePath(sale))}`,
+    'Confirm the address and hours on the original listing before you travel.',
+  ].filter(Boolean).join('\n');
+  const timed = session.start && session.end;
+  const when = timed
+    ? [`DTSTART:${icsMoment(new Date(isoMoment(session.date, session.start, city.timeZone)))}`,
+      `DTEND:${icsMoment(new Date(isoMoment(session.date, session.end, city.timeZone)))}`]
+    : [`DTSTART;VALUE=DATE:${session.date.replace(/-/g, '')}`,
+      `DTEND;VALUE=DATE:${addDays(session.date, 1).replace(/-/g, '')}`];
+  const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//The Dig//Estate sale calendar//EN',
+    'CALSCALE:GREGORIAN', 'METHOD:PUBLISH', 'BEGIN:VEVENT',
+    `UID:${sale.id}-${session.date}@${site.hostname}`, `DTSTAMP:${icsMoment(now)}`, ...when,
+    `SUMMARY:${icsEscape(sale.title)}`, `LOCATION:${icsEscape(location)}`,
+    `DESCRIPTION:${icsEscape(description)}`, `URL:${abs(salePath(sale))}`,
+    'END:VEVENT', 'END:VCALENDAR'];
+  return lines.map(icsFold).join('\r\n') + '\r\n';
+}
+
 const symbols = `<svg class="symbols" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
   <symbol id="i-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.3"/></symbol>
   <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="16" rx="2"/><path d="M7.5 3v4m9-4v4m-13 3.5h17"/></symbol>
@@ -521,6 +620,9 @@ const symbols = `<svg class="symbols" aria-hidden="true" xmlns="http://www.w3.or
   <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
   <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m4 7.5 8 6 8-6"/></symbol>
   <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.5C7 16.7 3.5 13.2 3.5 9.3A4.6 4.6 0 0 1 8.1 4.7c1.6 0 3 .8 3.9 2 .9-1.2 2.3-2 3.9-2a4.6 4.6 0 0 1 4.6 4.6c0 3.9-3.5 7.4-8.5 11.2Z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3h3l1.7 4.5-2 1.6a13 13 0 0 0 5.6 5.6l1.6-2L21 14.4v3a2.6 2.6 0 0 1-2.8 2.6C10 19.3 4.7 14 4 5.8A2.6 2.6 0 0 1 6.6 3Z"/></symbol>
+  <symbol id="i-directions" viewBox="0 0 24 24"><path d="M12 3 19 12l-7 9-7-9Z"/><path d="M12 8v8m0-8-2.5 2.5M12 8l2.5 2.5"/></symbol>
 </svg>`;
 const icon = name => `<svg class="icon" aria-hidden="true"><use href="#i-${name}"/></svg>`;
 const brandMark = '<svg viewBox="0 0 40 40" aria-hidden="true"><path d="m7 26 13-13 7 7-13 13-9 2z"/><path d="m22 15 7-7m-3-2 3-3 8 8-3 3zM9 30l10-10"/></svg>';
@@ -605,7 +707,7 @@ ${body}
 ${map ? `<script type="application/json" id="map-data">${scriptJson(map)}</script>
 <script defer src="${LEAFLET.js}" integrity="${LEAFLET.jsHash}" crossorigin=""></script>
 <script defer src="${href('/assets/map.js')}"></script>
-` : ''}${city ? `<script defer src="${href('/assets/site.js')}"></script>\n` : ''}${search ? `<script defer src="${href('/assets/search.js')}"></script>\n` : ''}</body>
+` : ''}${city ? `<script defer src="${href('/assets/site.js')}"></script>\n` : ''}${city || search ? `<script defer src="${href('/assets/favorites.js')}"></script>\n` : ''}${search ? `<script defer src="${href('/assets/search.js')}"></script>\n` : ''}</body>
 </html>
 `;
 }
@@ -619,18 +721,20 @@ function statusTag(sale) {
 function saleCard(sale, city, note = null) {
   const place = placeOf(sale);
   const where = sale.addressHidden
-    ? `${esc(place || city.name)} · address releases closer to the sale`
+    ? `${esc(place || city.name)} · ${esc(releaseLabel(sale).replace(/^A/, 'a'))}`
     : esc([sale.street, place].filter(Boolean).join(', '));
+  const badge = ratingBadge(sale);
   return `<li class="sale${sale.ended ? ' is-ended' : ''}" id="sale-${sale.id}" data-last="${sale.last}">
         <a href="${href(salePath(sale))}">
           <span class="sale-number">${sale.number}</span>
           <span class="sale-text">
-            <span class="dates">${esc(note ?? dayRange(sale.first, sale.last))} ${statusTag(sale)}</span>
+            <span class="dates">${esc(note ?? dayRange(sale.first, sale.last))} ${statusTag(sale)}${badge ? ' ' + badge : ''}</span>
             <span class="sale-title">${esc(sale.title)}</span>
             <span class="place">${where}</span>
             ${sale.company ? `<span class="company">${esc(sale.company)}</span>` : ''}
           </span>
         </a>
+        <span class="sale-actions"><a class="directions" href="${esc(directionsUrl(sale, city))}" rel="noopener external">${icon('directions')}Directions</a>${favButton(sale)}</span>
       </li>`;
 }
 
@@ -786,7 +890,7 @@ function homePage(context) {
   <section class="split" aria-labelledby="find-heading">
     <div>
       <h2 id="find-heading">Search every city</h2>
-      <p>Look for a word in a sale's title or company across ${cities.length === 1 ? esc(city.name) : `all ${cities.length} cities`}, or pick a category such as tools, furniture or vinyl.</p>
+      <p>Look for a word in a sale's title, company${context.hits.some(hit => hit.sale.photoKeywords.length || hit.sale.contentsLine) ? ', or what the photos show is being sold' : ''} across ${cities.length === 1 ? esc(city.name) : `all ${cities.length} cities`}, or pick a category such as tools, furniture or vinyl. Keep favorites with the heart on any sale — they stay in your browser.</p>
       <form class="search-box" role="search" action="${href('/search/')}" method="get">
         <input type="search" name="q" aria-label="Search sale titles and companies" placeholder="Search sales" autocomplete="off" enterkeyhint="search">
         <button class="button button-primary" type="submit">${icon('search')}Search</button>
@@ -856,7 +960,7 @@ function weekendPage(context, city) {
 function eventData(sale, city) {
   const place = {
     '@type': 'Place',
-    name: sale.addressHidden ? `${placeOf(sale) || city.name} (address releases closer to the sale)` : sale.street,
+    name: sale.addressHidden ? `${placeOf(sale) || city.name} (${releaseLabel(sale).replace(/^A/, 'a')})` : sale.street,
     address: {
       '@type': 'PostalAddress',
       ...(sale.addressHidden ? {} : {streetAddress: sale.street}),
@@ -876,13 +980,17 @@ function eventData(sale, city) {
     '@context': 'https://schema.org',
     '@type': 'Event',
     name: sale.title,
-    description: sale.excerpt || `Estate sale${sale.company ? ` by ${sale.company}` : ''} in ${placeOf(sale) || city.name}. Open ${dayRange(sale.first, sale.last)}.${source ? ` Details from the original listing on ${source.name}.` : ''}`,
+    description: [sale.contentsLine, sale.excerpt].filter(Boolean).join(' ')
+      || `Estate sale${sale.company ? ` by ${sale.company}` : ''} in ${placeOf(sale) || city.name}. Open ${dayRange(sale.first, sale.last)}.${source ? ` Details from the original listing on ${source.name}.` : ''}`,
     startDate: start(first),
     endDate: end(last),
     eventStatus: 'https://schema.org/EventScheduled',
     eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
     location: place,
-    ...(sale.company ? {organizer: {'@type': 'Organization', name: sale.company}} : {}),
+    ...(sale.company ? {organizer: {'@type': 'Organization', name: sale.company,
+      ...(sale.contactPhone ? {telephone: sale.contactPhone} : {}),
+      ...(sale.contactUrl ? {url: sale.contactUrl} : {})}} : {}),
+    ...(sale.photoKeywords.length ? {keywords: sale.photoKeywords.join(', ')} : {}),
     url: abs(salePath(sale)),
     ...(sale.sources.length ? {sameAs: sale.sources.map(item => item.url)} : {}),
     ...(sale.sessions.length > 1 ? {subEvent: sale.sessions.map(session => ({
@@ -899,17 +1007,45 @@ function salePage(context, sale, city) {
   const title = `${clip(sale.title, 58)}: ${town} estate sale, ${compactRange(sale.first, sale.last)} | The Dig`;
   const source = sale.sources[0];
   const description = clip(`Estate sale${sale.company ? ` by ${sale.company}` : ''} in ${place || city.name}, open ${span}. `
-    + (sale.addressHidden ? 'The address releases closer to the sale. ' : `${sale.street}. `)
+    + (sale.addressHidden ? `${releaseLabel(sale)}. ` : `${sale.street}. `)
+    + (sale.contentsLine ? `${sale.contentsLine} ` : '')
     + `Session hours and a link to the original listing${source ? ` on ${source.name}` : ''}.`, 300);
   const where = sale.addressHidden
-    ? `<p class="address address-hidden">Address releases closer to the sale</p>
-        <p>${esc(place || city.name)}${place ? ' area' : ''}. The company has not published the street address yet. It usually appears on the original listing shortly before the sale opens.</p>`
+    ? `<p class="address address-hidden">${esc(releaseLabel(sale))}</p>
+        <p>${esc(place || city.name)}${place ? ' area' : ''}. The company has not published the street address yet. It appears on the original listing when it releases.</p>`
     : `<p class="address">${esc(sale.street)}${place ? `<br>${esc(place)}` : ''}</p>
         <p class="note">Confirm the address on the original listing before you travel.</p>`;
+  const directions = `<p class="directions-line"><a class="button" href="${esc(directionsUrl(sale, city))}" rel="noopener external">${icon('directions')}Get directions</a>${sale.addressHidden ? ' <span class="note">Directions go to the general area until the street address releases.</span>' : ''}</p>`;
   const rows = sale.sessions.map(session => {
     const state = session.date < city.today ? ' class="past"' : session.date === city.today ? ' class="is-today"' : '';
-    return `<tr${state} data-day="${session.date}"><th scope="row"><time datetime="${session.date}">${esc(longDay(session.date))}</time></th><td>${esc(hours(session))}</td></tr>`;
+    return `<tr${state} data-day="${session.date}"><th scope="row"><time datetime="${session.date}">${esc(longDay(session.date))}</time></th><td>${esc(hours(session))}</td><td class="cal"><a href="${href(icsPath(sale, session))}" download>Add to calendar</a></td></tr>`;
   }).join('\n          ');
+  // Rating, contents, keywords and the photo count appear only when the feed
+  // carries them. Photos themselves stay at the source; only the count and
+  // the link are shown.
+  const rating = sale.digRating ? `<div class="rating" id="dig-rating">
+      ${ratingBadge(sale)}
+      ${sale.ratingReasons.length ? `<ul class="rating-reasons">${sale.ratingReasons.map(reason => `<li>${esc(reason)}</li>`).join('')}</ul>` : ''}
+    </div>` : '';
+  const photoLine = sale.photoCount
+    ? (source
+      ? `<p class="photos"><a href="${esc(source.url)}" rel="noopener external">${plural(sale.photoCount, 'photo')} at the source</a> — see them on ${esc(source.name)}. The Dig does not copy listing photos.</p>`
+      : `<p class="photos">${plural(sale.photoCount, 'photo')} at the source. The Dig does not copy listing photos.</p>`)
+    : '';
+  const contents = (sale.contentsLine || sale.photoKeywords.length || sale.photoCount) ? `<section id="whats-there">
+          <h2>What's there</h2>
+          ${sale.contentsLine ? `<p class="contents-line">${esc(sale.contentsLine)}</p>` : ''}
+          ${sale.photoKeywords.length ? `<p class="keywords">${sale.photoKeywords.map(word => `<span class="keyword">${esc(word)}</span>`).join('')}</p>` : ''}
+          ${photoLine}
+        </section>` : '';
+  const contact = (sale.tel || sale.contactUrl) ? `<section id="contact-company">
+          <h2>Contact the company</h2>
+          <div class="actions">
+          ${sale.tel ? `<a class="button" href="${esc(sale.tel)}">${icon('phone')}Call ${esc(sale.company || sale.contactPhone)}</a>` : ''}
+          ${sale.contactUrl ? `<a class="button" href="${esc(sale.contactUrl)}" rel="noopener external">Company page${icon('arrow')}</a>` : ''}
+          </div>
+          ${sale.tel ? `<p class="note">${esc(sale.contactPhone)}${sale.company ? ` — ${esc(sale.company)}` : ''}, as published by the source.</p>` : ''}
+        </section>` : '';
   const links = sale.sources.map((item, index) => `<a class="button${index ? '' : ' button-primary'}" href="${esc(item.url)}" rel="noopener external">View the ${index ? 'listing' : 'original listing'} on ${esc(item.name)}${icon('arrow')}</a>`).join('\n          ');
   const mapNote = sale.lat === null ? ''
     : sale.approximate ? '<p class="note">The circle marks the general area, not the house.</p>'
@@ -920,11 +1056,14 @@ function salePage(context, sale, city) {
     <p class="dates dates-large">${esc(span)} ${statusTag(sale)}</p>
     <h1>${esc(sale.title)}</h1>
     ${sale.company ? `<p class="by">Run by ${esc(sale.company)}</p>` : ''}
+    ${rating}
+    <p class="save-line"><button type="button" class="button fav-button" data-fav="${sale.id}" aria-pressed="false"><svg class="icon icon-heart" aria-hidden="true"><use href="#i-heart"/></svg><span data-fav-label>Save as favorite</span></button> <span class="note">Favorites are kept in this browser only.</span></p>
     <div class="sale-grid">
       <div class="sale-facts">
         <section>
           <h2>Where</h2>
           ${where}
+          ${directions}
         </section>
         <section>
           <h2>When</h2>
@@ -933,12 +1072,14 @@ function salePage(context, sale, city) {
           ${rows}
           </tbody>
           </table>
-          <p class="note">Times are local to ${esc(city.name)}, ${esc(city.zone)}.</p>
+          <p class="note">Times are local to ${esc(city.name)}, ${esc(city.zone)}. “Add to calendar” downloads a calendar file for that day.</p>
         </section>
+        ${contents}
         ${sale.excerpt ? `<section>
           <h2>From the listing</h2>
           <p class="excerpt">${esc(sale.excerpt)}</p>
         </section>` : ''}
+        ${contact}
         <section class="source">
           <h2>Original listing</h2>
           ${sale.sources.length ? `<p>The Dig shows the facts. Photos, terms and any last-minute changes are on the original listing.</p>
@@ -958,6 +1099,9 @@ function salePage(context, sale, city) {
 </div>`;
   put(path, layout({...context, path, title, description, body, city, jsonLd: [eventData(sale, city)],
     map: sale.lat === null ? null : {...mapData(city, [sale]), single: true}}));
+  for (const session of sale.sessions) {
+    if (!files.has(icsPath(sale, session))) put(icsPath(sale, session), calendarFile(sale, city, session));
+  }
   pages.push({path, lastmod: city.collectedAt});
 }
 
@@ -1027,16 +1171,19 @@ const categoryLabel = new Map(CATEGORIES.map(category => [category.id, category.
 function searchHit({sale, city, cats, tags}) {
   const town = sale.town && fold(sale.town) !== fold(city.name) ? ` · ${esc(sale.town)}` : '';
   const labels = [...cats.map(id => categoryLabel.get(id)), ...tags];
+  const badge = ratingBadge(sale);
   return `<li class="sale hit${sale.ended ? ' is-ended' : ''}" data-id="${sale.id}" data-last="${sale.last}">
         <a href="${href(salePath(sale))}">
           <span class="sale-text">
-            <span class="dates">${esc(dayRange(sale.first, sale.last))}${sale.ended ? ' <span class="tag tag-ended">Ended</span>' : ''}</span>
+            <span class="dates">${esc(dayRange(sale.first, sale.last))}${sale.ended ? ' <span class="tag tag-ended">Ended</span>' : ''}${badge ? ' ' + badge : ''}</span>
             <span class="sale-title">${esc(sale.title)}</span>
             ${sale.company ? `<span class="company">${esc(sale.company)}</span>` : ''}
             <span class="place">${esc(city.name)}${city.preview ? ' ' + previewTag : ''}${town}</span>
+            ${sale.contentsLine ? `<span class="contents">${esc(sale.contentsLine)}</span>` : ''}
             ${labels.length ? `<span class="cats">${labels.map(label => `<span class="cat">${esc(label)}</span>`).join('')}</span>` : ''}
           </span>
         </a>
+        <span class="sale-actions"><a class="directions" href="${esc(directionsUrl(sale, city))}" rel="noopener external">${icon('directions')}Directions</a>${favButton(sale)}</span>
       </li>`;
 }
 
@@ -1058,24 +1205,29 @@ function searchPage(context) {
     ? 'Categories are read from each listing’s title, so a sale can be missing from a category it belongs in.'
     : 'Categories come from The Dig’s combined search feed.'
       + (fromFeed < hits.length ? ` For ${plural(hits.length - fromFeed, 'sale')} it does not list yet, they are read from the listing’s title.` : '');
+  const photoSearchSales = hits.filter(hit => hit.sale.photoKeywords.length || hit.sale.contentsLine).length;
+  const scopeLine = photoSearchSales
+    ? `Search covers listing titles, companies, and — for ${plural(photoSearchSales, 'sale')} in this build — the photo keywords and contents line from the listing photos. ${categoryNote}`
+    : `Search covers listing titles and companies in this build. Photo keywords and contents join the search automatically when the feeds carry them. ${categoryNote}`;
   const body = `<div class="frame">
   <div class="search-head">
     <h1>Search every city</h1>
-    <p class="lede">${groups.length === 1 ? `One search across every city on The Dig. Today that is ${esc(where)}.` : `One search across all ${esc(where)} on The Dig, live and preview.`} Type a word, pick a category, or both.</p>
+    <p class="lede">${groups.length === 1 ? `One search across every city on The Dig. Today that is ${esc(where)}.` : `One search across all ${esc(where)} on The Dig, live and preview.`} Type a word, pick a category, or both. Tap the heart on a sale to keep it as a favorite in this browser.</p>
   </div>
   <form class="search-form" id="search-form" role="search" action="${href(path)}" method="get">
-    <label for="q">Search sale titles and companies</label>
+    <label for="q">Search sale titles, companies and what's being sold</label>
     <div class="search-box">
-      <input type="search" id="q" name="q" placeholder="A word from a title or a company name" autocomplete="off" spellcheck="false" enterkeyhint="search">
+      <input type="search" id="q" name="q" placeholder="A word from a title, a company, or what's being sold" autocomplete="off" spellcheck="false" enterkeyhint="search">
       <button class="button button-primary" type="submit">${icon('search')}Search</button>
     </div>
     <div class="chips" id="chips" role="group" aria-label="Categories">
       ${chips.join('\n      ')}
+      <button type="button" class="chip chip-fav" id="fav-only" aria-pressed="false">${icon('heart')}Favorites only <span id="fav-count">0</span></button>
       <button type="button" class="chip chip-clear" id="clear-filters" hidden>Clear</button>
     </div>
   </form>
   <p class="count" id="result-count" role="status" data-total="${hits.length}" data-cities="${groups.length}"><strong>${hits.length}</strong> ${hits.length === 1 ? 'sale' : 'sales'} across ${plural(groups.length, 'city', 'cities')}.</p>
-  <p class="fresh" id="search-scope">Search covers listing titles and companies today — searching inside photos is coming later. ${categoryNote}</p>
+  <p class="fresh" id="search-scope">${scopeLine}</p>
   <p class="note" id="search-status" hidden>Search could not load its data. Every sale is still listed below.</p>
   <noscript><p class="note">Filtering needs JavaScript. Every sale is listed below, grouped by city.</p></noscript>
   <p class="empty" id="no-results" hidden>No sale matches. Try a shorter word, or clear a category.</p>
@@ -1097,7 +1249,7 @@ function searchPage(context) {
 function searchData({cities, hits, searchFeed}) {
   const fromFeed = hits.filter(hit => hit.fromFeed).length;
   return {
-    about: 'Every sale page on The Dig, for the search box on /search/. Rebuilt with the site. A keyword matches the start of any word in a sale\'s title, company or categories.',
+    about: 'Every sale page on The Dig, for the search box on /search/. Rebuilt with the site. A keyword matches the start of any word in a sale\'s title, company, categories, photo keywords or contents line. Records carry keywords, contentsLine and digRating only when the feed has them.',
     site: SITE_URL,
     categoriesFrom: !fromFeed ? 'listing titles' : fromFeed === hits.length ? searchFeed.url
       : `${searchFeed.url} for ${plural(fromFeed, 'sale')}, listing titles for ${hits.length - fromFeed}`,
@@ -1105,7 +1257,11 @@ function searchData({cities, hits, searchFeed}) {
     cities: cities.map(city => ({slug: city.slug, name: city.name, status: city.status, timeZone: city.timeZone,
       results: hits.filter(hit => hit.city === city).length, url: abs(`/${city.slug}/`)})),
     sales: hits.map(({sale, city, cats, tags}) => ({id: sale.id, city: city.slug, title: sale.title, company: sale.company,
-      categories: cats, ...(tags.length ? {tags} : {}), first: sale.first, last: sale.last, lat: sale.lat, lng: sale.lng,
+      categories: cats, ...(tags.length ? {tags} : {}),
+      ...(sale.photoKeywords.length ? {keywords: sale.photoKeywords} : {}),
+      ...(sale.contentsLine ? {contentsLine: sale.contentsLine} : {}),
+      ...(sale.digRating ? {digRating: sale.digRating} : {}),
+      first: sale.first, last: sale.last, lat: sale.lat, lng: sale.lng,
       url: abs(salePath(sale)), source: sale.sources[0]?.url ?? null})),
   };
 }
@@ -1184,7 +1340,8 @@ function agentCard({cities, offSite, cityIndex, searchFeed, hits}) {
 
 ## What it is
 - A free map and list of estate sales, one page per city, rebuilt once a day from public JSON feeds.
-- Each sale shows what its source listing published: title, company, dates, hours, and the street address once the company releases it.
+- Each sale shows what its source listing published: title, company, dates, hours, and the full street address whenever the feed has it. While an address is still held, the sale page shows the city and ZIP and says when it releases: 9:00 AM the day before the first sale day.
+- When a feed carries them, a sale page also shows: a Dig rating (Deep Dig, Worth a Look or Slim Pickings) with the reasons for it, a one-line contents summary and keyword chips describing what is being sold, how many photos are at the source (the photos stay at the source and are never copied), and Call and Company page buttons when the source publishes a phone or a company page. Every sale page and sale card has a Directions link, every sale day has an Add to calendar download, and every sale card and page has a heart so a visitor can keep favorites in their own browser. Features appear only when that sale's feed record carries the field behind them.
 - The Dig does not run or verify sales. The source listing is the authority.
 
 ## Cities
@@ -1201,11 +1358,11 @@ A proving city's pages carry a "Preview — still proving itself" banner. Its co
 ## Regions and search
 - Regions page (live cities, preview cities, what comes next): ${abs('/regions/')}
 - Search page, across every live and proving city: ${abs('/search/')}
-  Link straight to a search: ${abs('/search/')}?q=<words>&cat=<category-id>[,<category-id>]
+  Link straight to a search: ${abs('/search/')}?q=<words>&cat=<category-id>[,<category-id>]. Add &fav=1 to open the Favorites-only view (favorites are stored in the visitor's browser only; there is no account and nothing is sent to a server).
 - Search data the page filters in the browser: ${abs('/search/data.json')}
-  ${plural(hits.length, 'record')}, one per sale page: id, city, title, company, categories, first and last day, lat, lng, sale page URL, source listing URL.
+  ${plural(hits.length, 'record')}, one per sale page: id, city, title, company, categories, first and last day, lat, lng, sale page URL, source listing URL. A record also carries keywords, contentsLine and digRating when that sale's feed record has them.
 - Category ids: ${CATEGORIES.map(category => category.id).join(', ')}
-- A keyword matches the start of any word in a sale's title, company or categories. Search does not look inside photos yet.
+- A keyword matches the start of any word in a sale's title, company, categories, photo keywords or contents line.
 
 ## Public data
 - ${cityIndex ? `City index: ${cityIndex}` : `City index: not published yet. It will be ${DATA_BASE}/cities.json`}
@@ -1215,7 +1372,8 @@ A proving city's pages carry a "Preview — still proving itself" banner. Its co
 - In a feed, "addressHidden": true means no street address has been released and the map point is approximate.
 
 ## Pages
-- One page per sale: ${abs('/sale/<sale-id>/')} where <sale-id> is the sale's "id" in the feed. Each has schema.org Event data.
+- One page per sale: ${abs('/sale/<sale-id>/')} where <sale-id> is the sale's "id" in the feed. Each has schema.org Event data, a Directions link, and a favorite heart.
+- One calendar file per sale day: ${abs('/sale/<sale-id>/<YYYY-MM-DD>.ics')} with the day's hours, the address (or the city and ZIP and release time while it is held), the contents line when the feed has one, and links to the sale page and the original listing.
 - Sale pages are removed when a sale leaves the feed.
 - Sitemap: ${abs('/sitemap.xml')}
 
@@ -1280,6 +1438,16 @@ const summary = {
   // Cities the index names that have no pages in this build, and why.
   offSite,
   salePages: placed.size,
+  // How many sales carry each Phase 9 field in this build. Zero is fine:
+  // the sections behind a field simply do not render until the data lands.
+  enriched: {
+    withRating: hits.filter(hit => hit.sale.digRating).length,
+    withKeywords: hits.filter(hit => hit.sale.photoKeywords.length).length,
+    withContentsLine: hits.filter(hit => hit.sale.contentsLine).length,
+    withContact: hits.filter(hit => hit.sale.tel || hit.sale.contactUrl).length,
+    withPhotoCount: hits.filter(hit => hit.sale.photoCount).length,
+    calendarFiles: [...files.keys()].filter(path => path.endsWith('.ics')).length,
+  },
   search: {
     page: abs('/search/'),
     dataFile: abs('/search/data.json'),
@@ -1289,6 +1457,7 @@ const summary = {
     combinedFeedProblem: searchFeed.problem,
     categoriesFromCombinedFeed: fromFeed,
     categoriesFromTitles: hits.length - fromFeed,
+    photoSearchSales: hits.filter(hit => hit.sale.photoKeywords.length || hit.sale.contentsLine).length,
   },
   app: apk,
   listingEmail: LISTING_EMAIL,
