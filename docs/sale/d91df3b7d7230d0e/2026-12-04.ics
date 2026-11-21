@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d91df3b7d7230d0e-2026-12-04@rheinze08.github.io
+DTSTAMP:20261121T181203Z
+DTSTART:20261204T140000Z
+DTEND:20261204T210000Z
+SUMMARY:Ultimate Treasure Hunt. Vintage to Luxury
+LOCATION:Houston\, TX 77019 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture\, collectibles\, kitchen\, books and toys & games.\n
+ Hours: 8 AM – 3 PM (Friday\, December 4\, local to Houston).\nRun by Te
+ nder Transitions.\nOriginal listing (EstateSales.net): https://www.estate
+ sales.net/TX/Houston/77019/5137254\nSale page on The Dig: https://rheinze
+ 08.github.io/the-dig-web/sale/d91df3b7d7230d0e/\nConfirm the address and 
+ hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/d91df3b7d7230d0e/
+END:VEVENT
+END:VCALENDAR

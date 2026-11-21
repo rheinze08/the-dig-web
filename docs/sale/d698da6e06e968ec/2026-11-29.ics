@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d698da6e06e968ec-2026-11-29@rheinze08.github.io
+DTSTAMP:20261121T181203Z
+DTSTART:20261129T150000Z
+DTEND:20261129T220000Z
+SUMMARY:Black Friday Weekend Sale!!!
+LOCATION:Grand Prairie\, TX 75051 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 4 PM (Sunday\, November 29\, local to Dallas
+ –Fort Worth).\nRun by Decades Estate Liquidators.\nOriginal listing (Es
+ tateSales.net): https://www.estatesales.net/TX/Grand-Prairie/75051/516862
+ 2\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/d69
+ 8da6e06e968ec/\nConfirm the address and hours on the original listing bef
+ ore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/d698da6e06e968ec/
+END:VEVENT
+END:VCALENDAR

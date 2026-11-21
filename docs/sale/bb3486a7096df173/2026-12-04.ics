@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bb3486a7096df173-2026-12-04@rheinze08.github.io
+DTSTAMP:20261121T181203Z
+DTSTART:20261204T160000Z
+DTEND:20261205T000000Z
+SUMMARY:"Meadows of Clear Creek"| "Little River Oaks:
+LOCATION:Houston\, TX 77089 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture\, collectibles\, clothing\, art and china.\nHours: 1
+ 0 AM – 6 PM (Friday\, December 4\, local to Houston).\nRun by 50 50 Res
+ ale.\nOriginal listing (EstateSales.net): https://www.estatesales.net/TX/
+ Houston/77089/5155362\nSale page on The Dig: https://rheinze08.github.io/
+ the-dig-web/sale/bb3486a7096df173/\nConfirm the address and hours on the 
+ original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/bb3486a7096df173/
+END:VEVENT
+END:VCALENDAR

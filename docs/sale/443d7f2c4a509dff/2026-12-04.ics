@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:443d7f2c4a509dff-2026-12-04@rheinze08.github.io
+DTSTAMP:20261121T181203Z
+DTSTART:20261204T150000Z
+DTEND:20261204T220000Z
+SUMMARY:~Massive *2 Phase* Garland\, TX -Black Friday Weekend- Estate Sale
+ ! More info coming soon!
+LOCATION:Garland\, TX 75041 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 4 PM (Friday\, December 4\, local to Dallas–
+ Fort Worth).\nRun by DFW Estate Liquidators.\nOriginal listing (EstateSal
+ es.net): https://www.estatesales.net/TX/Garland/75041/5114634\nSale page 
+ on The Dig: https://rheinze08.github.io/the-dig-web/sale/443d7f2c4a509dff
+ /\nConfirm the address and hours on the original listing before you trave
+ l.
+URL:https://rheinze08.github.io/the-dig-web/sale/443d7f2c4a509dff/
+END:VEVENT
+END:VCALENDAR

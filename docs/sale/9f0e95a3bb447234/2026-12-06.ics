@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9f0e95a3bb447234-2026-12-06@rheinze08.github.io
+DTSTAMP:20261121T181203Z
+DTSTART:20261206T160000Z
+DTEND:20261206T200000Z
+SUMMARY:The Collectors Estate Sale\, Treasure Trove in Richardson! Archite
+ ctural\, Sterling\, Vintage Linens
+LOCATION:Richardson\, TX 75080 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture\, jewelry\, collectibles\, kitchen and art.\nHours: 
+ 10 AM – 2 PM (Sunday\, December 6\, local to Dallas–Fort Worth).\nRun
+  by Estate Sales Dfw.\nOriginal listing (EstateSales.net): https://www.es
+ tatesales.net/TX/Richardson/75080/5157117\nSale page on The Dig: https://
+ rheinze08.github.io/the-dig-web/sale/9f0e95a3bb447234/\nConfirm the addre
+ ss and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/9f0e95a3bb447234/
+END:VEVENT
+END:VCALENDAR

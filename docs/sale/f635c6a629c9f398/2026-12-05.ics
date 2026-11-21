@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f635c6a629c9f398-2026-12-05@rheinze08.github.io
+DTSTAMP:20261121T181203Z
+DTSTART:20261205T150000Z
+DTEND:20261205T220000Z
+SUMMARY:The Whimsy Within - River’s Wind Estate Sale
+LOCATION:Irving\, TX 75061 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Collectibles.\nHours: 9 AM – 4 PM (Saturday\, December 5\, l
+ ocal to Dallas–Fort Worth).\nRun by Rivers Wind.\nOriginal listing (Est
+ ateSales.net): https://www.estatesales.net/TX/Irving/75061/5165079\nSale 
+ page on The Dig: https://rheinze08.github.io/the-dig-web/sale/f635c6a629c
+ 9f398/\nConfirm the address and hours on the original listing before you 
+ travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/f635c6a629c9f398/
+END:VEVENT
+END:VCALENDAR

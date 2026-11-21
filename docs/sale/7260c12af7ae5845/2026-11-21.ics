@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:7260c12af7ae5845-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T051853Z
+DTSTAMP:20261121T181203Z
 DTSTART:20261121T150000Z
-DTEND:20261121T210000Z
+DTEND:20261121T203000Z
 SUMMARY:25% off!! Hidden Meadow
 LOCATION:9763 Hidden Brook\, San Antonio\, TX 78250
-DESCRIPTION:Hours: 9 AM – 3 PM (Saturday\, November 21\, local to San An
- tonio).\nRun by Southern Charm Estate Sales.\nOriginal listing (EstateSal
- es.net): https://www.estatesales.net/TX/San-Antonio/78250/5158635\nSale p
- age on The Dig: https://rheinze08.github.io/the-dig-web/sale/7260c12af7ae
- 5845/\nConfirm the address and hours on the original listing before you t
- ravel.
+DESCRIPTION:Hours: 9 AM – 2:30 PM (Saturday\, November 21\, local to San
+  Antonio).\nRun by Southern Charm Estate Sales.\nOriginal listing (Estate
+ Sales.net): https://www.estatesales.net/TX/San-Antonio/78250/5158635\nSal
+ e page on The Dig: https://rheinze08.github.io/the-dig-web/sale/7260c12af
+ 7ae5845/\nConfirm the address and hours on the original listing before yo
+ u travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/7260c12af7ae5845/
 END:VEVENT
 END:VCALENDAR

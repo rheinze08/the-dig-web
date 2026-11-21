@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:211e4e751c6b9c2d-2026-11-23@rheinze08.github.io
+DTSTAMP:20261121T181203Z
+DTSTART:20261123T150000Z
+DTEND:20261123T230000Z
+SUMMARY:West Plano Estate Sale brought to Warehouse
+LOCATION:1301 Custer Road #706 (Directly behind the Tee Time Bar)\, Plano\
+ , TX 75075
+DESCRIPTION:Furniture.\nHours: 9 AM – 5 PM (Monday\, November 23\, local
+  to Dallas–Fort Worth).\nRun by Crush Estate Sales.\nOriginal listing (
+ EstateSales.net): https://www.estatesales.net/TX/Plano/75075/5168580\nSal
+ e page on The Dig: https://rheinze08.github.io/the-dig-web/sale/211e4e751
+ c6b9c2d/\nConfirm the address and hours on the original listing before yo
+ u travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/211e4e751c6b9c2d/
+END:VEVENT
+END:VCALENDAR

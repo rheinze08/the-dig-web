@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:72d6ecf09d7aa166-2026-12-05@rheinze08.github.io
+DTSTAMP:20261121T181203Z
+DTSTART:20261205T150000Z
+DTEND:20261205T220000Z
+SUMMARY:Fort Worth Estate Sale
+LOCATION:Fort Worth\, TX 76137 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, December 5\, local to Dallas
+ –Fort Worth).\nRun by Cowtown Liquidation.\nOriginal listing (EstateSal
+ es.net): https://www.estatesales.net/TX/Fort-Worth/76137/5134149\nSale pa
+ ge on The Dig: https://rheinze08.github.io/the-dig-web/sale/72d6ecf09d7aa
+ 166/\nConfirm the address and hours on the original listing before you tr
+ avel.
+URL:https://rheinze08.github.io/the-dig-web/sale/72d6ecf09d7aa166/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f0815319c3a3d2f6-2026-12-04@rheinze08.github.io
+DTSTAMP:20261121T181203Z
+DTSTART:20261204T160000Z
+DTEND:20261204T210000Z
+SUMMARY:Estate Sale by Family Tree Estates
+LOCATION:Baytown\, TX 77520 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, collectibles\, vehicles and kitchen.\nHour
+ s: 10 AM – 3 PM (Friday\, December 4\, local to Houston).\nRun by Famil
+ y Tree Estate Sales.\nOriginal listing (EstateSales.net): https://www.est
+ atesales.net/TX/Baytown/77520/5138661\nSale page on The Dig: https://rhei
+ nze08.github.io/the-dig-web/sale/f0815319c3a3d2f6/\nConfirm the address a
+ nd hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/f0815319c3a3d2f6/
+END:VEVENT
+END:VCALENDAR
