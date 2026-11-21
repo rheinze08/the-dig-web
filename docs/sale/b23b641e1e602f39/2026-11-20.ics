@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:b23b641e1e602f39-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T160000Z
 DTEND:20261120T210000Z
 SUMMARY:SPECTACULAR HOLLYWOOD PARK ESTATE SALE
 LOCATION:304 Mustang Circle\, San Antonio\, TX 78232
-DESCRIPTION:Hours: 10 AM – 3 PM (Friday\, November 20\, local to San Ant
- onio).\nRun by Complete Estate Sale Services.\nOriginal listing (EstateSa
- les.net): https://www.estatesales.net/TX/San-Antonio/78232/5135181\nSale 
- page on The Dig: https://rheinze08.github.io/the-dig-web/sale/b23b641e1e6
- 02f39/\nConfirm the address and hours on the original listing before you 
- travel.
+DESCRIPTION:Tools\, furniture\, vinyl & records\, collectibles and kitchen
+ .\nHours: 10 AM – 3 PM (Friday\, November 20\, local to San Antonio).\n
+ Run by Complete Estate Sale Services.\nOriginal listing (EstateSales.net)
+ : https://www.estatesales.net/TX/San-Antonio/78232/5135181\nSale page on 
+ The Dig: https://rheinze08.github.io/the-dig-web/sale/b23b641e1e602f39/\n
+ Confirm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/b23b641e1e602f39/
 END:VEVENT
 END:VCALENDAR

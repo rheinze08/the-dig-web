@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:131cf95e8fb2e961-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T153000Z
 DTEND:20261122T230000Z
 SUMMARY:THE BELLAIRE COLLECTION – An Extraordinary Estate of Fine Art\, 
  Antiques & Global Treasures
 LOCATION:4533 Elm Street\, Bellaire\, TX 77401
-DESCRIPTION:Hours: 9:30 AM – 5 PM (Sunday\, November 22\, local to Houst
- on).\nRun by River Oaks Estate Sales.\nOriginal listing (EstateSales.net)
- : https://www.estatesales.net/TX/Bellaire/77401/5138013\nSale page on The
-  Dig: https://rheinze08.github.io/the-dig-web/sale/131cf95e8fb2e961/\nCon
- firm the address and hours on the original listing before you travel.
+DESCRIPTION:Art and antiques.\nHours: 9:30 AM – 5 PM (Sunday\, November 
+ 22\, local to Houston).\nRun by River Oaks Estate Sales.\nOriginal listin
+ g (EstateSales.net): https://www.estatesales.net/TX/Bellaire/77401/513801
+ 3\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/131
+ cf95e8fb2e961/\nConfirm the address and hours on the original listing bef
+ ore you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/131cf95e8fb2e961/
 END:VEVENT
 END:VCALENDAR

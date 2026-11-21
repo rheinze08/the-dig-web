@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c90a49519e934627-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T170000Z
 DTEND:20261122T200000Z
 SUMMARY:Dripping Springs Blue Moon Estate Sale\, Old World Elegance\, Hill
   Country Soul - Thurs 19 *VIP EVENT*
 LOCATION:14310 Echo Bluff\, Austin\, TX 78737
-DESCRIPTION:Hours: 11 AM – 2 PM (Sunday\, November 22\, local to Austin)
- .\nRun by Blue Moon Estate Sales of Hill Country/Greater Austin.\nOrigina
- l listing (EstateSales.net): https://www.estatesales.net/TX/Austin/78737/
- 5122866\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sa
- le/c90a49519e934627/\nConfirm the address and hours on the original listi
- ng before you travel.
+DESCRIPTION:Furniture\, collectibles\, art\, figurines and rugs.\nHours: 1
+ 1 AM – 2 PM (Sunday\, November 22\, local to Austin).\nRun by Blue Moon
+  Estate Sales of Hill Country/Greater Austin.\nOriginal listing (EstateSa
+ les.net): https://www.estatesales.net/TX/Austin/78737/5122866\nSale page 
+ on The Dig: https://rheinze08.github.io/the-dig-web/sale/c90a49519e934627
+ /\nConfirm the address and hours on the original listing before you trave
+ l.
 URL:https://rheinze08.github.io/the-dig-web/sale/c90a49519e934627/
 END:VEVENT
 END:VCALENDAR

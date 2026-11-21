@@ -5,16 +5,16 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:024609b28b867c3b-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T150000Z
 DTEND:20261122T220000Z
 SUMMARY:Thunder Gulch
 LOCATION:2919 Thunder Gulch\, San Antonio\, TX 78245
-DESCRIPTION:Hours: 9 AM – 4 PM (Sunday\, November 22\, local to San Anto
- nio).\nOriginal listing (EstateSales.net): https://www.estatesales.net/TX
- /San-Antonio/78245/5167800\nSale page on The Dig: https://rheinze08.githu
- b.io/the-dig-web/sale/024609b28b867c3b/\nConfirm the address and hours on
-  the original listing before you travel.
+DESCRIPTION:Tools and furniture.\nHours: 9 AM – 4 PM (Sunday\, November 
+ 22\, local to San Antonio).\nOriginal listing (EstateSales.net): https://
+ www.estatesales.net/TX/San-Antonio/78245/5167800\nSale page on The Dig: h
+ ttps://rheinze08.github.io/the-dig-web/sale/024609b28b867c3b/\nConfirm th
+ e address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/024609b28b867c3b/
 END:VEVENT
 END:VCALENDAR

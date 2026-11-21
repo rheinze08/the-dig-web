@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:90976f4e9b06d605-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T150000Z
 DTEND:20261121T200000Z
 SUMMARY:Dallas Sale (Near Walnut Hill/35)
 LOCATION:3031 Plaudit Place\, Dallas\, TX 75229
-DESCRIPTION:Hours: 9 AM – 2 PM (Saturday\, November 21\, local to Dallas
- –Fort Worth).\nRun by All Treasures Estate Sales.\nOriginal listing (Es
- tateSales.net): https://www.estatesales.net/TX/Dallas/75229/5098854\nSale
-  page on The Dig: https://rheinze08.github.io/the-dig-web/sale/90976f4e9b
- 06d605/\nConfirm the address and hours on the original listing before you
-  travel.
+DESCRIPTION:Tools\, furniture\, vinyl & records\, kitchen and clothing.\nH
+ ours: 9 AM – 2 PM (Saturday\, November 21\, local to Dallas–Fort Wort
+ h).\nRun by All Treasures Estate Sales.\nOriginal listing (EstateSales.ne
+ t): https://www.estatesales.net/TX/Dallas/75229/5098854\nSale page on The
+  Dig: https://rheinze08.github.io/the-dig-web/sale/90976f4e9b06d605/\nCon
+ firm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/90976f4e9b06d605/
 END:VEVENT
 END:VCALENDAR

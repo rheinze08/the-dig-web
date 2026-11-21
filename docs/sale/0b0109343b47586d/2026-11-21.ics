@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:0b0109343b47586d-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T150000Z
 DTEND:20261121T220000Z
-SUMMARY:Mid-Century Delight in Dallas 25% OFF
+SUMMARY:Mid-Century Delight in Dallas 50% OFF
 LOCATION:17307 Earthwind Dr\, Dallas\, TX 75248
-DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to Dallas
- –Fort Worth).\nRun by Chickadee Lane Estate And Moving Sales\, LLC.\nOr
- iginal listing (EstateSales.org): https://estatesales.org/estate-sales/tx
- /dallas/75248/midcentury-delight-in-dallas-25-2473570\nSale page on The D
- ig: https://rheinze08.github.io/the-dig-web/sale/0b0109343b47586d/\nConfi
- rm the address and hours on the original listing before you travel.
+DESCRIPTION:Tools\, furniture\, kitchen\, clothing and art.\nHours: 9 AM 
+ – 4 PM (Saturday\, November 21\, local to Dallas–Fort Worth).\nRun by
+  Chickadee Lane Estate And Moving Sales\, LLC.\nOriginal listing (EstateS
+ ales.org): https://estatesales.org/estate-sales/tx/dallas/75248/midcentur
+ y-delight-in-dallas-25-2473570\nSale page on The Dig: https://rheinze08.g
+ ithub.io/the-dig-web/sale/0b0109343b47586d/\nConfirm the address and hour
+ s on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/0b0109343b47586d/
 END:VEVENT
 END:VCALENDAR

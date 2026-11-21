@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ec76dc8d2c42cdd1-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T160000Z
 DTEND:20261121T190000Z
 SUMMARY:*50% OFF* Everything For Sale — Right Down to the Fixtures!
 LOCATION:3403 Toro Cayon Rd\, Austin\, TX 78746
-DESCRIPTION:Hours: 10 AM – 1 PM (Saturday\, November 21\, local to Austi
- n).\nRun by Aloe Vera Estate Sales.\nOriginal listing (EstateSales.net): 
- https://www.estatesales.net/TX/Austin/78746/5161638\nSale page on The Dig
- : https://rheinze08.github.io/the-dig-web/sale/ec76dc8d2c42cdd1/\nConfirm
-  the address and hours on the original listing before you travel.
+DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and clothing.\nHour
+ s: 10 AM – 1 PM (Saturday\, November 21\, local to Austin).\nRun by Alo
+ e Vera Estate Sales.\nOriginal listing (EstateSales.net): https://www.est
+ atesales.net/TX/Austin/78746/5161638\nSale page on The Dig: https://rhein
+ ze08.github.io/the-dig-web/sale/ec76dc8d2c42cdd1/\nConfirm the address an
+ d hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/ec76dc8d2c42cdd1/
 END:VEVENT
 END:VCALENDAR

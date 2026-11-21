@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ecae07eb664f1bd1-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T160000Z
 DTEND:20261121T220000Z
 SUMMARY:Our RoadRunner is racing towards Highland Village with deals worth
   Chasing!
 LOCATION:2980 Hillside Dr\, Highland Village\, TX 75077
-DESCRIPTION:Hours: 10 AM – 4 PM (Saturday\, November 21\, local to Dalla
- s–Fort Worth).\nRun by Wright Choice Estate Sales.\nOriginal listing (E
- stateSales.net): https://www.estatesales.net/TX/Lewisville/75077/5161068\
- nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/ecae0
- 7eb664f1bd1/\nConfirm the address and hours on the original listing befor
- e you travel.
+DESCRIPTION:Tools\, furniture\, kitchen\, clothing and books.\nHours: 10 A
+ M – 4 PM (Saturday\, November 21\, local to Dallas–Fort Worth).\nRun 
+ by Wright Choice Estate Sales.\nOriginal listing (EstateSales.net): https
+ ://www.estatesales.net/TX/Lewisville/75077/5161068\nSale page on The Dig:
+  https://rheinze08.github.io/the-dig-web/sale/ecae07eb664f1bd1/\nConfirm 
+ the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/ecae07eb664f1bd1/
 END:VEVENT
 END:VCALENDAR

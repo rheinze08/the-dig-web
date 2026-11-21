@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:73bb8cbc7214f60c-2026-12-03@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261203T150000Z
 DTEND:20261203T210000Z
 SUMMARY:DESIGNER DREAMS & CHRISTMAS THINGS IN ARGYLE
 LOCATION:Argyle\, TX 76226 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Hours: 9 AM – 3 PM (Thursday\, December 3\, local to Dallas
- –Fort Worth).\nRun by HammerDown Estate Sales.\nOriginal listing (Estat
- eSales.net): https://www.estatesales.net/TX/Argyle/76226/5161242\nSale pa
- ge on The Dig: https://rheinze08.github.io/the-dig-web/sale/73bb8cbc7214f
- 60c/\nConfirm the address and hours on the original listing before you tr
- avel.
+DESCRIPTION:Furniture\, jewelry\, collectibles\, kitchen and clothing.\nHo
+ urs: 9 AM – 3 PM (Thursday\, December 3\, local to Dallas–Fort Worth)
+ .\nRun by HammerDown Estate Sales.\nOriginal listing (EstateSales.net): h
+ ttps://www.estatesales.net/TX/Argyle/76226/5161242\nSale page on The Dig:
+  https://rheinze08.github.io/the-dig-web/sale/73bb8cbc7214f60c/\nConfirm 
+ the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/73bb8cbc7214f60c/
 END:VEVENT
 END:VCALENDAR

@@ -5,16 +5,16 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:438808997173b381-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T150000Z
 DTEND:20261122T220000Z
 SUMMARY:Kerr
 LOCATION:5004 Interlachen Lane\, Austin\, TX 78747
-DESCRIPTION:Hours: 9 AM – 4 PM (Sunday\, November 22\, local to Austin).
- \nOriginal listing (EstateSales.net): https://www.estatesales.net/TX/Aust
- in/78747/5167845\nSale page on The Dig: https://rheinze08.github.io/the-d
- ig-web/sale/438808997173b381/\nConfirm the address and hours on the origi
- nal listing before you travel.
+DESCRIPTION:Kitchen and clothing.\nHours: 9 AM – 4 PM (Sunday\, November
+  22\, local to Austin).\nOriginal listing (EstateSales.net): https://www.
+ estatesales.net/TX/Austin/78747/5167845\nSale page on The Dig: https://rh
+ einze08.github.io/the-dig-web/sale/438808997173b381/\nConfirm the address
+  and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/438808997173b381/
 END:VEVENT
 END:VCALENDAR

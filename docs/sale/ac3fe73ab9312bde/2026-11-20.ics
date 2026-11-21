@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ac3fe73ab9312bde-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Tally Ho
 LOCATION:2325 San Marcus\, Dallas\, Dallas\, TX 75228
-DESCRIPTION:Hours: Opens 9 AM (Friday\, November 20\, local to Dallas–Fo
- rt Worth).\nRun by Sunshine Estate Sales.\nOriginal listing (EstateSales.
- net): https://www.estatesales.net/TX/Dallas/75228/5162943\nSale page on T
- he Dig: https://rheinze08.github.io/the-dig-web/sale/ac3fe73ab9312bde/\nC
- onfirm the address and hours on the original listing before you travel.
+DESCRIPTION:Tools\, vinyl & records\, collectibles\, kitchen and christmas
+  decor.\nHours: Opens 9 AM (Friday\, November 20\, local to Dallas–Fort
+  Worth).\nRun by Sunshine Estate Sales.\nOriginal listing (EstateSales.ne
+ t): https://www.estatesales.net/TX/Dallas/75228/5162943\nSale page on The
+  Dig: https://rheinze08.github.io/the-dig-web/sale/ac3fe73ab9312bde/\nCon
+ firm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/ac3fe73ab9312bde/
 END:VEVENT
 END:VCALENDAR

@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:823b4cd74da69572-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T150000Z
 DTEND:20261120T210000Z
 SUMMARY:West University Estate Sale!
 LOCATION:4204 Oberlin Street\, West University Place\, TX 77005
-DESCRIPTION:Hours: 9 AM – 3 PM (Friday\, November 20\, local to Houston)
- .\nRun by Dominique Kendall Estate Sales.\nOriginal listing (EstateSales.
- net): https://www.estatesales.net/TX/Houston/77005/5161413\nSale page on 
- The Dig: https://rheinze08.github.io/the-dig-web/sale/823b4cd74da69572/\n
- Confirm the address and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, collectibles\, kitchen\, books and art.\nHours: 9 
+ AM – 3 PM (Friday\, November 20\, local to Houston).\nRun by Dominique 
+ Kendall Estate Sales.\nOriginal listing (EstateSales.net): https://www.es
+ tatesales.net/TX/Houston/77005/5161413\nSale page on The Dig: https://rhe
+ inze08.github.io/the-dig-web/sale/823b4cd74da69572/\nConfirm the address 
+ and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/823b4cd74da69572/
 END:VEVENT
 END:VCALENDAR

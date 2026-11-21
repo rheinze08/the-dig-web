@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:112e1359aaffa0b8-2026-12-05@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261205T150000Z
 DTEND:20261205T210000Z
 SUMMARY:NYM meets Handley
 LOCATION:Fort Worth\, TX 76112 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Hours: 9 AM – 3 PM (Saturday\, December 5\, local to Dallas
- –Fort Worth).\nRun by Not Your Mama's Estate Liquidators L.l.c..\nOrigi
- nal listing (EstateSales.net): https://www.estatesales.net/TX/Fort-Worth/
- 76112/5135757\nSale page on The Dig: https://rheinze08.github.io/the-dig-
- web/sale/112e1359aaffa0b8/\nConfirm the address and hours on the original
-  listing before you travel.
+DESCRIPTION:Furniture\, kitchen and clothing.\nHours: 9 AM – 3 PM (Satur
+ day\, December 5\, local to Dallas–Fort Worth).\nRun by Not Your Mama's
+  Estate Liquidators L.l.c..\nOriginal listing (EstateSales.net): https://
+ www.estatesales.net/TX/Fort-Worth/76112/5135757\nSale page on The Dig: ht
+ tps://rheinze08.github.io/the-dig-web/sale/112e1359aaffa0b8/\nConfirm the
+  address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/112e1359aaffa0b8/
 END:VEVENT
 END:VCALENDAR

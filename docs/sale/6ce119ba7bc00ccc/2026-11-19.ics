@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:6ce119ba7bc00ccc-2026-11-19@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261119T150000Z
 DTEND:20261119T220000Z
 SUMMARY:GIGIS ESTATE-TREASURE’S SAT AND SUN buy $20 and take one extra e
  qual to price or lesser
 LOCATION:342 Cable Dr.\, San Antonio\, TX 78227
-DESCRIPTION:Hours: 9 AM – 4 PM (Thursday\, November 19\, local to San An
- tonio).\nRun by Gigis Treasures.\nOriginal listing (EstateSales.net): htt
- ps://www.estatesales.net/TX/San-Antonio/78227/5161203\nSale page on The D
- ig: https://rheinze08.github.io/the-dig-web/sale/6ce119ba7bc00ccc/\nConfi
- rm the address and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, jewelry\, collectibles\, kitchen and clothing.\nHo
+ urs: 9 AM – 4 PM (Thursday\, November 19\, local to San Antonio).\nRun 
+ by Gigis Treasures.\nOriginal listing (EstateSales.net): https://www.esta
+ tesales.net/TX/San-Antonio/78227/5161203\nSale page on The Dig: https://r
+ heinze08.github.io/the-dig-web/sale/6ce119ba7bc00ccc/\nConfirm the addres
+ s and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/6ce119ba7bc00ccc/
 END:VEVENT
 END:VCALENDAR

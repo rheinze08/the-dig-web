@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:556fec54a5ff6918-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T170000Z
 DTEND:20261122T210000Z
 SUMMARY:Weir Family Personal Property Sale — Repriced\, Owner-Run\, Furn
  iture & Decor in Dallas
 LOCATION:4800 Spring Valley Road\, Dallas\, TX 75244
-DESCRIPTION:Hours: 11 AM – 3 PM (Sunday\, November 22\, local to Dallas
- –Fort Worth).\nOriginal listing (EstateSales.net): https://www.estatesa
- les.net/TX/Dallas/75244/5164257\nSale page on The Dig: https://rheinze08.
- github.io/the-dig-web/sale/556fec54a5ff6918/\nConfirm the address and hou
- rs on the original listing before you travel.
+DESCRIPTION:Furniture\, vinyl & records\, collectibles\, vehicles and book
+ s.\nHours: 11 AM – 3 PM (Sunday\, November 22\, local to Dallas–Fort 
+ Worth).\nOriginal listing (EstateSales.net): https://www.estatesales.net/
+ TX/Dallas/75244/5164257\nSale page on The Dig: https://rheinze08.github.i
+ o/the-dig-web/sale/556fec54a5ff6918/\nConfirm the address and hours on th
+ e original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/556fec54a5ff6918/
 END:VEVENT
 END:VCALENDAR

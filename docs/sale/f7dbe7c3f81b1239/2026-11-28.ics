@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:f7dbe7c3f81b1239-2026-11-28@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261128T150000Z
 DTEND:20261128T210000Z
 SUMMARY:Black Friday sale for FASHIONISTAS
 LOCATION:Cedar Park\, TX 78613 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 9 AM – 3 PM (Saturday\, November 28\, local to Austin
- ).\nRun by ATX & Beyond Estate Sales.\nOriginal listing (EstateSales.net)
- : https://www.estatesales.net/TX/Cedar-Park/78613/5165844\nSale page on T
- he Dig: https://rheinze08.github.io/the-dig-web/sale/f7dbe7c3f81b1239/\nC
- onfirm the address and hours on the original listing before you travel.
+DESCRIPTION:Tools\, jewelry and clothing.\nHours: 9 AM – 3 PM (Saturday\
+ , November 28\, local to Austin).\nRun by ATX & Beyond Estate Sales.\nOri
+ ginal listing (EstateSales.net): https://www.estatesales.net/TX/Cedar-Par
+ k/78613/5165844\nSale page on The Dig: https://rheinze08.github.io/the-di
+ g-web/sale/f7dbe7c3f81b1239/\nConfirm the address and hours on the origin
+ al listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/f7dbe7c3f81b1239/
 END:VEVENT
 END:VCALENDAR

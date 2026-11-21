@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:6741133fee31dea5-2026-11-28@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261128T160000Z
 DTEND:20261128T210000Z
 SUMMARY:All We Want For Christmas is Vintage Sale!
 LOCATION:1304 Leander Dr. Ste. 630\, Leander\, TX 78641
-DESCRIPTION:Hours: 10 AM – 3 PM (Saturday\, November 28\, local to Austi
- n).\nRun by Next Chapter Co. Estate Sales.\nOriginal listing (EstateSales
- .net): https://www.estatesales.net/TX/Leander/78641/5162514\nSale page on
-  The Dig: https://rheinze08.github.io/the-dig-web/sale/6741133fee31dea5/\
- nConfirm the address and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, collectibles\, vehicles\, clothing and art.\nHours
+ : 10 AM – 3 PM (Saturday\, November 28\, local to Austin).\nRun by Next
+  Chapter Co. Estate Sales.\nOriginal listing (EstateSales.net): https://w
+ ww.estatesales.net/TX/Leander/78641/5162514\nSale page on The Dig: https:
+ //rheinze08.github.io/the-dig-web/sale/6741133fee31dea5/\nConfirm the add
+ ress and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/6741133fee31dea5/
 END:VEVENT
 END:VCALENDAR

@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:fbcf939ac65da22f-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T140000Z
 DTEND:20261121T093000Z
 SUMMARY:Estate Sale
 LOCATION:904 Vivian St\, Kemah\, TX 77565
-DESCRIPTION:Hours: 8 AM – 3:30 AM (Saturday\, November 21\, local to Hou
- ston).\nOriginal listing (EstateSales.org): https://estatesales.org/estat
- e-sales/tx/kemah/77565/estate-sale-2474736\nSale page on The Dig: https:/
- /rheinze08.github.io/the-dig-web/sale/fbcf939ac65da22f/\nConfirm the addr
- ess and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, jewelry\, clothing and christmas decor.\nHours: 8 
+ AM – 3:30 AM (Saturday\, November 21\, local to Houston).\nOriginal lis
+ ting (EstateSales.org): https://estatesales.org/estate-sales/tx/kemah/775
+ 65/estate-sale-2474736\nSale page on The Dig: https://rheinze08.github.io
+ /the-dig-web/sale/fbcf939ac65da22f/\nConfirm the address and hours on the
+  original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/fbcf939ac65da22f/
 END:VEVENT
 END:VCALENDAR

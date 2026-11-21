@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:06ff283ab90df965-2026-11-19@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261119T160000Z
 DTEND:20261119T210000Z
 SUMMARY:* SATURDAY DISCOUNTS!* Brilliant Barton Hills
 LOCATION:2501 Forest Bend\, Austin\, TX 78704
-DESCRIPTION:Hours: 10 AM – 3 PM (Thursday\, November 19\, local to Austi
- n).\nRun by Remember When Estate Sales.\nOriginal listing (EstateSales.ne
- t): https://www.estatesales.net/TX/Austin/78704/5151909\nSale page on The
-  Dig: https://rheinze08.github.io/the-dig-web/sale/06ff283ab90df965/\nCon
- firm the address and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, vinyl & records\, collectibles\, kitchen and cloth
+ ing.\nHours: 10 AM – 3 PM (Thursday\, November 19\, local to Austin).\n
+ Run by Remember When Estate Sales.\nOriginal listing (EstateSales.net): h
+ ttps://www.estatesales.net/TX/Austin/78704/5151909\nSale page on The Dig:
+  https://rheinze08.github.io/the-dig-web/sale/06ff283ab90df965/\nConfirm 
+ the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/06ff283ab90df965/
 END:VEVENT
 END:VCALENDAR

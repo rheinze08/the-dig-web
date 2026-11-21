@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:59e88589a519be1a-2026-12-04@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261204T140000Z
 DTEND:20261204T220000Z
 SUMMARY:THE BEST ESTATE SALE before CHRISTMAS Ever!!! by GET RID OF IT...E
  state Services - MUST SEE!!
 LOCATION:Friendswood\, TX 77546 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Hours: 8 AM – 4 PM (Friday\, December 4\, local to Houston).
- \nRun by Get Rid Of It.\nOriginal listing (EstateSales.net): https://www.
- estatesales.net/TX/Friendswood/77546/5160081\nSale page on The Dig: https
- ://rheinze08.github.io/the-dig-web/sale/59e88589a519be1a/\nConfirm the ad
- dress and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, jewelry\, collectibles\, kitchen and art.\nHours: 
+ 8 AM – 4 PM (Friday\, December 4\, local to Houston).\nRun by Get Rid O
+ f It.\nOriginal listing (EstateSales.net): https://www.estatesales.net/TX
+ /Friendswood/77546/5160081\nSale page on The Dig: https://rheinze08.githu
+ b.io/the-dig-web/sale/59e88589a519be1a/\nConfirm the address and hours on
+  the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/59e88589a519be1a/
 END:VEVENT
 END:VCALENDAR

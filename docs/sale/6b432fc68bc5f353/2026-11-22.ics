@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:6b432fc68bc5f353-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T160000Z
 DTEND:20261122T200000Z
 SUMMARY:~Massive Southlake Estate Sale! Collectors Dream! Lexus\, Bang & O
  lufsen\, MCM\, Fashion\, Paintings..
 LOCATION:212 Timber Lake Dr\, Southlake\, TX 76092
-DESCRIPTION:Hours: 10 AM – 2 PM (Sunday\, November 22\, local to Dallas
- –Fort Worth).\nRun by DFW Estate Liquidators.\nOriginal listing (Estate
- Sales.org): https://estatesales.org/estate-sales/tx/southlake/76092/massi
- ve-southlake-estate-sale-collectors-2467702\nSale page on The Dig: https:
- //rheinze08.github.io/the-dig-web/sale/6b432fc68bc5f353/\nConfirm the add
- ress and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, vinyl & records\, jewelry\, collectibles and vehic
+ les.\nHours: 10 AM – 2 PM (Sunday\, November 22\, local to Dallas–For
+ t Worth).\nRun by DFW Estate Liquidators.\nOriginal listing (EstateSales.
+ org): https://estatesales.org/estate-sales/tx/southlake/76092/massive-sou
+ thlake-estate-sale-collectors-2467702\nSale page on The Dig: https://rhei
+ nze08.github.io/the-dig-web/sale/6b432fc68bc5f353/\nConfirm the address a
+ nd hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/6b432fc68bc5f353/
 END:VEVENT
 END:VCALENDAR

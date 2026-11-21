@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ed7d49c4e84ecee9-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T180000Z
 DTEND:20261122T210000Z
 SUMMARY:Fabulous Finds El Campo
 LOCATION:4413 El Campo Ave\, Fort Worth\, TX 76107
-DESCRIPTION:Hours: 12 PM – 3 PM (Sunday\, November 22\, local to Dallas
- –Fort Worth).\nRun by Kazen Property Rescue Services.\nOriginal listing
-  (EstateSales.net): https://www.estatesales.net/TX/Fort-Worth/76107/51669
- 18\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/ed
- 7d49c4e84ecee9/\nConfirm the address and hours on the original listing be
- fore you travel.
+DESCRIPTION:Furniture\, vinyl & records\, collectibles\, kitchen and books
+ .\nHours: 12 PM – 3 PM (Sunday\, November 22\, local to Dallas–Fort W
+ orth).\nRun by Kazen Property Rescue Services.\nOriginal listing (EstateS
+ ales.net): https://www.estatesales.net/TX/Fort-Worth/76107/5166918\nSale 
+ page on The Dig: https://rheinze08.github.io/the-dig-web/sale/ed7d49c4e84
+ ecee9/\nConfirm the address and hours on the original listing before you 
+ travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/ed7d49c4e84ecee9/
 END:VEVENT
 END:VCALENDAR

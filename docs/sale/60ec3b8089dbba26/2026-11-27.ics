@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:60ec3b8089dbba26-2026-11-27@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261127T160000Z
 DTEND:20261127T220000Z
 SUMMARY:THANKSGIVING PICKER ESTATE
 LOCATION:Santa Fe\, TX 77517 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 10 AM – 4 PM (Friday\, November 27\, local to Houston
- ).\nRun by Family Tree Estate Sales.\nOriginal listing (EstateSales.net):
-  https://www.estatesales.net/TX/Santa-Fe/77517/5107233\nSale page on The 
- Dig: https://rheinze08.github.io/the-dig-web/sale/60ec3b8089dbba26/\nConf
- irm the address and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, collectibles\, vehicles\, kitchen and art.\nHours:
+  10 AM – 4 PM (Friday\, November 27\, local to Houston).\nRun by Family
+  Tree Estate Sales.\nOriginal listing (EstateSales.net): https://www.esta
+ tesales.net/TX/Santa-Fe/77517/5107233\nSale page on The Dig: https://rhei
+ nze08.github.io/the-dig-web/sale/60ec3b8089dbba26/\nConfirm the address a
+ nd hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/60ec3b8089dbba26/
 END:VEVENT
 END:VCALENDAR

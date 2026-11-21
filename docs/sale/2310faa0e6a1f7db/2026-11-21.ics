@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:2310faa0e6a1f7db-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Huge...Friendswood Garage & Moving Sale...Hundreds of Items New & 
  Used
 LOCATION:107 Clearview Ave near FM518\, Friendswood\, TX
-DESCRIPTION:Hours: Opens 7 AM (Saturday\, November 21\, local to Houston).
- \nOriginal listing (Craigslist Houston): https://www.craigslist.org/view/
- d/friendswood-hugefriendswood-garage/4pVNsngimYAyQZw3fJkHC8\nSale page on
-  The Dig: https://rheinze08.github.io/the-dig-web/sale/2310faa0e6a1f7db/\
- nConfirm the address and hours on the original listing before you travel.
+DESCRIPTION:Tools\, furniture\, collectibles\, clothing and art.\nHours: O
+ pens 7 AM (Saturday\, November 21\, local to Houston).\nOriginal listing 
+ (Craigslist Houston): https://www.craigslist.org/view/d/friendswood-hugef
+ riendswood-garage/4pVNsngimYAyQZw3fJkHC8\nSale page on The Dig: https://r
+ heinze08.github.io/the-dig-web/sale/2310faa0e6a1f7db/\nConfirm the addres
+ s and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/2310faa0e6a1f7db/
 END:VEVENT
 END:VCALENDAR

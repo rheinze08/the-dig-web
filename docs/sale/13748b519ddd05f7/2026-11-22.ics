@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:13748b519ddd05f7-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T150000Z
 DTEND:20261122T190000Z
 SUMMARY:Blue Moon 50% OFF Euless Thanksgiving Treasure Hunt
 LOCATION:12732 Red Cedar Drive\, Euless\, TX 76040
-DESCRIPTION:Hours: 9 AM – 1 PM (Sunday\, November 22\, local to Dallas
- –Fort Worth).\nRun by Blue Moon Estate Sales - Ft. Worth Tx..\nOriginal
-  listing (EstateSales.net): https://www.estatesales.net/TX/Euless/76040/5
- 159922\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sal
- e/13748b519ddd05f7/\nConfirm the address and hours on the original listin
- g before you travel.
+DESCRIPTION:Furniture\, collectibles\, clothing\, art and china.\nHours: 9
+  AM – 1 PM (Sunday\, November 22\, local to Dallas–Fort Worth).\nRun 
+ by Blue Moon Estate Sales - Ft. Worth Tx..\nOriginal listing (EstateSales
+ .net): https://www.estatesales.net/TX/Euless/76040/5159922\nSale page on 
+ The Dig: https://rheinze08.github.io/the-dig-web/sale/13748b519ddd05f7/\n
+ Confirm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/13748b519ddd05f7/
 END:VEVENT
 END:VCALENDAR

@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:4494ccdf99b8539d-2026-11-23@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261123T150000Z
 DTEND:20261124T010000Z
 SUMMARY:Huge Collector’s Estate Sale | Vintage Finds\, Furniture & Art
 LOCATION:307 Evening grosbeak drive\, Pflugerville\, TX 78660
-DESCRIPTION:Hours: 9 AM – 7 PM (Monday\, November 23\, local to Austin).
- \nOriginal listing (EstateSales.net): https://www.estatesales.net/TX/Pflu
- gerville/78660/5167167\nSale page on The Dig: https://rheinze08.github.io
- /the-dig-web/sale/4494ccdf99b8539d/\nConfirm the address and hours on the
-  original listing before you travel.
+DESCRIPTION:Furniture\, vinyl & records\, collectibles\, kitchen and art.\
+ nHours: 9 AM – 7 PM (Monday\, November 23\, local to Austin).\nOriginal
+  listing (EstateSales.net): https://www.estatesales.net/TX/Pflugerville/7
+ 8660/5167167\nSale page on The Dig: https://rheinze08.github.io/the-dig-w
+ eb/sale/4494ccdf99b8539d/\nConfirm the address and hours on the original 
+ listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/4494ccdf99b8539d/
 END:VEVENT
 END:VCALENDAR

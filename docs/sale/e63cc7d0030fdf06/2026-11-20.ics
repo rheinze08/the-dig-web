@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:e63cc7d0030fdf06-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T153000Z
 DTEND:20261120T230000Z
 SUMMARY:Antique Christmas on my Porch
 LOCATION:1801 Rockridge Terrace\, Fort Worth\, TX 76110
-DESCRIPTION:Hours: 9:30 AM – 5 PM (Friday\, November 20\, local to Dalla
- s–Fort Worth).\nOriginal listing (EstateSales.net): https://www.estates
- ales.net/TX/Fort-Worth/76110/5165385\nSale page on The Dig: https://rhein
- ze08.github.io/the-dig-web/sale/e63cc7d0030fdf06/\nConfirm the address an
- d hours on the original listing before you travel.
+DESCRIPTION:Collectibles\, antiques and christmas decor.\nHours: 9:30 AM 
+ – 5 PM (Friday\, November 20\, local to Dallas–Fort Worth).\nOriginal
+  listing (EstateSales.net): https://www.estatesales.net/TX/Fort-Worth/761
+ 10/5165385\nSale page on The Dig: https://rheinze08.github.io/the-dig-web
+ /sale/e63cc7d0030fdf06/\nConfirm the address and hours on the original li
+ sting before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/e63cc7d0030fdf06/
 END:VEVENT
 END:VCALENDAR

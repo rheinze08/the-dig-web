@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:be7d2bf774f3e817-2026-11-19@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261119T160000Z
 DTEND:20261119T230000Z
 SUMMARY:Plano Estate Sale
 LOCATION:4616 Brook Meadow Ln.\, Plano\, TX 75093
-DESCRIPTION:Hours: 10 AM – 5 PM (Thursday\, November 19\, local to Dalla
- s–Fort Worth).\nOriginal listing (EstateSales.net): https://www.estates
- ales.net/TX/Plano/75093/5163531\nSale page on The Dig: https://rheinze08.
- github.io/the-dig-web/sale/be7d2bf774f3e817/\nConfirm the address and hou
- rs on the original listing before you travel.
+DESCRIPTION:Furniture\, jewelry\, kitchen\, clothing and books.\nHours: 10
+  AM – 5 PM (Thursday\, November 19\, local to Dallas–Fort Worth).\nOr
+ iginal listing (EstateSales.net): https://www.estatesales.net/TX/Plano/75
+ 093/5163531\nSale page on The Dig: https://rheinze08.github.io/the-dig-we
+ b/sale/be7d2bf774f3e817/\nConfirm the address and hours on the original l
+ isting before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/be7d2bf774f3e817/
 END:VEVENT
 END:VCALENDAR

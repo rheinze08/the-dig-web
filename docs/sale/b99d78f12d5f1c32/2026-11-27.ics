@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:b99d78f12d5f1c32-2026-11-27@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261127T150000Z
 DTEND:20261127T220000Z
 SUMMARY:BLACK FRIDAY SALE! COLLEYVILLE | UPSCALE TRADITIONAL ESTATE FILLED
   WITH TIMELESS TREASURES!
 LOCATION:Colleyville\, TX 76034 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 9 AM – 4 PM (Friday\, November 27\, local to Dallas
- –Fort Worth).\nRun by Lori's Estate Sales.\nOriginal listing (EstateSal
- es.net): https://www.estatesales.net/TX/Colleyville/76034/5142741\nSale p
- age on The Dig: https://rheinze08.github.io/the-dig-web/sale/b99d78f12d5f
- 1c32/\nConfirm the address and hours on the original listing before you t
- ravel.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and vehicles.\nHour
+ s: 9 AM – 4 PM (Friday\, November 27\, local to Dallas–Fort Worth).\n
+ Run by Lori's Estate Sales.\nOriginal listing (EstateSales.net): https://
+ www.estatesales.net/TX/Colleyville/76034/5142741\nSale page on The Dig: h
+ ttps://rheinze08.github.io/the-dig-web/sale/b99d78f12d5f1c32/\nConfirm th
+ e address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/b99d78f12d5f1c32/
 END:VEVENT
 END:VCALENDAR

@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:47b0c73100bbe19e-2026-11-19@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261119T170000Z
 DTEND:20261119T210000Z
 SUMMARY:The O. G.
 LOCATION:2209 Quarry Rd\, Austin\, TX 78703
-DESCRIPTION:Hours: 11 AM – 3 PM (Thursday\, November 19\, local to Austi
- n).\nRun by Simplify Life.\nOriginal listing (EstateSales.net): https://w
- ww.estatesales.net/TX/Austin/78703/5148483\nSale page on The Dig: https:/
- /rheinze08.github.io/the-dig-web/sale/47b0c73100bbe19e/\nConfirm the addr
- ess and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, vinyl & records\, jewelry\, collectibles and kitch
+ en.\nHours: 11 AM – 3 PM (Thursday\, November 19\, local to Austin).\nR
+ un by Simplify Life.\nOriginal listing (EstateSales.net): https://www.est
+ atesales.net/TX/Austin/78703/5148483\nSale page on The Dig: https://rhein
+ ze08.github.io/the-dig-web/sale/47b0c73100bbe19e/\nConfirm the address an
+ d hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/47b0c73100bbe19e/
 END:VEVENT
 END:VCALENDAR

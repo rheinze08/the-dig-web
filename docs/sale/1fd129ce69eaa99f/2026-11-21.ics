@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:1fd129ce69eaa99f-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T150000Z
 DTEND:20261121T220000Z
 SUMMARY:Eclectic Multigenerational Sale in SATX by Golden Bow
 LOCATION:Harmony Hills Neighborhood\, San Antonio\, TX 78216
-DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to San An
- tonio).\nRun by Golden Bow Estate Sales.\nOriginal listing (EstateSales.n
- et): https://www.estatesales.net/TX/San-Antonio/78216/5151945\nSale page 
- on The Dig: https://rheinze08.github.io/the-dig-web/sale/1fd129ce69eaa99f
- /\nConfirm the address and hours on the original listing before you trave
- l.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and vehicles.\nHour
+ s: 9 AM – 4 PM (Saturday\, November 21\, local to San Antonio).\nRun by
+  Golden Bow Estate Sales.\nOriginal listing (EstateSales.net): https://ww
+ w.estatesales.net/TX/San-Antonio/78216/5151945\nSale page on The Dig: htt
+ ps://rheinze08.github.io/the-dig-web/sale/1fd129ce69eaa99f/\nConfirm the 
+ address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/1fd129ce69eaa99f/
 END:VEVENT
 END:VCALENDAR

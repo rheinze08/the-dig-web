@@ -9,7 +9,7 @@
       "status": "live",
       "timeZone": "America/Chicago",
       "feedUrl": "https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/houston/sales.json",
-      "collectedAt": "2026-11-21T03:01:16.170Z",
+      "collectedAt": "2026-11-21T04:55:57.601Z",
       "sales": 28,
       "indexCount": 28,
       "cleanRuns": 1,
@@ -27,12 +27,12 @@
       "status": "proving",
       "timeZone": "America/Chicago",
       "feedUrl": "https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/dallas-fort-worth/sales.json",
-      "collectedAt": "2026-11-21T03:04:36.874Z",
-      "sales": 110,
-      "indexCount": 110,
+      "collectedAt": "2026-11-21T04:59:23.959Z",
+      "sales": 109,
+      "indexCount": 109,
       "cleanRuns": 1,
-      "weekendSales": 88,
-      "salePages": 110,
+      "weekendSales": 87,
+      "salePages": 109,
       "builtFor": "2026-11-20",
       "weekend": [
         "2026-11-20",
@@ -45,7 +45,7 @@
       "status": "proving",
       "timeZone": "America/Chicago",
       "feedUrl": "https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/austin/sales.json",
-      "collectedAt": "2026-11-21T03:05:39.165Z",
+      "collectedAt": "2026-11-21T05:00:26.130Z",
       "sales": 26,
       "indexCount": 26,
       "cleanRuns": 1,
@@ -63,7 +63,7 @@
       "status": "proving",
       "timeZone": "America/Chicago",
       "feedUrl": "https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/san-antonio/sales.json",
-      "collectedAt": "2026-11-21T03:07:01.016Z",
+      "collectedAt": "2026-11-21T05:01:48.781Z",
       "sales": 43,
       "indexCount": 43,
       "cleanRuns": 1,
@@ -77,30 +77,30 @@
     }
   ],
   "offSite": [],
-  "salePages": 207,
+  "salePages": 206,
   "enriched": {
-    "withRating": 0,
-    "withKeywords": 0,
-    "withContentsLine": 0,
-    "withContact": 0,
-    "withPhotoCount": 0,
-    "calendarFiles": 560
+    "withRating": 206,
+    "withKeywords": 182,
+    "withContentsLine": 182,
+    "withContact": 171,
+    "withPhotoCount": 197,
+    "calendarFiles": 558
   },
   "search": {
     "page": "https://rheinze08.github.io/the-dig-web/search/",
     "dataFile": "https://rheinze08.github.io/the-dig-web/search/data.json",
-    "records": 207,
+    "records": 206,
     "combinedFeed": "https://raw.githubusercontent.com/rheinze08/the-dig-data/main/search.json",
     "combinedFeedPublished": true,
     "combinedFeedProblem": null,
-    "categoriesFromCombinedFeed": 207,
+    "categoriesFromCombinedFeed": 206,
     "categoriesFromTitles": 0,
-    "photoSearchSales": 0
+    "photoSearchSales": 182
   },
   "app": {
-    "tag": "v0.3.0",
-    "url": "https://github.com/rheinze08/the-dig-data/releases/download/v0.3.0/The-Dig-v0.3.0.apk",
-    "page": "https://github.com/rheinze08/the-dig-data/releases/tag/v0.3.0"
+    "tag": "v0.4.0",
+    "url": "https://github.com/rheinze08/the-dig-data/releases/download/v0.4.0/The-Dig-v0.4.0.apk",
+    "page": "https://github.com/rheinze08/the-dig-data/releases/tag/v0.4.0"
   },
   "listingEmail": "listings@thedig.example",
   "listingEmailIsPlaceholder": true

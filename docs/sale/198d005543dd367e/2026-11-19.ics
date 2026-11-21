@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:198d005543dd367e-2026-11-19@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261119T180000Z
 DTEND:20261119T230000Z
 SUMMARY:North Arlington Randol Mill Park Homes Subdivision
 LOCATION:1605 Trailridge Drive 76012\, Arlington\, TX 76012
-DESCRIPTION:Hours: 12 PM – 5 PM (Thursday\, November 19\, local to Dalla
- s–Fort Worth).\nRun by Newhouse-Héron and Warr Estate Liquidators.\nOr
- iginal listing (EstateSales.net): https://www.estatesales.net/TX/Arlingto
- n/76012/5166327\nSale page on The Dig: https://rheinze08.github.io/the-di
- g-web/sale/198d005543dd367e/\nConfirm the address and hours on the origin
- al listing before you travel.
+DESCRIPTION:Furniture\, collectibles\, kitchen\, books and art.\nHours: 12
+  PM – 5 PM (Thursday\, November 19\, local to Dallas–Fort Worth).\nRu
+ n by Newhouse-Héron and Warr Estate Liquidators.\nOriginal listing (Esta
+ teSales.net): https://www.estatesales.net/TX/Arlington/76012/5166327\nSal
+ e page on The Dig: https://rheinze08.github.io/the-dig-web/sale/198d00554
+ 3dd367e/\nConfirm the address and hours on the original listing before yo
+ u travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/198d005543dd367e/
 END:VEVENT
 END:VCALENDAR

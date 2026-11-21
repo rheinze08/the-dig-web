@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:5edf17d244683724-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T150000Z
 DTEND:20261120T220000Z
 SUMMARY:Saturday 50% off in Castle Hills with Antiques\, MCM\, Art\, Rugs\
  , Furniture\, Furs\, and Decor
 LOCATION:200 Chattington\, San Antonio\, TX 78213
-DESCRIPTION:Hours: 9 AM – 4 PM (Friday\, November 20\, local to San Anto
- nio).\nRun by Professional Estate Sales LLC.\nOriginal listing (EstateSal
- es.net): https://www.estatesales.net/TX/San-Antonio/78213/5149194\nSale p
- age on The Dig: https://rheinze08.github.io/the-dig-web/sale/5edf17d24468
- 3724/\nConfirm the address and hours on the original listing before you t
- ravel.
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
+ .\nHours: 9 AM – 4 PM (Friday\, November 20\, local to San Antonio).\nR
+ un by Professional Estate Sales LLC.\nOriginal listing (EstateSales.net):
+  https://www.estatesales.net/TX/San-Antonio/78213/5149194\nSale page on T
+ he Dig: https://rheinze08.github.io/the-dig-web/sale/5edf17d244683724/\nC
+ onfirm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/5edf17d244683724/
 END:VEVENT
 END:VCALENDAR

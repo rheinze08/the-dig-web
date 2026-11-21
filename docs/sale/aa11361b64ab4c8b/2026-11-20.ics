@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:aa11361b64ab4c8b-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Huge Estate Sale
 LOCATION:13811 Belgrave Way near Laramie Hill\, Live Oak\, TX
-DESCRIPTION:Hours: Hours not listed (Friday\, November 20\, local to San A
- ntonio).\nOriginal listing (Craigslist San Antonio): https://www.craigsli
- st.org/view/d/san-antonio-huge-estate-sale/twWo2V4WuVuJEd9p1nXc4T\nSale p
- age on The Dig: https://rheinze08.github.io/the-dig-web/sale/aa11361b64ab
- 4c8b/\nConfirm the address and hours on the original listing before you t
- ravel.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
+ : Hours not listed (Friday\, November 20\, local to San Antonio).\nOrigin
+ al listing (Craigslist San Antonio): https://www.craigslist.org/view/d/sa
+ n-antonio-huge-estate-sale/twWo2V4WuVuJEd9p1nXc4T\nSale page on The Dig: 
+ https://rheinze08.github.io/the-dig-web/sale/aa11361b64ab4c8b/\nConfirm t
+ he address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/aa11361b64ab4c8b/
 END:VEVENT
 END:VCALENDAR

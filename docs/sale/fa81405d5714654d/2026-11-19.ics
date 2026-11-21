@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:fa81405d5714654d-2026-11-19@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261119T153000Z
 DTEND:20261119T223000Z
 SUMMARY:ESTATE SALE~CLEARHURST DR by DAVID C TURNER\, DALLAS ESTATE SALES
 LOCATION:9220 Clearhurst Dr\, Dallas\, TX 75238
-DESCRIPTION:Hours: 9:30 AM – 4:30 PM (Thursday\, November 19\, local to 
- Dallas–Fort Worth).\nRun by David C.Turner.\nOriginal listing (EstateSa
- les.net): https://www.estatesales.net/TX/Dallas/75238/5162328\nSale page 
- on The Dig: https://rheinze08.github.io/the-dig-web/sale/fa81405d5714654d
- /\nConfirm the address and hours on the original listing before you trave
- l.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
+ : 9:30 AM – 4:30 PM (Thursday\, November 19\, local to Dallas–Fort Wo
+ rth).\nRun by David C.Turner.\nOriginal listing (EstateSales.net): https:
+ //www.estatesales.net/TX/Dallas/75238/5162328\nSale page on The Dig: http
+ s://rheinze08.github.io/the-dig-web/sale/fa81405d5714654d/\nConfirm the a
+ ddress and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/fa81405d5714654d/
 END:VEVENT
 END:VCALENDAR

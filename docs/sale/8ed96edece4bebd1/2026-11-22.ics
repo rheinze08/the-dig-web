@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8ed96edece4bebd1-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T160000Z
-DTEND:20261122T203000Z
-SUMMARY:25-50% off Friday -Sunday Estate Sale
+DTEND:20261122T200000Z
+SUMMARY:50% off Saturday-Sunday Estate Sale
 LOCATION:393 FM 969\, Bastrop\, TX 78602
-DESCRIPTION:Hours: 10 AM – 2:30 PM (Sunday\, November 22\, local to Aust
- in).\nRun by Country Estate Auction And Estate Liquidators.\nOriginal lis
- ting (EstateSales.net): https://www.estatesales.net/TX/Bastrop/78602/5163
- 939\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/8
- ed96edece4bebd1/\nConfirm the address and hours on the original listing b
- efore you travel.
+DESCRIPTION:Hours: 10 AM – 2 PM (Sunday\, November 22\, local to Austin)
+ .\nRun by Country Estate Auction And Estate Liquidators.\nOriginal listin
+ g (EstateSales.net): https://www.estatesales.net/TX/Bastrop/78602/5163939
+ \nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/8ed9
+ 6edece4bebd1/\nConfirm the address and hours on the original listing befo
+ re you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/8ed96edece4bebd1/
 END:VEVENT
 END:VCALENDAR

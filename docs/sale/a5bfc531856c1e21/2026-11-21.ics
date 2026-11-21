@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a5bfc531856c1e21-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T150000Z
 DTEND:20261121T220000Z
 SUMMARY:River Oaks Estate Sale - Brass\, Christmas & More!
 LOCATION:5415 Pomona Ave\, Fort Worth\, TX 76114
-DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to Dallas
- –Fort Worth).\nRun by Cowtown Liquidation.\nOriginal listing (EstateSal
- es.net): https://www.estatesales.net/TX/Fort-Worth/76114/5145414\nSale pa
- ge on The Dig: https://rheinze08.github.io/the-dig-web/sale/a5bfc531856c1
- e21/\nConfirm the address and hours on the original listing before you tr
- avel.
+DESCRIPTION:Collectibles\, figurines and christmas decor.\nHours: 9 AM –
+  4 PM (Saturday\, November 21\, local to Dallas–Fort Worth).\nRun by Co
+ wtown Liquidation.\nOriginal listing (EstateSales.net): https://www.estat
+ esales.net/TX/Fort-Worth/76114/5145414\nSale page on The Dig: https://rhe
+ inze08.github.io/the-dig-web/sale/a5bfc531856c1e21/\nConfirm the address 
+ and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/a5bfc531856c1e21/
 END:VEVENT
 END:VCALENDAR

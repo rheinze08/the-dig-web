@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:2105c54c8bfa22a2-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Vintage and Antique Estate sale
 LOCATION:4308 Yellow Rose Austin\, Austin\, TX
-DESCRIPTION:Hours: Opens 10 AM (Friday\, November 20\, local to Austin).\n
- Original listing (Craigslist Austin): https://www.craigslist.org/view/d/a
- ustin-vintage-and-antique-estate-sale/aM3fZjSkPomePyQvUU3XjR\nSale page o
- n The Dig: https://rheinze08.github.io/the-dig-web/sale/2105c54c8bfa22a2/
- \nConfirm the address and hours on the original listing before you travel
- .
+DESCRIPTION:Furniture\, collectibles\, kitchen\, art and china.\nHours: Op
+ ens 10 AM (Friday\, November 20\, local to Austin).\nOriginal listing (Cr
+ aigslist Austin): https://www.craigslist.org/view/d/austin-vintage-and-an
+ tique-estate-sale/aM3fZjSkPomePyQvUU3XjR\nSale page on The Dig: https://r
+ heinze08.github.io/the-dig-web/sale/2105c54c8bfa22a2/\nConfirm the addres
+ s and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/2105c54c8bfa22a2/
 END:VEVENT
 END:VCALENDAR

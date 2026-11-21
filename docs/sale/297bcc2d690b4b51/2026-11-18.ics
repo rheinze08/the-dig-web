@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:297bcc2d690b4b51-2026-11-18@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261118T150000Z
 DTEND:20261118T220000Z
 SUMMARY:Warehouse sale
 LOCATION:5530 cr 166\, Alvin\, TX 77511
-DESCRIPTION:Hours: 9 AM – 4 PM (Wednesday\, November 18\, local to Houst
- on).\nRun by C & M Estate Sales.\nOriginal listing (EstateSales.net): htt
- ps://www.estatesales.net/TX/Alvin/77511/5162373\nSale page on The Dig: ht
- tps://rheinze08.github.io/the-dig-web/sale/297bcc2d690b4b51/\nConfirm the
-  address and hours on the original listing before you travel.
+DESCRIPTION:Tools\, furniture\, jewelry\, antiques and silver.\nHours: 9 A
+ M – 4 PM (Wednesday\, November 18\, local to Houston).\nRun by C & M Es
+ tate Sales.\nOriginal listing (EstateSales.net): https://www.estatesales.
+ net/TX/Alvin/77511/5162373\nSale page on The Dig: https://rheinze08.githu
+ b.io/the-dig-web/sale/297bcc2d690b4b51/\nConfirm the address and hours on
+  the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/297bcc2d690b4b51/
 END:VEVENT
 END:VCALENDAR

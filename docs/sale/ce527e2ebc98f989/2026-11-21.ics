@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ce527e2ebc98f989-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T150000Z
 DTEND:20261121T210000Z
 SUMMARY:Collector of All things
 LOCATION:3435 River North Dr\, San Antonio\, TX 78230
-DESCRIPTION:Hours: 9 AM – 3 PM (Saturday\, November 21\, local to San An
- tonio).\nRun by Top Hat Estate Sales.\nOriginal listing (EstateSales.net)
- : https://www.estatesales.net/TX/San-Antonio/78230/5158611\nSale page on 
- The Dig: https://rheinze08.github.io/the-dig-web/sale/ce527e2ebc98f989/\n
- Confirm the address and hours on the original listing before you travel.
+DESCRIPTION:Tools\, furniture\, collectibles\, vehicles and kitchen.\nHour
+ s: 9 AM – 3 PM (Saturday\, November 21\, local to San Antonio).\nRun by
+  Top Hat Estate Sales.\nOriginal listing (EstateSales.net): https://www.e
+ statesales.net/TX/San-Antonio/78230/5158611\nSale page on The Dig: https:
+ //rheinze08.github.io/the-dig-web/sale/ce527e2ebc98f989/\nConfirm the add
+ ress and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/ce527e2ebc98f989/
 END:VEVENT
 END:VCALENDAR

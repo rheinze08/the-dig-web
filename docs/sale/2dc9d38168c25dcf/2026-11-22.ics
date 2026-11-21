@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:2dc9d38168c25dcf-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T160000Z
 DTEND:20261122T210000Z
 SUMMARY:Soulshine in Universal City | A Christmas Wonderland & Vintage Tre
  asures Galore!
 LOCATION:8523 Marathon Dr\, Universal City\, TX 78148
-DESCRIPTION:Hours: 10 AM – 3 PM (Sunday\, November 22\, local to San Ant
- onio).\nRun by Soulshine Estate Sale Company.\nOriginal listing (EstateSa
- les.net): https://www.estatesales.net/TX/Universal-City/78148/5162931\nSa
- le page on The Dig: https://rheinze08.github.io/the-dig-web/sale/2dc9d381
- 68c25dcf/\nConfirm the address and hours on the original listing before y
- ou travel.
+DESCRIPTION:Furniture\, kitchen\, clothing\, mid-century and lamps.\nHours
+ : 10 AM – 3 PM (Sunday\, November 22\, local to San Antonio).\nRun by S
+ oulshine Estate Sale Company.\nOriginal listing (EstateSales.net): https:
+ //www.estatesales.net/TX/Universal-City/78148/5162931\nSale page on The D
+ ig: https://rheinze08.github.io/the-dig-web/sale/2dc9d38168c25dcf/\nConfi
+ rm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/2dc9d38168c25dcf/
 END:VEVENT
 END:VCALENDAR

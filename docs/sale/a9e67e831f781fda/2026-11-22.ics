@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a9e67e831f781fda-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T150000Z
 DTEND:20261122T230000Z
 SUMMARY:Pearland estate sale
 LOCATION:2505 Shadybend Dr\, Pearland\, TX 77581
-DESCRIPTION:Hours: 9 AM – 5 PM (Sunday\, November 22\, local to Houston)
- .\nRun by Yolanda's Estate Sales.\nOriginal listing (EstateSales.net): ht
- tps://www.estatesales.net/TX/Pearland/77581/5160993\nSale page on The Dig
- : https://rheinze08.github.io/the-dig-web/sale/a9e67e831f781fda/\nConfirm
-  the address and hours on the original listing before you travel.
+DESCRIPTION:Vinyl & records.\nHours: 9 AM – 5 PM (Sunday\, November 22\,
+  local to Houston).\nRun by Yolanda's Estate Sales.\nOriginal listing (Es
+ tateSales.net): https://www.estatesales.net/TX/Pearland/77581/5160993\nSa
+ le page on The Dig: https://rheinze08.github.io/the-dig-web/sale/a9e67e83
+ 1f781fda/\nConfirm the address and hours on the original listing before y
+ ou travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/a9e67e831f781fda/
 END:VEVENT
 END:VCALENDAR

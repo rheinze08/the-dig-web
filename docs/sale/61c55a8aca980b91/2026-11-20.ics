@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:61c55a8aca980b91-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T150000Z
 DTEND:20261120T220000Z
 SUMMARY:Beauty in Cibolo Estate Sale
 LOCATION:125 Eagle Flight\, Cibolo\, TX 78108
-DESCRIPTION:Hours: 9 AM – 4 PM (Friday\, November 20\, local to San Anto
- nio).\nRun by Texas Treasure Estate Sales.\nOriginal listing (Craigslist 
- San Antonio): https://www.craigslist.org/view/d/cibolo-beauty-in-cibolo-e
- state-sale/bi5LZqJoGkBFjiEUVyUotH\nSale page on The Dig: https://rheinze0
- 8.github.io/the-dig-web/sale/61c55a8aca980b91/\nConfirm the address and h
- ours on the original listing before you travel.
+DESCRIPTION:Tools\, furniture\, kitchen\, art and antiques.\nHours: 9 AM 
+ – 4 PM (Friday\, November 20\, local to San Antonio).\nRun by Texas Tre
+ asure Estate Sales.\nOriginal listing (Craigslist San Antonio): https://w
+ ww.craigslist.org/view/d/cibolo-beauty-in-cibolo-estate-sale/bi5LZqJoGkBF
+ jiEUVyUotH\nSale page on The Dig: https://rheinze08.github.io/the-dig-web
+ /sale/61c55a8aca980b91/\nConfirm the address and hours on the original li
+ sting before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/61c55a8aca980b91/
 END:VEVENT
 END:VCALENDAR

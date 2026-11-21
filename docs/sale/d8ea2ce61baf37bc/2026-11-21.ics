@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d8ea2ce61baf37bc-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T150000Z
 DTEND:20261121T220000Z
 SUMMARY:Elite Legacy- Prestonwood- Patio\, Henredon\, Snap-on\, Knives\, A
  ppliances\, Women’s Clothing\, Floral
 LOCATION:7148 Hunters Ridge Drive\, Dallas\, TX 75248
-DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to Dallas
- –Fort Worth).\nRun by Elite Legacy Estate Sales.\nOriginal listing (Est
- ateSales.net): https://www.estatesales.net/TX/Dallas/75248/5140161\nSale 
- page on The Dig: https://rheinze08.github.io/the-dig-web/sale/d8ea2ce61ba
- f37bc/\nConfirm the address and hours on the original listing before you 
- travel.
+DESCRIPTION:Tools\, furniture\, collectibles\, vehicles and kitchen.\nHour
+ s: 9 AM – 4 PM (Saturday\, November 21\, local to Dallas–Fort Worth).
+ \nRun by Elite Legacy Estate Sales.\nOriginal listing (EstateSales.net): 
+ https://www.estatesales.net/TX/Dallas/75248/5140161\nSale page on The Dig
+ : https://rheinze08.github.io/the-dig-web/sale/d8ea2ce61baf37bc/\nConfirm
+  the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/d8ea2ce61baf37bc/
 END:VEVENT
 END:VCALENDAR

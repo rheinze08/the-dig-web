@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ce881c72715069d8-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T150000Z
 DTEND:20261121T220000Z
 SUMMARY:Moving and Downsizing Estate Private Sale
 LOCATION:3732 Sevenoaks Dr\, Fort Worth\, TX 76244
-DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to Dallas
- –Fort Worth).\nOriginal listing (EstateSales.net): https://www.estatesa
- les.net/TX/Keller/76244/5166942\nSale page on The Dig: https://rheinze08.
- github.io/the-dig-web/sale/ce881c72715069d8/\nConfirm the address and hou
- rs on the original listing before you travel.
+DESCRIPTION:Furniture\, collectibles\, vehicles\, clothing and toys & game
+ s.\nHours: 9 AM – 4 PM (Saturday\, November 21\, local to Dallas–Fort
+  Worth).\nOriginal listing (EstateSales.net): https://www.estatesales.net
+ /TX/Keller/76244/5166942\nSale page on The Dig: https://rheinze08.github.
+ io/the-dig-web/sale/ce881c72715069d8/\nConfirm the address and hours on t
+ he original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/ce881c72715069d8/
 END:VEVENT
 END:VCALENDAR

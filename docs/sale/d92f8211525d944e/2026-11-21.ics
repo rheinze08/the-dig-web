@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d92f8211525d944e-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T160000Z
 DTEND:20261121T220000Z
 SUMMARY:Plaid Door Christmas Market
 LOCATION:5923 Royal Lane\, Dallas\, TX 75230
-DESCRIPTION:Hours: 10 AM – 4 PM (Saturday\, November 21\, local to Dalla
- s–Fort Worth).\nRun by Estate Sales by Elaine.\nOriginal listing (Estat
- eSales.org): https://estatesales.org/estate-sales/tx/dallas/75230/plaid-d
- oor-christmas-market-2474219\nSale page on The Dig: https://rheinze08.git
- hub.io/the-dig-web/sale/d92f8211525d944e/\nConfirm the address and hours 
- on the original listing before you travel.
+DESCRIPTION:Christmas decor.\nHours: 10 AM – 4 PM (Saturday\, November 2
+ 1\, local to Dallas–Fort Worth).\nRun by Estate Sales by Elaine.\nOrigi
+ nal listing (EstateSales.org): https://estatesales.org/estate-sales/tx/da
+ llas/75230/plaid-door-christmas-market-2474219\nSale page on The Dig: htt
+ ps://rheinze08.github.io/the-dig-web/sale/d92f8211525d944e/\nConfirm the 
+ address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/d92f8211525d944e/
 END:VEVENT
 END:VCALENDAR

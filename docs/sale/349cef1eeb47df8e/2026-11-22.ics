@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:349cef1eeb47df8e-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T180000Z
 DTEND:20261122T210000Z
 SUMMARY:Blue Moon Estate Sale in Tarrytown with vintage books\, decor\, co
  llectibles\, music\, and more!
 LOCATION:Austin\, TX 78703 (Address releases Friday 9:00 AM)
-DESCRIPTION:Hours: 12 PM – 3 PM (Sunday\, November 22\, local to Austin)
- .\nRun by Blue Moon Estate Sales.\nOriginal listing (EstateSales.net): ht
- tps://www.estatesales.net/TX/Austin/78703/5145585\nSale page on The Dig: 
- https://rheinze08.github.io/the-dig-web/sale/349cef1eeb47df8e/\nConfirm t
- he address and hours on the original listing before you travel.
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
+ .\nHours: 12 PM – 3 PM (Sunday\, November 22\, local to Austin).\nRun b
+ y Blue Moon Estate Sales.\nOriginal listing (EstateSales.net): https://ww
+ w.estatesales.net/TX/Austin/78703/5145585\nSale page on The Dig: https://
+ rheinze08.github.io/the-dig-web/sale/349cef1eeb47df8e/\nConfirm the addre
+ ss and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/349cef1eeb47df8e/
 END:VEVENT
 END:VCALENDAR

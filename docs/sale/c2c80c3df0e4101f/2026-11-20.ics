@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c2c80c3df0e4101f-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T143000Z
 DTEND:20261120T220000Z
 SUMMARY:Denton (ROBSON RANCH): 50% OFF + STUFF-A-BAG + Unbeatable Deals by
   Dayspring
 LOCATION:9301 Freeport Dr\, Denton\, TX 76207
-DESCRIPTION:Hours: 8:30 AM – 4 PM (Friday\, November 20\, local to Dalla
- s–Fort Worth).\nRun by Dayspring Estate Sales.\nOriginal listing (Estat
- eSales.net): https://www.estatesales.net/TX/Denton/76207/5151225\nSale pa
- ge on The Dig: https://rheinze08.github.io/the-dig-web/sale/c2c80c3df0e41
- 01f/\nConfirm the address and hours on the original listing before you tr
- avel.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
+ : 8:30 AM – 4 PM (Friday\, November 20\, local to Dallas–Fort Worth).
+ \nRun by Dayspring Estate Sales.\nOriginal listing (EstateSales.net): htt
+ ps://www.estatesales.net/TX/Denton/76207/5151225\nSale page on The Dig: h
+ ttps://rheinze08.github.io/the-dig-web/sale/c2c80c3df0e4101f/\nConfirm th
+ e address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/c2c80c3df0e4101f/
 END:VEVENT
 END:VCALENDAR

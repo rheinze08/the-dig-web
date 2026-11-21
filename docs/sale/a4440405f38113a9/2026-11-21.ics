@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a4440405f38113a9-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T160000Z
 DTEND:20261121T210000Z
 SUMMARY:Annabelle’s Treasures
 LOCATION:5600 Egg Farm Rd #430\, Fort Worth\, TX 76244
-DESCRIPTION:Hours: 10 AM – 3 PM (Saturday\, November 21\, local to Dalla
- s–Fort Worth).\nRun by Annabelle's Treasures.\nOriginal listing (Estate
- Sales.net): https://www.estatesales.net/TX/Keller/76244/5154666\nSale pag
- e on The Dig: https://rheinze08.github.io/the-dig-web/sale/a4440405f38113
- a9/\nConfirm the address and hours on the original listing before you tra
- vel.
+DESCRIPTION:Furniture and antiques.\nHours: 10 AM – 3 PM (Saturday\, Nov
+ ember 21\, local to Dallas–Fort Worth).\nRun by Annabelle's Treasures.\
+ nOriginal listing (EstateSales.net): https://www.estatesales.net/TX/Kelle
+ r/76244/5154666\nSale page on The Dig: https://rheinze08.github.io/the-di
+ g-web/sale/a4440405f38113a9/\nConfirm the address and hours on the origin
+ al listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/a4440405f38113a9/
 END:VEVENT
 END:VCALENDAR

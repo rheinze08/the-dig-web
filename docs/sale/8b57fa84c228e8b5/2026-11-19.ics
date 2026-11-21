@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8b57fa84c228e8b5-2026-11-19@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261119T150000Z
 DTEND:20261119T210000Z
 SUMMARY:Fort Worth Memories and Treasures
 LOCATION:2021 Queen St\, Fort Worth\, TX 76103
-DESCRIPTION:Hours: 9 AM – 3 PM (Thursday\, November 19\, local to Dallas
- –Fort Worth).\nRun by Enchanted Tree Estate Sales.\nOriginal listing (E
- stateSales.net): https://www.estatesales.net/TX/Fort-Worth/76103/5163921\
- nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/8b57f
- a84c228e8b5/\nConfirm the address and hours on the original listing befor
- e you travel.
+DESCRIPTION:Furniture\, jewelry\, collectibles\, kitchen and clothing.\nHo
+ urs: 9 AM – 3 PM (Thursday\, November 19\, local to Dallas–Fort Worth
+ ).\nRun by Enchanted Tree Estate Sales.\nOriginal listing (EstateSales.ne
+ t): https://www.estatesales.net/TX/Fort-Worth/76103/5163921\nSale page on
+  The Dig: https://rheinze08.github.io/the-dig-web/sale/8b57fa84c228e8b5/\
+ nConfirm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/8b57fa84c228e8b5/
 END:VEVENT
 END:VCALENDAR

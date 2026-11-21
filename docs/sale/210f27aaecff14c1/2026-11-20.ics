@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:210f27aaecff14c1-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T160000Z
 DTEND:20261120T210000Z
 SUMMARY:Bedford Estate Sale
 LOCATION:1501 Martha Drive\, Bedford\, TX 76022
-DESCRIPTION:Hours: 10 AM – 3 PM (Friday\, November 20\, local to Dallas
- –Fort Worth).\nRun by John Hunnicutt.\nOriginal listing (EstateSales.ne
- t): https://www.estatesales.net/TX/Bedford/76022/5164782\nSale page on Th
- e Dig: https://rheinze08.github.io/the-dig-web/sale/210f27aaecff14c1/\nCo
- nfirm the address and hours on the original listing before you travel.
+DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and art.\nHours: 10
+  AM – 3 PM (Friday\, November 20\, local to Dallas–Fort Worth).\nRun 
+ by John Hunnicutt.\nOriginal listing (EstateSales.net): https://www.estat
+ esales.net/TX/Bedford/76022/5164782\nSale page on The Dig: https://rheinz
+ e08.github.io/the-dig-web/sale/210f27aaecff14c1/\nConfirm the address and
+  hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/210f27aaecff14c1/
 END:VEVENT
 END:VCALENDAR

@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:83cd93e2911b4ea2-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T150000Z
 DTEND:20261121T220000Z
 SUMMARY:Super Estate Sale in Dallas
 LOCATION:4843 Fallon Place\, Dallas\, TX 75227
-DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to Dallas
- –Fort Worth).\nRun by Dawn Stubbs Estate Sales.\nOriginal listing (Esta
- teSales.net): https://www.estatesales.net/TX/Dallas/75227/5163126\nSale p
- age on The Dig: https://rheinze08.github.io/the-dig-web/sale/83cd93e2911b
- 4ea2/\nConfirm the address and hours on the original listing before you t
- ravel.
+DESCRIPTION:Tools\, furniture\, jewelry\, kitchen and clothing.\nHours: 9 
+ AM – 4 PM (Saturday\, November 21\, local to Dallas–Fort Worth).\nRun
+  by Dawn Stubbs Estate Sales.\nOriginal listing (EstateSales.net): https:
+ //www.estatesales.net/TX/Dallas/75227/5163126\nSale page on The Dig: http
+ s://rheinze08.github.io/the-dig-web/sale/83cd93e2911b4ea2/\nConfirm the a
+ ddress and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/83cd93e2911b4ea2/
 END:VEVENT
 END:VCALENDAR

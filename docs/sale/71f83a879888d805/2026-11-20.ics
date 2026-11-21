@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:71f83a879888d805-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T160000Z
 DTEND:20261120T220000Z
 SUMMARY:50% off most things Oakwell Farms Sale
 LOCATION:39 Campden Circle\, San Antonio\, TX 78218
-DESCRIPTION:Hours: 10 AM – 4 PM (Friday\, November 20\, local to San Ant
- onio).\nRun by June Hayes\, Heritage Estates.\nOriginal listing (EstateSa
- les.net): https://www.estatesales.net/TX/San-Antonio/78218/5161221\nSale 
- page on The Dig: https://rheinze08.github.io/the-dig-web/sale/71f83a87988
- 8d805/\nConfirm the address and hours on the original listing before you 
- travel.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
+ : 10 AM – 4 PM (Friday\, November 20\, local to San Antonio).\nRun by J
+ une Hayes\, Heritage Estates.\nOriginal listing (EstateSales.net): https:
+ //www.estatesales.net/TX/San-Antonio/78218/5161221\nSale page on The Dig:
+  https://rheinze08.github.io/the-dig-web/sale/71f83a879888d805/\nConfirm 
+ the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/71f83a879888d805/
 END:VEVENT
 END:VCALENDAR

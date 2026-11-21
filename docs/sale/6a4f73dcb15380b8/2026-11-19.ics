@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:6a4f73dcb15380b8-2026-11-19@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261119T143000Z
 DTEND:20261119T220000Z
 SUMMARY:Little Elm: 25% OFF & STUFF-A-BAG + Unbeatable Deals by Dayspring
 LOCATION:309 Lakecove Drive\, Little Elm\, TX 75068
-DESCRIPTION:Hours: 8:30 AM – 4 PM (Thursday\, November 19\, local to Dal
- las–Fort Worth).\nRun by Dayspring Estate Sales.\nOriginal listing (Est
- ateSales.net): https://www.estatesales.net/TX/Little-Elm/75068/5147415\nS
- ale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/6a4f73d
- cb15380b8/\nConfirm the address and hours on the original listing before 
- you travel.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
+ : 8:30 AM – 4 PM (Thursday\, November 19\, local to Dallas–Fort Worth
+ ).\nRun by Dayspring Estate Sales.\nOriginal listing (EstateSales.net): h
+ ttps://www.estatesales.net/TX/Little-Elm/75068/5147415\nSale page on The 
+ Dig: https://rheinze08.github.io/the-dig-web/sale/6a4f73dcb15380b8/\nConf
+ irm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/6a4f73dcb15380b8/
 END:VEVENT
 END:VCALENDAR

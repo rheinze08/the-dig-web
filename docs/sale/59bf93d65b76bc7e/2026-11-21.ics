@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:59bf93d65b76bc7e-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T160000Z
 DTEND:20261121T210000Z
 SUMMARY:Bulverde Home Sweet Home! 25% off on 11/21!
 LOCATION:Bulverde\, TX 78163 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 10 AM – 3 PM (Saturday\, November 21\, local to San A
- ntonio).\nRun by Overstreet Estates\, LLC.\nOriginal listing (EstateSales
- .net): https://www.estatesales.net/TX/Bulverde/78163/5161698\nSale page o
- n The Dig: https://rheinze08.github.io/the-dig-web/sale/59bf93d65b76bc7e/
- \nConfirm the address and hours on the original listing before you travel
- .
+DESCRIPTION:Furniture\, toys & games and antiques.\nHours: 10 AM – 3 PM 
+ (Saturday\, November 21\, local to San Antonio).\nRun by Overstreet Estat
+ es\, LLC.\nOriginal listing (EstateSales.net): https://www.estatesales.ne
+ t/TX/Bulverde/78163/5161698\nSale page on The Dig: https://rheinze08.gith
+ ub.io/the-dig-web/sale/59bf93d65b76bc7e/\nConfirm the address and hours o
+ n the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/59bf93d65b76bc7e/
 END:VEVENT
 END:VCALENDAR

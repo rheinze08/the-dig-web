@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:18da4466b4ee5d66-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T160000Z
 DTEND:20261121T210000Z
 SUMMARY:Thousand Oaks Estate Sale
 LOCATION:2422 Bluffridge St.\, San Antonio\, TX 78232
-DESCRIPTION:Hours: 10 AM – 3 PM (Saturday\, November 21\, local to San A
- ntonio).\nRun by Casablanca Estate Sale Company.\nOriginal listing (Estat
- eSales.net): https://www.estatesales.net/TX/San-Antonio/78232/5165340\nSa
- le page on The Dig: https://rheinze08.github.io/the-dig-web/sale/18da4466
- b4ee5d66/\nConfirm the address and hours on the original listing before y
- ou travel.
+DESCRIPTION:Furniture\, kitchen\, clothing\, books and christmas decor.\nH
+ ours: 10 AM – 3 PM (Saturday\, November 21\, local to San Antonio).\nRu
+ n by Casablanca Estate Sale Company.\nOriginal listing (EstateSales.net):
+  https://www.estatesales.net/TX/San-Antonio/78232/5165340\nSale page on T
+ he Dig: https://rheinze08.github.io/the-dig-web/sale/18da4466b4ee5d66/\nC
+ onfirm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/18da4466b4ee5d66/
 END:VEVENT
 END:VCALENDAR

@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c712fd8fb9b61ad0-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T143000Z
 DTEND:20261120T223000Z
 SUMMARY:Fort Worth: 50% OFF + STUFF-A-BAG + Unbeatable Deals by Dayspring
 LOCATION:162 Cotillion Road\, Fort Worth\, TX 76134
-DESCRIPTION:Hours: 8:30 AM – 4:30 PM (Friday\, November 20\, local to Da
- llas–Fort Worth).\nRun by Dayspring Estate Sales.\nOriginal listing (Es
- tateSales.net): https://www.estatesales.net/TX/Fort-Worth/76134/5144142\n
- Sale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/c712fd
- 8fb9b61ad0/\nConfirm the address and hours on the original listing before
-  you travel.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and vehicles.\nHour
+ s: 8:30 AM – 4:30 PM (Friday\, November 20\, local to Dallas–Fort Wor
+ th).\nRun by Dayspring Estate Sales.\nOriginal listing (EstateSales.net):
+  https://www.estatesales.net/TX/Fort-Worth/76134/5144142\nSale page on Th
+ e Dig: https://rheinze08.github.io/the-dig-web/sale/c712fd8fb9b61ad0/\nCo
+ nfirm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/c712fd8fb9b61ad0/
 END:VEVENT
 END:VCALENDAR

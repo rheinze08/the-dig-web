@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:97e99feb6aedfe64-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T160000Z
 DTEND:20261121T200000Z
 SUMMARY:Opening up at 75 off 11/20 Shop lots of beautiful art\, furniture\
  , so much more By appointment only!
 LOCATION:N/A\, Dallas\, TX 75225
-DESCRIPTION:Hours: 10 AM – 2 PM (Saturday\, November 21\, local to Dalla
- s–Fort Worth).\nRun by Jackson And Co.\nOriginal listing (EstateSales.n
- et): https://www.estatesales.net/TX/Dallas/75225/5161557\nSale page on Th
- e Dig: https://rheinze08.github.io/the-dig-web/sale/97e99feb6aedfe64/\nCo
- nfirm the address and hours on the original listing before you travel.
+DESCRIPTION:Furniture and art.\nHours: 10 AM – 2 PM (Saturday\, November
+  21\, local to Dallas–Fort Worth).\nRun by Jackson And Co.\nOriginal li
+ sting (EstateSales.net): https://www.estatesales.net/TX/Dallas/75225/5161
+ 557\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/9
+ 7e99feb6aedfe64/\nConfirm the address and hours on the original listing b
+ efore you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/97e99feb6aedfe64/
 END:VEVENT
 END:VCALENDAR

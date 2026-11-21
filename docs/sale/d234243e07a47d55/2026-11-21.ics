@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d234243e07a47d55-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T150000Z
 DTEND:20261121T210000Z
 SUMMARY:50% OFF - MCM and More In Windcrest
 LOCATION:313 Crestwind Dr.\, Windcrest\, TX 78239
-DESCRIPTION:Hours: 9 AM – 3 PM (Saturday\, November 21\, local to San An
- tonio).\nOriginal listing (EstateSales.net): https://www.estatesales.net/
- TX/San-Antonio/78239/5163324\nSale page on The Dig: https://rheinze08.git
- hub.io/the-dig-web/sale/d234243e07a47d55/\nConfirm the address and hours 
- on the original listing before you travel.
+DESCRIPTION:Furniture\, kitchen\, books\, art and toys & games.\nHours: 9 
+ AM – 3 PM (Saturday\, November 21\, local to San Antonio).\nOriginal li
+ sting (EstateSales.net): https://www.estatesales.net/TX/San-Antonio/78239
+ /5163324\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/s
+ ale/d234243e07a47d55/\nConfirm the address and hours on the original list
+ ing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/d234243e07a47d55/
 END:VEVENT
 END:VCALENDAR

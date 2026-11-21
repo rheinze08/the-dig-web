@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:203ea7ec9a0f35f9-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T150000Z
 DTEND:20261120T210000Z
 SUMMARY:50% OFF SATURDAY!Fantastic Haslet Estate!Firearms\,Ammo\,Vintage\,
  Antique\,Tools\,Fishing\,and More!
 LOCATION:107 Lewis Lane\, Haslet\, TX 76052
-DESCRIPTION:Hours: 9 AM – 3 PM (Friday\, November 20\, local to Dallas
- –Fort Worth).\nRun by Remains Of Yesterday.\nOriginal listing (EstateSa
- les.net): https://www.estatesales.net/TX/Haslet/76052/5155407\nSale page 
- on The Dig: https://rheinze08.github.io/the-dig-web/sale/203ea7ec9a0f35f9
- /\nConfirm the address and hours on the original listing before you trave
- l.
+DESCRIPTION:Tools\, furniture\, vinyl & records\, collectibles and vehicle
+ s.\nHours: 9 AM – 3 PM (Friday\, November 20\, local to Dallas–Fort W
+ orth).\nRun by Remains Of Yesterday.\nOriginal listing (EstateSales.net):
+  https://www.estatesales.net/TX/Haslet/76052/5155407\nSale page on The Di
+ g: https://rheinze08.github.io/the-dig-web/sale/203ea7ec9a0f35f9/\nConfir
+ m the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/203ea7ec9a0f35f9/
 END:VEVENT
 END:VCALENDAR

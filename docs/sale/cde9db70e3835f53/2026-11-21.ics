@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cde9db70e3835f53-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:HUGE Garage & Moving Sale with Hundreds of Items
 LOCATION:Friendswood\, TX (Address releases Friday 9:00 AM)
-DESCRIPTION:Hours: Opens 7 AM (Saturday\, November 21\, local to Houston).
- \nOriginal listing (Craigslist Houston): https://www.craigslist.org/view/
- d/friendswood-huge-garage-moving-sale/2y596qVKsBH7oCUsLBjd5z\nSale page o
- n The Dig: https://rheinze08.github.io/the-dig-web/sale/cde9db70e3835f53/
- \nConfirm the address and hours on the original listing before you travel
- .
+DESCRIPTION:Tools\, furniture\, collectibles\, clothing and electronics.\n
+ Hours: Opens 7 AM (Saturday\, November 21\, local to Houston).\nOriginal 
+ listing (Craigslist Houston): https://www.craigslist.org/view/d/friendswo
+ od-huge-garage-moving-sale/2y596qVKsBH7oCUsLBjd5z\nSale page on The Dig: 
+ https://rheinze08.github.io/the-dig-web/sale/cde9db70e3835f53/\nConfirm t
+ he address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/cde9db70e3835f53/
 END:VEVENT
 END:VCALENDAR

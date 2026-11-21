@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:685c871de4819428-2026-11-19@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261119T160000Z
 DTEND:20261119T220000Z
 SUMMARY:25% off! TNT in Richardson
 LOCATION:1908 Baylor Drive\, Richardson\, TX 75081
-DESCRIPTION:Hours: 10 AM – 4 PM (Thursday\, November 19\, local to Dalla
- s–Fort Worth).\nRun by TNT Estate Sale Services.\nOriginal listing (Est
- ateSales.net): https://www.estatesales.net/TX/Richardson/75081/5136510\nS
- ale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/685c871
- de4819428/\nConfirm the address and hours on the original listing before 
- you travel.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and vehicles.\nHour
+ s: 10 AM – 4 PM (Thursday\, November 19\, local to Dallas–Fort Worth)
+ .\nRun by TNT Estate Sale Services.\nOriginal listing (EstateSales.net): 
+ https://www.estatesales.net/TX/Richardson/75081/5136510\nSale page on The
+  Dig: https://rheinze08.github.io/the-dig-web/sale/685c871de4819428/\nCon
+ firm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/685c871de4819428/
 END:VEVENT
 END:VCALENDAR

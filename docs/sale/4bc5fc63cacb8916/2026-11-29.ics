@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:4bc5fc63cacb8916-2026-11-29@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261129T150000Z
 DTEND:20261129T220000Z
 SUMMARY:Dellview Estate Sale — A House Full of Finds
 LOCATION:San Antonio\, TX 78213 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 9 AM – 4 PM (Sunday\, November 29\, local to San Anto
- nio).\nOriginal listing (EstateSales.net): https://www.estatesales.net/TX
- /San-Antonio/78213/5152530\nSale page on The Dig: https://rheinze08.githu
- b.io/the-dig-web/sale/4bc5fc63cacb8916/\nConfirm the address and hours on
-  the original listing before you travel.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and vehicles.\nHour
+ s: 9 AM – 4 PM (Sunday\, November 29\, local to San Antonio).\nOriginal
+  listing (EstateSales.net): https://www.estatesales.net/TX/San-Antonio/78
+ 213/5152530\nSale page on The Dig: https://rheinze08.github.io/the-dig-we
+ b/sale/4bc5fc63cacb8916/\nConfirm the address and hours on the original l
+ isting before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/4bc5fc63cacb8916/
 END:VEVENT
 END:VCALENDAR

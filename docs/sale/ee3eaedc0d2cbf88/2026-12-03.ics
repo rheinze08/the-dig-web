@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ee3eaedc0d2cbf88-2026-12-03@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261203T160000Z
 DTEND:20261203T220000Z
 SUMMARY:Fabulous Art\, Folk Art\, & Collectibles
 LOCATION:San Antonio\, TX 78209 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Hours: 10 AM – 4 PM (Thursday\, December 3\, local to San An
- tonio).\nRun by June Hayes\, Heritage Estates.\nOriginal listing (EstateS
- ales.net): https://www.estatesales.net/TX/San-Antonio/78209/5163522\nSale
-  page on The Dig: https://rheinze08.github.io/the-dig-web/sale/ee3eaedc0d
- 2cbf88/\nConfirm the address and hours on the original listing before you
-  travel.
+DESCRIPTION:Jewelry\, collectibles\, clothing and art.\nHours: 10 AM – 4
+  PM (Thursday\, December 3\, local to San Antonio).\nRun by June Hayes\, 
+ Heritage Estates.\nOriginal listing (EstateSales.net): https://www.estate
+ sales.net/TX/San-Antonio/78209/5163522\nSale page on The Dig: https://rhe
+ inze08.github.io/the-dig-web/sale/ee3eaedc0d2cbf88/\nConfirm the address 
+ and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/ee3eaedc0d2cbf88/
 END:VEVENT
 END:VCALENDAR

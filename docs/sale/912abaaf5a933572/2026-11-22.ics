@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:912abaaf5a933572-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T160000Z
 DTEND:20261122T210000Z
 SUMMARY:Designer Furniture\, Original Art and More in Tarrytown!
 LOCATION:3301 Greenlee Dr\, Austin\, TX 78703
-DESCRIPTION:Hours: 10 AM – 3 PM (Sunday\, November 22\, local to Austin)
- .\nRun by Burgess Estate Sales.\nOriginal listing (EstateSales.net): http
- s://www.estatesales.net/TX/Austin/78703/5154300\nSale page on The Dig: ht
- tps://rheinze08.github.io/the-dig-web/sale/912abaaf5a933572/\nConfirm the
-  address and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, kitchen\, books\, art and toys & games.\nHours: 10
+  AM – 3 PM (Sunday\, November 22\, local to Austin).\nRun by Burgess Es
+ tate Sales.\nOriginal listing (EstateSales.net): https://www.estatesales.
+ net/TX/Austin/78703/5154300\nSale page on The Dig: https://rheinze08.gith
+ ub.io/the-dig-web/sale/912abaaf5a933572/\nConfirm the address and hours o
+ n the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/912abaaf5a933572/
 END:VEVENT
 END:VCALENDAR

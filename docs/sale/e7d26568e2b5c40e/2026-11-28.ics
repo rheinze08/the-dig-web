@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:e7d26568e2b5c40e-2026-11-28@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261128T160000Z
 DTEND:20261128T230000Z
 SUMMARY:Black Friday Warehouse Sale : by Treme
 LOCATION:Arlington\, TX 76017 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 10 AM – 5 PM (Saturday\, November 28\, local to Dalla
- s–Fort Worth).\nRun by Treme Realty LLC.\nOriginal listing (EstateSales
- .net): https://www.estatesales.net/TX/Arlington/76017/5158326\nSale page 
- on The Dig: https://rheinze08.github.io/the-dig-web/sale/e7d26568e2b5c40e
- /\nConfirm the address and hours on the original listing before you trave
- l.
+DESCRIPTION:Furniture\, kitchen\, art\, electronics and toys & games.\nHou
+ rs: 10 AM – 5 PM (Saturday\, November 28\, local to Dallas–Fort Worth
+ ).\nRun by Treme Realty LLC.\nOriginal listing (EstateSales.net): https:/
+ /www.estatesales.net/TX/Arlington/76017/5158326\nSale page on The Dig: ht
+ tps://rheinze08.github.io/the-dig-web/sale/e7d26568e2b5c40e/\nConfirm the
+  address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/e7d26568e2b5c40e/
 END:VEVENT
 END:VCALENDAR

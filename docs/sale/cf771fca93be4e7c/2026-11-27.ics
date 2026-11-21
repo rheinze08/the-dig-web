@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cf771fca93be4e7c-2026-11-27@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261127T140000Z
 DTEND:20261128T000000Z
 SUMMARY:James Major presents Santa’s Workshop estate sale in Mansfield
 LOCATION:Mansfield\, TX 76063 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 8 AM – 6 PM (Friday\, November 27\, local to Dallas
- –Fort Worth).\nRun by James Major Estate Sales.\nOriginal listing (Esta
- teSales.net): https://www.estatesales.net/TX/Mansfield/76063/5164554\nSal
- e page on The Dig: https://rheinze08.github.io/the-dig-web/sale/cf771fca9
- 3be4e7c/\nConfirm the address and hours on the original listing before yo
- u travel.
+DESCRIPTION:Clothing and toys & games.\nHours: 8 AM – 6 PM (Friday\, Nov
+ ember 27\, local to Dallas–Fort Worth).\nRun by James Major Estate Sale
+ s.\nOriginal listing (EstateSales.net): https://www.estatesales.net/TX/Ma
+ nsfield/76063/5164554\nSale page on The Dig: https://rheinze08.github.io/
+ the-dig-web/sale/cf771fca93be4e7c/\nConfirm the address and hours on the 
+ original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/cf771fca93be4e7c/
 END:VEVENT
 END:VCALENDAR

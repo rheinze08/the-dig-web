@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a64975670ff873de-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T160000Z
 DTEND:20261122T220000Z
 SUMMARY:Treasures in Onion Creek (Cypress Ridge)
 LOCATION:4520 Slickrock Cove\, Austin\, TX 78747
-DESCRIPTION:Hours: 10 AM – 4 PM (Sunday\, November 22\, local to Austin)
- .\nRun by Austin Capital Estate Sales.\nOriginal listing (EstateSales.net
- ): https://www.estatesales.net/TX/Austin/78747/5129673\nSale page on The 
- Dig: https://rheinze08.github.io/the-dig-web/sale/a64975670ff873de/\nConf
- irm the address and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, vinyl & records\, jewelry\, collectibles and kitch
+ en.\nHours: 10 AM – 4 PM (Sunday\, November 22\, local to Austin).\nRun
+  by Austin Capital Estate Sales.\nOriginal listing (EstateSales.net): htt
+ ps://www.estatesales.net/TX/Austin/78747/5129673\nSale page on The Dig: h
+ ttps://rheinze08.github.io/the-dig-web/sale/a64975670ff873de/\nConfirm th
+ e address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/a64975670ff873de/
 END:VEVENT
 END:VCALENDAR

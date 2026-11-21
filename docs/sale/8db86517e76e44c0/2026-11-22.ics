@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8db86517e76e44c0-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T150000Z
 DTEND:20261122T204500Z
 SUMMARY:Something for Everybody
 LOCATION:1808 Tyler Ave\, Euless\, TX 76040
-DESCRIPTION:Hours: 9 AM – 2:45 PM (Sunday\, November 22\, local to Dalla
- s–Fort Worth).\nRun by Texoma Auctions & Estate Sales.\nOriginal listin
- g (EstateSales.net): https://www.estatesales.net/TX/Euless/76040/5165676\
- nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/8db86
- 517e76e44c0/\nConfirm the address and hours on the original listing befor
- e you travel.
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and kitchen.\nHo
+ urs: 9 AM – 2:45 PM (Sunday\, November 22\, local to Dallas–Fort Wort
+ h).\nRun by Texoma Auctions & Estate Sales.\nOriginal listing (EstateSale
+ s.net): https://www.estatesales.net/TX/Euless/76040/5165676\nSale page on
+  The Dig: https://rheinze08.github.io/the-dig-web/sale/8db86517e76e44c0/\
+ nConfirm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/8db86517e76e44c0/
 END:VEVENT
 END:VCALENDAR

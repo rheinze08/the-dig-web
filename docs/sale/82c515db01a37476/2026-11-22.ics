@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:82c515db01a37476-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T150000Z
 DTEND:20261122T200000Z
 SUMMARY:Discount SAT! Behind the French Doors: A Taste of Paris in Lakeway
  !
 LOCATION:102 Duck Lake Dr\, Austin\, TX 78734
-DESCRIPTION:Hours: 9 AM – 2 PM (Sunday\, November 22\, local to Austin).
- \nRun by Simply Felicia Estate Sales.\nOriginal listing (EstateSales.net)
- : https://www.estatesales.net/TX/Austin/78734/5145363\nSale page on The D
- ig: https://rheinze08.github.io/the-dig-web/sale/82c515db01a37476/\nConfi
- rm the address and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, jewelry\, collectibles\, clothing and crystal.\nHo
+ urs: 9 AM – 2 PM (Sunday\, November 22\, local to Austin).\nRun by Simp
+ ly Felicia Estate Sales.\nOriginal listing (EstateSales.net): https://www
+ .estatesales.net/TX/Austin/78734/5145363\nSale page on The Dig: https://r
+ heinze08.github.io/the-dig-web/sale/82c515db01a37476/\nConfirm the addres
+ s and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/82c515db01a37476/
 END:VEVENT
 END:VCALENDAR

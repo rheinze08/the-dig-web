@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:3ee833925f6f0f73-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T160000Z
 DTEND:20261120T210000Z
 SUMMARY:25% off Friday WeDo Estate Liquidations in Leon Valley
 LOCATION:6025 Mike Nesmith Street\, San Antonio\, TX 78238
-DESCRIPTION:Hours: 10 AM – 3 PM (Friday\, November 20\, local to San Ant
- onio).\nRun by WeDo Estate Liquidations LLC.\nOriginal listing (EstateSal
- es.net): https://www.estatesales.net/TX/San-Antonio/78238/5159721\nSale p
- age on The Dig: https://rheinze08.github.io/the-dig-web/sale/3ee833925f6f
- 0f73/\nConfirm the address and hours on the original listing before you t
- ravel.
+DESCRIPTION:Tools\, furniture\, vinyl & records\, collectibles and vehicle
+ s.\nHours: 10 AM – 3 PM (Friday\, November 20\, local to San Antonio).\
+ nRun by WeDo Estate Liquidations LLC.\nOriginal listing (EstateSales.net)
+ : https://www.estatesales.net/TX/San-Antonio/78238/5159721\nSale page on 
+ The Dig: https://rheinze08.github.io/the-dig-web/sale/3ee833925f6f0f73/\n
+ Confirm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/3ee833925f6f0f73/
 END:VEVENT
 END:VCALENDAR

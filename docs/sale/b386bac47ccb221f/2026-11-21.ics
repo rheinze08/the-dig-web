@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:b386bac47ccb221f-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T160000Z
 DTEND:20261121T210000Z
 SUMMARY:20% OFF Christopher Estate Sales on Estate Gate
 LOCATION:2207 Estate Gate Drive\, San Antonio\, TX 78260
-DESCRIPTION:Hours: 10 AM – 3 PM (Saturday\, November 21\, local to San A
- ntonio).\nRun by Christopher Estate Sales\, LLC.\nOriginal listing (Estat
- eSales.net): https://www.estatesales.net/TX/San-Antonio/78260/5159355\nSa
- le page on The Dig: https://rheinze08.github.io/the-dig-web/sale/b386bac4
- 7ccb221f/\nConfirm the address and hours on the original listing before y
- ou travel.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and vehicles.\nHour
+ s: 10 AM – 3 PM (Saturday\, November 21\, local to San Antonio).\nRun b
+ y Christopher Estate Sales\, LLC.\nOriginal listing (EstateSales.net): ht
+ tps://www.estatesales.net/TX/San-Antonio/78260/5159355\nSale page on The 
+ Dig: https://rheinze08.github.io/the-dig-web/sale/b386bac47ccb221f/\nConf
+ irm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/b386bac47ccb221f/
 END:VEVENT
 END:VCALENDAR

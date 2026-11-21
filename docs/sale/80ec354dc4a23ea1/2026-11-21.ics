@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:80ec354dc4a23ea1-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Moving/Estate sale Saturday 11/21 9:00 am - 2:00 pm Carrollton
 LOCATION:1829 Melton Drive\, Carrollton\, TX
-DESCRIPTION:Hours: Opens 9 AM (Saturday\, November 21\, local to Dallas–
- Fort Worth).\nOriginal listing (Craigslist Dallas / Fort Worth): https://
- www.craigslist.org/view/d/carrollton-moving-estate-sale-saturday/51vTyvre
- 2VZgC4HGuVk1UD\nSale page on The Dig: https://rheinze08.github.io/the-dig
- -web/sale/80ec354dc4a23ea1/\nConfirm the address and hours on the origina
- l listing before you travel.
+DESCRIPTION:Furniture\, art\, toys & games\, china and antiques.\nHours: O
+ pens 9 AM (Saturday\, November 21\, local to Dallas–Fort Worth).\nOrigi
+ nal listing (Craigslist Dallas / Fort Worth): https://www.craigslist.org/
+ view/d/carrollton-moving-estate-sale-saturday/51vTyvre2VZgC4HGuVk1UD\nSal
+ e page on The Dig: https://rheinze08.github.io/the-dig-web/sale/80ec354dc
+ 4a23ea1/\nConfirm the address and hours on the original listing before yo
+ u travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/80ec354dc4a23ea1/
 END:VEVENT
 END:VCALENDAR

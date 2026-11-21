@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:3b8dac4d070328b8-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T150000Z
 DTEND:20261121T230000Z
 SUMMARY:JUDY HIGDON ESTATE SALE SERVICES\, LLC
 LOCATION:1137 Conveyor Lane\, Suite 114\, Dallas\, TX 75237
-DESCRIPTION:Hours: 9 AM – 5 PM (Saturday\, November 21\, local to Dallas
- –Fort Worth).\nRun by Judy Higdon Estate Sales.\nOriginal listing (Esta
- teSales.net): https://www.estatesales.net/TX/Dallas/75237/5162565\nSale p
- age on The Dig: https://rheinze08.github.io/the-dig-web/sale/3b8dac4d0703
- 28b8/\nConfirm the address and hours on the original listing before you t
- ravel.
+DESCRIPTION:Furniture\, jewelry and art.\nHours: 9 AM – 5 PM (Saturday\,
+  November 21\, local to Dallas–Fort Worth).\nRun by Judy Higdon Estate 
+ Sales.\nOriginal listing (EstateSales.net): https://www.estatesales.net/T
+ X/Dallas/75237/5162565\nSale page on The Dig: https://rheinze08.github.io
+ /the-dig-web/sale/3b8dac4d070328b8/\nConfirm the address and hours on the
+  original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/3b8dac4d070328b8/
 END:VEVENT
 END:VCALENDAR

@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:80bad8b31b559ee1-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T160000Z
 DTEND:20261120T220000Z
 SUMMARY:Duncanville Estate Sale coins\, jewelry\, comics\, Bev Doolittle
 LOCATION:Duncanville\, TX 75116 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 10 AM – 4 PM (Friday\, November 20\, local to Dallas
- –Fort Worth).\nRun by Kitchens To Closets Estate Sales.\nOriginal listi
- ng (EstateSales.net): https://www.estatesales.net/TX/Duncanville/75116/51
- 54525\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale
- /80bad8b31b559ee1/\nConfirm the address and hours on the original listing
-  before you travel.
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
+ .\nHours: 10 AM – 4 PM (Friday\, November 20\, local to Dallas–Fort W
+ orth).\nRun by Kitchens To Closets Estate Sales.\nOriginal listing (Estat
+ eSales.net): https://www.estatesales.net/TX/Duncanville/75116/5154525\nSa
+ le page on The Dig: https://rheinze08.github.io/the-dig-web/sale/80bad8b3
+ 1b559ee1/\nConfirm the address and hours on the original listing before y
+ ou travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/80bad8b31b559ee1/
 END:VEVENT
 END:VCALENDAR

@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:2383175fe77ff0a5-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T150000Z
 DTEND:20261120T220000Z
 SUMMARY:LANN Estate Sales - Bent Tree North
 LOCATION:5012 Bellerive Drive\, Dallas\, TX 75287
-DESCRIPTION:Hours: 9 AM – 4 PM (Friday\, November 20\, local to Dallas
- –Fort Worth).\nRun by Lann Estate Sales.\nOriginal listing (EstateSales
- .net): https://www.estatesales.net/TX/Dallas/75287/5158911\nSale page on 
- The Dig: https://rheinze08.github.io/the-dig-web/sale/2383175fe77ff0a5/\n
- Confirm the address and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, kitchen\, clothing\, books and art.\nHours: 9 AM 
+ – 4 PM (Friday\, November 20\, local to Dallas–Fort Worth).\nRun by L
+ ann Estate Sales.\nOriginal listing (EstateSales.net): https://www.estate
+ sales.net/TX/Dallas/75287/5158911\nSale page on The Dig: https://rheinze0
+ 8.github.io/the-dig-web/sale/2383175fe77ff0a5/\nConfirm the address and h
+ ours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/2383175fe77ff0a5/
 END:VEVENT
 END:VCALENDAR

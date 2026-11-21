@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8d6371d408160485-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T143000Z
 DTEND:20261121T230000Z
 SUMMARY:By Urban Potluck: 50% OFF SATURDAY Upscale Estate Sale in Mansfiel
  d's Kings Mill
 LOCATION:2211 Canterbury Drive\, Mansfield\, TX 76063
-DESCRIPTION:Hours: 8:30 AM – 5 PM (Saturday\, November 21\, local to Dal
- las–Fort Worth).\nRun by Urban Potluck Sales.\nOriginal listing (Estate
- Sales.net): https://www.estatesales.net/TX/Mansfield/76063/5159799\nSale 
- page on The Dig: https://rheinze08.github.io/the-dig-web/sale/8d6371d4081
- 60485/\nConfirm the address and hours on the original listing before you 
- travel.
+DESCRIPTION:Tools\, furniture\, collectibles\, clothing and toys & games.\
+ nHours: 8:30 AM – 5 PM (Saturday\, November 21\, local to Dallas–Fort
+  Worth).\nRun by Urban Potluck Sales.\nOriginal listing (EstateSales.net)
+ : https://www.estatesales.net/TX/Mansfield/76063/5159799\nSale page on Th
+ e Dig: https://rheinze08.github.io/the-dig-web/sale/8d6371d408160485/\nCo
+ nfirm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/8d6371d408160485/
 END:VEVENT
 END:VCALENDAR

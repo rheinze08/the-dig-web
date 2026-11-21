@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c86714149bfc44a0-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T160000Z
-DTEND:20261121T213000Z
-SUMMARY:Relocating everything must go!
-LOCATION:1713 Creekpoint Dr\, Lewisville\, TX 75067
-DESCRIPTION:Hours: 10 AM – 3:30 PM (Saturday\, November 21\, local to Da
- llas–Fort Worth).\nRun by Bright Ridge Estate Sales.\nOriginal listing 
- (EstateSales.org): https://estatesales.org/estate-sales/tx/lewisville/750
- 67/relocating-everything-must-go-2472890\nSale page on The Dig: https://r
- heinze08.github.io/the-dig-web/sale/c86714149bfc44a0/\nConfirm the addres
- s and hours on the original listing before you travel.
+DTEND:20261121T220000Z
+SUMMARY:Relocating Everything must go
+LOCATION:1713 Creek Point Dr\, Lewisville\, TX 75067
+DESCRIPTION:Furniture.\nHours: 10 AM – 4 PM (Saturday\, November 21\, lo
+ cal to Dallas–Fort Worth).\nRun by Bright Ridge Estate Sales.\nOriginal
+  listing (EstateSales.org): https://estatesales.org/estate-sales/tx/lewis
+ ville/75067/relocating-everything-must-go-2472890\nSale page on The Dig: 
+ https://rheinze08.github.io/the-dig-web/sale/c86714149bfc44a0/\nConfirm t
+ he address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/c86714149bfc44a0/
 END:VEVENT
 END:VCALENDAR

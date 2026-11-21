@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:7421d47c515af257-2026-11-23@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261123T163000Z
 DTEND:20261123T210000Z
 SUMMARY:| 25%-50% OFF The Grand Estate Extravaganza High-End Furniture & O
  ne-of-a-Kind Finds from River Oaks
 LOCATION:2014 Engelmohr st\, Houston\, TX 77054
-DESCRIPTION:Hours: 10:30 AM – 3 PM (Monday\, November 23\, local to Hous
- ton).\nRun by Sharp Family Estate Sales.\nOriginal listing (EstateSales.n
- et): https://www.estatesales.net/TX/Houston/77054/5159607\nSale page on T
- he Dig: https://rheinze08.github.io/the-dig-web/sale/7421d47c515af257/\nC
- onfirm the address and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, collectibles and christmas decor.\nHours: 10:30 AM
+  – 3 PM (Monday\, November 23\, local to Houston).\nRun by Sharp Family
+  Estate Sales.\nOriginal listing (EstateSales.net): https://www.estatesal
+ es.net/TX/Houston/77054/5159607\nSale page on The Dig: https://rheinze08.
+ github.io/the-dig-web/sale/7421d47c515af257/\nConfirm the address and hou
+ rs on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/7421d47c515af257/
 END:VEVENT
 END:VCALENDAR

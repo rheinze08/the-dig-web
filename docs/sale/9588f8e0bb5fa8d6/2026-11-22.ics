@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:9588f8e0bb5fa8d6-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T170000Z
 DTEND:20261122T210000Z
 SUMMARY:FABULOUS ARLINGTON ESTATE SALE!! SPORTS MEMORABILIA\, VINTAGE TOYS
   & GAMES\, JEWELRY & MORE!!!!
 LOCATION:5311 High Trail Ct\, Arlington\, TX 76017
-DESCRIPTION:Hours: 11 AM – 3 PM (Sunday\, November 22\, local to Dallas
- –Fort Worth).\nRun by Serenade Estate Sales.\nOriginal listing (EstateS
- ales.net): https://www.estatesales.net/TX/Arlington/76017/5153271\nSale p
- age on The Dig: https://rheinze08.github.io/the-dig-web/sale/9588f8e0bb5f
- a8d6/\nConfirm the address and hours on the original listing before you t
- ravel.
+DESCRIPTION:Furniture\, jewelry\, collectibles\, clothing and art.\nHours:
+  11 AM – 3 PM (Sunday\, November 22\, local to Dallas–Fort Worth).\nR
+ un by Serenade Estate Sales.\nOriginal listing (EstateSales.net): https:/
+ /www.estatesales.net/TX/Arlington/76017/5153271\nSale page on The Dig: ht
+ tps://rheinze08.github.io/the-dig-web/sale/9588f8e0bb5fa8d6/\nConfirm the
+  address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/9588f8e0bb5fa8d6/
 END:VEVENT
 END:VCALENDAR

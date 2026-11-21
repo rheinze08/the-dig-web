@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:34b5227346b96a7f-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T150000Z
 DTEND:20261122T210000Z
 SUMMARY:Caring Transitions @ The Knolls of Woodlake
 LOCATION:7222 Sunset Terrace\, San Antonio\, TX 78244
-DESCRIPTION:Hours: 9 AM – 3 PM (Sunday\, November 22\, local to San Anto
- nio).\nRun by Caring Transitions Of San Antonio North.\nOriginal listing 
- (EstateSales.net): https://www.estatesales.net/TX/San-Antonio/78244/51659
- 34\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/34
- b5227346b96a7f/\nConfirm the address and hours on the original listing be
- fore you travel.
+DESCRIPTION:Tools\, furniture\, collectibles\, electronics and figurines.\
+ nHours: 9 AM – 3 PM (Sunday\, November 22\, local to San Antonio).\nRun
+  by Caring Transitions Of San Antonio North.\nOriginal listing (EstateSal
+ es.net): https://www.estatesales.net/TX/San-Antonio/78244/5165934\nSale p
+ age on The Dig: https://rheinze08.github.io/the-dig-web/sale/34b5227346b9
+ 6a7f/\nConfirm the address and hours on the original listing before you t
+ ravel.
 URL:https://rheinze08.github.io/the-dig-web/sale/34b5227346b96a7f/
 END:VEVENT
 END:VCALENDAR

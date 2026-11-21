@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c20fbdc8538e9993-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Estate Sale
 LOCATION:1505 Starshadow Drive Richardson 75081 near Blake\, Richardson\, 
  TX
-DESCRIPTION:Hours: Opens 8:30 AM (Saturday\, November 21\, local to Dallas
- –Fort Worth).\nOriginal listing (Craigslist Dallas / Fort Worth): https
- ://www.craigslist.org/view/d/richardson-estate-sale/484oMifrPsfPknQbsgf8e
- 8\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/c20
- fbdc8538e9993/\nConfirm the address and hours on the original listing bef
- ore you travel.
+DESCRIPTION:Jewelry\, collectibles\, kitchen\, clothing and china.\nHours:
+  Opens 8:30 AM (Saturday\, November 21\, local to Dallas–Fort Worth).\n
+ Original listing (Craigslist Dallas / Fort Worth): https://www.craigslist
+ .org/view/d/richardson-estate-sale/484oMifrPsfPknQbsgf8e8\nSale page on T
+ he Dig: https://rheinze08.github.io/the-dig-web/sale/c20fbdc8538e9993/\nC
+ onfirm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/c20fbdc8538e9993/
 END:VEVENT
 END:VCALENDAR

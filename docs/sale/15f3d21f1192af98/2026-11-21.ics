@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:15f3d21f1192af98-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T150000Z
 DTEND:20261121T220000Z
 SUMMARY:Woo Hoo! Sale for Everyone!
 LOCATION:1705 Rainbow Drive\, Richardson\, TX 75081
-DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to Dallas
- –Fort Worth).\nRun by Kite-like Estate Sales LLC.\nOriginal listing (Es
- tateSales.net): https://www.estatesales.net/TX/Richardson/75081/5163069\n
- Sale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/15f3d2
- 1f1192af98/\nConfirm the address and hours on the original listing before
-  you travel.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
+ : 9 AM – 4 PM (Saturday\, November 21\, local to Dallas–Fort Worth).\
+ nRun by Kite-like Estate Sales LLC.\nOriginal listing (EstateSales.net): 
+ https://www.estatesales.net/TX/Richardson/75081/5163069\nSale page on The
+  Dig: https://rheinze08.github.io/the-dig-web/sale/15f3d21f1192af98/\nCon
+ firm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/15f3d21f1192af98/
 END:VEVENT
 END:VCALENDAR

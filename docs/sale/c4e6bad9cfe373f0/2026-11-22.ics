@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c4e6bad9cfe373f0-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261122T180000Z
 DTEND:20261122T220000Z
 SUMMARY:25% OFF Saturday!!!James Major Estate Sales : Bachelor Pad Blowout
   in Richardson
 LOCATION:809 Windsong Trail\, Richardson\, TX 75081
-DESCRIPTION:Hours: 12 PM – 4 PM (Sunday\, November 22\, local to Dallas
- –Fort Worth).\nRun by James Major Estate Sales.\nOriginal listing (Esta
- teSales.net): https://www.estatesales.net/TX/Richardson/75081/5160756\nSa
- le page on The Dig: https://rheinze08.github.io/the-dig-web/sale/c4e6bad9
- cfe373f0/\nConfirm the address and hours on the original listing before y
- ou travel.
+DESCRIPTION:Furniture\, vehicles\, kitchen\, clothing and electronics.\nHo
+ urs: 12 PM – 4 PM (Sunday\, November 22\, local to Dallas–Fort Worth)
+ .\nRun by James Major Estate Sales.\nOriginal listing (EstateSales.net): 
+ https://www.estatesales.net/TX/Richardson/75081/5160756\nSale page on The
+  Dig: https://rheinze08.github.io/the-dig-web/sale/c4e6bad9cfe373f0/\nCon
+ firm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/c4e6bad9cfe373f0/
 END:VEVENT
 END:VCALENDAR

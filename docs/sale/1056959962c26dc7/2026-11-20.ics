@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:1056959962c26dc7-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T150000Z
 DTEND:20261120T090000Z
 SUMMARY:Living Estate Sale
 LOCATION:2167 Southern Pl\, Carrollton\, TX 75006
-DESCRIPTION:Hours: 9 AM – 3 AM (Friday\, November 20\, local to Dallas
- –Fort Worth).\nOriginal listing (EstateSales.org): https://estatesales.
- org/estate-sales/tx/carrollton/75006/living-estate-sale-2473730\nSale pag
- e on The Dig: https://rheinze08.github.io/the-dig-web/sale/1056959962c26d
- c7/\nConfirm the address and hours on the original listing before you tra
- vel.
+DESCRIPTION:Furniture\, jewelry\, kitchen\, electronics and toys & games.\
+ nHours: 9 AM – 3 AM (Friday\, November 20\, local to Dallas–Fort Wort
+ h).\nOriginal listing (EstateSales.org): https://estatesales.org/estate-s
+ ales/tx/carrollton/75006/living-estate-sale-2473730\nSale page on The Dig
+ : https://rheinze08.github.io/the-dig-web/sale/1056959962c26dc7/\nConfirm
+  the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/1056959962c26dc7/
 END:VEVENT
 END:VCALENDAR

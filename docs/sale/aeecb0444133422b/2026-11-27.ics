@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:aeecb0444133422b-2026-11-27@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261127T143000Z
 DTEND:20261127T230000Z
 SUMMARY:Preston Hollow: DEMOLITION SALE: Unbeatable Deals by Dayspring
 LOCATION:Dallas\, TX 75230 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 8:30 AM – 5 PM (Friday\, November 27\, local to Dalla
- s–Fort Worth).\nRun by Dayspring Estate Sales.\nOriginal listing (Estat
- eSales.net): https://www.estatesales.net/TX/Dallas/75230/5160396\nSale pa
- ge on The Dig: https://rheinze08.github.io/the-dig-web/sale/aeecb04441334
- 22b/\nConfirm the address and hours on the original listing before you tr
- avel.
+DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and clothing.\nHour
+ s: 8:30 AM – 5 PM (Friday\, November 27\, local to Dallas–Fort Worth)
+ .\nRun by Dayspring Estate Sales.\nOriginal listing (EstateSales.net): ht
+ tps://www.estatesales.net/TX/Dallas/75230/5160396\nSale page on The Dig: 
+ https://rheinze08.github.io/the-dig-web/sale/aeecb0444133422b/\nConfirm t
+ he address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/aeecb0444133422b/
 END:VEVENT
 END:VCALENDAR

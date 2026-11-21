@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:77f896d020937ccc-2026-11-22@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:GARAGE & ESTATE SALE
 LOCATION:3217 Green Ridge near Willowview\, Desoto\, TX
-DESCRIPTION:Hours: Opens 9 AM (Sunday\, November 22\, local to Dallas–Fo
- rt Worth).\nOriginal listing (Craigslist Dallas / Fort Worth): https://ww
- w.craigslist.org/view/d/fort-worth-garage-estate-sale/c86LfWwRQuEoYrYw4w2
- pBh\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/7
- 7f896d020937ccc/\nConfirm the address and hours on the original listing b
- efore you travel.
+DESCRIPTION:Furniture\, jewelry\, clothing\, electronics and toys & games.
+ \nHours: Opens 9 AM (Sunday\, November 22\, local to Dallas–Fort Worth)
+ .\nOriginal listing (Craigslist Dallas / Fort Worth): https://www.craigsl
+ ist.org/view/d/fort-worth-garage-estate-sale/c86LfWwRQuEoYrYw4w2pBh\nSale
+  page on The Dig: https://rheinze08.github.io/the-dig-web/sale/77f896d020
+ 937ccc/\nConfirm the address and hours on the original listing before you
+  travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/77f896d020937ccc/
 END:VEVENT
 END:VCALENDAR

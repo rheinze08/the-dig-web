@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:528a11d8b68be36b-2026-11-19@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261119T150000Z
 DTEND:20261119T220000Z
 SUMMARY:60% OFF THRILL OF THE HUNT VINTAGE FURNITURE BOOKS POTPOURRI ESTAT
  E SALE BY ALAMO AZTEK ESTATE SALES
 LOCATION:11830 Duxbury\, Dallas\, TX 75218
-DESCRIPTION:Hours: 9 AM – 4 PM (Thursday\, November 19\, local to Dallas
- –Fort Worth).\nRun by Alamo Aztek Estate Sales.\nOriginal listing (Esta
- teSales.net): https://www.estatesales.net/TX/Dallas/75218/5132772\nSale p
- age on The Dig: https://rheinze08.github.io/the-dig-web/sale/528a11d8b68b
- e36b/\nConfirm the address and hours on the original listing before you t
- ravel.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and vehicles.\nHour
+ s: 9 AM – 4 PM (Thursday\, November 19\, local to Dallas–Fort Worth).
+ \nRun by Alamo Aztek Estate Sales.\nOriginal listing (EstateSales.net): h
+ ttps://www.estatesales.net/TX/Dallas/75218/5132772\nSale page on The Dig:
+  https://rheinze08.github.io/the-dig-web/sale/528a11d8b68be36b/\nConfirm 
+ the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/528a11d8b68be36b/
 END:VEVENT
 END:VCALENDAR

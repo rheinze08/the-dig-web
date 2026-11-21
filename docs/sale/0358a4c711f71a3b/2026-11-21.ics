@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:0358a4c711f71a3b-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T150000Z
 DTEND:20261121T220000Z
 SUMMARY:50% OFF SATURDAY! / THE ART OF ELEGANT LIVING - A PRESTON HOLLOW E
  STATE SALE
 LOCATION:5531 Pebblebrook Drive\, Dallas\, TX 75229
-DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to Dallas
- –Fort Worth).\nRun by Dallas Estate Sellers.\nOriginal listing (EstateS
- ales.org): https://estatesales.org/estate-sales/tx/dallas/75229/50-off-sa
- turday-blowout-the-2473561\nSale page on The Dig: https://rheinze08.githu
- b.io/the-dig-web/sale/0358a4c711f71a3b/\nConfirm the address and hours on
-  the original listing before you travel.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
+ : 9 AM – 4 PM (Saturday\, November 21\, local to Dallas–Fort Worth).\
+ nRun by Dallas Estate Sellers.\nOriginal listing (EstateSales.org): https
+ ://estatesales.org/estate-sales/tx/dallas/75229/50-off-saturday-blowout-t
+ he-2473561\nSale page on The Dig: https://rheinze08.github.io/the-dig-web
+ /sale/0358a4c711f71a3b/\nConfirm the address and hours on the original li
+ sting before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/0358a4c711f71a3b/
 END:VEVENT
 END:VCALENDAR

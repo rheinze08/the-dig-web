@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ef2570f39c72c899-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T160000Z
 DTEND:20261121T000000Z
 SUMMARY:Estate Sales by Anthony ... Another Great Sale
 LOCATION:Preston vineyard dr\, Frisco\, TX 75035
-DESCRIPTION:Hours: 10 AM – 6 PM (Friday\, November 20\, local to Dallas
- –Fort Worth).\nRun by Estate Sales By Anthony.\nOriginal listing (Estat
- eSales.net): https://www.estatesales.net/TX/Frisco/75035/5162727\nSale pa
- ge on The Dig: https://rheinze08.github.io/the-dig-web/sale/ef2570f39c72c
- 899/\nConfirm the address and hours on the original listing before you tr
- avel.
+DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and clothing.\nHour
+ s: 10 AM – 6 PM (Friday\, November 20\, local to Dallas–Fort Worth).\
+ nRun by Estate Sales By Anthony.\nOriginal listing (EstateSales.net): htt
+ ps://www.estatesales.net/TX/Frisco/75035/5162727\nSale page on The Dig: h
+ ttps://rheinze08.github.io/the-dig-web/sale/ef2570f39c72c899/\nConfirm th
+ e address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/ef2570f39c72c899/
 END:VEVENT
 END:VCALENDAR

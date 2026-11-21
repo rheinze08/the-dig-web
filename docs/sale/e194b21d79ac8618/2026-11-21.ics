@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:e194b21d79ac8618-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T160000Z
 DTEND:20261121T230000Z
 SUMMARY:Cozy Texas Classics
 LOCATION:San Antonio\, TX 78232 (Address releases Friday 9:00 AM)
-DESCRIPTION:Hours: 10 AM – 5 PM (Saturday\, November 21\, local to San A
- ntonio).\nRun by Satx Select Liquidators LLC.\nOriginal listing (EstateSa
- les.net): https://www.estatesales.net/TX/San-Antonio/78232/5164827\nSale 
- page on The Dig: https://rheinze08.github.io/the-dig-web/sale/e194b21d79a
- c8618/\nConfirm the address and hours on the original listing before you 
- travel.
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and vehicles.\nHour
+ s: 10 AM – 5 PM (Saturday\, November 21\, local to San Antonio).\nRun b
+ y Satx Select Liquidators LLC.\nOriginal listing (EstateSales.net): https
+ ://www.estatesales.net/TX/San-Antonio/78232/5164827\nSale page on The Dig
+ : https://rheinze08.github.io/the-dig-web/sale/e194b21d79ac8618/\nConfirm
+  the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/e194b21d79ac8618/
 END:VEVENT
 END:VCALENDAR

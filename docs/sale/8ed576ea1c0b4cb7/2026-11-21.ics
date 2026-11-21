@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8ed576ea1c0b4cb7-2026-11-21@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261121T150000Z
 DTEND:20261121T220000Z
 SUMMARY:#633: Texas Art\, Christmas Wishes & Plentiful Dishes
 LOCATION:7531 Eagle Ledge\, San Antonio\, TX 78249
-DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 21\, local to San An
- tonio).\nRun by A Better Estate Sale Co..\nOriginal listing (EstateSales.
- net): https://www.estatesales.net/TX/San-Antonio/78249/5138061\nSale page
-  on The Dig: https://rheinze08.github.io/the-dig-web/sale/8ed576ea1c0b4cb
- 7/\nConfirm the address and hours on the original listing before you trav
- el.
+DESCRIPTION:Furniture\, jewelry\, collectibles\, kitchen and clothing.\nHo
+ urs: 9 AM – 4 PM (Saturday\, November 21\, local to San Antonio).\nRun 
+ by A Better Estate Sale Co..\nOriginal listing (EstateSales.net): https:/
+ /www.estatesales.net/TX/San-Antonio/78249/5138061\nSale page on The Dig: 
+ https://rheinze08.github.io/the-dig-web/sale/8ed576ea1c0b4cb7/\nConfirm t
+ he address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/8ed576ea1c0b4cb7/
 END:VEVENT
 END:VCALENDAR

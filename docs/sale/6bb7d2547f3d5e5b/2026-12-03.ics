@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:6bb7d2547f3d5e5b-2026-12-03@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261203T150000Z
 DTEND:20261203T230000Z
 SUMMARY:Groovy Mid Century Time Capsule Estate Sale on Wood Cliff Ct.
 LOCATION:Arlington\, TX 76012 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Hours: 9 AM – 5 PM (Thursday\, December 3\, local to Dallas
- –Fort Worth).\nRun by The Groovy Estate Sale Company.\nOriginal listing
-  (EstateSales.net): https://www.estatesales.net/TX/Arlington/76012/516678
- 3\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/6bb
- 7d2547f3d5e5b/\nConfirm the address and hours on the original listing bef
- ore you travel.
+DESCRIPTION:Mid-century.\nHours: 9 AM – 5 PM (Thursday\, December 3\, lo
+ cal to Dallas–Fort Worth).\nRun by The Groovy Estate Sale Company.\nOri
+ ginal listing (EstateSales.net): https://www.estatesales.net/TX/Arlington
+ /76012/5166783\nSale page on The Dig: https://rheinze08.github.io/the-dig
+ -web/sale/6bb7d2547f3d5e5b/\nConfirm the address and hours on the origina
+ l listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/6bb7d2547f3d5e5b/
 END:VEVENT
 END:VCALENDAR

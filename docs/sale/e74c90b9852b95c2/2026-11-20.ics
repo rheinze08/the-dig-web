@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:e74c90b9852b95c2-2026-11-20@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261120T160000Z
 DTEND:20261120T220000Z
 SUMMARY:Texas City Downsizing Estate Sale
 LOCATION:2618 14th Street North\, Texas City\, TX 77590
-DESCRIPTION:Hours: 10 AM – 4 PM (Friday\, November 20\, local to Houston
- ).\nRun by Patrice's Estate Sales.\nOriginal listing (EstateSales.org): h
- ttps://estatesales.org/estate-sales/tx/texas-city-/77590/texas-city-downs
- izing-estate-sale-2474169\nSale page on The Dig: https://rheinze08.github
- .io/the-dig-web/sale/e74c90b9852b95c2/\nConfirm the address and hours on 
- the original listing before you travel.
+DESCRIPTION:Furniture\, jewelry\, kitchen\, clothing and books.\nHours: 10
+  AM – 4 PM (Friday\, November 20\, local to Houston).\nRun by Patrice's
+  Estate Sales.\nOriginal listing (EstateSales.org): https://estatesales.o
+ rg/estate-sales/tx/texas-city-/77590/texas-city-downsizing-estate-sale-24
+ 74169\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale
+ /e74c90b9852b95c2/\nConfirm the address and hours on the original listing
+  before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/e74c90b9852b95c2/
 END:VEVENT
 END:VCALENDAR

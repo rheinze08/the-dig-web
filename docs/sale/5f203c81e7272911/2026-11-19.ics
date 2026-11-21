@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:5f203c81e7272911-2026-11-19@rheinze08.github.io
-DTSTAMP:20261121T043456Z
+DTSTAMP:20261121T050600Z
 DTSTART:20261119T160000Z
 DTEND:20261119T220000Z
 SUMMARY:50% off Huge Trophy Club Sale
 LOCATION:104 Forest Hill Dr\, Trophy Club\, TX 76262
-DESCRIPTION:Hours: 10 AM – 4 PM (Thursday\, November 19\, local to Dalla
- s–Fort Worth).\nRun by Trophy Estate Sale.\nOriginal listing (EstateSal
- es.net): https://www.estatesales.net/TX/Roanoke/76262/5150589\nSale page 
- on The Dig: https://rheinze08.github.io/the-dig-web/sale/5f203c81e7272911
- /\nConfirm the address and hours on the original listing before you trave
- l.
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
+ .\nHours: 10 AM – 4 PM (Thursday\, November 19\, local to Dallas–Fort
+  Worth).\nRun by Trophy Estate Sale.\nOriginal listing (EstateSales.net):
+  https://www.estatesales.net/TX/Roanoke/76262/5150589\nSale page on The D
+ ig: https://rheinze08.github.io/the-dig-web/sale/5f203c81e7272911/\nConfi
+ rm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/5f203c81e7272911/
 END:VEVENT
 END:VCALENDAR
