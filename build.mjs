@@ -21,10 +21,13 @@ const DATA_BASE = (process.env.DIG_DATA_BASE || `https://raw.githubusercontent.c
 const DEFAULT_CITY = {slug: 'houston', name: 'Houston'};
 
 // Used only when GitHub cannot say which app release is the latest.
+// v0.4.1 is the first build signed with the permanent release key
+// (Phase 9D); earlier builds cannot be updated in place, so the
+// fallback must never point below v0.4.1.
 const APK_FALLBACK = {
-  tag: 'v0.1.1',
-  url: `https://github.com/${DATA_REPO}/releases/download/v0.1.1/The-Dig-v0.1.1.apk`,
-  page: `https://github.com/${DATA_REPO}/releases/tag/v0.1.1`,
+  tag: 'v0.4.1',
+  url: `https://github.com/${DATA_REPO}/releases/download/v0.4.1/The-Dig-v0.4.1.apk`,
+  page: `https://github.com/${DATA_REPO}/releases/tag/v0.4.1`,
 };
 
 const LEAFLET = {
