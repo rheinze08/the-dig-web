@@ -98,9 +98,9 @@
     "photoSearchSales": 182
   },
   "app": {
-    "tag": "v0.4.0",
-    "url": "https://github.com/rheinze08/the-dig-data/releases/download/v0.4.0/The-Dig-v0.4.0.apk",
-    "page": "https://github.com/rheinze08/the-dig-data/releases/tag/v0.4.0"
+    "tag": "v0.4.1",
+    "url": "https://github.com/rheinze08/the-dig-data/releases/download/v0.4.1/The-Dig-v0.4.1.apk",
+    "page": "https://github.com/rheinze08/the-dig-data/releases/tag/v0.4.1"
   },
   "listingEmail": "listings@thedig.example",
   "listingEmailIsPlaceholder": true
