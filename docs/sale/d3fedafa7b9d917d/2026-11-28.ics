@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d3fedafa7b9d917d-2026-11-28@rheinze08.github.io
-DTSTAMP:20261122T144351Z
+DTSTAMP:20261122T183832Z
 DTSTART:20261128T150000Z
 DTEND:20261128T210000Z
 SUMMARY:Black Friday Signature Estate Sale
 LOCATION:Dallas\, TX 75207 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Furniture\, jewelry\, collectibles\, clothing and books.\nHour
- s: 9 AM – 3 PM (Saturday\, November 28\, local to Dallas–Fort Worth).
- \nRun by When Pigs Fly Estate\, Consignment & Auctions.\nOriginal listing
-  (EstateSales.net): https://www.estatesales.net/TX/Dallas/75207/5013480\n
- Sale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/d3feda
- fa7b9d917d/\nConfirm the address and hours on the original listing before
-  you travel.
+DESCRIPTION:Furniture\, jewelry\, collectibles\, kitchen and clothing.\nHo
+ urs: 9 AM – 3 PM (Saturday\, November 28\, local to Dallas–Fort Worth
+ ).\nRun by When Pigs Fly Estate\, Consignment & Auctions.\nOriginal listi
+ ng (EstateSales.net): https://www.estatesales.net/TX/Dallas/75207/5013480
+ \nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/d3fe
+ dafa7b9d917d/\nConfirm the address and hours on the original listing befo
+ re you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/d3fedafa7b9d917d/
 END:VEVENT
 END:VCALENDAR

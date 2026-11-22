@@ -90,7 +90,7 @@
    "name": "Phoenix",
    "status": "proving",
    "timeZone": "America/Phoenix",
-   "results": 39,
+   "results": 38,
    "url": "https://rheinze08.github.io/the-dig-web/phoenix/"
   },
   {
@@ -587,11 +587,10 @@
   {
    "id": "5a90cf43949ca89a",
    "city": "dallas-fort-worth",
-   "title": "50% Off RARE FIND: VINTAGE APPLE MACINTOSH • TIFFANY LAMPS • ANTIQUES • CRYSTAL • JEWELRY & MORE!",
+   "title": "75% - 50 % Off RARE FIND: TIFFANY LAMPS • ANTIQUES • CRYSTAL • JEWELRY & MORE!",
    "company": "Rare Find Estate Sales",
    "categories": [
-    "jewelry",
-    "electronics"
+    "jewelry"
    ],
    "keywords": [
     "tools",
@@ -800,7 +799,7 @@
   {
    "id": "c4e6bad9cfe373f0",
    "city": "dallas-fort-worth",
-   "title": "25% OFF Saturday!!!James Major Estate Sales : Bachelor Pad Blowout in Richardson",
+   "title": "1/2 Off a more Sunday!!!James Major Estate Sales : Bachelor Pad Blowout in Richardson",
    "company": "James Major Estate Sales",
    "categories": [],
    "keywords": [
@@ -1040,7 +1039,7 @@
   {
    "id": "1caac9641240a4aa",
    "city": "dallas-fort-worth",
-   "title": "Multi Estate Clearance Sale - Fort Worth Odd Fellows Hall",
+   "title": "Multi Estate Clearance Sale - Fort Worth Odd Fellows Hall (50% - 75% off Sunday)",
    "company": "",
    "categories": [],
    "keywords": [
@@ -1087,24 +1086,6 @@
    "lng": -96.8375907,
    "url": "https://rheinze08.github.io/the-dig-web/sale/3bfa7e6776de0515/",
    "source": "https://www.estatesales.net/TX/Dallas/75244/5158272"
-  },
-  {
-   "id": "d92f8211525d944e",
-   "city": "dallas-fort-worth",
-   "title": "Plaid Door Christmas Market",
-   "company": "Estate Sales by Elaine",
-   "categories": [],
-   "keywords": [
-    "christmas decor"
-   ],
-   "contentsLine": "Christmas decor.",
-   "digRating": "Worth a Look",
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.8946172,
-   "lng": -96.806983,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/d92f8211525d944e/",
-   "source": "https://estatesales.org/estate-sales/tx/dallas/75230/plaid-door-christmas-market-2474219"
   },
   {
    "id": "0eb294fb7e3fcaba",
@@ -1447,6 +1428,29 @@
    "source": "https://www.estatesales.net/TX/Plano/75075/5168580"
   },
   {
+   "id": "4ba8164a02b31a1d",
+   "city": "dallas-fort-worth",
+   "title": "Estate Sale - Collectors! Dealers!",
+   "company": "",
+   "categories": [
+    "collectibles"
+   ],
+   "keywords": [
+    "furniture",
+    "collectibles",
+    "kitchen",
+    "antiques"
+   ],
+   "contentsLine": "Furniture, collectibles, kitchen and antiques.",
+   "digRating": "Worth a Look",
+   "first": "2026-11-22",
+   "last": "2026-11-22",
+   "lat": 32.950664,
+   "lng": -96.900084,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/4ba8164a02b31a1d/",
+   "source": "https://estatesales.org/estate-sales/tx/carrollton/75006/estate-sale-collectors-dealers-2474931"
+  },
+  {
    "id": "3e502141f7d1ead5",
    "city": "dallas-fort-worth",
    "title": "Estate SALE Selling lots of items Contact for BUYING",
@@ -1603,7 +1607,7 @@
   {
    "id": "b99d78f12d5f1c32",
    "city": "dallas-fort-worth",
-   "title": "BLACK FRIDAY SALE! COLLEYVILLE | UPSCALE TRADITIONAL ESTATE FILLED WITH TIMELESS TREASURES!",
+   "title": "BLACK FRIDAY SALE COLLEYVILLE | VINTAGE TRADITIONAL ESTATE FILLED WITH TIMELESS TREASURES!",
    "company": "Lori's Estate Sales",
    "categories": [],
    "keywords": [
@@ -1637,15 +1641,15 @@
     "furniture",
     "jewelry",
     "collectibles",
+    "kitchen",
     "clothing",
     "books",
     "art",
     "crystal",
     "antiques",
-    "mid-century",
-    "rugs"
+    "mid-century"
    ],
-   "contentsLine": "Furniture, jewelry, collectibles, clothing and books.",
+   "contentsLine": "Furniture, jewelry, collectibles, kitchen and clothing.",
    "digRating": "Deep Dig",
    "first": "2026-11-27",
    "last": "2026-11-29",
@@ -1797,6 +1801,33 @@
    "source": "https://estatesales.org/estate-sales/tx/plano/75023/plano-remodeling-spectacular-black-friday-2474108"
   },
   {
+   "id": "aeecb0444133422b",
+   "city": "dallas-fort-worth",
+   "title": "Preston Hollow: DEMOLITION SALE: Unbeatable Deals by Dayspring",
+   "company": "Dayspring Estate Sales",
+   "categories": [],
+   "keywords": [
+    "tools",
+    "furniture",
+    "collectibles",
+    "kitchen",
+    "clothing",
+    "books",
+    "art",
+    "electronics",
+    "toys & games",
+    "figurines"
+   ],
+   "contentsLine": "Tools, furniture, collectibles, kitchen and clothing.",
+   "digRating": "Deep Dig",
+   "first": "2026-11-27",
+   "last": "2026-11-28",
+   "lat": 32.8972495,
+   "lng": -96.7955588,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/aeecb0444133422b/",
+   "source": "https://www.estatesales.net/TX/Dallas/75230/5160396"
+  },
+  {
    "id": "274ec09330214d26",
    "city": "dallas-fort-worth",
    "title": "Start “Black Friday” with us! Fort Worth/Texas History and More!",
@@ -1822,33 +1853,6 @@
    "lng": -97.3809922,
    "url": "https://rheinze08.github.io/the-dig-web/sale/274ec09330214d26/",
    "source": "https://www.estatesales.net/TX/Fort-Worth/76109/5153937"
-  },
-  {
-   "id": "aeecb0444133422b",
-   "city": "dallas-fort-worth",
-   "title": "Preston Hollow: DEMOLITION SALE: Unbeatable Deals by Dayspring",
-   "company": "Dayspring Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "toys & games",
-    "figurines"
-   ],
-   "contentsLine": "Tools, furniture, collectibles, kitchen and clothing.",
-   "digRating": "Deep Dig",
-   "first": "2026-11-28",
-   "last": "2026-11-29",
-   "lat": 32.8972495,
-   "lng": -96.7955588,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/aeecb0444133422b/",
-   "source": "https://www.estatesales.net/TX/Dallas/75230/5160396"
   },
   {
    "id": "44781583afdd37a6",
@@ -1977,10 +1981,19 @@
    "company": "The Groovy Estate Sale Company",
    "categories": [],
    "keywords": [
-    "mid-century"
+    "furniture",
+    "vinyl & records",
+    "collectibles",
+    "kitchen",
+    "clothing",
+    "books",
+    "art",
+    "toys & games",
+    "china",
+    "crystal"
    ],
-   "contentsLine": "Mid-century.",
-   "digRating": "Slim Pickings",
+   "contentsLine": "Furniture, vinyl & records, collectibles, kitchen and clothing.",
+   "digRating": "Deep Dig",
    "first": "2026-12-03",
    "last": "2026-12-05",
    "lat": 32.7460752,
@@ -2874,26 +2887,6 @@
    "source": "https://www.estatesales.net/TX/San-Antonio/78249/5138061"
   },
   {
-   "id": "59bf93d65b76bc7e",
-   "city": "san-antonio",
-   "title": "25% off! Open @ 11:00am! Bulverde Home Sweet Home! 25% off on 11/21!",
-   "company": "Overstreet Estates, LLC",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "toys & games",
-    "antiques"
-   ],
-   "contentsLine": "Furniture, toys & games and antiques.",
-   "digRating": "Deep Dig",
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.7669402,
-   "lng": -98.4267298,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/59bf93d65b76bc7e/",
-   "source": "https://www.estatesales.net/TX/Bulverde/78163/5161698"
-  },
-  {
    "id": "f8e3d9b53528e5c1",
    "city": "san-antonio",
    "title": "50% off and box day! Massive warehouse sale. Sterling AMMO games comics everything",
@@ -2945,6 +2938,26 @@
    "source": "https://www.estatesales.net/TX/Universal-City/78148/5162931"
   },
   {
+   "id": "59bf93d65b76bc7e",
+   "city": "san-antonio",
+   "title": "50% off! Last day! Open @ 10:00am! Bulverde Home Sweet Home! 50% off!",
+   "company": "Overstreet Estates, LLC",
+   "categories": [],
+   "keywords": [
+    "furniture",
+    "toys & games",
+    "antiques"
+   ],
+   "contentsLine": "Furniture, toys & games and antiques.",
+   "digRating": "Deep Dig",
+   "first": "2026-11-20",
+   "last": "2026-11-22",
+   "lat": 29.7669402,
+   "lng": -98.4267298,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/59bf93d65b76bc7e/",
+   "source": "https://www.estatesales.net/TX/Bulverde/78163/5161698"
+  },
+  {
    "id": "7260c12af7ae5845",
    "city": "san-antonio",
    "title": "50% off!! Hidden Meadow",
@@ -2984,20 +2997,6 @@
    "lng": -98.741959,
    "url": "https://rheinze08.github.io/the-dig-web/sale/3fa45716d940ce60/",
    "source": "https://estatesales.org/estate-sales/tx/san-antonio/78253/alamo-ranch-estate-sale-2472776"
-  },
-  {
-   "id": "c0420bbe0c6f9d01",
-   "city": "san-antonio",
-   "title": "Blowout sale! 50% OFF",
-   "company": "1dandelion LLC",
-   "categories": [],
-   "digRating": "Deep Dig",
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.443835,
-   "lng": -98.508732,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/c0420bbe0c6f9d01/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78201/5158845"
   },
   {
    "id": "1fd129ce69eaa99f",
@@ -3288,6 +3287,20 @@
    "source": "https://estatesales.org/estate-sales/tx/live-oak/78233/the-final-two-days-3050-2474847"
   },
   {
+   "id": "c0420bbe0c6f9d01",
+   "city": "san-antonio",
+   "title": "Blowout sale! 50% OFF",
+   "company": "1dandelion LLC",
+   "categories": [],
+   "digRating": "Deep Dig",
+   "first": "2026-11-23",
+   "last": "2026-11-25",
+   "lat": 29.443835,
+   "lng": -98.508732,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/c0420bbe0c6f9d01/",
+   "source": "https://www.estatesales.net/TX/San-Antonio/78201/5158845"
+  },
+  {
    "id": "a3e380a9b0a15a3d",
    "city": "san-antonio",
    "title": "#634: Sale of the Season!",
@@ -3386,15 +3399,15 @@
     "tools",
     "furniture",
     "jewelry",
+    "kitchen",
     "clothing",
     "books",
     "art",
     "electronics",
     "toys & games",
-    "crystal",
-    "antiques"
+    "crystal"
    ],
-   "contentsLine": "Tools, furniture, jewelry, clothing and books.",
+   "contentsLine": "Tools, furniture, jewelry, kitchen and clothing.",
    "digRating": "Deep Dig",
    "first": "2026-12-03",
    "last": "2026-12-05",
@@ -3629,27 +3642,6 @@
    "source": "https://www.estatesales.net/AZ/Phoenix/85029/5150502"
   },
   {
-   "id": "584f8ce1a0fa9ff6",
-   "city": "phoenix",
-   "title": "🚨 SUNDAY FINAL DAY BLOWOUT — 25% TO 50% OFF + MAKE AN OFFER! 🚨",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "collectibles",
-    "clothing",
-    "antiques",
-    "christmas decor"
-   ],
-   "contentsLine": "Collectibles, clothing, antiques and christmas decor.",
-   "digRating": "Slim Pickings",
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.4313284,
-   "lng": -111.7240535,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/584f8ce1a0fa9ff6/",
-   "source": "https://estatesales.org/estate-sales/az/mesa/85205/sunday-final-day-blowout-25-2474764"
-  },
-  {
    "id": "30cc25a7256fba6b",
    "city": "phoenix",
    "title": "50 % Off Sunday! Tumbleweed Estate Warehouse sale",
@@ -3711,26 +3703,6 @@
    "lng": -111.695238,
    "url": "https://rheinze08.github.io/the-dig-web/sale/f918630f2202974f/",
    "source": "https://www.craigslist.org/view/d/mesa-estate-sale-mesa/4VAmCKZYhZ3ZSCqidjGe9P"
-  },
-  {
-   "id": "89ff9bbd8fe557d1",
-   "city": "phoenix",
-   "title": "Huge backyard Contractor tradesmen estate sale",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "vehicles",
-    "kitchen"
-   ],
-   "contentsLine": "Tools, vehicles and kitchen.",
-   "digRating": "Worth a Look",
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.4836165,
-   "lng": -112.2279769,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/89ff9bbd8fe557d1/",
-   "source": "https://www.craigslist.org/view/d/phoenix-huge-backyard-contractor/msjRjFMhxq8SLRP4vApCSe"
   },
   {
    "id": "00fd8d2f4ff2888b",
@@ -3846,7 +3818,7 @@
   {
    "id": "f1e9f8ce02749c90",
    "city": "phoenix",
-   "title": "Estate sale 61 yrs 50% off sunday nov22 8 am to 6",
+   "title": "Estate sale 61 yrs 50% off sunday nov22 10 am to 6",
    "company": "",
    "categories": [],
    "keywords": [
@@ -3869,6 +3841,30 @@
    "lng": -112.1533861,
    "url": "https://rheinze08.github.io/the-dig-web/sale/f1e9f8ce02749c90/",
    "source": "https://www.craigslist.org/view/d/laveen-estate-sale-61-yrs-50-off-sunday/nMkJymcHKeF3iPFGS2USYG"
+  },
+  {
+   "id": "2e1186e2b2407f84",
+   "city": "phoenix",
+   "title": "Estate sale, lots of tools",
+   "company": "",
+   "categories": [
+    "tools"
+   ],
+   "keywords": [
+    "tools",
+    "vehicles",
+    "kitchen",
+    "electronics",
+    "cameras"
+   ],
+   "contentsLine": "Tools, vehicles, kitchen, electronics and cameras.",
+   "digRating": "Deep Dig",
+   "first": "2026-11-22",
+   "last": "2026-11-22",
+   "lat": 33.4484367,
+   "lng": -112.074141,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/2e1186e2b2407f84/",
+   "source": "https://www.craigslist.org/view/d/phoenix-estate-sale-lots-of-tools/7YaAmWvGguUedCcao4WGDJ"
   },
   {
    "id": "7fabe57f964da73e",
@@ -4414,33 +4410,6 @@
    "source": "https://www.estatesales.net/GA/Atlanta/30306/5154375"
   },
   {
-   "id": "a485eb7331baa7ad",
-   "city": "atlanta",
-   "title": "75% OFF SUN-Blue Moon Huge Sale - Great Deals, Unexpected Finds & More",
-   "company": "Blue Moon Estate Sales Buckhead",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "toys & games"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, collectibles and kitchen.",
-   "digRating": "Deep Dig",
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 33.8007504,
-   "lng": -84.2473232,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/a485eb7331baa7ad/",
-   "source": "https://estatesales.org/estate-sales/ga/clarkston/30021/50-off-satblue-moon-huge-2474560"
-  },
-  {
    "id": "31d85b438ed4161d",
    "city": "atlanta",
    "title": "Holiday Treasures! New Estates Arriving and New Price Drops up to 75% OFF",
@@ -4592,6 +4561,33 @@
    "source": "https://www.estatesales.net/GA/Marietta/30062/5148702"
   },
   {
+   "id": "a485eb7331baa7ad",
+   "city": "atlanta",
+   "title": "75% OFF SUN-Blue Moon Huge Sale - Great Deals, Unexpected Finds & More",
+   "company": "Blue Moon Estate Sales Buckhead",
+   "categories": [],
+   "keywords": [
+    "tools",
+    "furniture",
+    "vinyl & records",
+    "collectibles",
+    "kitchen",
+    "clothing",
+    "books",
+    "art",
+    "electronics",
+    "toys & games"
+   ],
+   "contentsLine": "Tools, furniture, vinyl & records, collectibles and kitchen.",
+   "digRating": "Deep Dig",
+   "first": "2026-11-20",
+   "last": "2026-11-22",
+   "lat": 33.8007504,
+   "lng": -84.2473232,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/a485eb7331baa7ad/",
+   "source": "https://estatesales.org/estate-sales/ga/clarkston/30021/50-off-satblue-moon-huge-2474560"
+  },
+  {
    "id": "45d842b789edadf9",
    "city": "atlanta",
    "title": "75% OFF Whole House Furnishings & Christmas Delight!",
@@ -4619,33 +4615,6 @@
    "lng": -84.40013739999999,
    "url": "https://rheinze08.github.io/the-dig-web/sale/45d842b789edadf9/",
    "source": "https://www.estatesales.net/GA/Marietta/30068/4960173"
-  },
-  {
-   "id": "503fd9be68becdc9",
-   "city": "atlanta",
-   "title": "Donna Davis LLC - Great Smyrna Sale SUNDAY start 50%off MAYBE 75% later in day",
-   "company": "Donna Davis Estate Sales LLC, Downsizing and Estate Appraisal Services",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "toys & games",
-    "mid-century",
-    "rugs"
-   ],
-   "contentsLine": "Tools, furniture, kitchen, clothing and books.",
-   "digRating": "Deep Dig",
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.857875,
-   "lng": -84.489664,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/503fd9be68becdc9/",
-   "source": "https://www.estatesales.net/GA/Smyrna/30080/5158035"
   },
   {
    "id": "be693ae91512e1e7",
@@ -4689,6 +4658,33 @@
    "lng": -84.5510887,
    "url": "https://rheinze08.github.io/the-dig-web/sale/0db863ee4941281e/",
    "source": "https://estatesales.org/estate-sales/ga/mableton/30126/donna-davis-llc-beautiful-whole-2474136"
+  },
+  {
+   "id": "503fd9be68becdc9",
+   "city": "atlanta",
+   "title": "Doona Davis LLC. Sunday 50-% off",
+   "company": "Donna Davis Estate Sales LLC, Downsizing and Estate Appraisal Services",
+   "categories": [],
+   "keywords": [
+    "tools",
+    "furniture",
+    "kitchen",
+    "clothing",
+    "books",
+    "art",
+    "electronics",
+    "toys & games",
+    "mid-century",
+    "rugs"
+   ],
+   "contentsLine": "Tools, furniture, kitchen, clothing and books.",
+   "digRating": "Deep Dig",
+   "first": "2026-11-20",
+   "last": "2026-11-22",
+   "lat": 33.857875,
+   "lng": -84.489664,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/503fd9be68becdc9/",
+   "source": "https://www.estatesales.net/GA/Smyrna/30080/5158035"
   },
   {
    "id": "c01d4e71cabe23ba",
@@ -4925,33 +4921,6 @@
    "source": "https://www.estatesales.net/GA/Atlanta/30318/5164413"
   },
   {
-   "id": "0382b9e09b8a6751",
-   "city": "atlanta",
-   "title": "Bedroom Sets, Chairs, French Pieces and More in Sandy Springs",
-   "company": "Dunwoody Estate Treasures",
-   "categories": [
-    "furniture"
-   ],
-   "keywords": [
-    "furniture",
-    "art",
-    "electronics",
-    "crystal",
-    "antiques",
-    "mid-century",
-    "silver",
-    "patio furniture"
-   ],
-   "contentsLine": "Furniture, art, electronics, crystal and antiques.",
-   "digRating": "Deep Dig",
-   "first": "2026-11-21",
-   "last": "2026-11-24",
-   "lat": 33.9332303,
-   "lng": -84.3827283,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/0382b9e09b8a6751/",
-   "source": "https://www.estatesales.net/GA/Atlanta/30328/5136282"
-  },
-  {
    "id": "630c7bf070699bfa",
    "city": "atlanta",
    "title": "COTTON PICKIN' ESTATE SALE - SHEPHERD'S HIDEAWAY, MARIETTA",
@@ -5165,6 +5134,32 @@
    "lng": -84.257433,
    "url": "https://rheinze08.github.io/the-dig-web/sale/56d183aea4aa6cec/",
    "source": "https://www.estatesales.net/GA/Decatur/30032/5141742"
+  },
+  {
+   "id": "0382b9e09b8a6751",
+   "city": "atlanta",
+   "title": "Reduced! Bob Timberlake Bedroom Sets, Leather Couch, French Pieces and More in Sandy Springs",
+   "company": "Dunwoody Estate Treasures",
+   "categories": [
+    "furniture"
+   ],
+   "keywords": [
+    "furniture",
+    "electronics",
+    "crystal",
+    "antiques",
+    "mid-century",
+    "silver",
+    "patio furniture"
+   ],
+   "contentsLine": "Furniture, electronics, crystal, antiques and mid-century.",
+   "digRating": "Deep Dig",
+   "first": "2026-11-22",
+   "last": "2026-11-25",
+   "lat": 33.9332303,
+   "lng": -84.3827283,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/0382b9e09b8a6751/",
+   "source": "https://www.estatesales.net/GA/Atlanta/30328/5136282"
   },
   {
    "id": "52a474b536c45f6a",
