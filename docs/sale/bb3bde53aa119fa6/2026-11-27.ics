@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bb3bde53aa119fa6-2026-11-27@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261127T143000Z
+DTEND:20261127T200000Z
+SUMMARY:Zen Decor\, Rattan\, Asian & Classic Furniture \, Household Items
+LOCATION:Sun City\, AZ 85373 (Address releases Monday 9:00 AM)
+DESCRIPTION:Furniture and silver.\nHours: 7:30 AM – 1 PM (Friday\, Novem
+ ber 27\, local to Phoenix).\nRun by His & Hers Estate Sale Services.\nOri
+ ginal listing (EstateSales.net): https://www.estatesales.net/AZ/Sun-City/
+ 85373/5168328\nSale page on The Dig: https://rheinze08.github.io/the-dig-
+ web/sale/bb3bde53aa119fa6/\nConfirm the address and hours on the original
+  listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/bb3bde53aa119fa6/
+END:VEVENT
+END:VCALENDAR

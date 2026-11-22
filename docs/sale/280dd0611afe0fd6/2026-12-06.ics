@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:280dd0611afe0fd6-2026-12-06@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261206T160000Z
+DTEND:20261206T200000Z
+SUMMARY:Feels Like Fall @Garden Ridge
+LOCATION:San Antonio\, TX 78266 (Address releases Friday 9:00 AM)
+DESCRIPTION:Furniture\, kitchen\, books and art.\nHours: 10 AM – 2 PM (S
+ unday\, December 6\, local to San Antonio).\nRun by Estates By Emilee LLC
+ .\nOriginal listing (EstateSales.net): https://www.estatesales.net/TX/San
+ -Antonio/78266/5073984\nSale page on The Dig: https://rheinze08.github.io
+ /the-dig-web/sale/280dd0611afe0fd6/\nConfirm the address and hours on the
+  original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/280dd0611afe0fd6/
+END:VEVENT
+END:VCALENDAR

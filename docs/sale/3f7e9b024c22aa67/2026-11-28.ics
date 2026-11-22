@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3f7e9b024c22aa67-2026-11-28@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261128T150000Z
+DTEND:20261128T210000Z
+SUMMARY:ANOTHER GREAT SALE IN LILBURN BY A KICKIN' & PICKIN'!!! STAY TUNED
+LOCATION:Lilburn\, GA 30047 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 4 PM (Saturday\, November 28\, local to Atlan
+ ta).\nRun by A Kickin' & Pickin' Estate Sales.\nOriginal listing (EstateS
+ ales.net): https://www.estatesales.net/GA/Lilburn/30047/5100888\nSale pag
+ e on The Dig: https://rheinze08.github.io/the-dig-web/sale/3f7e9b024c22aa
+ 67/\nConfirm the address and hours on the original listing before you tra
+ vel.
+URL:https://rheinze08.github.io/the-dig-web/sale/3f7e9b024c22aa67/
+END:VEVENT
+END:VCALENDAR

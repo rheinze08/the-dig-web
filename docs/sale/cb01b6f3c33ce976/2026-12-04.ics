@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cb01b6f3c33ce976-2026-12-04@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261204T150000Z
+DTEND:20261204T220000Z
+SUMMARY:Fabulous Finds in Flower Mound!! Antiques\, Vintage\, Pottery Barn
+  and All!
+LOCATION:Flower Mound\, TX 75022 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
+ .\nHours: 9 AM – 4 PM (Friday\, December 4\, local to Dallas–Fort Wor
+ th).\nRun by Treasure Trove Estate Sale Services.\nOriginal listing (Esta
+ teSales.org): https://estatesales.org/estate-sales/tx/flower-mound/75022/
+ fabulous-finds-in-flower-mound-2474899\nSale page on The Dig: https://rhe
+ inze08.github.io/the-dig-web/sale/cb01b6f3c33ce976/\nConfirm the address 
+ and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/cb01b6f3c33ce976/
+END:VEVENT
+END:VCALENDAR

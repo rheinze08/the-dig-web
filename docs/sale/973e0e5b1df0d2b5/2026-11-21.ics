@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:973e0e5b1df0d2b5-2026-11-21@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261121T160000Z
+DTEND:20261121T210000Z
+SUMMARY:THE FINAL TWO DAYS!! 30%-50% OFF!!!
+LOCATION:14000 Wenrich\, Live Oak\, TX 78233
+DESCRIPTION:Collectibles\, kitchen\, rugs and mirrors.\nHours: 10 AM – 3
+  PM (Saturday\, November 21\, local to San Antonio).\nOriginal listing (E
+ stateSales.org): https://estatesales.org/estate-sales/tx/live-oak/78233/t
+ he-final-two-days-3050-2474847\nSale page on The Dig: https://rheinze08.g
+ ithub.io/the-dig-web/sale/973e0e5b1df0d2b5/\nConfirm the address and hour
+ s on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/973e0e5b1df0d2b5/
+END:VEVENT
+END:VCALENDAR

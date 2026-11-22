@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0382b9e09b8a6751-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261122T150000Z
+DTEND:20261122T220000Z
+SUMMARY:Bedroom Sets\, Chairs\, French Pieces and More in Sandy Springs
+LOCATION:Sandy Springs\, GA 30328 (Address releases Friday 9:00 AM)
+DESCRIPTION:Furniture\, art\, electronics\, crystal and antiques.\nHours: 
+ 10 AM – 5 PM (Sunday\, November 22\, local to Atlanta).\nRun by Dunwood
+ y Estate Treasures.\nOriginal listing (EstateSales.net): https://www.esta
+ tesales.net/GA/Atlanta/30328/5136282\nSale page on The Dig: https://rhein
+ ze08.github.io/the-dig-web/sale/0382b9e09b8a6751/\nConfirm the address an
+ d hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/0382b9e09b8a6751/
+END:VEVENT
+END:VCALENDAR

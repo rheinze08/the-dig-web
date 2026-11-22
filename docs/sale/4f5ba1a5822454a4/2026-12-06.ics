@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4f5ba1a5822454a4-2026-12-06@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261206T140000Z
+DTEND:20261206T210000Z
+SUMMARY:Estate Sale: Combining Two Homes
+LOCATION:Atlanta\, GA 30345 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture\, kitchen\, clothing\, books and art.\nHours: 9 AM 
+ – 4 PM (Sunday\, December 6\, local to Atlanta).\nOriginal listing (Est
+ ateSales.net): https://www.estatesales.net/GA/Atlanta/30345/5146413\nSale
+  page on The Dig: https://rheinze08.github.io/the-dig-web/sale/4f5ba1a582
+ 2454a4/\nConfirm the address and hours on the original listing before you
+  travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/4f5ba1a5822454a4/
+END:VEVENT
+END:VCALENDAR

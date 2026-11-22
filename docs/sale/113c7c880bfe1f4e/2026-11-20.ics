@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:113c7c880bfe1f4e-2026-11-20@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261120T150000Z
+DTEND:20261120T190000Z
+SUMMARY:Sun State Estate Sales In Chandler
+LOCATION:718 W Jade Dr\, Chandler\, AZ 85248
+DESCRIPTION:Tools\, collectibles and clothing.\nHours: 8 AM – 12 PM (Fri
+ day\, November 20\, local to Phoenix).\nRun by Sun State Estate Sales.\nO
+ riginal listing (EstateSales.org): https://estatesales.org/estate-sales/a
+ z/chandler/85248/sun-state-estate-sales-on-2473909\nSale page on The Dig:
+  https://rheinze08.github.io/the-dig-web/sale/113c7c880bfe1f4e/\nConfirm 
+ the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/113c7c880bfe1f4e/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f918630f2202974f-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261122T160000Z
+DTEND:20261122T230000Z
+SUMMARY:ESTATE SALE MESA 11/21-11/22
+LOCATION:239 N 63rd St\, Mesa\, AZ
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and clothing.\nHour
+ s: 9 AM – 4 PM (Sunday\, November 22\, local to Phoenix).\nOriginal lis
+ ting (Craigslist Phoenix): https://www.craigslist.org/view/d/mesa-estate-
+ sale-mesa/4VAmCKZYhZ3ZSCqidjGe9P\nSale page on The Dig: https://rheinze08
+ .github.io/the-dig-web/sale/f918630f2202974f/\nConfirm the address and ho
+ urs on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/f918630f2202974f/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:02be5275563b4405-2026-12-05@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261205T150000Z
+DTEND:20261205T220000Z
+SUMMARY:SHOCK & AWE INTERIOR DESIGNER’S DREAM CHRISTMAS EXPLOSION BLUE &
+  WHITE PACKED!
+LOCATION:Fort Worth\, TX 76107 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Christmas decor.\nHours: 9 AM – 4 PM (Saturday\, December 5\
+ , local to Dallas–Fort Worth).\nRun by Cottage Classics Estate Sales.\n
+ Original listing (EstateSales.net): https://www.estatesales.net/TX/Fort-W
+ orth/76107/5167950\nSale page on The Dig: https://rheinze08.github.io/the
+ -dig-web/sale/02be5275563b4405/\nConfirm the address and hours on the ori
+ ginal listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/02be5275563b4405/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:584f8ce1a0fa9ff6-2026-11-21@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261121T150000Z
+DTEND:20261121T190000Z
+SUMMARY:🚨 SUNDAY FINAL DAY BLOWOUT — 25% TO 50% OFF + MAKE AN OFFER! 
+ 🚨
+LOCATION:6264 E Duncan St\, Mesa\, AZ 85205
+DESCRIPTION:Collectibles\, clothing\, antiques and christmas decor.\nHours
+ : 8 AM – 12 PM (Saturday\, November 21\, local to Phoenix).\nOriginal l
+ isting (EstateSales.org): https://estatesales.org/estate-sales/az/mesa/85
+ 205/sunday-final-day-blowout-25-2474764\nSale page on The Dig: https://rh
+ einze08.github.io/the-dig-web/sale/584f8ce1a0fa9ff6/\nConfirm the address
+  and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/584f8ce1a0fa9ff6/
+END:VEVENT
+END:VCALENDAR

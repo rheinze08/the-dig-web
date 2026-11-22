@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:be693ae91512e1e7-2026-11-20@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261120T150000Z
+DTEND:20261120T210000Z
+SUMMARY:Donna Davis LLC - Great Smyrna Whole House Sale
+LOCATION:3708 Tynemoore Trce SE\, Smyrna\, GA 30080
+DESCRIPTION:Hours: 10 AM – 4 PM (Friday\, November 20\, local to Atlanta
+ ).\nRun by Donna Davis Estate Sales LLC\, Downsizing\, Senior Moves.\nOri
+ ginal listing (EstateSales.org): https://estatesales.org/estate-sales/ga/
+ smyrna-/30080/donna-davis-llc-great-smyrna-2474139\nSale page on The Dig:
+  https://rheinze08.github.io/the-dig-web/sale/be693ae91512e1e7/\nConfirm 
+ the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/be693ae91512e1e7/
+END:VEVENT
+END:VCALENDAR

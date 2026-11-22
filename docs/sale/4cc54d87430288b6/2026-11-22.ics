@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4cc54d87430288b6-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261122T150000Z
+DTEND:20261122T210000Z
+SUMMARY:50% OFF Coin collection generator tools mercedes and more in chamb
+ lee
+LOCATION:3222 Barkside Ct\, Atlanta\, GA 30341
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
+ .\nHours: 10 AM – 4 PM (Sunday\, November 22\, local to Atlanta).\nRun 
+ by Champion Estate Sales LLC.\nOriginal listing (EstateSales.net): https:
+ //www.estatesales.net/GA/Atlanta/30341/5156256\nSale page on The Dig: htt
+ ps://rheinze08.github.io/the-dig-web/sale/4cc54d87430288b6/\nConfirm the 
+ address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/4cc54d87430288b6/
+END:VEVENT
+END:VCALENDAR

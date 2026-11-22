@@ -15,21 +15,29 @@ Live and proving are what the city index said when this site was built. Texas is
 - Houston: https://rheinze08.github.io/the-dig-web/houston/
   This weekend: https://rheinze08.github.io/the-dig-web/houston/this-weekend/
   JSON feed: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/houston/sales.json
-  32 sales in the feed, collected 2026-11-21T17:51:13.941Z. Times are America/Chicago.
-
-### Proving (preview)
-- Dallas–Fort Worth (preview, still proving itself): https://rheinze08.github.io/the-dig-web/dallas-fort-worth/
+  22 sales in the feed, collected 2026-11-22T14:29:20.851Z. Times are America/Chicago.
+- Dallas–Fort Worth: https://rheinze08.github.io/the-dig-web/dallas-fort-worth/
   This weekend: https://rheinze08.github.io/the-dig-web/dallas-fort-worth/this-weekend/
   JSON feed: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/dallas-fort-worth/sales.json
-  117 sales in the feed, collected 2026-11-21T17:54:56.380Z. Times are America/Chicago.
-- Austin (preview, still proving itself): https://rheinze08.github.io/the-dig-web/austin/
+  71 sales in the feed, collected 2026-11-22T14:31:53.868Z. Times are America/Chicago.
+- Austin: https://rheinze08.github.io/the-dig-web/austin/
   This weekend: https://rheinze08.github.io/the-dig-web/austin/this-weekend/
   JSON feed: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/austin/sales.json
-  28 sales in the feed, collected 2026-11-21T17:56:17.132Z. Times are America/Chicago.
-- San Antonio (preview, still proving itself): https://rheinze08.github.io/the-dig-web/san-antonio/
+  28 sales in the feed, collected 2026-11-22T14:33:01.081Z. Times are America/Chicago.
+- San Antonio: https://rheinze08.github.io/the-dig-web/san-antonio/
   This weekend: https://rheinze08.github.io/the-dig-web/san-antonio/this-weekend/
   JSON feed: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/san-antonio/sales.json
-  44 sales in the feed, collected 2026-11-21T17:57:45.692Z. Times are America/Chicago.
+  29 sales in the feed, collected 2026-11-22T14:34:15.138Z. Times are America/Chicago.
+
+### Proving (preview)
+- Phoenix (preview, still proving itself): https://rheinze08.github.io/the-dig-web/phoenix/
+  This weekend: https://rheinze08.github.io/the-dig-web/phoenix/this-weekend/
+  JSON feed: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/phoenix/sales.json
+  39 sales in the feed, collected 2026-11-22T14:36:31.359Z. Times are America/Phoenix.
+- Atlanta (preview, still proving itself): https://rheinze08.github.io/the-dig-web/atlanta/
+  This weekend: https://rheinze08.github.io/the-dig-web/atlanta/this-weekend/
+  JSON feed: https://raw.githubusercontent.com/rheinze08/the-dig-data/main/cities/atlanta/sales.json
+  57 sales in the feed, collected 2026-11-22T14:39:46.230Z. Times are America/New_York.
 A proving city's pages carry a "Preview — still proving itself" banner. Its counts are real, and a sale can be missing.
 
 ## Regions and search
@@ -37,7 +45,7 @@ A proving city's pages carry a "Preview — still proving itself" banner. Its co
 - Search page, across every live and proving city: https://rheinze08.github.io/the-dig-web/search/
   Link straight to a search: https://rheinze08.github.io/the-dig-web/search/?q=<words>&cat=<category-id>[,<category-id>]. Add &fav=1 to open the Favorites-only view (favorites are stored in the visitor's browser only; there is no account and nothing is sent to a server).
 - Search data the page filters in the browser: https://rheinze08.github.io/the-dig-web/search/data.json
-  221 records, one per sale page: id, city, title, company, categories, first and last day, lat, lng, sale page URL, source listing URL. A record also carries keywords, contentsLine and digRating when that sale's feed record has them.
+  246 records, one per sale page: id, city, title, company, categories, first and last day, lat, lng, sale page URL, source listing URL. A record also carries keywords, contentsLine and digRating when that sale's feed record has them.
 - Category ids: tools, furniture, vinyl-records, jewelry, collectibles, vehicles, kitchen, clothing, books, art, electronics, toys-games
 - A keyword matches the start of any word in a sale's title, company, categories, photo keywords or contents line.
 

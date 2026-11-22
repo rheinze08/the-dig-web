@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f18298913a934062-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261122T150000Z
+DTEND:20261122T190000Z
+SUMMARY:Large Estate sale vintage and new items
+LOCATION:2320 E Delgado St\, Phoenix\, AZ 85022
+DESCRIPTION:Tools\, vehicles\, kitchen\, clothing and books.\nHours: 8 AM 
+ – 12 PM (Sunday\, November 22\, local to Phoenix).\nOriginal listing (E
+ stateSales.org): https://estatesales.org/estate-sales/az/phoenix/85022/la
+ rge-estate-sale-vintage-and-2474894\nSale page on The Dig: https://rheinz
+ e08.github.io/the-dig-web/sale/f18298913a934062/\nConfirm the address and
+  hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/f18298913a934062/
+END:VEVENT
+END:VCALENDAR

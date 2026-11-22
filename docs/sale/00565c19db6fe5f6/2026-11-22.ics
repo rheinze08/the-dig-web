@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:00565c19db6fe5f6-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261122T150000Z
+DTEND:20261122T210000Z
+SUMMARY:The Art of Living: An Extraordinary Estate of Fine Art\, Global Tr
+ easures & Luxury Furnishings
+LOCATION:9710 W Campana Dr\, Sun City\, AZ 85351
+DESCRIPTION:Furniture\, collectibles\, kitchen and art.\nHours: 8 AM – 2
+  PM (Sunday\, November 22\, local to Phoenix).\nRun by The Calhoun Collec
+ tive Estate Services\, LLC.\nOriginal listing (Craigslist Phoenix): https
+ ://www.craigslist.org/view/d/peoria-consignment-sale-by-the-calhoun/vzSWy
+ CJvFsyQCkyhTMHHkF\nSale page on The Dig: https://rheinze08.github.io/the-
+ dig-web/sale/00565c19db6fe5f6/\nConfirm the address and hours on the orig
+ inal listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/00565c19db6fe5f6/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:78b9cce9a04e3b60-2026-12-06@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261206T170000Z
+DTEND:20261206T210000Z
+SUMMARY:Houston Estate Sale!
+LOCATION:Houston\, TX 77071 (Address releases Friday 9:00 AM)
+DESCRIPTION:Hours: 11 AM – 3 PM (Sunday\, December 6\, local to Houston)
+ .\nRun by Elite Estate Sales Inc.\nOriginal listing (EstateSales.net): ht
+ tps://www.estatesales.net/TX/Houston/77071/5168991\nSale page on The Dig:
+  https://rheinze08.github.io/the-dig-web/sale/78b9cce9a04e3b60/\nConfirm 
+ the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/78b9cce9a04e3b60/
+END:VEVENT
+END:VCALENDAR

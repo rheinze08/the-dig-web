@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4f70e14fe1d55ff1-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261122T170000Z
+DTEND:20261122T090000Z
+SUMMARY:Huge Estate Sale
+LOCATION:8606 Bowden St\, Douglasville\, GA 30134
+DESCRIPTION:Furniture.\nHours: 12 PM – 4 AM (Sunday\, November 22\, loca
+ l to Atlanta).\nOriginal listing (EstateSales.org): https://estatesales.o
+ rg/estate-sales/ga/douglasville/30134/huge-estate-sale-2474689\nSale page
+  on The Dig: https://rheinze08.github.io/the-dig-web/sale/4f70e14fe1d55ff
+ 1/\nConfirm the address and hours on the original listing before you trav
+ el.
+URL:https://rheinze08.github.io/the-dig-web/sale/4f70e14fe1d55ff1/
+END:VEVENT
+END:VCALENDAR

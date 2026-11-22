@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:14a4e4b1f9e54437-2026-12-04@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261204T150000Z
+DTEND:20261204T210000Z
+SUMMARY:A WOOD WORKERS DREAM SALE IN SNELLVILLE BY KICKIN' & PICKIN! STAY 
+ TUNED
+LOCATION:Snellville\, GA 30078 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 4 PM (Friday\, December 4\, local to Atlanta)
+ .\nRun by A Kickin' & Pickin' Estate Sales.\nOriginal listing (EstateSale
+ s.net): https://www.estatesales.net/GA/Snellville/30078/5113287\nSale pag
+ e on The Dig: https://rheinze08.github.io/the-dig-web/sale/14a4e4b1f9e544
+ 37/\nConfirm the address and hours on the original listing before you tra
+ vel.
+URL:https://rheinze08.github.io/the-dig-web/sale/14a4e4b1f9e54437/
+END:VEVENT
+END:VCALENDAR

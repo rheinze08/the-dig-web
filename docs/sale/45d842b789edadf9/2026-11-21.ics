@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:45d842b789edadf9-2026-11-21@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261121T150000Z
+DTEND:20261121T213000Z
+SUMMARY:75% OFF Whole House Furnishings & Christmas Delight!
+LOCATION:1810 Greystone Ct\, Marietta\, GA 30068
+DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and clothing.\nHour
+ s: 10 AM – 4:30 PM (Saturday\, November 21\, local to Atlanta).\nRun by
+  Golden Leira Designs LLC.\nOriginal listing (EstateSales.net): https://w
+ ww.estatesales.net/GA/Marietta/30068/4960173\nSale page on The Dig: https
+ ://rheinze08.github.io/the-dig-web/sale/45d842b789edadf9/\nConfirm the ad
+ dress and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/45d842b789edadf9/
+END:VEVENT
+END:VCALENDAR

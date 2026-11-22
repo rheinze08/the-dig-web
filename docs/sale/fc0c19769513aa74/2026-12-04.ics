@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fc0c19769513aa74-2026-12-04@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261204T170000Z
+DTEND:20261204T210000Z
+SUMMARY:Pebblecreek Packed\, Packed Home - TOOLS TOOLS\, TOOLS! NASCAR\, N
+ ASCAR\, NASCAR! + Much More!
+LOCATION:Goodyear\, AZ 85395 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, vinyl & records\, collectibles and vehicle
+ s.\nHours: 10 AM – 2 PM (Friday\, December 4\, local to Phoenix).\nRun 
+ by Full House Estate Sales.\nOriginal listing (EstateSales.net): https://
+ www.estatesales.net/AZ/Goodyear/85395/5163075\nSale page on The Dig: http
+ s://rheinze08.github.io/the-dig-web/sale/fc0c19769513aa74/\nConfirm the a
+ ddress and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/fc0c19769513aa74/
+END:VEVENT
+END:VCALENDAR

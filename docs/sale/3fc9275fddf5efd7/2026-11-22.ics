@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3fc9275fddf5efd7-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261122T140000Z
+DTEND:20261122T210000Z
+SUMMARY:Sport's Lovers Extravaganza Sale / Full Home Estate Sale
+LOCATION:3820 Vineyards Lake Circle\, Kennesaw\, GA 30144
+DESCRIPTION:Furniture\, vinyl & records\, collectibles\, vehicles and kitc
+ hen.\nHours: 9 AM – 4 PM (Sunday\, November 22\, local to Atlanta).\nOr
+ iginal listing (EstateSales.net): https://www.estatesales.net/GA/Kennesaw
+ /30144/5166213\nSale page on The Dig: https://rheinze08.github.io/the-dig
+ -web/sale/3fc9275fddf5efd7/\nConfirm the address and hours on the origina
+ l listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/3fc9275fddf5efd7/
+END:VEVENT
+END:VCALENDAR

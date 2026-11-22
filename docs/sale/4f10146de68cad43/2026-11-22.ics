@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4f10146de68cad43-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261122T160000Z
+DTEND:20261122T210000Z
+SUMMARY:*50% OFF* Beautiful Beginnings Estate Sales has a Terrific Sale in
+  LILBURN! BRASS & Beautiful Decor!
+LOCATION:838 Guinevere Way SW\, Lilburn\, GA 30047
+DESCRIPTION:Hours: 11 AM – 4 PM (Sunday\, November 22\, local to Atlanta
+ ).\nRun by Beautiful Beginnings Estate Sales\, LLC.\nOriginal listing (Es
+ tateSales.net): https://www.estatesales.net/GA/Lilburn/30047/5147904\nSal
+ e page on The Dig: https://rheinze08.github.io/the-dig-web/sale/4f10146de
+ 68cad43/\nConfirm the address and hours on the original listing before yo
+ u travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/4f10146de68cad43/
+END:VEVENT
+END:VCALENDAR

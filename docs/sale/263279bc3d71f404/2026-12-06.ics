@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:263279bc3d71f404-2026-12-06@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261206T140000Z
+DTEND:20261206T200000Z
+SUMMARY:Spectacular in Sandy Springs
+LOCATION:Atlanta\, GA 30342 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Mirrors and christmas decor.\nHours: 9 AM – 3 PM (Sunday\, D
+ ecember 6\, local to Atlanta).\nRun by Cotton & Company Estate Sales.\nOr
+ iginal listing (EstateSales.net): https://www.estatesales.net/GA/Atlanta/
+ 30342/5098899\nSale page on The Dig: https://rheinze08.github.io/the-dig-
+ web/sale/263279bc3d71f404/\nConfirm the address and hours on the original
+  listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/263279bc3d71f404/
+END:VEVENT
+END:VCALENDAR

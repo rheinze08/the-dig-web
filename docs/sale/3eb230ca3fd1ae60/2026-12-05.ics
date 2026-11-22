@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3eb230ca3fd1ae60-2026-12-05@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261205T150000Z
+DTEND:20261205T210000Z
+SUMMARY:Vintage Smyrna Estate With Lotts Treasures
+LOCATION:Smyrna\, GA 30082 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, toys & games and mid-century.\nHours: 10 A
+ M – 4 PM (Saturday\, December 5\, local to Atlanta).\nRun by Lott's Tre
+ asures Estate Sales LLC.\nOriginal listing (EstateSales.net): https://www
+ .estatesales.net/GA/Smyrna/30082/5152146\nSale page on The Dig: https://r
+ heinze08.github.io/the-dig-web/sale/3eb230ca3fd1ae60/\nConfirm the addres
+ s and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/3eb230ca3fd1ae60/
+END:VEVENT
+END:VCALENDAR

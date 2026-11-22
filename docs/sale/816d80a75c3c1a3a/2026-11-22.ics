@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:816d80a75c3c1a3a-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261122T140000Z
+DTEND:20261122T210000Z
+SUMMARY:50% OFF Chamblee Time Capsule! 1971 Dodge Monaco Wagon Firearms Fi
+ XTURES and all appliances!
+LOCATION:3566 Keswick Dr.\, Chamblee\, GA 30341
+DESCRIPTION:Furniture\, vinyl & records\, collectibles\, vehicles and kitc
+ hen.\nHours: 9 AM – 4 PM (Sunday\, November 22\, local to Atlanta).\nRu
+ n by Professional Estate Sales\, LLC.\nOriginal listing (EstateSales.net)
+ : https://www.estatesales.net/GA/Atlanta/30341/5151123\nSale page on The 
+ Dig: https://rheinze08.github.io/the-dig-web/sale/816d80a75c3c1a3a/\nConf
+ irm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/816d80a75c3c1a3a/
+END:VEVENT
+END:VCALENDAR

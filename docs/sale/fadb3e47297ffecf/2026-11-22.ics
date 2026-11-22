@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fadb3e47297ffecf-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Large estate sale 8am to Noon vintage and new
+LOCATION:2320 e delgado st near 24st/Delgado st\, Phoenix\, AZ
+DESCRIPTION:Tools\, vehicles\, kitchen\, clothing and books.\nHours: Opens
+  8 AM (Sunday\, November 22\, local to Phoenix).\nOriginal listing (Craig
+ slist Phoenix): https://www.craigslist.org/view/d/phoenix-large-estate-sa
+ le-8am-to-noon/qepmCtDNecqSbHuuPGdL5V\nSale page on The Dig: https://rhei
+ nze08.github.io/the-dig-web/sale/fadb3e47297ffecf/\nConfirm the address a
+ nd hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/fadb3e47297ffecf/
+END:VEVENT
+END:VCALENDAR

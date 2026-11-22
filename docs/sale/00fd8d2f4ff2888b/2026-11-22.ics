@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:00fd8d2f4ff2888b-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261122T160000Z
+DTEND:20261122T200000Z
+SUMMARY:Scottsdale Estate Sale Mid Century\, China\, Packed Home Extravaga
+ nza **(50% OFF SUNDAY)**
+LOCATION:8349 E Pepper Tree Lane\, Scottsdale\, AZ 85250
+DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and books.\nHours: 
+ 9 AM – 1 PM (Sunday\, November 22\, local to Phoenix).\nRun by Fresh St
+ art Estate Sales.\nOriginal listing (EstateSales.org): https://estatesale
+ s.org/estate-sales/az/scottsdale/85250/scottsdale-estate-sale-midcentury-
+ extravaganza-2474167\nSale page on The Dig: https://rheinze08.github.io/t
+ he-dig-web/sale/00fd8d2f4ff2888b/\nConfirm the address and hours on the o
+ riginal listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/00fd8d2f4ff2888b/
+END:VEVENT
+END:VCALENDAR

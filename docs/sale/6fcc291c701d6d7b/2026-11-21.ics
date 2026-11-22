@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6fcc291c701d6d7b-2026-11-21@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261121T140000Z
+DTEND:20261121T200000Z
+SUMMARY:25-50% OFF Sunday! Pop-up Moving Sale! by Compassionate Transition
+LOCATION:2 Lake Shore Plaza\, Avondale Estates\, GA 30002
+DESCRIPTION:Furniture\, vinyl & records\, books\, china and crystal.\nHour
+ s: 9 AM – 3 PM (Saturday\, November 21\, local to Atlanta).\nRun by Com
+ passionate Transition.\nOriginal listing (EstateSales.org): https://estat
+ esales.org/estate-sales/ga/avondale-estates/30002/2550-off-sunday-popup-m
+ oving-2473890\nSale page on The Dig: https://rheinze08.github.io/the-dig-
+ web/sale/6fcc291c701d6d7b/\nConfirm the address and hours on the original
+  listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/6fcc291c701d6d7b/
+END:VEVENT
+END:VCALENDAR

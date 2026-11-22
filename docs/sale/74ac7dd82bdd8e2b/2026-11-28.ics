@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:74ac7dd82bdd8e2b-2026-11-28@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261128T150000Z
+DTEND:20261128T200000Z
+SUMMARY:Black Friday Weekend Blowout 50%-70% off EVERYTHING! (Hampton) - B
+ argains\, High-Quality Estate Sale- Modern Decor\, Tech\, & Harley Davids
+ on Collectables @ Low Prices
+LOCATION:12362 Coldstream Ct\, Hampton\, GA 30228
+DESCRIPTION:Collectibles and vehicles.\nHours: 10 AM – 3 PM (Saturday\, 
+ November 28\, local to Atlanta).\nRun by ESTATE SALE SOLUTIONS LLC.\nOrig
+ inal listing (EstateSales.org): https://estatesales.org/estate-sales/ga/h
+ ampton/30228/black-friday-weekend-blowout-5070-2474507\nSale page on The 
+ Dig: https://rheinze08.github.io/the-dig-web/sale/74ac7dd82bdd8e2b/\nConf
+ irm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/74ac7dd82bdd8e2b/
+END:VEVENT
+END:VCALENDAR

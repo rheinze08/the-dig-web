@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b999bacc9c00828a-2026-11-19@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261119T150000Z
+DTEND:20261119T210000Z
+SUMMARY:25% OFF- HOME STAGER GOING OUT OF BUSINESS LIQUIDATION SALE!
+LOCATION:1761C McCoba Dr SE\, Smyrna\, GA 30080
+DESCRIPTION:Furniture and lamps.\nHours: 10 AM – 4 PM (Thursday\, Novemb
+ er 19\, local to Atlanta).\nRun by The Perfect Piece Estate Liquidators\,
+  Inc.\nOriginal listing (EstateSales.org): https://estatesales.org/estate
+ -sales/ga/smyrna/30080/25-off-home-stager-liquidation-2470047\nSale page 
+ on The Dig: https://rheinze08.github.io/the-dig-web/sale/b999bacc9c00828a
+ /\nConfirm the address and hours on the original listing before you trave
+ l.
+URL:https://rheinze08.github.io/the-dig-web/sale/b999bacc9c00828a/
+END:VEVENT
+END:VCALENDAR

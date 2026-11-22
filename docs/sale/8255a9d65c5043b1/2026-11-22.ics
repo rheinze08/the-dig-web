@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8255a9d65c5043b1-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:75% OFF SUN-Huge Sale Great Deals\, Unexpected Finds and More
+LOCATION:Clarkston\, GA (Address releases Saturday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, vinyl & records\, collectibles and kitchen
+ .\nHours: Hours not listed (Sunday\, November 22\, local to Atlanta).\nOr
+ iginal listing (Craigslist Atlanta): https://www.craigslist.org/view/d/sc
+ ottdale-75-off-sun-huge-sale-great/gyuJVfEFZFswW7Eg1bLNmm\nSale page on T
+ he Dig: https://rheinze08.github.io/the-dig-web/sale/8255a9d65c5043b1/\nC
+ onfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/8255a9d65c5043b1/
+END:VEVENT
+END:VCALENDAR

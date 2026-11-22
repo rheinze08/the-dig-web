@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2e950512cf2a3d72-2026-11-21@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261121T150000Z
+DTEND:20261121T200000Z
+SUMMARY:Sunday Savings! Up to 50% at North Phoenix Estate Sale Treasures\,
+  Antiques\, & Collectibles!
+LOCATION:2513 W Corrine Dr\, Phoenix\, AZ 85029
+DESCRIPTION:Furniture\, collectibles\, kitchen\, books and art.\nHours: 8 
+ AM – 1 PM (Saturday\, November 21\, local to Phoenix).\nRun by Milton E
+ state Sales.\nOriginal listing (EstateSales.net): https://www.estatesales
+ .net/AZ/Phoenix/85029/5150502\nSale page on The Dig: https://rheinze08.gi
+ thub.io/the-dig-web/sale/2e950512cf2a3d72/\nConfirm the address and hours
+  on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/2e950512cf2a3d72/
+END:VEVENT
+END:VCALENDAR

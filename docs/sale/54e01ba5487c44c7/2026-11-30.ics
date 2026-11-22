@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:54e01ba5487c44c7-2026-11-30@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261130T150000Z
+DTEND:20261130T210000Z
+SUMMARY:Donna Davis LLC- Antique Vintage Perfume Bottles. rare! Vintage co
+ stume jewelry sale
+LOCATION:Atlanta\, GA 30324 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Jewelry and antiques.\nHours: 10 AM – 4 PM (Monday\, Novembe
+ r 30\, local to Atlanta).\nRun by Donna Davis Estate Sales LLC\, Downsizi
+ ng and Estate Appraisal Services.\nOriginal listing (EstateSales.net): ht
+ tps://www.estatesales.net/GA/Atlanta/30324/5133690\nSale page on The Dig:
+  https://rheinze08.github.io/the-dig-web/sale/54e01ba5487c44c7/\nConfirm 
+ the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/54e01ba5487c44c7/
+END:VEVENT
+END:VCALENDAR

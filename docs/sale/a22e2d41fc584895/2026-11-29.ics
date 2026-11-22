@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a22e2d41fc584895-2026-11-29@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261129T160000Z
+DTEND:20261129T200000Z
+SUMMARY:Scottsdale Estate Sale
+LOCATION:Scottsdale\, AZ 85255 (Address releases Friday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 1 PM (Sunday\, November 29\, local to Phoenix)
+ .\nRun by Fresh Start Estate Sales.\nOriginal listing (EstateSales.org): 
+ https://estatesales.org/estate-sales/az/scottsdale/85255/scottsdale-4-mil
+ lion-dollar-home-2474735\nSale page on The Dig: https://rheinze08.github.
+ io/the-dig-web/sale/a22e2d41fc584895/\nConfirm the address and hours on t
+ he original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/a22e2d41fc584895/
+END:VEVENT
+END:VCALENDAR

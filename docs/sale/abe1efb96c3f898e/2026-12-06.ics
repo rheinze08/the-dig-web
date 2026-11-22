@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:abe1efb96c3f898e-2026-12-06@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261206T140000Z
+DTEND:20261206T200000Z
+SUMMARY:Executive Home Downsizing
+LOCATION:Peachtree Corners\, GA 30092 (Address releases Friday 9:00 AM)
+DESCRIPTION:Furniture.\nHours: 9 AM – 3 PM (Sunday\, December 6\, local 
+ to Atlanta).\nRun by Ruth's Reselling.\nOriginal listing (EstateSales.net
+ ): https://www.estatesales.net/GA/Peachtree-Corners/30092/5120568\nSale p
+ age on The Dig: https://rheinze08.github.io/the-dig-web/sale/abe1efb96c3f
+ 898e/\nConfirm the address and hours on the original listing before you t
+ ravel.
+URL:https://rheinze08.github.io/the-dig-web/sale/abe1efb96c3f898e/
+END:VEVENT
+END:VCALENDAR

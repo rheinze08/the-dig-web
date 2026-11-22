@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0125f0ba8c77affd-2026-11-28@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261128T160000Z
+DTEND:20261128T220000Z
+SUMMARY:One House\, Many Treasures!! A-multi estate sale
+LOCATION:Houston\, TX 77074 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 4 PM (Saturday\, November 28\, local to Houst
+ on).\nRun by Soussan Estates.\nOriginal listing (EstateSales.net): https:
+ //www.estatesales.net/TX/Houston/77074/5166993\nSale page on The Dig: htt
+ ps://rheinze08.github.io/the-dig-web/sale/0125f0ba8c77affd/\nConfirm the 
+ address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/0125f0ba8c77affd/
+END:VEVENT
+END:VCALENDAR

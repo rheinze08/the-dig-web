@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c0420bbe0c6f9d01-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261122T180000Z
+DTEND:20261122T220000Z
+SUMMARY:Blowout sale! 50% OFF
+LOCATION:351 Culebra\, San Antonio\, TX 78201
+DESCRIPTION:Hours: 12 PM – 4 PM (Sunday\, November 22\, local to San Ant
+ onio).\nRun by 1dandelion LLC.\nOriginal listing (EstateSales.net): https
+ ://www.estatesales.net/TX/San-Antonio/78201/5158845\nSale page on The Dig
+ : https://rheinze08.github.io/the-dig-web/sale/c0420bbe0c6f9d01/\nConfirm
+  the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/c0420bbe0c6f9d01/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5e31c4db22734637-2026-11-28@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261128T160000Z
+DTEND:20261128T210000Z
+SUMMARY:Collectors Paradise in Sun City
+LOCATION:Sun City\, AZ 85351 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
+ : 9 AM – 2 PM (Saturday\, November 28\, local to Phoenix).\nOriginal li
+ sting (EstateSales.net): https://www.estatesales.net/AZ/Sun-City/85351/51
+ 59148\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale
+ /5e31c4db22734637/\nConfirm the address and hours on the original listing
+  before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/5e31c4db22734637/
+END:VEVENT
+END:VCALENDAR

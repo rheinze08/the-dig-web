@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c143ada0435fe7b6-2026-11-28@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261128T150000Z
+DTEND:20261128T220000Z
+SUMMARY:EAST COBB - Complete Estate-60’s/70’s Rock Albums-Art-MCM
+LOCATION:Marietta\, GA 30062 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
+ .\nHours: 10 AM – 5 PM (Saturday\, November 28\, local to Atlanta).\nRu
+ n by Sandy B King A Division Of Fit For A Queen Antiques.\nOriginal listi
+ ng (EstateSales.net): https://www.estatesales.net/GA/Marietta/30062/51238
+ 11\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/c1
+ 43ada0435fe7b6/\nConfirm the address and hours on the original listing be
+ fore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/c143ada0435fe7b6/
+END:VEVENT
+END:VCALENDAR

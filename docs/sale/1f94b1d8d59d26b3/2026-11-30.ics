@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1f94b1d8d59d26b3-2026-11-30@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261130T140000Z
+DTEND:20261130T200000Z
+SUMMARY:Smart Choice Estate Sale
+LOCATION:Sun City West\, AZ 85375 (Address releases Sunday 9:00 AM)
+DESCRIPTION:Art and electronics.\nHours: 7 AM – 1 PM (Monday\, November 
+ 30\, local to Phoenix).\nRun by Smart Choice Estate Sales.\nOriginal list
+ ing (EstateSales.net): https://www.estatesales.net/AZ/Sun-City-West/85375
+ /5164986\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/s
+ ale/1f94b1d8d59d26b3/\nConfirm the address and hours on the original list
+ ing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1f94b1d8d59d26b3/
+END:VEVENT
+END:VCALENDAR

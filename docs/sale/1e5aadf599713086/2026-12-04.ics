@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1e5aadf599713086-2026-12-04@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261204T150000Z
+DTEND:20261204T200000Z
+SUMMARY:Peter Brandi Estate Sales presents Million $$$ Plus Huge Marietta 
+ Estate Sale
+LOCATION:Marietta\, GA 30068 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Furniture\, jewelry\, kitchen\, clothing and books.\nHours: 10
+  AM – 3 PM (Friday\, December 4\, local to Atlanta).\nRun by Peter Bran
+ di Estate Sales.\nOriginal listing (EstateSales.net): https://www.estates
+ ales.net/GA/Marietta/30068/5168280\nSale page on The Dig: https://rheinze
+ 08.github.io/the-dig-web/sale/1e5aadf599713086/\nConfirm the address and 
+ hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1e5aadf599713086/
+END:VEVENT
+END:VCALENDAR

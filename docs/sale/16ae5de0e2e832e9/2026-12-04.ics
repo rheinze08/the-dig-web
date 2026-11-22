@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:16ae5de0e2e832e9-2026-12-04@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261204T160000Z
+DTEND:20261204T223000Z
+SUMMARY:Gated MCM Eclectic -World Traveler
+LOCATION:Scottsdale\, AZ 85259 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture\, jewelry\, art\, electronics and toys & games.\nHou
+ rs: 9 AM – 3:30 PM (Friday\, December 4\, local to Phoenix).\nRun by A 
+ Great Find.com\, LLC.\nOriginal listing (EstateSales.net): https://www.es
+ tatesales.net/AZ/Scottsdale/85259/5165754\nSale page on The Dig: https://
+ rheinze08.github.io/the-dig-web/sale/16ae5de0e2e832e9/\nConfirm the addre
+ ss and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/16ae5de0e2e832e9/
+END:VEVENT
+END:VCALENDAR

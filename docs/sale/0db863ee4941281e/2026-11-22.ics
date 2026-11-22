@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0db863ee4941281e-2026-11-22@rheinze08.github.io
+DTSTAMP:20261122T144351Z
+DTSTART:20261122T150000Z
+DTEND:20261122T210000Z
+SUMMARY:Donna Davis LLc -Vinings Lake area-Packed full fine furniture. ind
+ oor and out everything imaginable
+LOCATION:5395 Vinings Lake View SW\, Mableton\, GA 30126
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
+ .\nHours: 10 AM – 4 PM (Sunday\, November 22\, local to Atlanta).\nRun 
+ by Donna Davis Estate Sales LLC\, Downsizing and Estate Appraisal Service
+ s.\nOriginal listing (EstateSales.org): https://estatesales.org/estate-sa
+ les/ga/mableton/30126/donna-davis-llc-beautiful-whole-2474136\nSale page 
+ on The Dig: https://rheinze08.github.io/the-dig-web/sale/0db863ee4941281e
+ /\nConfirm the address and hours on the original listing before you trave
+ l.
+URL:https://rheinze08.github.io/the-dig-web/sale/0db863ee4941281e/
+END:VEVENT
+END:VCALENDAR
