@@ -23,11 +23,12 @@ const DEFAULT_CITY = {slug: 'houston', name: 'Houston'};
 // Used only when GitHub cannot say which app release is the latest.
 // v0.4.1 is the first build signed with the permanent release key
 // (Phase 9D); earlier builds cannot be updated in place, so the
-// fallback must never point below v0.4.1.
+// fallback must never point below v0.4.1. v0.5.0 (Phase 10B) is the
+// current release.
 const APK_FALLBACK = {
-  tag: 'v0.4.1',
-  url: `https://github.com/${DATA_REPO}/releases/download/v0.4.1/The-Dig-v0.4.1.apk`,
-  page: `https://github.com/${DATA_REPO}/releases/tag/v0.4.1`,
+  tag: 'v0.5.0',
+  url: `https://github.com/${DATA_REPO}/releases/download/v0.5.0/The-Dig-v0.5.0.apk`,
+  page: `https://github.com/${DATA_REPO}/releases/tag/v0.5.0`,
 };
 
 const LEAFLET = {
