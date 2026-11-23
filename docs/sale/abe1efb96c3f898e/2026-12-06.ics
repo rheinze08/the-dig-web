@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:abe1efb96c3f898e-2026-12-06@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261206T140000Z
 DTEND:20261206T200000Z
 SUMMARY:Executive Home Downsizing
 LOCATION:Peachtree Corners\, GA 30092 (Address releases Friday 9:00 AM)
-DESCRIPTION:Furniture.\nHours: 9 AM – 3 PM (Sunday\, December 6\, local 
- to Atlanta).\nRun by Ruth's Reselling.\nOriginal listing (EstateSales.net
- ): https://www.estatesales.net/GA/Peachtree-Corners/30092/5120568\nSale p
- age on The Dig: https://rheinze08.github.io/the-dig-web/sale/abe1efb96c3f
- 898e/\nConfirm the address and hours on the original listing before you t
- ravel.
+DESCRIPTION:A glass-front china cabinet and wood dining table are shown al
+ ongside a floral sofa\, coffee table and lamps.\nHours: 9 AM – 3 PM (Su
+ nday\, December 6\, local to Atlanta).\nRun by Ruth's Reselling.\nOrigina
+ l listing (EstateSales.net): https://www.estatesales.net/GA/Peachtree-Cor
+ ners/30092/5120568\nSale page on The Dig: https://rheinze08.github.io/the
+ -dig-web/sale/abe1efb96c3f898e/\nConfirm the address and hours on the ori
+ ginal listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/abe1efb96c3f898e/
 END:VEVENT
 END:VCALENDAR

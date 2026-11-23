@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a2f0046e04618118-2026-11-27@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261127T160000Z
 DTEND:20261127T220000Z
 SUMMARY:Annie's Estate Sales ~ Arlington
 LOCATION:Arlington\, TX 76017 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
- : 10 AM – 4 PM (Friday\, November 27\, local to Dallas–Fort Worth).\n
- Run by Annie's Estate Sales.\nOriginal listing (EstateSales.net): https:/
- /www.estatesales.net/TX/Arlington/76017/5120742\nSale page on The Dig: ht
- tps://rheinze08.github.io/the-dig-web/sale/a2f0046e04618118/\nConfirm the
-  address and hours on the original listing before you travel.
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
+ .\nHours: 10 AM – 4 PM (Friday\, November 27\, local to Dallas–Fort W
+ orth).\nRun by Annie's Estate Sales.\nOriginal listing (EstateSales.net):
+  https://www.estatesales.net/TX/Arlington/76017/5120742\nSale page on The
+  Dig: https://rheinze08.github.io/the-dig-web/sale/a2f0046e04618118/\nCon
+ firm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/a2f0046e04618118/
 END:VEVENT
 END:VCALENDAR

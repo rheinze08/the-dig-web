@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:70c5141edcaef831-2026-12-05@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261205T160000Z
+DTEND:20261205T200000Z
+SUMMARY:Fishing Sterling Cars Native Am Books Ref Wash Dry Sports Levis Si
+ nger Hallmark Chess Electronics
+LOCATION:Phoenix\, AZ 85028 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, vinyl & records\, collectibles and vehicle
+ s.\nHours: 9 AM – 1 PM (Saturday\, December 5\, local to Phoenix).\nRun
+  by Fab Finds Moving & Estate Sales.\nOriginal listing (EstateSales.net):
+  https://www.estatesales.net/AZ/Phoenix/85028/5143728\nSale page on The D
+ ig: https://rheinze08.github.io/the-dig-web/sale/70c5141edcaef831/\nConfi
+ rm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/70c5141edcaef831/
+END:VEVENT
+END:VCALENDAR

@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:f0815319c3a3d2f6-2026-12-05@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261205T160000Z
 DTEND:20261205T210000Z
 SUMMARY:Estate Sale by Family Tree Estates
 LOCATION:Baytown\, TX 77520 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, collectibles\, vehicles and kitchen.\nHour
- s: 10 AM – 3 PM (Saturday\, December 5\, local to Houston).\nRun by Fam
- ily Tree Estate Sales.\nOriginal listing (EstateSales.net): https://www.e
- statesales.net/TX/Baytown/77520/5138661\nSale page on The Dig: https://rh
- einze08.github.io/the-dig-web/sale/f0815319c3a3d2f6/\nConfirm the address
-  and hours on the original listing before you travel.
+DESCRIPTION:Cars and motorcycles fill the garage\, including a 450 SLC\, a
+  BMW R90/6 and a car body on an exposed chassis.\nHours: 10 AM – 3 PM (
+ Saturday\, December 5\, local to Houston).\nRun by Family Tree Estate Sal
+ es.\nOriginal listing (EstateSales.net): https://www.estatesales.net/TX/B
+ aytown/77520/5138661\nSale page on The Dig: https://rheinze08.github.io/t
+ he-dig-web/sale/f0815319c3a3d2f6/\nConfirm the address and hours on the o
+ riginal listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/f0815319c3a3d2f6/
 END:VEVENT
 END:VCALENDAR

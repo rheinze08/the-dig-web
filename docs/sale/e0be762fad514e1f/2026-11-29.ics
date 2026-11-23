@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e0be762fad514e1f-2026-11-29@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261129T150000Z
+DTEND:20261129T210000Z
+SUMMARY:Kennesaw Estate Sale
+LOCATION:Kennesaw\, GA 30144 (Address releases Friday 9:00 AM)
+DESCRIPTION:Vehicles.\nHours: 10 AM – 4 PM (Sunday\, November 29\, local
+  to Atlanta).\nRun by Uncle Bucks Estate Sales.\nOriginal listing (Estate
+ Sales.net): https://www.estatesales.net/GA/Kennesaw/30144/5169405\nSale p
+ age on The Dig: https://rheinze08.github.io/the-dig-web/sale/e0be762fad51
+ 4e1f/\nConfirm the address and hours on the original listing before you t
+ ravel.
+URL:https://rheinze08.github.io/the-dig-web/sale/e0be762fad514e1f/
+END:VEVENT
+END:VCALENDAR

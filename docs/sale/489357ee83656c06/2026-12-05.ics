@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:489357ee83656c06-2026-12-05@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261205T150000Z
+DTEND:20261205T200000Z
+SUMMARY:Peter Brandi Estate Sales presents Million $$$ Plus Huge Marietta 
+ Estate Sale
+LOCATION:57 Rivergate Ct\, Marietta\, GA 30068
+DESCRIPTION:Furniture\, jewelry\, kitchen\, clothing and books.\nHours: 10
+  AM – 3 PM (Saturday\, December 5\, local to Atlanta).\nRun by Peter Br
+ andi Estate Sales.\nOriginal listing (EstateSales.org): https://estatesal
+ es.org/estate-sales/ga/marietta/30068/peter-brandi-estate-sales-presents-
+ 2475101\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sa
+ le/489357ee83656c06/\nConfirm the address and hours on the original listi
+ ng before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/489357ee83656c06/
+END:VEVENT
+END:VCALENDAR

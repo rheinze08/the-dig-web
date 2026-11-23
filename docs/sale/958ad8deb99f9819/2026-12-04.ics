@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:958ad8deb99f9819-2026-12-04@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261204T143000Z
+DTEND:20261204T210000Z
+SUMMARY:Franklin River Rest Sale
+LOCATION:Franklin\, TN 37069 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture and kitchen.\nHours: 8:30 AM – 3 PM (Friday\, Dece
+ mber 4\, local to Nashville).\nRun by Dogwood Estate Sales.\nOriginal lis
+ ting (EstateSales.net): https://www.estatesales.net/TN/Franklin/37069/516
+ 6318\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/
+ 958ad8deb99f9819/\nConfirm the address and hours on the original listing 
+ before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/958ad8deb99f9819/
+END:VEVENT
+END:VCALENDAR

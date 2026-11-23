@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2566d30f92f50a5b-2026-11-21@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261121T140000Z
+DTEND:20261121T220000Z
+SUMMARY:High Quality Sale- Furniture\, Adult & Kids Clothes & Shoes\, Deco
+ r\, Toys\, Household items & more!!
+LOCATION:4080 Annecy Drive SW\, Atlanta\, GA 30331
+DESCRIPTION:Furniture\, clothing and toys & games.\nHours: 9 AM – 5 PM (
+ Saturday\, November 21\, local to Atlanta).\nOriginal listing (EstateSale
+ s.net): https://www.estatesales.net/GA/Atlanta/30331/5168583\nSale page o
+ n The Dig: https://rheinze08.github.io/the-dig-web/sale/2566d30f92f50a5b/
+ \nConfirm the address and hours on the original listing before you travel
+ .
+URL:https://rheinze08.github.io/the-dig-web/sale/2566d30f92f50a5b/
+END:VEVENT
+END:VCALENDAR

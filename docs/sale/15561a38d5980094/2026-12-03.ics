@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:15561a38d5980094-2026-12-03@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261203T150000Z
+DTEND:20261203T220000Z
+SUMMARY:Welcome Home AMAZING VINTAGE COLLECTION SALE
+LOCATION:Dallas\, TX 75228 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Christmas decor.\nHours: 9 AM – 4 PM (Thursday\, December 3\
+ , local to Dallas–Fort Worth).\nRun by Welcome Home.\nOriginal listing 
+ (EstateSales.net): https://www.estatesales.net/TX/Dallas/75228/5169933\nS
+ ale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/15561a3
+ 8d5980094/\nConfirm the address and hours on the original listing before 
+ you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/15561a38d5980094/
+END:VEVENT
+END:VCALENDAR

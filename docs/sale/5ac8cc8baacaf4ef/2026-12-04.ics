@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:5ac8cc8baacaf4ef-2026-12-04@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261204T150000Z
 DTEND:20261204T200000Z
 SUMMARY:A House Full of Antiques | Retro Betties’ Bedford Estate Sale
 LOCATION:Bedford\, TX 76021 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and clothing.\nHour
- s: 9 AM – 2 PM (Friday\, December 4\, local to Dallas–Fort Worth).\nR
- un by Retro Betties.\nOriginal listing (EstateSales.org): https://estates
- ales.org/estate-sales/tx/bedford/76021/a-house-full-of-antiques-2474971\n
- Sale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/5ac8cc
- 8baacaf4ef/\nConfirm the address and hours on the original listing before
-  you travel.
+DESCRIPTION:Stained glass panels stand behind a table of rolling pins\, ba
+ king molds and utensils\, next to a domed storage trunk.\nHours: 9 AM –
+  2 PM (Friday\, December 4\, local to Dallas–Fort Worth).\nRun by Retro
+  Betties.\nOriginal listing (EstateSales.org): https://estatesales.org/es
+ tate-sales/tx/bedford/76021/a-house-full-of-antiques-2474971\nSale page o
+ n The Dig: https://rheinze08.github.io/the-dig-web/sale/5ac8cc8baacaf4ef/
+ \nConfirm the address and hours on the original listing before you travel
+ .
 URL:https://rheinze08.github.io/the-dig-web/sale/5ac8cc8baacaf4ef/
 END:VEVENT
 END:VCALENDAR

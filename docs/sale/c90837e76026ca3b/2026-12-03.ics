@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c90837e76026ca3b-2026-12-03@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261203T150000Z
+DTEND:20261203T220000Z
+SUMMARY:Wonderful Windcrest Vintage Estate Sale in a Gracious Garden Home 
+ w/ Furnishings
+LOCATION:San Antonio\, TX 78239 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Furniture.\nHours: 9 AM – 4 PM (Thursday\, December 3\, loca
+ l to San Antonio).\nRun by Professional Estate Sales LLC.\nOriginal listi
+ ng (EstateSales.net): https://www.estatesales.net/TX/San-Antonio/78239/51
+ 70260\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale
+ /c90837e76026ca3b/\nConfirm the address and hours on the original listing
+  before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/c90837e76026ca3b/
+END:VEVENT
+END:VCALENDAR

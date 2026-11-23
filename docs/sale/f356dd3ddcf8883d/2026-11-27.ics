@@ -5,18 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:f356dd3ddcf8883d-2026-11-27@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261127T170000Z
 DTEND:20261127T230000Z
-SUMMARY:FABULOUS MID CENTURY TIME CAPSULE in PRESTONWOOD w/ANOTHER’S TRE
- ASURE ESTATE SALES
+SUMMARY:FABULOUS in PRESTONWOOD w/ANOTHER’S TREASURE ESTATE SALES
 LOCATION:Plano\, TX 75093 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Vehicles\, electronics\, mid-century and cameras.\nHours: 11 A
- M – 5 PM (Friday\, November 27\, local to Dallas–Fort Worth).\nRun by
-  Another's Treasure Estate Sales.\nOriginal listing (EstateSales.net): ht
- tps://www.estatesales.net/TX/Plano/75093/5167116\nSale page on The Dig: h
- ttps://rheinze08.github.io/the-dig-web/sale/f356dd3ddcf8883d/\nConfirm th
- e address and hours on the original listing before you travel.
+DESCRIPTION:Vehicles\, electronics and cameras.\nHours: 11 AM – 5 PM (Fr
+ iday\, November 27\, local to Dallas–Fort Worth).\nRun by Another's Tre
+ asure Estate Sales.\nOriginal listing (EstateSales.net): https://www.esta
+ tesales.net/TX/Plano/75093/5167116\nSale page on The Dig: https://rheinze
+ 08.github.io/the-dig-web/sale/f356dd3ddcf8883d/\nConfirm the address and 
+ hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/f356dd3ddcf8883d/
 END:VEVENT
 END:VCALENDAR

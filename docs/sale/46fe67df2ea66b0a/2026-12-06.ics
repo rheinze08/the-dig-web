@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:46fe67df2ea66b0a-2026-12-06@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261206T140000Z
+DTEND:20261206T230000Z
+SUMMARY:SUPER WEST MEADE ESTATE SALE!!!
+LOCATION:Nashville\, TN 37205 (Address releases Friday 9:00 AM)
+DESCRIPTION:Furniture\, kitchen\, books\, art and mirrors.\nHours: 8 AM 
+ – 5 PM (Sunday\, December 6\, local to Nashville).\nRun by Estate Sales
+  By Sheila.\nOriginal listing (EstateSales.net): https://www.estatesales.
+ net/TN/Nashville/37205/5142771\nSale page on The Dig: https://rheinze08.g
+ ithub.io/the-dig-web/sale/46fe67df2ea66b0a/\nConfirm the address and hour
+ s on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/46fe67df2ea66b0a/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:35e1c8a5a69629ad-2026-11-27@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261127T150000Z
+DTEND:20261127T210000Z
+SUMMARY:Berry Hill Black Friday Sale - Phase 2
+LOCATION:Nashville\, TN 37204 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Clothing and antiques.\nHours: 9 AM – 3 PM (Friday\, Novembe
+ r 27\, local to Nashville).\nRun by Estate Greats.\nOriginal listing (Est
+ ateSales.net): https://www.estatesales.net/TN/Nashville/37204/5159613\nSa
+ le page on The Dig: https://rheinze08.github.io/the-dig-web/sale/35e1c8a5
+ a69629ad/\nConfirm the address and hours on the original listing before y
+ ou travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/35e1c8a5a69629ad/
+END:VEVENT
+END:VCALENDAR

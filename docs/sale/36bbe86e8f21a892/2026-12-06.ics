@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:36bbe86e8f21a892-2026-12-06@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261206T150000Z
+DTEND:20261206T200000Z
+SUMMARY:Collectors Dream\, Antiques\, Vintage and PACKED Cave Creek Estate
+  Sale by Radiant Estate Sales
+LOCATION:Cave Creek\, AZ 85331 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture\, vinyl & records\, jewelry\, collectibles and kitch
+ en.\nHours: 8 AM – 1 PM (Sunday\, December 6\, local to Phoenix).\nRun 
+ by Radiant Estate Sales.\nOriginal listing (EstateSales.net): https://www
+ .estatesales.net/AZ/Cave-Creek/85331/5163063\nSale page on The Dig: https
+ ://rheinze08.github.io/the-dig-web/sale/36bbe86e8f21a892/\nConfirm the ad
+ dress and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/36bbe86e8f21a892/
+END:VEVENT
+END:VCALENDAR

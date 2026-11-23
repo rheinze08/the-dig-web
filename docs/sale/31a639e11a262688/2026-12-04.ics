@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:31a639e11a262688-2026-12-04@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261204T160000Z
+DTEND:20261204T210000Z
+SUMMARY:KISMET ESTATE SALES! Comics\, Star Wars\, Sports Jerseys\, Instrum
+ ents\, Music T-Shirts & More!
+LOCATION:Centennial\, CO 80016 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and clothing.\nHour
+ s: 9 AM – 2 PM (Friday\, December 4\, local to Denver).\nRun by Kismet 
+ Estate Sales.\nOriginal listing (EstateSales.net): https://www.estatesale
+ s.net/CO/Aurora/80016/5168427\nSale page on The Dig: https://rheinze08.gi
+ thub.io/the-dig-web/sale/31a639e11a262688/\nConfirm the address and hours
+  on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/31a639e11a262688/
+END:VEVENT
+END:VCALENDAR

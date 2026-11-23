@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:182d42bd2a5071b8-2026-12-04@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261204T140000Z
+DTEND:20261204T210000Z
+SUMMARY:Franklin Moving Sale
+LOCATION:Franklin\, TN 37064 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 8 AM – 3 PM (Friday\, December 4\, local to Nashville
+ ).\nRun by Busy Bee Moving Sales.\nOriginal listing (EstateSales.net): ht
+ tps://www.estatesales.net/TN/Franklin/37064/5142282\nSale page on The Dig
+ : https://rheinze08.github.io/the-dig-web/sale/182d42bd2a5071b8/\nConfirm
+  the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/182d42bd2a5071b8/
+END:VEVENT
+END:VCALENDAR

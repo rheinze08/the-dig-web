@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5ae5c852224c8725-2026-11-25@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261125T160000Z
+DTEND:20261125T210000Z
+SUMMARY:FINDERS KEEPERS Estate Sale in Westbrook Village - 25% OFF!
+LOCATION:19859 N 86th Ave\, Peoria\, AZ 85382
+DESCRIPTION:Christmas decor.\nHours: 9 AM – 2 PM (Wednesday\, November 2
+ 5\, local to Phoenix).\nRun by Finders Keepers Estate Sales.\nOriginal li
+ sting (EstateSales.net): https://www.estatesales.net/AZ/Peoria/85382/5169
+ 945\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/5
+ ae5c852224c8725/\nConfirm the address and hours on the original listing b
+ efore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/5ae5c852224c8725/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:70bc9e5467e61921-2026-11-29@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261129T140000Z
+DTEND:20261129T200000Z
+SUMMARY:Beautiful Antiques & Vintage In Marietta
+LOCATION:Marietta\, GA 30066 (Address releases Friday 9:00 AM)
+DESCRIPTION:Furniture\, clothing\, art\, electronics and antiques.\nHours:
+  9 AM – 3 PM (Sunday\, November 29\, local to Atlanta).\nOriginal listi
+ ng (EstateSales.net): https://www.estatesales.net/GA/Marietta/30066/51701
+ 76\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/70
+ bc9e5467e61921/\nConfirm the address and hours on the original listing be
+ fore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/70bc9e5467e61921/
+END:VEVENT
+END:VCALENDAR

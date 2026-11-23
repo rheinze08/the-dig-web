@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c9b73de405aafe46-2026-11-27@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Estate Sale In Thornton
+LOCATION:Thornton\, CO (Address releases Thursday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, collectibles\, vehicles and kitchen.\nHour
+ s: Opens 9 AM (Friday\, November 27\, local to Denver).\nOriginal listing
+  (Craigslist Denver): https://www.craigslist.org/view/d/denver-estate-sal
+ e-in-thornton/mRDfVw5acRumtXaZfgZxdY\nSale page on The Dig: https://rhein
+ ze08.github.io/the-dig-web/sale/c9b73de405aafe46/\nConfirm the address an
+ d hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/c9b73de405aafe46/
+END:VEVENT
+END:VCALENDAR

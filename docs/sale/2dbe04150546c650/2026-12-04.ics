@@ -5,16 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:2dbe04150546c650-2026-12-04@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261204T160000Z
 DTEND:20261204T220000Z
 SUMMARY:Estate Sale by Family Tree Estates
 LOCATION:Baytown\, TX 77521 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 10 AM – 4 PM (Friday\, December 4\, local to Houston)
- .\nRun by Family Tree Estate Sales.\nOriginal listing (EstateSales.net): 
- https://www.estatesales.net/TX/Baytown/77521/5156784\nSale page on The Di
- g: https://rheinze08.github.io/the-dig-web/sale/2dbe04150546c650/\nConfir
- m the address and hours on the original listing before you travel.
+DESCRIPTION:Bedroom photos show mirrored dressers\, a quilt and lamps. Oth
+ er tables hold a TV\, drinking glasses and cookware.\nHours: 10 AM – 4 
+ PM (Friday\, December 4\, local to Houston).\nRun by Family Tree Estate S
+ ales.\nOriginal listing (EstateSales.net): https://www.estatesales.net/TX
+ /Baytown/77521/5156784\nSale page on The Dig: https://rheinze08.github.io
+ /the-dig-web/sale/2dbe04150546c650/\nConfirm the address and hours on the
+  original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/2dbe04150546c650/
 END:VEVENT
 END:VCALENDAR

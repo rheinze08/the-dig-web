@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:b380971dee9e0e20-2026-12-07@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261207T150000Z
 DTEND:20261207T193000Z
 SUMMARY:Southlake Estate Sale
 LOCATION:Southlake\, TX 76092 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
- .\nHours: 9 AM – 1:30 PM (Monday\, December 7\, local to Dallas–Fort 
- Worth).\nRun by Triguytreasures.\nOriginal listing (EstateSales.net): htt
- ps://www.estatesales.net/TX/Southlake/76092/5164146\nSale page on The Dig
- : https://rheinze08.github.io/the-dig-web/sale/b380971dee9e0e20/\nConfirm
-  the address and hours on the original listing before you travel.
+DESCRIPTION:Tables display cameras\, boxes of Kodak film\, calculators\, a
+  cassette player and a boxed microphone.\nHours: 9 AM – 1:30 PM (Monday
+ \, December 7\, local to Dallas–Fort Worth).\nRun by Triguytreasures.\n
+ Original listing (EstateSales.net): https://www.estatesales.net/TX/Southl
+ ake/76092/5164146\nSale page on The Dig: https://rheinze08.github.io/the-
+ dig-web/sale/b380971dee9e0e20/\nConfirm the address and hours on the orig
+ inal listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/b380971dee9e0e20/
 END:VEVENT
 END:VCALENDAR

@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:4f5ba1a5822454a4-2026-12-05@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261205T140000Z
 DTEND:20261205T210000Z
 SUMMARY:Estate Sale: Combining Two Homes
 LOCATION:Atlanta\, GA 30345 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Furniture\, kitchen\, clothing\, books and art.\nHours: 9 AM 
- – 4 PM (Saturday\, December 5\, local to Atlanta).\nOriginal listing (E
- stateSales.net): https://www.estatesales.net/GA/Atlanta/30345/5146413\nSa
- le page on The Dig: https://rheinze08.github.io/the-dig-web/sale/4f5ba1a5
- 822454a4/\nConfirm the address and hours on the original listing before y
- ou travel.
+DESCRIPTION:A wood dining table has turquoise chairs. Other pieces include
+  a display hutch\, curved bar and media console.\nHours: 9 AM – 4 PM (S
+ aturday\, December 5\, local to Atlanta).\nOriginal listing (EstateSales.
+ net): https://www.estatesales.net/GA/Atlanta/30345/5146413\nSale page on 
+ The Dig: https://rheinze08.github.io/the-dig-web/sale/4f5ba1a5822454a4/\n
+ Confirm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/4f5ba1a5822454a4/
 END:VEVENT
 END:VCALENDAR

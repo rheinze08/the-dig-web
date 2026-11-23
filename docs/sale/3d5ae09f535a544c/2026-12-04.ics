@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:3d5ae09f535a544c-2026-12-04@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261204T160000Z
 DTEND:20261204T200000Z
 SUMMARY:Phoenix Estate Sale Antique Collection
 LOCATION:Scottsdale\, AZ 85254 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Furniture\, vinyl & records\, jewelry\, kitchen and clothing.\
- nHours: 9 AM – 1 PM (Friday\, December 4\, local to Phoenix).\nRun by F
- resh Start Estate Sales.\nOriginal listing (EstateSales.net): https://www
- .estatesales.net/AZ/Scottsdale/85254/5128152\nSale page on The Dig: https
- ://rheinze08.github.io/the-dig-web/sale/3d5ae09f535a544c/\nConfirm the ad
- dress and hours on the original listing before you travel.
+DESCRIPTION:Closet rails hold shirts and sleeveless tops. Other photos sho
+ w a glass-front cabinet and metal serving pieces.\nHours: 9 AM – 1 PM (
+ Friday\, December 4\, local to Phoenix).\nRun by Fresh Start Estate Sales
+ .\nOriginal listing (EstateSales.net): https://www.estatesales.net/AZ/Sco
+ ttsdale/85254/5128152\nSale page on The Dig: https://rheinze08.github.io/
+ the-dig-web/sale/3d5ae09f535a544c/\nConfirm the address and hours on the 
+ original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/3d5ae09f535a544c/
 END:VEVENT
 END:VCALENDAR

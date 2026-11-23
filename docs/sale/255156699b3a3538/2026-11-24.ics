@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:255156699b3a3538-2026-11-24@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261124T210000Z
+DTEND:20261124T220000Z
+SUMMARY:$20 to enter. Carry out what you can in one trip
+LOCATION:290 Pendleton tr\, Tyrone\, GA 30290
+DESCRIPTION:Hours: 4 PM – 5 PM (Tuesday\, November 24\, local to Atlanta
+ ).\nRun by Eden And Tate Estate Sales\, LLC.\nOriginal listing (EstateSal
+ es.net): https://www.estatesales.net/GA/Tyrone/30290/5170323\nSale page o
+ n The Dig: https://rheinze08.github.io/the-dig-web/sale/255156699b3a3538/
+ \nConfirm the address and hours on the original listing before you travel
+ .
+URL:https://rheinze08.github.io/the-dig-web/sale/255156699b3a3538/
+END:VEVENT
+END:VCALENDAR

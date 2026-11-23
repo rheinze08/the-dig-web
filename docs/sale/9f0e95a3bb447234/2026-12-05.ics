@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:9f0e95a3bb447234-2026-12-05@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261205T160000Z
 DTEND:20261205T200000Z
 SUMMARY:The Collectors Estate Sale\, Treasure Trove in Richardson! Archite
  ctural\, Sterling\, Vintage Linens
 LOCATION:Richardson\, TX 75080 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Furniture\, jewelry\, collectibles\, kitchen and art.\nHours: 
- 10 AM – 2 PM (Saturday\, December 5\, local to Dallas–Fort Worth).\nR
- un by Estate Sales Dfw.\nOriginal listing (EstateSales.net): https://www.
- estatesales.net/TX/Richardson/75080/5157117\nSale page on The Dig: https:
- //rheinze08.github.io/the-dig-web/sale/9f0e95a3bb447234/\nConfirm the add
- ress and hours on the original listing before you travel.
+DESCRIPTION:A curved sofa and patterned armchairs surround a round table. 
+ A three-mirror vanity stands in the bedroom.\nHours: 10 AM – 2 PM (Satu
+ rday\, December 5\, local to Dallas–Fort Worth).\nRun by Estate Sales D
+ fw.\nOriginal listing (EstateSales.net): https://www.estatesales.net/TX/R
+ ichardson/75080/5157117\nSale page on The Dig: https://rheinze08.github.i
+ o/the-dig-web/sale/9f0e95a3bb447234/\nConfirm the address and hours on th
+ e original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/9f0e95a3bb447234/
 END:VEVENT
 END:VCALENDAR

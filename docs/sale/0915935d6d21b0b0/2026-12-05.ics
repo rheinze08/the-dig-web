@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0915935d6d21b0b0-2026-12-05@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261205T140000Z
+DTEND:20261205T230000Z
+SUMMARY:FANTASTIC WAREHOUSE SALE!!!
+LOCATION:Nashville\, TN 37210 (Address releases Friday 9:00 AM)
+DESCRIPTION:Furniture\, collectibles\, kitchen\, books and antiques.\nHour
+ s: 8 AM – 5 PM (Saturday\, December 5\, local to Nashville).\nRun by Es
+ tate Sales By Sheila.\nOriginal listing (EstateSales.org): https://estate
+ sales.org/estate-sales/tn/nashville/37210/fantastic-warehouse-estate-sale
+ -2471423\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/s
+ ale/0915935d6d21b0b0/\nConfirm the address and hours on the original list
+ ing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/0915935d6d21b0b0/
+END:VEVENT
+END:VCALENDAR

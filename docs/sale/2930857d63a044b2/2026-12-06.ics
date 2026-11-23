@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:2930857d63a044b2-2026-12-06@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261206T160000Z
 DTEND:20261206T220000Z
 SUMMARY:The Cedar Creek Collector’s Estate Sale- WORTH THE DRIVE
 LOCATION:Cedar Creek\, TX 78612 (Address releases Friday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, collectibles\, vehicles and kitchen.\nHour
- s: 10 AM – 4 PM (Sunday\, December 6\, local to Austin).\nRun by Relic 
- Revival Estate Sales & Services.\nOriginal listing (EstateSales.net): htt
- ps://www.estatesales.net/TX/Cedar-Creek/78612/5167587\nSale page on The D
- ig: https://rheinze08.github.io/the-dig-web/sale/2930857d63a044b2/\nConfi
- rm the address and hours on the original listing before you travel.
+DESCRIPTION:An album holds black-and-white snapshots. A parrot figurine si
+ ts on a purple crystal geode.\nHours: 10 AM – 4 PM (Sunday\, December 6
+ \, local to Austin).\nRun by Relic Revival Estate Sales & Services.\nOrig
+ inal listing (EstateSales.net): https://www.estatesales.net/TX/Cedar-Cree
+ k/78612/5167587\nSale page on The Dig: https://rheinze08.github.io/the-di
+ g-web/sale/2930857d63a044b2/\nConfirm the address and hours on the origin
+ al listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/2930857d63a044b2/
 END:VEVENT
 END:VCALENDAR

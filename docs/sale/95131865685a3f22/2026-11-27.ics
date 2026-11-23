@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:95131865685a3f22-2026-11-27@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:HUGE MAEVEL/DC\, Movies & Books Estate Sale
+LOCATION:13813 Field Spar Dr.\, Manor\, TX
+DESCRIPTION:Books.\nHours: Opens 10 AM (Friday\, November 27\, local to Au
+ stin).\nOriginal listing (Craigslist Austin): https://www.craigslist.org/
+ view/d/manor-huge-maevel-dc-movies-books/vMHFcdwFMKszk3wZMRNi8W\nSale pag
+ e on The Dig: https://rheinze08.github.io/the-dig-web/sale/95131865685a3f
+ 22/\nConfirm the address and hours on the original listing before you tra
+ vel.
+URL:https://rheinze08.github.io/the-dig-web/sale/95131865685a3f22/
+END:VEVENT
+END:VCALENDAR

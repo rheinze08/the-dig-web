@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6ef7ed8800bbd90b-2026-12-05@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261205T160000Z
+DTEND:20261205T220000Z
+SUMMARY:Old Hickory Lake House Estate Sale!
+LOCATION:Old Hickory\, TN 37138 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Furniture.\nHours: 10 AM – 4 PM (Saturday\, December 5\, loc
+ al to Nashville).\nRun by Marigold Estate Sales - TN.\nOriginal listing (
+ EstateSales.net): https://www.estatesales.net/TN/Old-Hickory/37138/515694
+ 0\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/6ef
+ 7ed8800bbd90b/\nConfirm the address and hours on the original listing bef
+ ore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/6ef7ed8800bbd90b/
+END:VEVENT
+END:VCALENDAR

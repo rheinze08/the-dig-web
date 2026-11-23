@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:09eaa9f45509e3de-2026-11-29@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261129T160000Z
 DTEND:20261129T210000Z
 SUMMARY:Plano Remodeling Spectacular Black Friday Weekend
 LOCATION:Plano\, TX 75023 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Furniture\, kitchen\, art\, lamps and christmas decor.\nHours:
-  10 AM – 3 PM (Sunday\, November 29\, local to Dallas–Fort Worth).\nR
- un by Treasures Once More\, LLC.\nOriginal listing (EstateSales.net): htt
- ps://www.estatesales.net/TX/Plano/75023/5162430\nSale page on The Dig: ht
- tps://rheinze08.github.io/the-dig-web/sale/09eaa9f45509e3de/\nConfirm the
-  address and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, kitchen\, clothing\, art and antiques.\nHours: 10 
+ AM – 3 PM (Sunday\, November 29\, local to Dallas–Fort Worth).\nRun b
+ y Treasures Once More\, LLC.\nOriginal listing (EstateSales.net): https:/
+ /www.estatesales.net/TX/Plano/75023/5162430\nSale page on The Dig: https:
+ //rheinze08.github.io/the-dig-web/sale/09eaa9f45509e3de/\nConfirm the add
+ ress and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/09eaa9f45509e3de/
 END:VEVENT
 END:VCALENDAR

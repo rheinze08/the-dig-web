@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a5d5551f99c9aa7e-2026-11-23@rheinze08.github.io
+DTSTAMP:20261123T225419Z
+DTSTART:20261123T150000Z
+DTEND:20261124T010000Z
+SUMMARY:Estate sale 61 yrs 50% off monday nov23 8 am to 6
+LOCATION:51st ave. . near Komatke lane\, Laveen\, AZ
+DESCRIPTION:Collectibles\, vehicles\, kitchen\, electronics and toys & gam
+ es.\nHours: 8 AM – 6 PM (Monday\, November 23\, local to Phoenix).\nOri
+ ginal listing (Craigslist Phoenix): https://www.craigslist.org/view/d/lav
+ een-estate-sale-61-yrs-50-off-monday/nMkJymcHKeF3iPFGS2USYG\nSale page on
+  The Dig: https://rheinze08.github.io/the-dig-web/sale/a5d5551f99c9aa7e/\
+ nConfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/a5d5551f99c9aa7e/
+END:VEVENT
+END:VCALENDAR

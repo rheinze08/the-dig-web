@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:263279bc3d71f404-2026-12-05@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261205T140000Z
 DTEND:20261205T200000Z
 SUMMARY:Spectacular in Sandy Springs
 LOCATION:Atlanta\, GA 30342 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Mirrors and christmas decor.\nHours: 9 AM – 3 PM (Saturday\,
-  December 5\, local to Atlanta).\nRun by Cotton & Company Estate Sales.\n
- Original listing (EstateSales.net): https://www.estatesales.net/GA/Atlant
- a/30342/5098899\nSale page on The Dig: https://rheinze08.github.io/the-di
- g-web/sale/263279bc3d71f404/\nConfirm the address and hours on the origin
- al listing before you travel.
+DESCRIPTION:A blue Mazda CX-7 is shown from three angles\, along with a pa
+ tterned dining table and upholstered chairs.\nHours: 9 AM – 3 PM (Satur
+ day\, December 5\, local to Atlanta).\nRun by Cotton & Company Estate Sal
+ es.\nOriginal listing (EstateSales.net): https://www.estatesales.net/GA/A
+ tlanta/30342/5098899\nSale page on The Dig: https://rheinze08.github.io/t
+ he-dig-web/sale/263279bc3d71f404/\nConfirm the address and hours on the o
+ riginal listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/263279bc3d71f404/
 END:VEVENT
 END:VCALENDAR

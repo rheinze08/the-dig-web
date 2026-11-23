@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:5fc0cb3ec6d13d4c-2026-12-04@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261204T140000Z
 DTEND:20261204T210000Z
 SUMMARY:SLOB SISTERS PRESENT Christmas open house "HOLIDAY FUN IN FAYETTEV
  ILLE"
 LOCATION:Fayetteville\, GA 30214 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
- : 9 AM – 4 PM (Friday\, December 4\, local to Atlanta).\nRun by Slob Si
- sters.\nOriginal listing (EstateSales.net): https://www.estatesales.net/G
- A/Fayetteville/30214/5152002\nSale page on The Dig: https://rheinze08.git
- hub.io/the-dig-web/sale/5fc0cb3ec6d13d4c/\nConfirm the address and hours 
- on the original listing before you travel.
+DESCRIPTION:Boxes hold painted cat figurines. An artificial Christmas tree
+  and two seasonal wreaths are also pictured.\nHours: 9 AM – 4 PM (Frida
+ y\, December 4\, local to Atlanta).\nRun by Slob Sisters.\nOriginal listi
+ ng (EstateSales.net): https://www.estatesales.net/GA/Fayetteville/30214/5
+ 152002\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sal
+ e/5fc0cb3ec6d13d4c/\nConfirm the address and hours on the original listin
+ g before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/5fc0cb3ec6d13d4c/
 END:VEVENT
 END:VCALENDAR

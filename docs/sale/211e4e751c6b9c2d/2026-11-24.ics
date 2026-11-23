@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:211e4e751c6b9c2d-2026-11-24@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261124T150000Z
 DTEND:20261124T230000Z
-SUMMARY:West Plano Estate Sale brought to Warehouse
+SUMMARY:West Plano Estate Sale brought to Warehouse Now 80% off
 LOCATION:1301 Custer Road #706 (Directly behind the Tee Time Bar)\, Plano\
  , TX 75075
-DESCRIPTION:Furniture.\nHours: 9 AM – 5 PM (Tuesday\, November 24\, loca
- l to Dallas–Fort Worth).\nRun by Crush Estate Sales.\nOriginal listing 
- (EstateSales.net): https://www.estatesales.net/TX/Plano/75075/5168580\nSa
- le page on The Dig: https://rheinze08.github.io/the-dig-web/sale/211e4e75
- 1c6b9c2d/\nConfirm the address and hours on the original listing before y
- ou travel.
+DESCRIPTION:Furniture\, collectibles\, art\, toys & games and crystal.\nHo
+ urs: 9 AM – 5 PM (Tuesday\, November 24\, local to Dallas–Fort Worth)
+ .\nRun by Crush Estate Sales.\nOriginal listing (EstateSales.net): https:
+ //www.estatesales.net/TX/Plano/75075/5168580\nSale page on The Dig: https
+ ://rheinze08.github.io/the-dig-web/sale/211e4e751c6b9c2d/\nConfirm the ad
+ dress and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/211e4e751c6b9c2d/
 END:VEVENT
 END:VCALENDAR

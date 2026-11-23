@@ -58,7 +58,7 @@
    "name": "Houston",
    "status": "live",
    "timeZone": "America/Chicago",
-   "results": 22,
+   "results": 13,
    "url": "https://rheinze08.github.io/the-dig-web/houston/"
   },
   {
@@ -66,7 +66,7 @@
    "name": "Dallas–Fort Worth",
    "status": "live",
    "timeZone": "America/Chicago",
-   "results": 71,
+   "results": 36,
    "url": "https://rheinze08.github.io/the-dig-web/dallas-fort-worth/"
   },
   {
@@ -74,7 +74,7 @@
    "name": "Austin",
    "status": "live",
    "timeZone": "America/Chicago",
-   "results": 28,
+   "results": 12,
    "url": "https://rheinze08.github.io/the-dig-web/austin/"
   },
   {
@@ -82,7 +82,7 @@
    "name": "San Antonio",
    "status": "live",
    "timeZone": "America/Chicago",
-   "results": 29,
+   "results": 14,
    "url": "https://rheinze08.github.io/the-dig-web/san-antonio/"
   },
   {
@@ -90,7 +90,7 @@
    "name": "Phoenix",
    "status": "proving",
    "timeZone": "America/Phoenix",
-   "results": 38,
+   "results": 26,
    "url": "https://rheinze08.github.io/the-dig-web/phoenix/"
   },
   {
@@ -98,42 +98,27 @@
    "name": "Atlanta",
    "status": "proving",
    "timeZone": "America/New_York",
-   "results": 57,
+   "results": 32,
    "url": "https://rheinze08.github.io/the-dig-web/atlanta/"
+  },
+  {
+   "slug": "denver",
+   "name": "Denver",
+   "status": "proving",
+   "timeZone": "America/Denver",
+   "results": 8,
+   "url": "https://rheinze08.github.io/the-dig-web/denver/"
+  },
+  {
+   "slug": "nashville",
+   "name": "Nashville",
+   "status": "proving",
+   "timeZone": "America/Chicago",
+   "results": 12,
+   "url": "https://rheinze08.github.io/the-dig-web/nashville/"
   }
  ],
  "sales": [
-  {
-   "id": "7421d47c515af257",
-   "city": "houston",
-   "title": "50% OFF & DEALS The Grand Estate Extravaganza High-End Furniture & Finds from River Oaks",
-   "company": "Sharp Family Estate Sales",
-   "categories": [
-    "furniture"
-   ],
-   "keywords": [
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "clothing",
-    "christmas decor"
-   ],
-   "contentsLine": "Furniture, jewelry, collectibles, clothing and christmas decor.",
-   "digRating": "Deep Dig",
-   "photoCount": 235,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22",
-    "2026-11-23"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-23",
-   "lat": 29.681483,
-   "lng": -95.4012959,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/7421d47c515af257/",
-   "source": "https://www.estatesales.net/TX/Houston/77054/5159607"
-  },
   {
    "id": "510a1b9fb19e4d83",
    "city": "houston",
@@ -141,7 +126,7 @@
    "company": "Family Tree Estate Sales",
    "categories": [],
    "digRating": "Deep Dig",
-   "photoCount": 49,
+   "photoCount": 113,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -180,8 +165,21 @@
    "title": "One House, Many Treasures!! A-multi estate sale",
    "company": "Soussan Estates",
    "categories": [],
-   "digRating": "Slim Pickings",
-   "photoCount": 0,
+   "keywords": [
+    "tools",
+    "furniture",
+    "jewelry",
+    "collectibles",
+    "kitchen",
+    "clothing",
+    "art",
+    "china",
+    "crystal",
+    "antiques"
+   ],
+   "contentsLine": "Tools, furniture, jewelry, collectibles and kitchen.",
+   "digRating": "Deep Dig",
+   "photoCount": 32,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -197,7 +195,7 @@
   {
    "id": "60ec3b8089dbba26",
    "city": "houston",
-   "title": "THANKSGIVING PICKER ESTATE",
+   "title": "THANKSGIVING PICKER ESTATE (Prices Given as we Go)",
    "company": "Family Tree Estate Sales",
    "categories": [],
    "keywords": [
@@ -228,6 +226,25 @@
    "source": "https://www.estatesales.net/TX/Santa-Fe/77517/5107233"
   },
   {
+   "id": "0b5aaa0aea070799",
+   "city": "houston",
+   "title": "ESTATE SALE Listing ID#: 912284",
+   "company": "Karacostas Estate Sale Services",
+   "categories": [],
+   "digRating": "Slim Pickings",
+   "photoCount": 0,
+   "dates": [
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "first": "2026-11-28",
+   "last": "2026-11-29",
+   "lat": 29.2743047,
+   "lng": -94.9161403,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/0b5aaa0aea070799/",
+   "source": "https://www.estatesale.com/sales/view/912284.html"
+  },
+  {
    "id": "2a7a411e458e6dad",
    "city": "houston",
    "title": "A World of Wonder: A Legacy of Love, Art and Exploration",
@@ -249,7 +266,7 @@
    ],
    "contentsLine": "Furniture, jewelry, collectibles, clothing and books.",
    "digRating": "Deep Dig",
-   "photoCount": 789,
+   "photoCount": 787,
    "dates": [
     "2026-12-02",
     "2026-12-03",
@@ -270,18 +287,13 @@
    "company": "Get Rid Of It",
    "categories": [],
    "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "toys & games"
+    "crystal animal figurines",
+    "patchwork quilts",
+    "dinner plates",
+    "bowls",
+    "mugs"
    ],
-   "contentsLine": "Tools, furniture, jewelry, collectibles and kitchen.",
+   "contentsLine": "Small crystal animal figurines fill several displays. Other photos show patchwork quilts and stacks of colorful dishes.",
    "digRating": "Deep Dig",
    "photoCount": 120,
    "dates": [
@@ -304,17 +316,16 @@
    "company": "50 50 Resale",
    "categories": [],
    "keywords": [
-    "furniture",
-    "collectibles",
-    "clothing",
-    "art",
-    "china",
-    "antiques",
-    "patio furniture"
+    "tufted sofas",
+    "oval coffee table",
+    "carved chest",
+    "stag sculpture",
+    "green glass lamp",
+    "curio cabinet"
    ],
-   "contentsLine": "Furniture, collectibles, clothing, art and china.",
+   "contentsLine": "Pink tufted sofas flank an oval table. Other pieces include a carved chest, a stag sculpture and a green glass lamp.",
    "digRating": "Deep Dig",
-   "photoCount": 83,
+   "photoCount": 82,
    "dates": [
     "2026-12-04",
     "2026-12-05",
@@ -333,6 +344,17 @@
    "title": "Estate Sale by Family Tree Estates",
    "company": "Family Tree Estate Sales",
    "categories": [],
+   "keywords": [
+    "dressers with mirrors",
+    "patchwork quilt",
+    "nightstand",
+    "table lamps",
+    "flat-screen TV",
+    "desk",
+    "drinking glasses",
+    "cookware"
+   ],
+   "contentsLine": "Bedroom photos show mirrored dressers, a quilt and lamps. Other tables hold a TV, drinking glasses and cookware.",
    "digRating": "Worth a Look",
    "photoCount": 14,
    "dates": [
@@ -354,16 +376,12 @@
    "company": "Family Tree Estate Sales",
    "categories": [],
    "keywords": [
-    "tools",
-    "furniture",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "art",
-    "antiques",
-    "lamps"
+    "Mercedes-Benz 450 SLC",
+    "BMW R90/6 motorcycle",
+    "touring motorcycle",
+    "project car"
    ],
-   "contentsLine": "Tools, furniture, collectibles, vehicles and kitchen.",
+   "contentsLine": "Cars and motorcycles fill the garage, including a 450 SLC, a BMW R90/6 and a car body on an exposed chassis.",
    "digRating": "Deep Dig",
    "photoCount": 51,
    "dates": [
@@ -414,14 +432,12 @@
    "company": "Tender Transitions",
    "categories": [],
    "keywords": [
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "books",
-    "toys & games",
-    "china"
+    "decorative masks",
+    "framed landscape",
+    "figurine",
+    "framed portrait"
    ],
-   "contentsLine": "Furniture, collectibles, kitchen, books and toys & games.",
+   "contentsLine": "Painted masks and a seated figurine appear alongside a framed landscape and a portrait of a couple.",
    "digRating": "Deep Dig",
    "photoCount": 150,
    "dates": [
@@ -455,291 +471,23 @@
    "source": "https://www.estatesales.net/TX/Houston/77071/5168991"
   },
   {
-   "id": "e1946804b0f8f3fd",
-   "city": "houston",
-   "title": "Fabulous Heights Sale- Antique, Mid-Century, Architecturale & Historic Home",
-   "company": "Treasure Hunt Auction Co.",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "jewelry",
-    "collectibles",
-    "art",
-    "antiques",
-    "mid-century"
-   ],
-   "contentsLine": "Tools, jewelry, collectibles, art and antiques.",
-   "digRating": "Deep Dig",
-   "photoCount": 174,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 29.797206,
-   "lng": -95.3933285,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/e1946804b0f8f3fd/",
-   "source": "https://www.estatesales.net/TX/Houston/77008/5152926"
-  },
-  {
-   "id": "a9e67e831f781fda",
-   "city": "houston",
-   "title": "***50% OFF SUNDAY***Pearland estate sale",
-   "company": "Yolanda's Estate Sales",
-   "categories": [],
-   "keywords": [
-    "vinyl & records"
-   ],
-   "contentsLine": "Vinyl & records.",
-   "digRating": "Deep Dig",
-   "photoCount": 103,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.5499358,
-   "lng": -95.2589919,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/a9e67e831f781fda/",
-   "source": "https://www.estatesales.net/TX/Pearland/77581/5160993"
-  },
-  {
-   "id": "1552ae954159c57f",
-   "city": "houston",
-   "title": "***50% OFF SUNDAY***Willow Meadows Estate Sale",
-   "company": "Yolanda's Estate Sales",
-   "categories": [],
-   "keywords": [
-    "collectibles",
-    "kitchen",
-    "art",
-    "toys & games",
-    "china",
-    "crystal",
-    "christmas decor"
-   ],
-   "contentsLine": "Collectibles, kitchen, art, toys & games and china.",
-   "digRating": "Deep Dig",
-   "photoCount": 129,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.6716301,
-   "lng": -95.4492793,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/1552ae954159c57f/",
-   "source": "https://www.estatesales.net/TX/Houston/77035/5133270"
-  },
-  {
-   "id": "780dc1aaf34cab51",
-   "city": "houston",
-   "title": "50% off Collector’s Corner on Camden by Heritage Estate Sales",
-   "company": "Heritage Estate Sales",
-   "categories": [
-    "collectibles"
-   ],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "figurines",
-    "crystal"
-   ],
-   "contentsLine": "Furniture, collectibles, kitchen, figurines and crystal.",
-   "digRating": "Deep Dig",
-   "photoCount": 601,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.6736904,
-   "lng": -95.1962186,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/780dc1aaf34cab51/",
-   "source": "https://www.estatesales.net/TX/Pasadena/77502/5161326"
-  },
-  {
-   "id": "b5c48691b6fb568f",
-   "city": "houston",
-   "title": "Estate Sale (Enret at Guard Shack 2662 Admiral)",
-   "company": "Family Tree Estate Sales",
-   "categories": [],
-   "digRating": "Deep Dig",
-   "photoCount": 119,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.5290373,
-   "lng": -95.0612558,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/b5c48691b6fb568f/",
-   "source": "https://www.estatesales.net/TX/League-City/77573/5146677"
-  },
-  {
-   "id": "66c769df10b69e83",
-   "city": "houston",
-   "title": "Friendswoood Estate Sale!!!",
-   "company": "J&a Findings",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "clothing",
-    "books",
-    "mid-century"
-   ],
-   "contentsLine": "Tools, furniture, clothing, books and mid-century.",
-   "digRating": "Deep Dig",
-   "photoCount": 129,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.5173354,
-   "lng": -95.2004314,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/66c769df10b69e83/",
-   "source": "https://www.estatesales.net/TX/Friendswood/77546/5166603"
-  },
-  {
-   "id": "cac6c44b629d8beb",
-   "city": "houston",
-   "title": "30% OFF Galleria Area Mansion Estate Sale TREASURES for ALL!",
-   "company": "Margie Beegle Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "china",
-    "crystal"
-   ],
-   "contentsLine": "Tools, furniture, collectibles, kitchen and clothing.",
-   "digRating": "Deep Dig",
-   "photoCount": 374,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 29.738904,
-   "lng": -95.450891,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/cac6c44b629d8beb/",
-   "source": "https://www.estatesales.net/TX/Houston/77027/5149494"
-  },
-  {
-   "id": "131cf95e8fb2e961",
-   "city": "houston",
-   "title": "50-75% OFF THE BELLAIRE COLLECTION -An Extraordinary Estate of Fine Art, Antiques & Global Treasures",
-   "company": "River Oaks Estate Sales",
-   "categories": [
-    "art"
-   ],
-   "keywords": [
-    "art",
-    "antiques"
-   ],
-   "contentsLine": "Art and antiques.",
-   "digRating": "Worth a Look",
-   "photoCount": 287,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 29.7125865,
-   "lng": -95.4527704,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/131cf95e8fb2e961/",
-   "source": "https://www.estatesales.net/TX/Bellaire/77401/5138013"
-  },
-  {
-   "id": "8bd880d82eda54d5",
-   "city": "houston",
-   "title": "Estate Sale by Family Tree Estates",
-   "company": "Family Tree Estate Sales",
-   "categories": [],
-   "digRating": "Worth a Look",
-   "photoCount": 98,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 29.6454992,
-   "lng": -95.2357832,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/8bd880d82eda54d5/",
-   "source": "https://www.estatesales.net/TX/Houston/77034/5159586"
-  },
-  {
-   "id": "9588f8e0bb5fa8d6",
-   "city": "dallas-fort-worth",
-   "title": "25% OFF SUNDAY!! FABULOUS ARLINGTON ESTATE SALE!! SPORTS MEMORABILIA, JEWELRY & MORE!!!!",
-   "company": "Serenade Estate Sales",
-   "categories": [
-    "jewelry",
-    "collectibles"
-   ],
-   "keywords": [
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "clothing",
-    "art",
-    "electronics",
-    "toys & games",
-    "silver",
-    "cameras"
-   ],
-   "contentsLine": "Furniture, jewelry, collectibles, clothing and art.",
-   "digRating": "Deep Dig",
-   "photoCount": 112,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22",
-    "2026-11-23"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-23",
-   "lat": 32.6660864,
-   "lng": -97.1886115,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/9588f8e0bb5fa8d6/",
-   "source": "https://www.estatesales.net/TX/Arlington/76017/5153271"
-  },
-  {
    "id": "211e4e751c6b9c2d",
    "city": "dallas-fort-worth",
-   "title": "West Plano Estate Sale brought to Warehouse",
+   "title": "West Plano Estate Sale brought to Warehouse Now 80% off",
    "company": "Crush Estate Sales",
    "categories": [],
    "keywords": [
-    "furniture"
+    "furniture",
+    "collectibles",
+    "art",
+    "toys & games",
+    "crystal",
+    "silver",
+    "dolls"
    ],
-   "contentsLine": "Furniture.",
+   "contentsLine": "Furniture, collectibles, art, toys & games and crystal.",
    "digRating": "Deep Dig",
-   "photoCount": 107,
+   "photoCount": 307,
    "dates": [
     "2026-11-21",
     "2026-11-22",
@@ -754,6 +502,30 @@
    "source": "https://www.estatesales.net/TX/Plano/75075/5168580"
   },
   {
+   "id": "89a05893a83558b3",
+   "city": "dallas-fort-worth",
+   "title": "Plano French Provincial & Hollywood Regency Estate Sale 80% off",
+   "company": "Consignment Crush Estate Sales",
+   "categories": [],
+   "keywords": [
+    "furniture"
+   ],
+   "contentsLine": "Furniture.",
+   "digRating": "Slim Pickings",
+   "photoCount": 1,
+   "dates": [
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25"
+   ],
+   "first": "2026-11-23",
+   "last": "2026-11-25",
+   "lat": 33.0162157,
+   "lng": -96.7363333,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/89a05893a83558b3/",
+   "source": "https://estatesales.org/estate-sales/tx/plano/75075/plano-french-provincial-hollywood-regency-2475119"
+  },
+  {
    "id": "6d176e2c350eeb23",
    "city": "dallas-fort-worth",
    "title": "$1 EACH MASSIVE CLOTHING & SHOE SALE!! MENS, WOMENS & CHILDREN SIZES NEWBORN - 6XL!",
@@ -765,8 +537,8 @@
     "clothing"
    ],
    "contentsLine": "Clothing.",
-   "digRating": "Slim Pickings",
-   "photoCount": 0,
+   "digRating": "Worth a Look",
+   "photoCount": 23,
    "dates": [
     "2026-11-24",
     "2026-11-25",
@@ -824,8 +596,8 @@
    "title": "ABOUT THE HOUSE in Highland Park",
    "company": "About The House",
    "categories": [],
-   "digRating": "Slim Pickings",
-   "photoCount": 0,
+   "digRating": "Deep Dig",
+   "photoCount": 68,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -847,18 +619,18 @@
    "keywords": [
     "tools",
     "furniture",
+    "vinyl & records",
     "jewelry",
     "collectibles",
     "kitchen",
     "clothing",
+    "books",
     "art",
-    "electronics",
-    "china",
-    "crystal"
+    "electronics"
    ],
-   "contentsLine": "Tools, furniture, jewelry, collectibles and kitchen.",
+   "contentsLine": "Tools, furniture, vinyl & records, jewelry and collectibles.",
    "digRating": "Deep Dig",
-   "photoCount": 190,
+   "photoCount": 198,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -910,7 +682,7 @@
    ],
    "contentsLine": "Tools, furniture, jewelry, collectibles and vehicles.",
    "digRating": "Deep Dig",
-   "photoCount": 601,
+   "photoCount": 668,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -936,15 +708,15 @@
     "collectibles",
     "kitchen",
     "clothing",
-    "books",
     "art",
     "crystal",
     "antiques",
-    "mid-century"
+    "silver",
+    "coins"
    ],
    "contentsLine": "Furniture, jewelry, collectibles, kitchen and clothing.",
    "digRating": "Deep Dig",
-   "photoCount": 579,
+   "photoCount": 599,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -1043,16 +815,15 @@
   {
    "id": "f356dd3ddcf8883d",
    "city": "dallas-fort-worth",
-   "title": "FABULOUS MID CENTURY TIME CAPSULE in PRESTONWOOD w/ANOTHER’S TREASURE ESTATE SALES",
+   "title": "FABULOUS in PRESTONWOOD w/ANOTHER’S TREASURE ESTATE SALES",
    "company": "Another's Treasure Estate Sales",
    "categories": [],
    "keywords": [
     "vehicles",
     "electronics",
-    "mid-century",
     "cameras"
    ],
-   "contentsLine": "Vehicles, electronics, mid-century and cameras.",
+   "contentsLine": "Vehicles, electronics and cameras.",
    "digRating": "Worth a Look",
    "photoCount": 4,
    "dates": [
@@ -1101,13 +872,15 @@
    "keywords": [
     "furniture",
     "kitchen",
+    "clothing",
     "art",
+    "antiques",
     "lamps",
     "christmas decor"
    ],
-   "contentsLine": "Furniture, kitchen, art, lamps and christmas decor.",
+   "contentsLine": "Furniture, kitchen, clothing, art and antiques.",
    "digRating": "Deep Dig",
-   "photoCount": 53,
+   "photoCount": 102,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -1245,18 +1018,14 @@
    "company": "Retro Betties",
    "categories": [],
    "keywords": [
-    "tools",
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "electronics",
-    "toys & games",
-    "china",
-    "antiques"
+    "stained glass panels",
+    "storage trunk",
+    "rolling pins",
+    "kitchen utensils",
+    "baking molds",
+    "wicker basket"
    ],
-   "contentsLine": "Tools, furniture, collectibles, kitchen and clothing.",
+   "contentsLine": "Stained glass panels stand behind a table of rolling pins, baking molds and utensils, next to a domed storage trunk.",
    "digRating": "Deep Dig",
    "photoCount": 180,
    "dates": [
@@ -1396,11 +1165,14 @@
    "company": "Not Your Mama's Estate Liquidators L.l.c.",
    "categories": [],
    "keywords": [
-    "furniture",
-    "kitchen",
-    "clothing"
+    "display cabinet",
+    "advertising tins",
+    "beer thermometer",
+    "framed boat art",
+    "wall mirror",
+    "figurines"
    ],
-   "contentsLine": "Furniture, kitchen and clothing.",
+   "contentsLine": "A display cabinet holds figurines. Other photos show advertising tins, a beer thermometer, framed boat art and a mirror.",
    "digRating": "Deep Dig",
    "photoCount": 84,
    "dates": [
@@ -1422,8 +1194,8 @@
    "title": "Plano: Unbeatable Deals by Dayspring",
    "company": "Dayspring Estate Sales",
    "categories": [],
-   "digRating": "Slim Pickings",
-   "photoCount": 3,
+   "digRating": "Deep Dig",
+   "photoCount": 1095,
    "dates": [
     "2026-12-03",
     "2026-12-04",
@@ -1439,15 +1211,21 @@
   {
    "id": "02be5275563b4405",
    "city": "dallas-fort-worth",
-   "title": "SHOCK & AWE INTERIOR DESIGNER’S DREAM CHRISTMAS EXPLOSION BLUE & WHITE PACKED!",
+   "title": "SHOCK & AWE INTERIOR DESIGNER’S MONTICELLO DREAM! CHRISTMAS EXPLOSION BLUE & WHITE PACKED!",
    "company": "Cottage Classics Estate Sales",
    "categories": [],
    "keywords": [
-    "christmas decor"
+    "reindeer figurines",
+    "Santa figurines",
+    "flatware set",
+    "glass bowls",
+    "dining table",
+    "sideboard",
+    "candelabras"
    ],
-   "contentsLine": "Christmas decor.",
+   "contentsLine": "Santa and reindeer figurines cover a dining table and sideboard, alongside glassware and a case of flatware.",
    "digRating": "Deep Dig",
-   "photoCount": 394,
+   "photoCount": 384,
    "dates": [
     "2026-12-03",
     "2026-12-04",
@@ -1459,6 +1237,30 @@
    "lng": -97.3792404,
    "url": "https://rheinze08.github.io/the-dig-web/sale/02be5275563b4405/",
    "source": "https://www.estatesales.net/TX/Fort-Worth/76107/5167950"
+  },
+  {
+   "id": "15561a38d5980094",
+   "city": "dallas-fort-worth",
+   "title": "Welcome Home AMAZING VINTAGE COLLECTION SALE",
+   "company": "Welcome Home",
+   "categories": [],
+   "keywords": [
+    "christmas decor"
+   ],
+   "contentsLine": "Christmas decor.",
+   "digRating": "Slim Pickings",
+   "photoCount": 0,
+   "dates": [
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05"
+   ],
+   "first": "2026-12-03",
+   "last": "2026-12-05",
+   "lat": 32.8125108,
+   "lng": -96.6861707,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/15561a38d5980094/",
+   "source": "https://www.estatesales.net/TX/Dallas/75228/5169933"
   },
   {
    "id": "d6d7ae910922b1dd",
@@ -1525,18 +1327,14 @@
    "company": "Triguytreasures",
    "categories": [],
    "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "art",
-    "electronics"
+    "film cameras",
+    "Kodak film",
+    "calculators",
+    "cassette player",
+    "microphone",
+    "battery tester"
    ],
-   "contentsLine": "Tools, furniture, vinyl & records, jewelry and collectibles.",
+   "contentsLine": "Tables display cameras, boxes of Kodak film, calculators, a cassette player and a boxed microphone.",
    "digRating": "Deep Dig",
    "photoCount": 68,
    "dates": [
@@ -1561,18 +1359,14 @@
     "collectibles"
    ],
    "keywords": [
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "art",
-    "toys & games",
-    "crystal",
-    "antiques",
-    "lamps",
-    "silver"
+    "curved sofa",
+    "upholstered armchairs",
+    "round coffee table",
+    "mirrored vanity",
+    "area rugs",
+    "table lamps"
    ],
-   "contentsLine": "Furniture, jewelry, collectibles, kitchen and art.",
+   "contentsLine": "A curved sofa and patterned armchairs surround a round table. A three-mirror vanity stands in the bedroom.",
    "digRating": "Deep Dig",
    "photoCount": 253,
    "dates": [
@@ -1594,9 +1388,12 @@
    "company": "Rivers Wind",
    "categories": [],
    "keywords": [
-    "collectibles"
+    "owl figurine",
+    "duck figurines",
+    "heart-shaped trinket boxes",
+    "glass vase"
    ],
-   "contentsLine": "Collectibles.",
+   "contentsLine": "Animal figurines include an owl and three ducks. Heart-shaped floral boxes sit beside a blue glass vase.",
    "digRating": "Deep Dig",
    "photoCount": 117,
    "dates": [
@@ -1617,8 +1414,16 @@
    "title": "Tons of Goodies by Treme",
    "company": "Treme Realty LLC",
    "categories": [],
-   "digRating": "Worth a Look",
-   "photoCount": 14,
+   "keywords": [
+    "stereo receiver",
+    "Sony audio components",
+    "bar stools",
+    "sofa",
+    "framed portrait"
+   ],
+   "contentsLine": "Stereo components, two animal-back bar stools, a brown sofa and a framed portrait are pictured.",
+   "digRating": "Deep Dig",
+   "photoCount": 60,
    "dates": [
     "2026-12-04",
     "2026-12-05",
@@ -1630,1163 +1435,6 @@
    "lng": -97.0902444,
    "url": "https://rheinze08.github.io/the-dig-web/sale/fedb3cf013d8645d/",
    "source": "https://www.estatesales.net/TX/Arlington/76002/5163654"
-  },
-  {
-   "id": "9a728d505ba40345",
-   "city": "dallas-fort-worth",
-   "title": "Estate Sale — Addison, TX — Bedroom, Living Room & Dining Room Furnitu",
-   "company": "",
-   "categories": [
-    "furniture"
-   ],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vehicles"
-   ],
-   "contentsLine": "Tools, furniture and vehicles.",
-   "digRating": "Worth a Look",
-   "photoCount": 0,
-   "dates": [
-    "2026-11-16",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-16",
-   "last": "2026-11-22",
-   "lat": 32.9444721,
-   "lng": -96.8479184,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/9a728d505ba40345/",
-   "source": "https://www.craigslist.org/view/d/addison-estate-sale-addison-tx-bedroom/4d56bAs4qYx1HKCCxP9gD2"
-  },
-  {
-   "id": "5a90cf43949ca89a",
-   "city": "dallas-fort-worth",
-   "title": "75% - 50 % Off RARE FIND: TIFFANY LAMPS • ANTIQUES • CRYSTAL • JEWELRY & MORE!",
-   "company": "Rare Find Estate Sales",
-   "categories": [
-    "jewelry"
-   ],
-   "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "art",
-    "electronics",
-    "toys & games",
-    "figurines"
-   ],
-   "contentsLine": "Tools, furniture, jewelry, collectibles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 174,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 33.09384,
-   "lng": -97.046935,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/5a90cf43949ca89a/",
-   "source": "https://www.estatesales.net/TX/Lewisville/75077/5153634"
-  },
-  {
-   "id": "c2c80c3df0e4101f",
-   "city": "dallas-fort-worth",
-   "title": "75% OFF + STUFF-A-BAG Denton (ROBSON RANCH): Unbeatable Deals by Dayspring",
-   "company": "Dayspring Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "toys & games"
-   ],
-   "contentsLine": "Tools, furniture, jewelry, collectibles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 1355,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 33.1410987,
-   "lng": -97.2500646,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/c2c80c3df0e4101f/",
-   "source": "https://www.estatesales.net/TX/Denton/76207/5151225"
-  },
-  {
-   "id": "5f203c81e7272911",
-   "city": "dallas-fort-worth",
-   "title": "75% off Huge Trophy Club Sale",
-   "company": "Trophy Estate Sale",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, jewelry and collectibles.",
-   "digRating": "Deep Dig",
-   "photoCount": 499,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 32.9908693,
-   "lng": -97.179411,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/5f203c81e7272911/",
-   "source": "https://www.estatesales.net/TX/Roanoke/76262/5150589"
-  },
-  {
-   "id": "a1aecd517a8dcd97",
-   "city": "dallas-fort-worth",
-   "title": "75% OFF SUNDAY!!!",
-   "company": "The Spann Group Estate Sales, LLC",
-   "categories": [],
-   "digRating": "Deep Dig",
-   "photoCount": 237,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 32.6619347,
-   "lng": -97.2186131,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/a1aecd517a8dcd97/",
-   "source": "https://www.estatesales.net/TX/Arlington/76017/5139621"
-  },
-  {
-   "id": "203ea7ec9a0f35f9",
-   "city": "dallas-fort-worth",
-   "title": "75% OFF SUNDAY!!Fantastic Haslet Estate!Firearms,Ammo,Vintage,Antique,Tools,Fishing,and More!",
-   "company": "Remains Of Yesterday",
-   "categories": [
-    "tools"
-   ],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "books",
-    "electronics",
-    "china"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, collectibles and vehicles.",
-   "digRating": "Deep Dig",
-   "photoCount": 1128,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 32.9713266,
-   "lng": -97.3488598,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/203ea7ec9a0f35f9/",
-   "source": "https://www.estatesales.net/TX/Haslet/76052/5155407"
-  },
-  {
-   "id": "198d005543dd367e",
-   "city": "dallas-fort-worth",
-   "title": "North Arlington Randol Mill Park Homes Subdivision",
-   "company": "Newhouse-Héron and Warr Estate Liquidators",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "books",
-    "art",
-    "figurines",
-    "crystal",
-    "mid-century"
-   ],
-   "contentsLine": "Furniture, collectibles, kitchen, books and art.",
-   "digRating": "Deep Dig",
-   "photoCount": 26,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 32.7580292,
-   "lng": -97.1432551,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/198d005543dd367e/",
-   "source": "https://www.estatesales.net/TX/Arlington/76012/5166327"
-  },
-  {
-   "id": "e4fa7a6c64dd10fa",
-   "city": "dallas-fort-worth",
-   "title": "Pool Table, Vintage collectibles, Art, Furniture, Rugs, More",
-   "company": "Annice Antiques, Inc.",
-   "categories": [
-    "furniture",
-    "collectibles",
-    "art",
-    "toys-games"
-   ],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "art",
-    "toys & games",
-    "antiques",
-    "rugs"
-   ],
-   "contentsLine": "Furniture, collectibles, art, toys & games and antiques.",
-   "digRating": "Deep Dig",
-   "photoCount": 248,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 32.6288918,
-   "lng": -96.9228032,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/e4fa7a6c64dd10fa/",
-   "source": "https://estatesales.org/estate-sales/tx/duncanville/75137/pool-table-vintage-collectibles-art-2473556"
-  },
-  {
-   "id": "6b432fc68bc5f353",
-   "city": "dallas-fort-worth",
-   "title": "~Massive Southlake Estate Sale! Collectors Dream! Lexus, Bang & Olufsen, MCM, Fashion, Paintings..",
-   "company": "DFW Estate Liquidators",
-   "categories": [
-    "collectibles",
-    "vehicles",
-    "clothing",
-    "art",
-    "electronics"
-   ],
-   "keywords": [
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics"
-   ],
-   "contentsLine": "Furniture, vinyl & records, jewelry, collectibles and vehicles.",
-   "digRating": "Deep Dig",
-   "photoCount": 359,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.9390208,
-   "lng": -97.1633392,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/6b432fc68bc5f353/",
-   "source": "https://estatesales.org/estate-sales/tx/southlake/76092/massive-southlake-estate-sale-collectors-2467702"
-  },
-  {
-   "id": "c4e6bad9cfe373f0",
-   "city": "dallas-fort-worth",
-   "title": "1/2 Off a more Sunday!!!James Major Estate Sales : Bachelor Pad Blowout in Richardson",
-   "company": "James Major Estate Sales",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "electronics",
-    "toys & games",
-    "antiques",
-    "silver"
-   ],
-   "contentsLine": "Furniture, vehicles, kitchen, clothing and electronics.",
-   "digRating": "Deep Dig",
-   "photoCount": 257,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.9427049,
-   "lng": -96.7137708,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/c4e6bad9cfe373f0/",
-   "source": "https://www.estatesales.net/TX/Richardson/75081/5160756"
-  },
-  {
-   "id": "03d3345da4dc5205",
-   "city": "dallas-fort-worth",
-   "title": "50% OFF SUNDAY - Preston Hollow Rarities",
-   "company": "Millo Estate Sales",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "art",
-    "figurines",
-    "crystal",
-    "lamps",
-    "pianos"
-   ],
-   "contentsLine": "Furniture, collectibles, art, figurines and crystal.",
-   "digRating": "Deep Dig",
-   "photoCount": 160,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.9136614,
-   "lng": -96.7929829,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/03d3345da4dc5205/",
-   "source": "https://www.estatesales.net/TX/Dallas/75230/5160411"
-  },
-  {
-   "id": "ecae07eb664f1bd1",
-   "city": "dallas-fort-worth",
-   "title": "50% off Sunday 11/22 !!! Come help us clear the house in Highland Village!",
-   "company": "Wright Choice Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "kitchen",
-    "clothing",
-    "books",
-    "toys & games",
-    "christmas decor"
-   ],
-   "contentsLine": "Tools, furniture, kitchen, clothing and books.",
-   "digRating": "Deep Dig",
-   "photoCount": 183,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.0914397,
-   "lng": -97.0631559,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/ecae07eb664f1bd1/",
-   "source": "https://www.estatesales.net/TX/Lewisville/75077/5161068"
-  },
-  {
-   "id": "8db86517e76e44c0",
-   "city": "dallas-fort-worth",
-   "title": "50% Off- Something for Everybody",
-   "company": "Texoma Auctions & Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "kitchen",
-    "clothing",
-    "art",
-    "crystal",
-    "antiques",
-    "christmas decor"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, jewelry and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 126,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.828754,
-   "lng": -97.112078,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/8db86517e76e44c0/",
-   "source": "https://www.estatesales.net/TX/Euless/76040/5165676"
-  },
-  {
-   "id": "b26fbcc42db32da0",
-   "city": "dallas-fort-worth",
-   "title": "75- 90 % OFF L & J Estate Sale",
-   "company": "L & J Estate Sales, Llc.",
-   "categories": [],
-   "digRating": "Deep Dig",
-   "photoCount": 359,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.650435,
-   "lng": -96.9322798,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/b26fbcc42db32da0/",
-   "source": "https://www.estatesales.net/TX/Duncanville/75116/5123247"
-  },
-  {
-   "id": "13748b519ddd05f7",
-   "city": "dallas-fort-worth",
-   "title": "Blue Moon 75% OFF Euless Thanksgiving Treasure Hunt",
-   "company": "Blue Moon Estate Sales - Ft. Worth Tx.",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "clothing",
-    "art",
-    "china",
-    "crystal",
-    "antiques",
-    "christmas decor"
-   ],
-   "contentsLine": "Furniture, collectibles, clothing, art and china.",
-   "digRating": "Deep Dig",
-   "photoCount": 100,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.81783,
-   "lng": -97.087928,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/13748b519ddd05f7/",
-   "source": "https://www.estatesales.net/TX/Euless/76040/5159922"
-  },
-  {
-   "id": "8d6371d408160485",
-   "city": "dallas-fort-worth",
-   "title": "By Urban Potluck: 75% OFF SUNDAY Upscale Estate Sale in Mansfield's Kings Mill",
-   "company": "Urban Potluck Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "collectibles",
-    "clothing",
-    "toys & games"
-   ],
-   "contentsLine": "Tools, furniture, collectibles, clothing and toys & games.",
-   "digRating": "Deep Dig",
-   "photoCount": 79,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.590178,
-   "lng": -97.102601,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/8d6371d408160485/",
-   "source": "https://www.estatesales.net/TX/Mansfield/76063/5159799"
-  },
-  {
-   "id": "d8ea2ce61baf37bc",
-   "city": "dallas-fort-worth",
-   "title": "Elite Legacy- Prestonwood- Patio, Henredon, Snap-on, Knives, Appliances, Women’s Clothing, Floral",
-   "company": "Elite Legacy Estate Sales",
-   "categories": [
-    "tools",
-    "furniture",
-    "clothing"
-   ],
-   "keywords": [
-    "tools",
-    "furniture",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "china",
-    "antiques"
-   ],
-   "contentsLine": "Tools, furniture, collectibles, vehicles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 629,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.9560052,
-   "lng": -96.7847125,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/d8ea2ce61baf37bc/",
-   "source": "https://www.estatesales.net/TX/Dallas/75248/5140161"
-  },
-  {
-   "id": "ed7d49c4e84ecee9",
-   "city": "dallas-fort-worth",
-   "title": "Fabulous Finds El Campo",
-   "company": "Kazen Property Rescue Services",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "vinyl & records",
-    "collectibles",
-    "kitchen",
-    "books",
-    "figurines",
-    "china",
-    "christmas decor"
-   ],
-   "contentsLine": "Furniture, vinyl & records, collectibles, kitchen and books.",
-   "digRating": "Deep Dig",
-   "photoCount": 31,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.7363656,
-   "lng": -97.3847287,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/ed7d49c4e84ecee9/",
-   "source": "https://www.estatesales.net/TX/Fort-Worth/76107/5166918"
-  },
-  {
-   "id": "2383175fe77ff0a5",
-   "city": "dallas-fort-worth",
-   "title": "LANN Estate Sales - Bent Tree North",
-   "company": "Lann Estate Sales",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "toys & games"
-   ],
-   "contentsLine": "Furniture, kitchen, clothing, books and art.",
-   "digRating": "Deep Dig",
-   "photoCount": 104,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.993406,
-   "lng": -96.822303,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/2383175fe77ff0a5/",
-   "source": "https://www.estatesales.net/TX/Dallas/75287/5158911"
-  },
-  {
-   "id": "1caac9641240a4aa",
-   "city": "dallas-fort-worth",
-   "title": "Multi Estate Clearance Sale - Fort Worth Odd Fellows Hall (50% - 75% off Sunday)",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "art",
-    "electronics",
-    "lamps",
-    "christmas decor"
-   ],
-   "contentsLine": "Furniture, jewelry, collectibles, art and electronics.",
-   "digRating": "Deep Dig",
-   "photoCount": 78,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.7278756,
-   "lng": -97.3311963,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/1caac9641240a4aa/",
-   "source": "https://www.estatesales.net/TX/Fort-Worth/76104/5150721"
-  },
-  {
-   "id": "3bfa7e6776de0515",
-   "city": "dallas-fort-worth",
-   "title": "North Dallas Estate Sale",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "books",
-    "art",
-    "electronics",
-    "china",
-    "crystal",
-    "antiques"
-   ],
-   "contentsLine": "Tools, furniture, collectibles, kitchen and books.",
-   "digRating": "Deep Dig",
-   "photoCount": 48,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.9238138,
-   "lng": -96.8375907,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/3bfa7e6776de0515/",
-   "source": "https://www.estatesales.net/TX/Dallas/75244/5158272"
-  },
-  {
-   "id": "0eb294fb7e3fcaba",
-   "city": "dallas-fort-worth",
-   "title": "Stella’s Estate Sales",
-   "company": "Stella's Estate Sales LLC.",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics"
-   ],
-   "contentsLine": "Tools, furniture, jewelry, collectibles and vehicles.",
-   "digRating": "Deep Dig",
-   "photoCount": 160,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.815303,
-   "lng": -97.254982,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/0eb294fb7e3fcaba/",
-   "source": "https://www.estatesales.net/TX/Haltom-City/76117/5118684"
-  },
-  {
-   "id": "80bad8b31b559ee1",
-   "city": "dallas-fort-worth",
-   "title": "Sunday 50% off Duncanville Estate Sale coins, jewelry, comics, Bev Doolittle",
-   "company": "Kitchens To Closets Estate Sales",
-   "categories": [
-    "jewelry",
-    "collectibles"
-   ],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "books",
-    "electronics"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, jewelry and collectibles.",
-   "digRating": "Deep Dig",
-   "photoCount": 238,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.6572383,
-   "lng": -96.9121977,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/80bad8b31b559ee1/",
-   "source": "https://www.estatesales.net/TX/Duncanville/75116/5154525"
-  },
-  {
-   "id": "ac3fe73ab9312bde",
-   "city": "dallas-fort-worth",
-   "title": "Tally Ho",
-   "company": "Sunshine Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "vinyl & records",
-    "collectibles",
-    "kitchen",
-    "christmas decor"
-   ],
-   "contentsLine": "Tools, vinyl & records, collectibles, kitchen and christmas decor.",
-   "digRating": "Deep Dig",
-   "photoCount": 93,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.831858,
-   "lng": -96.677018,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/ac3fe73ab9312bde/",
-   "source": "https://www.estatesales.net/TX/Dallas/75228/5162943"
-  },
-  {
-   "id": "556fec54a5ff6918",
-   "city": "dallas-fort-worth",
-   "title": "Weir Family Personal Property Sale — Repriced, Owner-Run, Furniture & Decor in Dallas",
-   "company": "",
-   "categories": [
-    "furniture"
-   ],
-   "keywords": [
-    "furniture",
-    "vinyl & records",
-    "collectibles",
-    "vehicles",
-    "books",
-    "art",
-    "toys & games",
-    "antiques",
-    "rugs"
-   ],
-   "contentsLine": "Furniture, vinyl & records, collectibles, vehicles and books.",
-   "digRating": "Deep Dig",
-   "photoCount": 21,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.938712,
-   "lng": -96.828842,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/556fec54a5ff6918/",
-   "source": "https://www.estatesales.net/TX/Dallas/75244/5164257"
-  },
-  {
-   "id": "15f3d21f1192af98",
-   "city": "dallas-fort-worth",
-   "title": "Woo Hoo! Sale for Everyone!",
-   "company": "Kite-like Estate Sales LLC",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "toys & games",
-    "figurines"
-   ],
-   "contentsLine": "Tools, furniture, jewelry, collectibles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 189,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 32.9413364,
-   "lng": -96.6929557,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/15f3d21f1192af98/",
-   "source": "https://www.estatesales.net/TX/Richardson/75081/5163069"
-  },
-  {
-   "id": "8cfe20b069385d64",
-   "city": "dallas-fort-worth",
-   "title": "50% OFF!! - Christmas, Like new Clothes, New Shoes, & Tons of Jewelry!",
-   "company": "Higher Ground Estate Sales (Formerly Discovering Brighter Horizons)",
-   "categories": [
-    "jewelry",
-    "clothing"
-   ],
-   "keywords": [
-    "furniture",
-    "jewelry",
-    "clothing",
-    "electronics",
-    "christmas decor"
-   ],
-   "contentsLine": "Furniture, jewelry, clothing, electronics and christmas decor.",
-   "digRating": "Deep Dig",
-   "photoCount": 90,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 32.878625,
-   "lng": -96.616802,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/8cfe20b069385d64/",
-   "source": "https://www.estatesales.net/TX/Garland/75043/5154885"
-  },
-  {
-   "id": "f89197650a401c51",
-   "city": "dallas-fort-worth",
-   "title": "Design District Estate Sale",
-   "company": "Jg Sales",
-   "categories": [],
-   "digRating": "Worth a Look",
-   "photoCount": 100,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 32.792978,
-   "lng": -96.831167,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/f89197650a401c51/",
-   "source": "https://www.estatesales.net/TX/Dallas/75206/5168430"
-  },
-  {
-   "id": "2081835b521a3efd",
-   "city": "dallas-fort-worth",
-   "title": "East Dallas Sale by Blue Ribbon",
-   "company": "Blue Ribbon Estate Sales",
-   "categories": [],
-   "digRating": "Worth a Look",
-   "photoCount": 57,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 32.8042785,
-   "lng": -96.7045451,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/2081835b521a3efd/",
-   "source": "https://www.estatesales.net/TX/Dallas/75228/5164200"
-  },
-  {
-   "id": "77f896d020937ccc",
-   "city": "dallas-fort-worth",
-   "title": "GARAGE & ESTATE SALE",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "jewelry",
-    "clothing",
-    "electronics",
-    "toys & games",
-    "china",
-    "lamps",
-    "mirrors",
-    "watches"
-   ],
-   "contentsLine": "Furniture, jewelry, clothing, electronics and toys & games.",
-   "digRating": "Deep Dig",
-   "photoCount": 22,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 32.5897831,
-   "lng": -96.8570183,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/77f896d020937ccc/",
-   "source": "https://www.craigslist.org/view/d/fort-worth-garage-estate-sale/c86LfWwRQuEoYrYw4w2pBh"
-  },
-  {
-   "id": "7d63dc7792667483",
-   "city": "dallas-fort-worth",
-   "title": "Huge estate in West Fort Worth off Byers Ave and Roaring Springs Rd",
-   "company": "Estate & Specialty Sales LLC",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "antiques",
-    "rugs",
-    "mirrors"
-   ],
-   "contentsLine": "Furniture, jewelry, collectibles, clothing and books.",
-   "digRating": "Deep Dig",
-   "photoCount": 146,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 32.7393726,
-   "lng": -97.3792404,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/7d63dc7792667483/",
-   "source": "https://www.estatesales.net/TX/Fort-Worth/76107/5149647"
-  },
-  {
-   "id": "b0d4b0bea60fe663",
-   "city": "dallas-fort-worth",
-   "title": "Kates Greats 50% OFF SUNDAY, LIVE PLANTS, TREES, MIKASA CHINA, MODERN DECOR, JEWELRY",
-   "company": "Kate's Greats",
-   "categories": [
-    "jewelry"
-   ],
-   "keywords": [
-    "furniture",
-    "jewelry",
-    "kitchen",
-    "clothing",
-    "electronics",
-    "china",
-    "lamps",
-    "mirrors"
-   ],
-   "contentsLine": "Furniture, jewelry, kitchen, clothing and electronics.",
-   "digRating": "Deep Dig",
-   "photoCount": 99,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 32.942968,
-   "lng": -97.2846,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/b0d4b0bea60fe663/",
-   "source": "https://www.estatesales.net/TX/Keller/76244/5163714"
-  },
-  {
-   "id": "ce881c72715069d8",
-   "city": "dallas-fort-worth",
-   "title": "Moving and Downsizing Estate Private Sale",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "vehicles",
-    "clothing",
-    "toys & games",
-    "figurines",
-    "china",
-    "mirrors",
-    "christmas decor"
-   ],
-   "contentsLine": "Furniture, collectibles, vehicles, clothing and toys & games.",
-   "digRating": "Deep Dig",
-   "photoCount": 42,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 32.9023914,
-   "lng": -97.3031223,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/ce881c72715069d8/",
-   "source": "https://www.estatesales.net/TX/Keller/76244/5166942"
-  },
-  {
-   "id": "4ba8164a02b31a1d",
-   "city": "dallas-fort-worth",
-   "title": "Estate Sale - Collectors! Dealers!",
-   "company": "",
-   "categories": [
-    "collectibles"
-   ],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "antiques"
-   ],
-   "contentsLine": "Furniture, collectibles, kitchen and antiques.",
-   "digRating": "Worth a Look",
-   "photoCount": 1,
-   "dates": [
-    "2026-11-22"
-   ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 32.950664,
-   "lng": -96.900084,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/4ba8164a02b31a1d/",
-   "source": "https://estatesales.org/estate-sales/tx/carrollton/75006/estate-sale-collectors-dealers-2474931"
-  },
-  {
-   "id": "3e502141f7d1ead5",
-   "city": "dallas-fort-worth",
-   "title": "Estate SALE Selling lots of items Contact for BUYING",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "toys & games"
-   ],
-   "contentsLine": "Furniture, jewelry, collectibles, kitchen and clothing.",
-   "digRating": "Deep Dig",
-   "photoCount": 18,
-   "dates": [
-    "2026-11-22"
-   ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 32.844017,
-   "lng": -97.1430671,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/3e502141f7d1ead5/",
-   "source": "https://www.craigslist.org/view/d/hurst-estate-sale-selling-lots-of-items/kKbthyHar7Uh65zH3mm54Z"
-  },
-  {
-   "id": "510f9b0d3bbff46d",
-   "city": "dallas-fort-worth",
-   "title": "LAST DAY ! MOST 50% TO 75% OFF MASSIVE RANCH ESTATE IN NORTH DENTON!",
-   "company": "Brent's Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "collectibles",
-    "vehicles",
-    "books",
-    "art",
-    "china",
-    "crystal",
-    "antiques",
-    "mid-century"
-   ],
-   "contentsLine": "Tools, furniture, collectibles, vehicles and books.",
-   "digRating": "Deep Dig",
-   "photoCount": 93,
-   "dates": [
-    "2026-11-22"
-   ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 33.2591537,
-   "lng": -97.0795122,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/510f9b0d3bbff46d/",
-   "source": "https://www.estatesales.net/TX/Denton/76208/5157231"
-  },
-  {
-   "id": "22d863f7429790ed",
-   "city": "austin",
-   "title": "3 Home Estate Sale",
-   "company": "",
-   "categories": [],
-   "digRating": "Worth a Look",
-   "photoCount": 18,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22",
-    "2026-11-23"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-23",
-   "lat": 30.3138018,
-   "lng": -97.7148071,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/22d863f7429790ed/",
-   "source": "https://www.estatesales.net/TX/Austin/78751/5166792"
-  },
-  {
-   "id": "a64975670ff873de",
-   "city": "austin",
-   "title": "50% off most everything @ Treasures in Onion Creek (Cypress Ridge)",
-   "company": "Austin Capital Estate Sales",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "toys & games"
-   ],
-   "contentsLine": "Furniture, vinyl & records, jewelry, collectibles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 568,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22",
-    "2026-11-23"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-23",
-   "lat": 30.1468865,
-   "lng": -97.7796151,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/a64975670ff873de/",
-   "source": "https://www.estatesales.net/TX/Austin/78747/5129673"
   },
   {
    "id": "4494ccdf99b8539d",
@@ -2831,18 +1479,19 @@
    "categories": [],
    "keywords": [
     "furniture",
+    "jewelry",
     "collectibles",
     "vehicles",
     "clothing",
+    "books",
     "art",
-    "antiques",
-    "lamps",
-    "silver",
-    "christmas decor"
+    "toys & games",
+    "china",
+    "crystal"
    ],
-   "contentsLine": "Furniture, collectibles, vehicles, clothing and art.",
+   "contentsLine": "Furniture, jewelry, collectibles, vehicles and clothing.",
    "digRating": "Deep Dig",
-   "photoCount": 15,
+   "photoCount": 58,
    "dates": [
     "2026-11-27",
     "2026-11-28"
@@ -2867,7 +1516,7 @@
    ],
    "contentsLine": "Collectibles, books and comics.",
    "digRating": "Deep Dig",
-   "photoCount": 114,
+   "photoCount": 142,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -2883,11 +1532,9 @@
   {
    "id": "f7dbe7c3f81b1239",
    "city": "austin",
-   "title": "Black Friday sale for FASHIONISTAS",
+   "title": "Black Friday Prices Without Black Friday Crowds",
    "company": "ATX & Beyond Estate Sales",
-   "categories": [
-    "clothing"
-   ],
+   "categories": [],
    "keywords": [
     "tools",
     "jewelry",
@@ -2895,7 +1542,7 @@
    ],
    "contentsLine": "Tools, jewelry and clothing.",
    "digRating": "Deep Dig",
-   "photoCount": 50,
+   "photoCount": 53,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -2907,6 +1554,32 @@
    "lng": -97.8122476,
    "url": "https://rheinze08.github.io/the-dig-web/sale/f7dbe7c3f81b1239/",
    "source": "https://www.estatesales.net/TX/Cedar-Park/78613/5165844"
+  },
+  {
+   "id": "95131865685a3f22",
+   "city": "austin",
+   "title": "HUGE MAEVEL/DC, Movies & Books Estate Sale",
+   "company": "",
+   "categories": [
+    "books"
+   ],
+   "keywords": [
+    "books"
+   ],
+   "contentsLine": "Books.",
+   "digRating": "Worth a Look",
+   "photoCount": 24,
+   "dates": [
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "first": "2026-11-27",
+   "last": "2026-11-29",
+   "lat": 30.3420882,
+   "lng": -97.555905,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/95131865685a3f22/",
+   "source": "https://www.craigslist.org/view/d/manor-huge-maevel-dc-movies-books/vMHFcdwFMKszk3wZMRNi8W"
   },
   {
    "id": "d0c6bdf31800b6d7",
@@ -2945,7 +1618,7 @@
    ],
    "contentsLine": "Jewelry, collectibles, clothing, art and antiques.",
    "digRating": "Deep Dig",
-   "photoCount": 44,
+   "photoCount": 51,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -3019,7 +1692,7 @@
   {
    "id": "e6ac053eb6beb2e7",
    "city": "austin",
-   "title": "Vintage Estate off Balcones: Meissen, U.T., Aqua Fest, Texas Politics, Musical Machines & more!",
+   "title": "Vintage Estate off Balcones: U.T., AquaFest, Texas Politics, Musical Machines, Meissen & More",
    "company": "Austin Estate Sales",
    "categories": [],
    "keywords": [
@@ -3036,7 +1709,7 @@
    ],
    "contentsLine": "Tools, furniture, jewelry, collectibles and clothing.",
    "digRating": "Deep Dig",
-   "photoCount": 231,
+   "photoCount": 244,
    "dates": [
     "2026-12-03",
     "2026-12-04",
@@ -3056,17 +1729,13 @@
    "company": "The Phoenix Phinds",
    "categories": [],
    "keywords": [
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "toys & games",
-    "antiques",
-    "christmas decor"
+    "pool table",
+    "billiard balls",
+    "pool cues",
+    "framed golf photographs",
+    "secretary desk"
    ],
-   "contentsLine": "Furniture, collectibles, kitchen, clothing and books.",
+   "contentsLine": "A red-felt pool table has balls and cues. Framed golf photos and a glass-front secretary desk are also pictured.",
    "digRating": "Deep Dig",
    "photoCount": 47,
    "dates": [
@@ -3089,20 +1758,14 @@
     "collectibles"
    ],
    "keywords": [
-    "tools",
-    "furniture",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "art",
-    "electronics",
-    "figurines",
-    "crystal"
+    "photo album",
+    "black-and-white photographs",
+    "parrot figurine",
+    "purple geode"
    ],
-   "contentsLine": "Tools, furniture, collectibles, vehicles and kitchen.",
+   "contentsLine": "An album holds black-and-white snapshots. A parrot figurine sits on a purple crystal geode.",
    "digRating": "Deep Dig",
-   "photoCount": 315,
+   "photoCount": 312,
    "dates": [
     "2026-12-05",
     "2026-12-06",
@@ -3116,466 +1779,9 @@
    "source": "https://www.estatesales.net/TX/Cedar-Creek/78612/5167587"
   },
   {
-   "id": "c90a49519e934627",
-   "city": "austin",
-   "title": "Dripping Springs Blue Moon Estate Sale, Old World Elegance, Hill Country Soul - Thurs 19 *VIP EVENT*",
-   "company": "Blue Moon Estate Sales of Hill Country/Greater Austin",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "art",
-    "figurines",
-    "rugs"
-   ],
-   "contentsLine": "Furniture, collectibles, art, figurines and rugs.",
-   "digRating": "Deep Dig",
-   "photoCount": 193,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 30.174852,
-   "lng": -97.957967,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/c90a49519e934627/",
-   "source": "https://www.estatesales.net/TX/Austin/78737/5122866"
-  },
-  {
-   "id": "47b0c73100bbe19e",
-   "city": "austin",
-   "title": "The O. G. 50 % Off Most Sunday",
-   "company": "Simplify Life",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "toys & games"
-   ],
-   "contentsLine": "Furniture, vinyl & records, jewelry, collectibles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 182,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 30.2853452,
-   "lng": -97.7686445,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/47b0c73100bbe19e/",
-   "source": "https://www.estatesales.net/TX/Austin/78703/5148483"
-  },
-  {
-   "id": "8ed96edece4bebd1",
-   "city": "austin",
-   "title": "50% off Saturday-Sunday Estate Sale",
-   "company": "Country Estate Auction And Estate Liquidators",
-   "categories": [],
-   "digRating": "Deep Dig",
-   "photoCount": 43,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 30.1304879,
-   "lng": -97.3680502,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/8ed96edece4bebd1/",
-   "source": "https://www.estatesales.net/TX/Bastrop/78602/5163939"
-  },
-  {
-   "id": "912abaaf5a933572",
-   "city": "austin",
-   "title": "Designer Furniture, Original Art and More in Tarrytown!",
-   "company": "Burgess Estate Sales",
-   "categories": [
-    "furniture",
-    "art"
-   ],
-   "keywords": [
-    "furniture",
-    "kitchen",
-    "books",
-    "art",
-    "toys & games",
-    "mirrors",
-    "pianos"
-   ],
-   "contentsLine": "Furniture, kitchen, books, art and toys & games.",
-   "digRating": "Deep Dig",
-   "photoCount": 114,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 30.3029885,
-   "lng": -97.7717271,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/912abaaf5a933572/",
-   "source": "https://www.estatesales.net/TX/Austin/78703/5154300"
-  },
-  {
-   "id": "82c515db01a37476",
-   "city": "austin",
-   "title": "Half Off Sunday! Behind the French Doors: A Taste of Paris in Lakeway!",
-   "company": "Simply Felicia Estate Sales",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "clothing",
-    "crystal",
-    "antiques",
-    "lamps",
-    "silver",
-    "pianos"
-   ],
-   "contentsLine": "Furniture, jewelry, collectibles, clothing and crystal.",
-   "digRating": "Deep Dig",
-   "photoCount": 271,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 30.358218,
-   "lng": -97.977812,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/82c515db01a37476/",
-   "source": "https://www.estatesales.net/TX/Austin/78734/5145363"
-  },
-  {
-   "id": "b14d2b101b268fda",
-   "city": "austin",
-   "title": "HUGE VINTAGE NOVEMBER ESTATE SALE",
-   "company": "My Estate To Liquidate",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "art",
-    "china",
-    "antiques"
-   ],
-   "contentsLine": "Furniture, collectibles, kitchen, art and china.",
-   "digRating": "Deep Dig",
-   "photoCount": 156,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 30.225606,
-   "lng": -97.836612,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/b14d2b101b268fda/",
-   "source": "https://www.estatesales.net/TX/Austin/78704/5161803"
-  },
-  {
-   "id": "2105c54c8bfa22a2",
-   "city": "austin",
-   "title": "Vintage and Antique Estate sale",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "art",
-    "china",
-    "antiques"
-   ],
-   "contentsLine": "Furniture, collectibles, kitchen, art and china.",
-   "digRating": "Deep Dig",
-   "photoCount": 23,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 30.2649261,
-   "lng": -97.7474086,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/2105c54c8bfa22a2/",
-   "source": "https://www.craigslist.org/view/d/austin-vintage-and-antique-estate-sale/aM3fZjSkPomePyQvUU3XjR"
-  },
-  {
-   "id": "3b66de8337cd9798",
-   "city": "austin",
-   "title": "50% Off in Rocky Creek",
-   "company": "Dixie Chatham",
-   "categories": [],
-   "digRating": "Worth a Look",
-   "photoCount": 93,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 30.287342,
-   "lng": -98.033072,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/3b66de8337cd9798/",
-   "source": "https://www.estatesales.net/TX/Austin/78738/5166726"
-  },
-  {
-   "id": "059bc691bb95ed2d",
-   "city": "austin",
-   "title": "75% OFF Estate Treasures~Collectibles~Art~Baskets~Vintage Ladies Clothing/Hats~Baskets~Household",
-   "company": "DownSizing Estates",
-   "categories": [
-    "collectibles",
-    "clothing",
-    "art"
-   ],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "vehicles",
-    "clothing",
-    "art",
-    "toys & games",
-    "antiques",
-    "lamps",
-    "coins",
-    "dolls"
-   ],
-   "contentsLine": "Furniture, collectibles, vehicles, clothing and art.",
-   "digRating": "Deep Dig",
-   "photoCount": 125,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 30.489264,
-   "lng": -97.695462,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/059bc691bb95ed2d/",
-   "source": "https://www.estatesales.net/TX/Round-Rock/78681/5164800"
-  },
-  {
-   "id": "349cef1eeb47df8e",
-   "city": "austin",
-   "title": "Blue Moon Estate Sale in Tarrytown with vintage books, decor, collectibles, music, and more!",
-   "company": "Blue Moon Estate Sales",
-   "categories": [
-    "collectibles",
-    "books"
-   ],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, jewelry and collectibles.",
-   "digRating": "Deep Dig",
-   "photoCount": 288,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 30.308924,
-   "lng": -97.7700574,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/349cef1eeb47df8e/",
-   "source": "https://www.estatesales.net/TX/Austin/78703/5145585"
-  },
-  {
-   "id": "cd806ff94bb5497c",
-   "city": "austin",
-   "title": "Everything you are looking for!",
-   "company": "Evelyn's Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "collectibles",
-    "kitchen",
-    "books",
-    "electronics",
-    "toys & games",
-    "antiques",
-    "lamps"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, collectibles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 82,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 30.4349515,
-   "lng": -97.7897648,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/cd806ff94bb5497c/",
-   "source": "https://www.estatesales.net/TX/Austin/78750/5162256"
-  },
-  {
-   "id": "438808997173b381",
-   "city": "austin",
-   "title": "Kerr",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "kitchen",
-    "clothing"
-   ],
-   "contentsLine": "Kitchen and clothing.",
-   "digRating": "Worth a Look",
-   "photoCount": 26,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 30.1405465,
-   "lng": -97.7773959,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/438808997173b381/",
-   "source": "https://www.estatesales.net/TX/Austin/78747/5167845"
-  },
-  {
-   "id": "b769bcb8baef84dd",
-   "city": "austin",
-   "title": "THE BEST ESTATE SALE OF NOVEMBER! CANT MISS!!!",
-   "company": "My Estate To Liquidate",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "art"
-   ],
-   "contentsLine": "Furniture, collectibles, kitchen and art.",
-   "digRating": "Deep Dig",
-   "photoCount": 102,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 30.4420165,
-   "lng": -97.8305687,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/b769bcb8baef84dd/",
-   "source": "https://www.craigslist.org/view/d/austin-estate-sale-furniture-art/kkDJFKVgBKEVwwtjGDvnZj"
-  },
-  {
-   "id": "1a66b073473a3d9a",
-   "city": "austin",
-   "title": "The Colony Cutie",
-   "company": "Dixie Chatham",
-   "categories": [],
-   "digRating": "Worth a Look",
-   "photoCount": 119,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 30.126617,
-   "lng": -97.42363,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/1a66b073473a3d9a/",
-   "source": "https://www.estatesales.net/TX/Bastrop/78602/5166678"
-  },
-  {
-   "id": "e86447d98a1f3c3d",
-   "city": "austin",
-   "title": "75% OFF Estate Sale Treasures in Round Rock~Amazing Collectibles!!!",
-   "company": "",
-   "categories": [
-    "collectibles"
-   ],
-   "keywords": [
-    "collectibles",
-    "clothing",
-    "art",
-    "coins"
-   ],
-   "contentsLine": "Collectibles, clothing, art and coins.",
-   "digRating": "Deep Dig",
-   "photoCount": 24,
-   "dates": [
-    "2026-11-22"
-   ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 30.5504457,
-   "lng": -97.7400302,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/e86447d98a1f3c3d/",
-   "source": "https://www.craigslist.org/view/d/round-rock-75-off-estate-sale-treasures/bT1hzUbJohKyWRbF4rcLBC"
-  },
-  {
-   "id": "e194b21d79ac8618",
-   "city": "san-antonio",
-   "title": "33% Off Cozy Texas Classics",
-   "company": "Satx Select Liquidators LLC",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "art",
-    "electronics",
-    "toys & games"
-   ],
-   "contentsLine": "Tools, furniture, jewelry, collectibles and vehicles.",
-   "digRating": "Deep Dig",
-   "photoCount": 176,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22",
-    "2026-11-23"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-23",
-   "lat": 29.6012297,
-   "lng": -98.4559461,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/e194b21d79ac8618/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78232/5164827"
-  },
-  {
    "id": "02ab56acec837dcf",
    "city": "san-antonio",
-   "title": "Grainfather Brewing System, Western Cowboy Art, Tools & Furniture",
+   "title": "75% off and $35 Basket Sales-Grainfather Brewing System, Western Cowboy Art, Tools & Furniture",
    "company": "San Antonio Estate Sales LLC",
    "categories": [
     "tools",
@@ -3612,14 +1818,13 @@
    "title": "Blowout sale! 50% OFF",
    "company": "1dandelion LLC",
    "categories": [],
-   "digRating": "Deep Dig",
+   "digRating": "Worth a Look",
    "photoCount": 64,
    "dates": [
-    "2026-11-23",
     "2026-11-24",
     "2026-11-25"
    ],
-   "first": "2026-11-23",
+   "first": "2026-11-24",
    "last": "2026-11-25",
    "lat": 29.443835,
    "lng": -98.508732,
@@ -3746,18 +1951,13 @@
    "company": "Always Remembered",
    "categories": [],
    "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "toys & games",
-    "crystal"
+    "framed figure drawing",
+    "hippo artwork",
+    "horse head sculpture",
+    "secretary desk",
+    "floor lamp"
    ],
-   "contentsLine": "Tools, furniture, jewelry, kitchen and clothing.",
+   "contentsLine": "Framed figure and animal artwork appears alongside a horse head sculpture and a tall wooden secretary desk.",
    "digRating": "Deep Dig",
    "photoCount": 109,
    "dates": [
@@ -3793,6 +1993,65 @@
    "source": "https://www.estatesales.net/TX/San-Antonio/78239/5155791"
   },
   {
+   "id": "c90837e76026ca3b",
+   "city": "san-antonio",
+   "title": "Wonderful Windcrest Vintage Estate Sale in a Gracious Garden Home w/ Furnishings",
+   "company": "Professional Estate Sales LLC",
+   "categories": [
+    "furniture"
+   ],
+   "keywords": [
+    "furniture"
+   ],
+   "contentsLine": "Furniture.",
+   "digRating": "Deep Dig",
+   "photoCount": 278,
+   "dates": [
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05"
+   ],
+   "first": "2026-12-03",
+   "last": "2026-12-05",
+   "lat": 29.5177775,
+   "lng": -98.3748987,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/c90837e76026ca3b/",
+   "source": "https://www.estatesales.net/TX/San-Antonio/78239/5170260"
+  },
+  {
+   "id": "0ab317b4913bd29c",
+   "city": "san-antonio",
+   "title": "WOODRIDGE ESTATE SALE",
+   "company": "Complete Estate Sale Services",
+   "categories": [],
+   "keywords": [
+    "tools",
+    "furniture",
+    "jewelry",
+    "collectibles",
+    "kitchen",
+    "clothing",
+    "books",
+    "art",
+    "electronics",
+    "figurines"
+   ],
+   "contentsLine": "Tools, furniture, jewelry, collectibles and kitchen.",
+   "digRating": "Deep Dig",
+   "photoCount": 160,
+   "dates": [
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05"
+   ],
+   "first": "2026-12-03",
+   "last": "2026-12-05",
+   "lat": 29.5638506,
+   "lng": -98.6155369,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/0ab317b4913bd29c/",
+   "source": "https://www.estatesales.net/TX/San-Antonio/78249/5169666"
+  },
+  {
    "id": "334d1454eaf0086b",
    "city": "san-antonio",
    "title": "Beautiful Highest Quality Furniture & Decor @ Steeple Brook",
@@ -3801,16 +2060,14 @@
     "furniture"
    ],
    "keywords": [
-    "tools",
-    "furniture",
-    "kitchen",
-    "clothing",
-    "toys & games",
-    "patio furniture"
+    "upholstered bed",
+    "carved nightstand",
+    "floral glass-shade lamp",
+    "patterned area rug"
    ],
-   "contentsLine": "Tools, furniture, kitchen, clothing and toys & games.",
+   "contentsLine": "An upholstered bed stands on a patterned rug beside a curved, carved nightstand and a floral glass-shade lamp.",
    "digRating": "Deep Dig",
-   "photoCount": 447,
+   "photoCount": 456,
    "dates": [
     "2026-12-04",
     "2026-12-05",
@@ -3822,6 +2079,33 @@
    "lng": -98.6190257,
    "url": "https://rheinze08.github.io/the-dig-web/sale/334d1454eaf0086b/",
    "source": "https://www.estatesales.net/TX/San-Antonio/78256/5163432"
+  },
+  {
+   "id": "b1b05208182ed34e",
+   "city": "san-antonio",
+   "title": "Timeless Couture by Legacy Sky",
+   "company": "Legacy Sky Estate Sales, LLC",
+   "categories": [],
+   "keywords": [
+    "furniture",
+    "art",
+    "mirrors",
+    "pianos"
+   ],
+   "contentsLine": "Furniture, art, mirrors and pianos.",
+   "digRating": "Deep Dig",
+   "photoCount": 84,
+   "dates": [
+    "2026-12-04",
+    "2026-12-05",
+    "2026-12-06"
+   ],
+   "first": "2026-12-04",
+   "last": "2026-12-06",
+   "lat": 29.7099405,
+   "lng": -98.6398306,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/b1b05208182ed34e/",
+   "source": "https://www.estatesales.net/TX/Boerne/78015/5169621"
   },
   {
    "id": "8e56a00856f4e1b4",
@@ -3856,7 +2140,7 @@
    ],
    "contentsLine": "Furniture, kitchen, books and art.",
    "digRating": "Deep Dig",
-   "photoCount": 12,
+   "photoCount": 21,
    "dates": [
     "2026-12-05",
     "2026-12-06"
@@ -3867,505 +2151,6 @@
    "lng": -98.3205808,
    "url": "https://rheinze08.github.io/the-dig-web/sale/280dd0611afe0fd6/",
    "source": "https://www.estatesales.net/TX/San-Antonio/78266/5073984"
-  },
-  {
-   "id": "8a2bec391b93540d",
-   "city": "san-antonio",
-   "title": "BOX Day Sunday $20 Fill A Box",
-   "company": "Alamo City Mercantale",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "books",
-    "electronics",
-    "toys & games"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, collectibles and vehicles.",
-   "digRating": "Deep Dig",
-   "photoCount": 393,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 29.497409,
-   "lng": -98.419527,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/8a2bec391b93540d/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78218/5158599"
-  },
-  {
-   "id": "8ed576ea1c0b4cb7",
-   "city": "san-antonio",
-   "title": "#633: Texas Art, Christmas Wishes & Plentiful Dishes",
-   "company": "A Better Estate Sale Co.",
-   "categories": [
-    "kitchen",
-    "art"
-   ],
-   "keywords": [
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "figurines",
-    "china"
-   ],
-   "contentsLine": "Furniture, jewelry, collectibles, kitchen and clothing.",
-   "digRating": "Deep Dig",
-   "photoCount": 403,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.5647794,
-   "lng": -98.6332601,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/8ed576ea1c0b4cb7/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78249/5138061"
-  },
-  {
-   "id": "f8e3d9b53528e5c1",
-   "city": "san-antonio",
-   "title": "50% off and box day! Massive warehouse sale. Sterling AMMO games comics everything",
-   "company": "Back Again Resale",
-   "categories": [
-    "collectibles",
-    "toys-games"
-   ],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "collectibles",
-    "clothing",
-    "toys & games",
-    "silver",
-    "comics"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, collectibles and clothing.",
-   "digRating": "Deep Dig",
-   "photoCount": 116,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.5486258,
-   "lng": -98.4967028,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/f8e3d9b53528e5c1/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78216/5157204"
-  },
-  {
-   "id": "2dc9d38168c25dcf",
-   "city": "san-antonio",
-   "title": "50% OFF Soulshine in Universal City | A Christmas Wonderland & Vintage Treasures Galore!",
-   "company": "Soulshine Estate Sale Company",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "kitchen",
-    "clothing",
-    "mid-century",
-    "lamps",
-    "christmas decor"
-   ],
-   "contentsLine": "Furniture, kitchen, clothing, mid-century and lamps.",
-   "digRating": "Deep Dig",
-   "photoCount": 192,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.5699934,
-   "lng": -98.3164482,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/2dc9d38168c25dcf/",
-   "source": "https://www.estatesales.net/TX/Universal-City/78148/5162931"
-  },
-  {
-   "id": "59bf93d65b76bc7e",
-   "city": "san-antonio",
-   "title": "50% off! Last day! Open @ 10:00am! Bulverde Home Sweet Home! 50% off!",
-   "company": "Overstreet Estates, LLC",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "toys & games",
-    "antiques"
-   ],
-   "contentsLine": "Furniture, toys & games and antiques.",
-   "digRating": "Deep Dig",
-   "photoCount": 75,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.7669402,
-   "lng": -98.4267298,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/59bf93d65b76bc7e/",
-   "source": "https://www.estatesales.net/TX/Bulverde/78163/5161698"
-  },
-  {
-   "id": "7260c12af7ae5845",
-   "city": "san-antonio",
-   "title": "50% off!! Hidden Meadow",
-   "company": "Southern Charm Estate Sales",
-   "categories": [],
-   "digRating": "Deep Dig",
-   "photoCount": 104,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.4938137,
-   "lng": -98.6939359,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/7260c12af7ae5845/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78250/5158635"
-  },
-  {
-   "id": "3fa45716d940ce60",
-   "city": "san-antonio",
-   "title": "Alamo Ranch Estate Sale",
-   "company": "Denny Harrison",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "art",
-    "electronics",
-    "toys & games",
-    "china"
-   ],
-   "contentsLine": "Tools, furniture, jewelry, collectibles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 124,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.480654,
-   "lng": -98.741959,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/3fa45716d940ce60/",
-   "source": "https://estatesales.org/estate-sales/tx/san-antonio/78253/alamo-ranch-estate-sale-2472776"
-  },
-  {
-   "id": "1fd129ce69eaa99f",
-   "city": "san-antonio",
-   "title": "Eclectic Multigenerational Sale in SATX by Golden Bow",
-   "company": "Golden Bow Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "vehicles",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "toys & games"
-   ],
-   "contentsLine": "Tools, furniture, jewelry, collectibles and vehicles.",
-   "digRating": "Deep Dig",
-   "photoCount": 333,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.538467,
-   "lng": -98.493902,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/1fd129ce69eaa99f/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78216/5151945"
-  },
-  {
-   "id": "742906a1b83fcde9",
-   "city": "san-antonio",
-   "title": "LOTS OF TEMPTATIONS COOKWARE, CHRISTMAS, & EVERTHING ELSE !! 1/2 PRICE SUNDAY !!!!!!!!",
-   "company": "From Trash To Treasure",
-   "categories": [
-    "kitchen"
-   ],
-   "keywords": [
-    "kitchen",
-    "christmas decor"
-   ],
-   "contentsLine": "Kitchen and christmas decor.",
-   "digRating": "Deep Dig",
-   "photoCount": 60,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.5086885,
-   "lng": -98.4661147,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/742906a1b83fcde9/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78209/5080635"
-  },
-  {
-   "id": "10d00aff10fd27d1",
-   "city": "san-antonio",
-   "title": "Lovers of Home Economics!",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "vinyl & records",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "electronics",
-    "figurines",
-    "christmas decor"
-   ],
-   "contentsLine": "Furniture, vinyl & records, collectibles, kitchen and clothing.",
-   "digRating": "Deep Dig",
-   "photoCount": 131,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.535326,
-   "lng": -98.675887,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/10d00aff10fd27d1/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78254/5162592"
-  },
-  {
-   "id": "0b29fdedccaaff05",
-   "city": "san-antonio",
-   "title": "Updated! Vintage Dealer—Brass, Pottery, Silver, Depression Glass & more!",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "art",
-    "antiques",
-    "mid-century",
-    "lamps",
-    "mirrors",
-    "silver"
-   ],
-   "contentsLine": "Furniture, collectibles, kitchen, art and antiques.",
-   "digRating": "Deep Dig",
-   "photoCount": 88,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 29.717573,
-   "lng": -98.4637654,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/0b29fdedccaaff05/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78260/5146017"
-  },
-  {
-   "id": "34b5227346b96a7f",
-   "city": "san-antonio",
-   "title": "50% Sunday ! Caring Transitions @ The Knolls of Woodlake",
-   "company": "Caring Transitions Of San Antonio North",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "collectibles",
-    "electronics",
-    "figurines",
-    "china"
-   ],
-   "contentsLine": "Tools, furniture, collectibles, electronics and figurines.",
-   "digRating": "Deep Dig",
-   "photoCount": 61,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 29.4880709,
-   "lng": -98.3473411,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/34b5227346b96a7f/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78244/5165934"
-  },
-  {
-   "id": "2d56b81a9e1923d5",
-   "city": "san-antonio",
-   "title": "Famous American Record Producer from the 70s",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "art",
-    "electronics",
-    "toys & games"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, jewelry and vehicles.",
-   "digRating": "Deep Dig",
-   "photoCount": 20,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 29.744398,
-   "lng": -98.347109,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/2d56b81a9e1923d5/",
-   "source": "https://www.estatesales.net/TX/Bulverde/78163/5165991"
-  },
-  {
-   "id": "e3e538763c4513ab",
-   "city": "san-antonio",
-   "title": "Great Bargains in Great Northwest 50% OFF & BETTER",
-   "company": "Heritage Senior Downsizing LLC",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "china",
-    "mid-century"
-   ],
-   "contentsLine": "Tools, furniture, kitchen, clothing and books.",
-   "digRating": "Deep Dig",
-   "photoCount": 126,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 29.4992418,
-   "lng": -98.6703713,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/e3e538763c4513ab/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78250/5160894"
-  },
-  {
-   "id": "024609b28b867c3b",
-   "city": "san-antonio",
-   "title": "HALF OFF SUNDAY SALE",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "tools"
-   ],
-   "contentsLine": "Tools.",
-   "digRating": "Worth a Look",
-   "photoCount": 41,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 29.400566,
-   "lng": -98.711918,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/024609b28b867c3b/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78245/5167800"
-  },
-  {
-   "id": "88d9511fd8f151ff",
-   "city": "san-antonio",
-   "title": "South San Antonio Treasure Hunt! Saturday & Sunday ONLY!",
-   "company": "Overstreet Estates, LLC",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "clothing"
-   ],
-   "contentsLine": "Furniture and clothing.",
-   "digRating": "Deep Dig",
-   "photoCount": 88,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 29.3835661,
-   "lng": -98.4008681,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/88d9511fd8f151ff/",
-   "source": "https://www.estatesales.net/TX/San-Antonio/78222/5166879"
-  },
-  {
-   "id": "973e0e5b1df0d2b5",
-   "city": "san-antonio",
-   "title": "THE FINAL TWO DAYS!! 30%-50% OFF!!!",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "collectibles",
-    "kitchen",
-    "rugs",
-    "mirrors"
-   ],
-   "contentsLine": "Collectibles, kitchen, rugs and mirrors.",
-   "digRating": "Worth a Look",
-   "photoCount": 20,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 29.570174,
-   "lng": -98.340268,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/973e0e5b1df0d2b5/",
-   "source": "https://estatesales.org/estate-sales/tx/live-oak/78233/the-final-two-days-3050-2474847"
   },
   {
    "id": "7fabe57f964da73e",
@@ -4398,6 +2183,61 @@
    "source": "https://www.estatesales.net/AZ/Gilbert/85297/5144415"
   },
   {
+   "id": "a5d5551f99c9aa7e",
+   "city": "phoenix",
+   "title": "Estate sale 61 yrs 50% off monday nov23 8 am to 6",
+   "company": "",
+   "categories": [],
+   "keywords": [
+    "collectibles",
+    "vehicles",
+    "kitchen",
+    "electronics",
+    "toys & games",
+    "antiques",
+    "silver",
+    "coins",
+    "dolls",
+    "christmas decor"
+   ],
+   "contentsLine": "Collectibles, vehicles, kitchen, electronics and toys & games.",
+   "digRating": "Deep Dig",
+   "photoCount": 23,
+   "dates": [
+    "2026-11-23"
+   ],
+   "first": "2026-11-23",
+   "last": "2026-11-23",
+   "lat": 33.3618814,
+   "lng": -112.1533861,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/a5d5551f99c9aa7e/",
+   "source": "https://www.craigslist.org/view/d/laveen-estate-sale-61-yrs-50-off-monday/nMkJymcHKeF3iPFGS2USYG"
+  },
+  {
+   "id": "5ae5c852224c8725",
+   "city": "phoenix",
+   "title": "FINDERS KEEPERS Estate Sale in Westbrook Village - 25% OFF!",
+   "company": "Finders Keepers Estate Sales",
+   "categories": [],
+   "keywords": [
+    "christmas decor"
+   ],
+   "contentsLine": "Christmas decor.",
+   "digRating": "Deep Dig",
+   "photoCount": 104,
+   "dates": [
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-27"
+   ],
+   "first": "2026-11-24",
+   "last": "2026-11-27",
+   "lat": 33.665981,
+   "lng": -112.2439366,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/5ae5c852224c8725/",
+   "source": "https://www.estatesales.net/AZ/Peoria/85382/5169945"
+  },
+  {
    "id": "bb3bde53aa119fa6",
    "city": "phoenix",
    "title": "Zen Decor, Rattan, Asian & Classic Furniture , Household Items",
@@ -4406,12 +2246,14 @@
     "furniture"
    ],
    "keywords": [
+    "tools",
     "furniture",
+    "mirrors",
     "silver"
    ],
-   "contentsLine": "Furniture and silver.",
+   "contentsLine": "Tools, furniture, mirrors and silver.",
    "digRating": "Deep Dig",
-   "photoCount": 42,
+   "photoCount": 96,
    "dates": [
     "2026-11-24",
     "2026-11-25",
@@ -4489,16 +2331,20 @@
     "kitchen"
    ],
    "keywords": [
+    "tools",
     "furniture",
     "vinyl & records",
     "collectibles",
     "kitchen",
     "books",
+    "art",
+    "electronics",
+    "china",
     "antiques"
    ],
-   "contentsLine": "Furniture, vinyl & records, collectibles, kitchen and books.",
-   "digRating": "Worth a Look",
-   "photoCount": 2,
+   "contentsLine": "Tools, furniture, vinyl & records, collectibles and kitchen.",
+   "digRating": "Deep Dig",
+   "photoCount": 121,
    "dates": [
     "2026-11-27",
     "2026-11-28"
@@ -4615,6 +2461,37 @@
    "source": "https://estatesales.org/estate-sales/az/scottsdale/85255/scottsdale-4-million-dollar-home-2474735"
   },
   {
+   "id": "b7dca1684fd837ab",
+   "city": "phoenix",
+   "title": "CLEAR THE HOUSE! 50% OFF TO START! BUNDLE & SAVE MORE! SUNDAY ONLY – NORTH PHOENIX!",
+   "company": "Milton Estate Sales",
+   "categories": [],
+   "keywords": [
+    "tools",
+    "furniture",
+    "collectibles",
+    "kitchen",
+    "books",
+    "art",
+    "electronics",
+    "toys & games",
+    "figurines",
+    "china"
+   ],
+   "contentsLine": "Tools, furniture, collectibles, kitchen and books.",
+   "digRating": "Deep Dig",
+   "photoCount": 437,
+   "dates": [
+    "2026-11-29"
+   ],
+   "first": "2026-11-29",
+   "last": "2026-11-29",
+   "lat": 33.5978768,
+   "lng": -112.1222953,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/b7dca1684fd837ab/",
+   "source": "https://www.estatesales.net/AZ/Phoenix/85029/5170017"
+  },
+  {
    "id": "1f94b1d8d59d26b3",
    "city": "phoenix",
    "title": "Smart Choice Estate Sale",
@@ -4694,6 +2571,43 @@
    "source": "https://estatesales.org/estate-sales/az/phoenix/85028/wonderful-and-diverse-central-phoenix-2473800"
   },
   {
+   "id": "70c5141edcaef831",
+   "city": "phoenix",
+   "title": "Fishing Sterling Cars Native Am Books Ref Wash Dry Sports Levis Singer Hallmark Chess Electronics",
+   "company": "Fab Finds Moving & Estate Sales",
+   "categories": [
+    "vehicles",
+    "books",
+    "electronics"
+   ],
+   "keywords": [
+    "tools",
+    "furniture",
+    "vinyl & records",
+    "collectibles",
+    "vehicles",
+    "kitchen",
+    "clothing",
+    "books",
+    "art",
+    "electronics"
+   ],
+   "contentsLine": "Tools, furniture, vinyl & records, collectibles and vehicles.",
+   "digRating": "Deep Dig",
+   "photoCount": 345,
+   "dates": [
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05"
+   ],
+   "first": "2026-12-03",
+   "last": "2026-12-05",
+   "lat": 33.5841986,
+   "lng": -112.0095004,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/70c5141edcaef831/",
+   "source": "https://www.estatesales.net/AZ/Phoenix/85028/5143728"
+  },
+  {
    "id": "9081b1e6adb2b110",
    "city": "phoenix",
    "title": "Fun in the Sun City!",
@@ -4721,18 +2635,14 @@
    "company": "Fresh Start Estate Sales",
    "categories": [],
    "keywords": [
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "antiques",
-    "rugs"
+    "glass-front cabinet",
+    "metal teapot",
+    "cream pitchers",
+    "serving bowls",
+    "sleeveless tops",
+    "shirts"
    ],
-   "contentsLine": "Furniture, vinyl & records, jewelry, kitchen and clothing.",
+   "contentsLine": "Closet rails hold shirts and sleeveless tops. Other photos show a glass-front cabinet and metal serving pieces.",
    "digRating": "Deep Dig",
    "photoCount": 409,
    "dates": [
@@ -4772,23 +2682,56 @@
    "source": "https://estatesales.org/estate-sales/az/scottsdale/85254/scottsdale-tresures-1000s-of-items-2474866"
   },
   {
+   "id": "36bbe86e8f21a892",
+   "city": "phoenix",
+   "title": "Collectors Dream, Antiques, Vintage and PACKED Cave Creek Estate Sale by Radiant Estate Sales",
+   "company": "Radiant Estate Sales",
+   "categories": [
+    "collectibles"
+   ],
+   "keywords": [
+    "furniture",
+    "vinyl & records",
+    "jewelry",
+    "collectibles",
+    "kitchen",
+    "clothing",
+    "books",
+    "art",
+    "electronics",
+    "toys & games"
+   ],
+   "contentsLine": "Furniture, vinyl & records, jewelry, collectibles and kitchen.",
+   "digRating": "Deep Dig",
+   "photoCount": 1602,
+   "dates": [
+    "2026-12-04",
+    "2026-12-05",
+    "2026-12-06"
+   ],
+   "first": "2026-12-04",
+   "last": "2026-12-06",
+   "lat": 33.7784771,
+   "lng": -111.9683306,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/36bbe86e8f21a892/",
+   "source": "https://www.estatesales.net/AZ/Cave-Creek/85331/5163063"
+  },
+  {
    "id": "16ae5de0e2e832e9",
    "city": "phoenix",
    "title": "Gated MCM Eclectic -World Traveler",
    "company": "A Great Find.com, LLC",
    "categories": [],
    "keywords": [
-    "furniture",
-    "jewelry",
-    "art",
-    "electronics",
-    "toys & games",
-    "antiques",
-    "mid-century",
-    "rugs",
-    "pianos"
+    "tan sofa",
+    "swivel recliner",
+    "coffee table",
+    "wood desk",
+    "desk lamp",
+    "dresser",
+    "wood sideboard"
    ],
-   "contentsLine": "Furniture, jewelry, art, electronics and toys & games.",
+   "contentsLine": "A tan sofa and swivel recliner sit by a square coffee table. Other rooms show a wood desk, sideboard and dresser.",
    "digRating": "Deep Dig",
    "photoCount": 109,
    "dates": [
@@ -4803,11 +2746,38 @@
    "source": "https://www.estatesales.net/AZ/Scottsdale/85259/5165754"
   },
   {
+   "id": "dd8117b504e7a929",
+   "city": "phoenix",
+   "title": "Hidden Gems Estate Sale",
+   "company": "Hidden Gems Estate Sales",
+   "categories": [],
+   "digRating": "Worth a Look",
+   "photoCount": 53,
+   "dates": [
+    "2026-12-04",
+    "2026-12-05"
+   ],
+   "first": "2026-12-04",
+   "last": "2026-12-05",
+   "lat": 33.2232339,
+   "lng": -111.7981001,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/dd8117b504e7a929/",
+   "source": "https://www.estatesales.net/AZ/Chandler/85249/5169927"
+  },
+  {
    "id": "21b5c4c5b25c6daf",
    "city": "phoenix",
    "title": "Infinite Estate Sales- PebbleCreek Sale",
    "company": "Infinite Estate Sales",
    "categories": [],
+   "keywords": [
+    "blue-and-white plates",
+    "decorative vases",
+    "round wall mirror",
+    "side table",
+    "jigsaw puzzles"
+   ],
+   "contentsLine": "Blue-and-white dishes and vases fill a cabinet. Other photos show a round mirror and a side table with puzzles.",
    "digRating": "Worth a Look",
    "photoCount": 20,
    "dates": [
@@ -4853,18 +2823,14 @@
     "tools"
    ],
    "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "antiques"
+    "drill press",
+    "bench vise",
+    "cordless power tools",
+    "socket set",
+    "safety goggles",
+    "framed clown print"
    ],
-   "contentsLine": "Tools, furniture, vinyl & records, collectibles and vehicles.",
+   "contentsLine": "A workshop holds a drill press, vise, sockets and cordless tools. One photo shows a framed clown print.",
    "digRating": "Deep Dig",
    "photoCount": 397,
    "dates": [
@@ -4887,9 +2853,12 @@
     "vehicles"
    ],
    "keywords": [
-    "vehicles"
+    "two-seat roadster",
+    "side exhaust pipes",
+    "roll bar",
+    "bucket seats"
    ],
-   "contentsLine": "Vehicles.",
+   "contentsLine": "A blue roadster with white racing stripes has a roll bar, side exhaust pipes and white bucket seats.",
    "digRating": "Worth a Look",
    "photoCount": 122,
    "dates": [
@@ -4904,525 +2873,7 @@
    "source": "https://estatesales.org/estate-sales/az/phoenix/85021/phoenix-estate-sale-2470694"
   },
   {
-   "id": "51772471cdbf34a0",
-   "city": "phoenix",
-   "title": "70% OFF Sunday! 4500 Sq ft World Travelers Beautiful Furniture & Items. Vintage, Eclectic, Asian",
-   "company": "Community Estate Sales LLC",
-   "categories": [
-    "furniture"
-   ],
-   "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "antiques",
-    "mid-century"
-   ],
-   "contentsLine": "Tools, furniture, jewelry, collectibles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 224,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 33.2159764,
-   "lng": -111.829317,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/51772471cdbf34a0/",
-   "source": "https://www.estatesales.net/AZ/Chandler/85249/5139255"
-  },
-  {
-   "id": "577bf02519f1ab28",
-   "city": "phoenix",
-   "title": "FILL A BAG FOR $5 SUNDAY! Artistic Elegance in Chandler",
-   "company": "Az Elegant Estates LLC",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "patio furniture"
-   ],
-   "contentsLine": "Furniture, kitchen, clothing, books and art.",
-   "digRating": "Deep Dig",
-   "photoCount": 110,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 33.2094518,
-   "lng": -111.8144454,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/577bf02519f1ab28/",
-   "source": "https://estatesales.org/estate-sales/az/chandler/85249/fill-a-bag-for-5-2472801"
-  },
-  {
-   "id": "113c7c880bfe1f4e",
-   "city": "phoenix",
-   "title": "Sun State Estate Sales In Chandler",
-   "company": "Sun State Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "collectibles",
-    "clothing"
-   ],
-   "contentsLine": "Tools, collectibles and clothing.",
-   "digRating": "Deep Dig",
-   "photoCount": 1580,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 33.2538033,
-   "lng": -111.8548949,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/113c7c880bfe1f4e/",
-   "source": "https://estatesales.org/estate-sales/az/chandler/85248/sun-state-estate-sales-on-2473909"
-  },
-  {
-   "id": "b53e8b03f6e061f2",
-   "city": "phoenix",
-   "title": "2 Houses Combined into 1 Estate Sale by Estate Sales by Bridges + CO",
-   "company": "Get Organized With Bridges + Co",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "kitchen",
-    "clothing",
-    "art",
-    "china",
-    "rugs"
-   ],
-   "contentsLine": "Tools, furniture, kitchen, clothing and art.",
-   "digRating": "Deep Dig",
-   "photoCount": 66,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.608321,
-   "lng": -111.744466,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/b53e8b03f6e061f2/",
-   "source": "https://www.estatesales.net/AZ/Fountain-Hills/85268/5163279"
-  },
-  {
-   "id": "1d0d069b3adfebe9",
-   "city": "phoenix",
-   "title": "Favorite Friends Estate Sale",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "kitchen",
-    "clothing",
-    "books",
-    "electronics",
-    "cameras"
-   ],
-   "contentsLine": "Tools, furniture, jewelry, kitchen and clothing.",
-   "digRating": "Deep Dig",
-   "photoCount": 0,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.396321,
-   "lng": -111.9353092,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/1d0d069b3adfebe9/",
-   "source": "https://www.craigslist.org/view/d/tempe-favorite-friends-estate-sale/jmHsBunCigLVAQpxk5gFEZ"
-  },
-  {
-   "id": "2e950512cf2a3d72",
-   "city": "phoenix",
-   "title": "Sunday Savings! Up to 50% at North Phoenix Estate Sale Treasures, Antiques, & Collectibles!",
-   "company": "Milton Estate Sales",
-   "categories": [
-    "collectibles"
-   ],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "books",
-    "art",
-    "toys & games",
-    "figurines",
-    "china",
-    "crystal",
-    "antiques"
-   ],
-   "contentsLine": "Furniture, collectibles, kitchen, books and art.",
-   "digRating": "Deep Dig",
-   "photoCount": 437,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.60024,
-   "lng": -112.113541,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/2e950512cf2a3d72/",
-   "source": "https://www.estatesales.net/AZ/Phoenix/85029/5150502"
-  },
-  {
-   "id": "30cc25a7256fba6b",
-   "city": "phoenix",
-   "title": "50 % Off Sunday! Tumbleweed Estate Warehouse sale",
-   "company": "Tumbleweed Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "vinyl & records",
-    "kitchen",
-    "clothing"
-   ],
-   "contentsLine": "Tools, vinyl & records, kitchen and clothing.",
-   "digRating": "Deep Dig",
-   "photoCount": 444,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.51987,
-   "lng": -112.171524,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/30cc25a7256fba6b/",
-   "source": "https://www.estatesales.net/AZ/Glendale/85301/5162664"
-  },
-  {
-   "id": "b5853144915c4768",
-   "city": "phoenix",
-   "title": "Estate Sale 11/21 & 11/22",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "crystal"
-   ],
-   "contentsLine": "Furniture, collectibles and crystal.",
-   "digRating": "Worth a Look",
-   "photoCount": 23,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.4151005,
-   "lng": -111.831455,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/b5853144915c4768/",
-   "source": "https://www.craigslist.org/view/d/mesa-estate-sale/1mYvP5wkYM4hq2SGcwzo9F"
-  },
-  {
-   "id": "f918630f2202974f",
-   "city": "phoenix",
-   "title": "ESTATE SALE MESA 11/21-11/22",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "clothing"
-   ],
-   "contentsLine": "Tools, furniture, jewelry, collectibles and clothing.",
-   "digRating": "Worth a Look",
-   "photoCount": 4,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.420177,
-   "lng": -111.695238,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/f918630f2202974f/",
-   "source": "https://www.craigslist.org/view/d/mesa-estate-sale-mesa/4VAmCKZYhZ3ZSCqidjGe9P"
-  },
-  {
-   "id": "00fd8d2f4ff2888b",
-   "city": "phoenix",
-   "title": "Scottsdale Estate Sale Mid Century, China, Packed Home Extravaganza **(50% OFF SUNDAY)**",
-   "company": "Fresh Start Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "books",
-    "art",
-    "electronics",
-    "figurines",
-    "china",
-    "crystal"
-   ],
-   "contentsLine": "Tools, furniture, collectibles, kitchen and books.",
-   "digRating": "Deep Dig",
-   "photoCount": 258,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.5376255,
-   "lng": -111.9008256,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/00fd8d2f4ff2888b/",
-   "source": "https://estatesales.org/estate-sales/az/scottsdale/85250/scottsdale-estate-sale-midcentury-extravaganza-2474167"
-  },
-  {
-   "id": "c6f85bdc0cf18d10",
-   "city": "phoenix",
-   "title": "Sun City Estate Sale by Lily's Treasures",
-   "company": "Lily's Treasure Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture"
-   ],
-   "contentsLine": "Tools and furniture.",
-   "digRating": "Deep Dig",
-   "photoCount": 40,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.640041,
-   "lng": -112.267897,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/c6f85bdc0cf18d10/",
-   "source": "https://www.estatesales.net/AZ/Sun-City/85373/5167431"
-  },
-  {
-   "id": "00565c19db6fe5f6",
-   "city": "phoenix",
-   "title": "The Art of Living: An Extraordinary Estate of Fine Art, Global Treasures & Luxury Furnishings",
-   "company": "The Calhoun Collective Estate Services, LLC",
-   "categories": [
-    "furniture",
-    "art"
-   ],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "art"
-   ],
-   "contentsLine": "Furniture, collectibles, kitchen and art.",
-   "digRating": "Deep Dig",
-   "photoCount": 91,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.637145,
-   "lng": -112.2692005,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/00565c19db6fe5f6/",
-   "source": "https://www.craigslist.org/view/d/peoria-consignment-sale-by-the-calhoun/vzSWyCJvFsyQCkyhTMHHkF"
-  },
-  {
-   "id": "edd22b3d2dc3e000",
-   "city": "phoenix",
-   "title": "Yard Sale",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "books"
-   ],
-   "contentsLine": "Tools and books.",
-   "digRating": "Slim Pickings",
-   "photoCount": 0,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.4255117,
-   "lng": -111.940016,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/edd22b3d2dc3e000/",
-   "source": "https://www.craigslist.org/view/d/tempe-yard-sale/dZkXbsXAaFU2zbPfGaPwPn"
-  },
-  {
-   "id": "578d8e20cd7360fb",
-   "city": "phoenix",
-   "title": "🔧 ESTATE SALE | GARAGE PACKED WITH TOOLS + VINTAGE FURNITURE",
-   "company": "",
-   "categories": [
-    "tools",
-    "furniture"
-   ],
-   "keywords": [
-    "tools",
-    "furniture"
-   ],
-   "contentsLine": "Tools and furniture.",
-   "digRating": "Worth a Look",
-   "photoCount": 12,
-   "dates": [
-    "2026-11-22"
-   ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 33.521163,
-   "lng": -112.1919252,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/578d8e20cd7360fb/",
-   "source": "https://www.craigslist.org/view/d/glendale-estate-sale-garage-packed-with/4UBdicA9DFUTYCqhqe6ttj"
-  },
-  {
-   "id": "f1e9f8ce02749c90",
-   "city": "phoenix",
-   "title": "Estate sale 61 yrs 50% off sunday nov22 10 am to 6",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "electronics",
-    "toys & games",
-    "antiques",
-    "silver",
-    "coins",
-    "dolls",
-    "christmas decor"
-   ],
-   "contentsLine": "Collectibles, vehicles, kitchen, electronics and toys & games.",
-   "digRating": "Deep Dig",
-   "photoCount": 23,
-   "dates": [
-    "2026-11-22"
-   ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 33.3618814,
-   "lng": -112.1533861,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/f1e9f8ce02749c90/",
-   "source": "https://www.craigslist.org/view/d/laveen-estate-sale-61-yrs-50-off-sunday/nMkJymcHKeF3iPFGS2USYG"
-  },
-  {
-   "id": "2e1186e2b2407f84",
-   "city": "phoenix",
-   "title": "Estate sale, lots of tools",
-   "company": "",
-   "categories": [
-    "tools"
-   ],
-   "keywords": [
-    "tools",
-    "vehicles",
-    "kitchen",
-    "electronics",
-    "cameras"
-   ],
-   "contentsLine": "Tools, vehicles, kitchen, electronics and cameras.",
-   "digRating": "Deep Dig",
-   "photoCount": 7,
-   "dates": [
-    "2026-11-22"
-   ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 33.4484367,
-   "lng": -112.074141,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/2e1186e2b2407f84/",
-   "source": "https://www.craigslist.org/view/d/phoenix-estate-sale-lots-of-tools/7YaAmWvGguUedCcao4WGDJ"
-  },
-  {
-   "id": "fadb3e47297ffecf",
-   "city": "phoenix",
-   "title": "Large estate sale 8am to Noon vintage and new",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "books",
-    "electronics",
-    "toys & games"
-   ],
-   "contentsLine": "Tools, vehicles, kitchen, clothing and books.",
-   "digRating": "Deep Dig",
-   "photoCount": 19,
-   "dates": [
-    "2026-11-22"
-   ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 33.4484367,
-   "lng": -112.074141,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/fadb3e47297ffecf/",
-   "source": "https://www.craigslist.org/view/d/phoenix-large-estate-sale-8am-to-noon/qepmCtDNecqSbHuuPGdL5V"
-  },
-  {
-   "id": "f18298913a934062",
-   "city": "phoenix",
-   "title": "Large Estate sale vintage and new items",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "books",
-    "electronics",
-    "toys & games"
-   ],
-   "contentsLine": "Tools, vehicles, kitchen, clothing and books.",
-   "digRating": "Worth a Look",
-   "photoCount": 1,
-   "dates": [
-    "2026-11-22"
-   ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 33.5992066,
-   "lng": -112.0321047,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/f18298913a934062/",
-   "source": "https://estatesales.org/estate-sales/az/phoenix/85022/large-estate-sale-vintage-and-2474894"
-  },
-  {
-   "id": "78d688a543759918",
+   "id": "2566d30f92f50a5b",
    "city": "atlanta",
    "title": "High Quality Sale- Furniture, Adult & Kids Clothes & Shoes, Decor, Toys, Household items & more!!",
    "company": "",
@@ -5434,99 +2885,27 @@
    "keywords": [
     "furniture",
     "clothing",
-    "art",
     "toys & games"
    ],
-   "contentsLine": "Furniture, clothing, art and toys & games.",
+   "contentsLine": "Furniture, clothing and toys & games.",
    "digRating": "Deep Dig",
    "photoCount": 45,
    "dates": [
-    "2026-11-20",
     "2026-11-21",
     "2026-11-22",
     "2026-11-23"
    ],
-   "first": "2026-11-20",
+   "first": "2026-11-21",
    "last": "2026-11-23",
    "lat": 33.703618,
    "lng": -84.529063,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/78d688a543759918/",
-   "source": "https://www.craigslist.org/view/d/atlanta-estate-sale-in-niskey-lake-falls/hzE5ep8bAdPVpvEVbf1ENj"
-  },
-  {
-   "id": "3fc9275fddf5efd7",
-   "city": "atlanta",
-   "title": "Sport's Lovers Extravaganza Sale / Full Home Estate Sale",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "vinyl & records",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "books",
-    "electronics",
-    "toys & games",
-    "china"
-   ],
-   "contentsLine": "Furniture, vinyl & records, collectibles, vehicles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 50,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22",
-    "2026-11-23"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-23",
-   "lat": 34.0500461,
-   "lng": -84.6179586,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/3fc9275fddf5efd7/",
-   "source": "https://www.estatesales.net/GA/Kennesaw/30144/5166213"
-  },
-  {
-   "id": "56d183aea4aa6cec",
-   "city": "atlanta",
-   "title": "Pickers Paradise in Decatur- Vtg tees, furs, games, vinyl",
-   "company": "Ruth's Reselling",
-   "categories": [
-    "vinyl-records",
-    "clothing",
-    "toys-games"
-   ],
-   "keywords": [
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "electronics",
-    "toys & games",
-    "china"
-   ],
-   "contentsLine": "Furniture, vinyl & records, jewelry, collectibles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 183,
-   "dates": [
-    "2026-11-22",
-    "2026-11-23"
-   ],
-   "first": "2026-11-22",
-   "last": "2026-11-23",
-   "lat": 33.727592,
-   "lng": -84.257433,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/56d183aea4aa6cec/",
-   "source": "https://www.estatesales.net/GA/Decatur/30032/5141742"
+   "url": "https://rheinze08.github.io/the-dig-web/sale/2566d30f92f50a5b/",
+   "source": "https://www.estatesales.net/GA/Atlanta/30331/5168583"
   },
   {
    "id": "0382b9e09b8a6751",
    "city": "atlanta",
-   "title": "Reduced! Bob Timberlake Bedroom Sets, Leather Couch, French Pieces and More in Sandy Springs",
+   "title": "Bob Timberlake Bedroom Sets, Leather Couch, French Pieces and More in Sandy Springs",
    "company": "Dunwoody Estate Treasures",
    "categories": [
     "furniture"
@@ -5542,19 +2921,83 @@
    ],
    "contentsLine": "Furniture, electronics, crystal, antiques and mid-century.",
    "digRating": "Deep Dig",
-   "photoCount": 63,
+   "photoCount": 64,
    "dates": [
-    "2026-11-22",
     "2026-11-23",
     "2026-11-24",
     "2026-11-25"
    ],
-   "first": "2026-11-22",
+   "first": "2026-11-23",
    "last": "2026-11-25",
    "lat": 33.9332303,
    "lng": -84.3827283,
    "url": "https://rheinze08.github.io/the-dig-web/sale/0382b9e09b8a6751/",
    "source": "https://www.estatesales.net/GA/Atlanta/30328/5136282"
+  },
+  {
+   "id": "b34f57e115fdbcae",
+   "city": "atlanta",
+   "title": "FINAL DAY! MASSIVE ATLANTA ESTATE SALE – EVERYTHING MUST GO",
+   "company": "",
+   "categories": [],
+   "keywords": [
+    "furniture",
+    "collectibles",
+    "clothing",
+    "electronics"
+   ],
+   "contentsLine": "Furniture, collectibles, clothing and electronics.",
+   "digRating": "Worth a Look",
+   "photoCount": 1,
+   "dates": [
+    "2026-11-23"
+   ],
+   "first": "2026-11-23",
+   "last": "2026-11-23",
+   "lat": 33.7236291,
+   "lng": -84.4075891,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/b34f57e115fdbcae/",
+   "source": "https://estatesales.org/estate-sales/ga/atlanta/30310/final-day-massive-atlanta-estate-2475084"
+  },
+  {
+   "id": "255156699b3a3538",
+   "city": "atlanta",
+   "title": "$20 to enter. Carry out what you can in one trip",
+   "company": "Eden And Tate Estate Sales, LLC",
+   "categories": [],
+   "digRating": "Slim Pickings",
+   "photoCount": 0,
+   "dates": [
+    "2026-11-24"
+   ],
+   "first": "2026-11-24",
+   "last": "2026-11-24",
+   "lat": 33.479085,
+   "lng": -84.572934,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/255156699b3a3538/",
+   "source": "https://www.estatesales.net/GA/Tyrone/30290/5170323"
+  },
+  {
+   "id": "a7d01dd1619d258a",
+   "city": "atlanta",
+   "title": "Midcentury and more Blow out sale. 75% off.",
+   "company": "J&K Fleas An'Tiques",
+   "categories": [],
+   "keywords": [
+    "furniture"
+   ],
+   "contentsLine": "Furniture.",
+   "digRating": "Worth a Look",
+   "photoCount": 105,
+   "dates": [
+    "2026-11-24"
+   ],
+   "first": "2026-11-24",
+   "last": "2026-11-24",
+   "lat": 33.85387,
+   "lng": -84.26846,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/a7d01dd1619d258a/",
+   "source": "https://www.estatesales.net/GA/Atlanta/30345/5169378"
   },
   {
    "id": "3f7e9b024c22aa67",
@@ -5575,6 +3018,29 @@
    "lng": -84.1186563,
    "url": "https://rheinze08.github.io/the-dig-web/sale/3f7e9b024c22aa67/",
    "source": "https://www.estatesales.net/GA/Lilburn/30047/5100888"
+  },
+  {
+   "id": "af319494cbb49347",
+   "city": "atlanta",
+   "title": "Black Friday Vintage sale in Lithia Springs",
+   "company": "",
+   "categories": [],
+   "keywords": [
+    "furniture"
+   ],
+   "contentsLine": "Furniture.",
+   "digRating": "Worth a Look",
+   "photoCount": 41,
+   "dates": [
+    "2026-11-27",
+    "2026-11-28"
+   ],
+   "first": "2026-11-27",
+   "last": "2026-11-28",
+   "lat": 33.7742855,
+   "lng": -84.6458249,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/af319494cbb49347/",
+   "source": "https://www.estatesales.net/GA/Lithia-Springs/30122/5169981"
   },
   {
    "id": "74ac7dd82bdd8e2b",
@@ -5607,18 +3073,20 @@
   {
    "id": "54e01ba5487c44c7",
    "city": "atlanta",
-   "title": "Donna Davis LLC- Antique Vintage Perfume Bottles. rare! Vintage costume jewelry sale",
+   "title": "Donna DavisLLC- Rare Antique perfume filled and empty bottles ,costume jewelry",
    "company": "Donna Davis Estate Sales LLC, Downsizing and Estate Appraisal Services",
    "categories": [
     "jewelry"
    ],
    "keywords": [
     "jewelry",
+    "collectibles",
+    "books",
     "antiques"
    ],
-   "contentsLine": "Jewelry and antiques.",
+   "contentsLine": "Jewelry, collectibles, books and antiques.",
    "digRating": "Deep Dig",
-   "photoCount": 74,
+   "photoCount": 89,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -5655,7 +3123,7 @@
    ],
    "contentsLine": "Tools, furniture, vinyl & records, jewelry and collectibles.",
    "digRating": "Deep Dig",
-   "photoCount": 185,
+   "photoCount": 201,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -5667,6 +3135,117 @@
    "lng": -84.4695068,
    "url": "https://rheinze08.github.io/the-dig-web/sale/c143ada0435fe7b6/",
    "source": "https://www.estatesales.net/GA/Marietta/30062/5123811"
+  },
+  {
+   "id": "7ec8d4e99c3d72cf",
+   "city": "atlanta",
+   "title": "Massive Estate Sale in Sandy Springs!",
+   "company": "",
+   "categories": [],
+   "keywords": [
+    "furniture",
+    "collectibles",
+    "kitchen",
+    "electronics"
+   ],
+   "contentsLine": "Furniture, collectibles, kitchen and electronics.",
+   "digRating": "Deep Dig",
+   "photoCount": 1,
+   "dates": [
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "first": "2026-11-27",
+   "last": "2026-11-29",
+   "lat": 33.940778,
+   "lng": -84.3796195,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/7ec8d4e99c3d72cf/",
+   "source": "https://estatesales.org/estate-sales/ga/atlanta/30328/massive-estate-sale-in-sandy-2475039"
+  },
+  {
+   "id": "70bc9e5467e61921",
+   "city": "atlanta",
+   "title": "Beautiful Antiques & Vintage In Marietta",
+   "company": "",
+   "categories": [],
+   "keywords": [
+    "furniture",
+    "clothing",
+    "art",
+    "electronics",
+    "antiques",
+    "mid-century",
+    "lamps",
+    "cameras"
+   ],
+   "contentsLine": "Furniture, clothing, art, electronics and antiques.",
+   "digRating": "Deep Dig",
+   "photoCount": 16,
+   "dates": [
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "first": "2026-11-28",
+   "last": "2026-11-29",
+   "lat": 34.0352864,
+   "lng": -84.505063,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/70bc9e5467e61921/",
+   "source": "https://www.estatesales.net/GA/Marietta/30066/5170176"
+  },
+  {
+   "id": "ce276e29f90285ec",
+   "city": "atlanta",
+   "title": "FREE - Everything is FREE - All American Home!",
+   "company": "J&C Consignment & Estate Sales",
+   "categories": [],
+   "keywords": [
+    "tools",
+    "furniture",
+    "collectibles",
+    "vehicles",
+    "kitchen",
+    "clothing",
+    "books",
+    "art",
+    "toys & games",
+    "figurines"
+   ],
+   "contentsLine": "Tools, furniture, collectibles, vehicles and kitchen.",
+   "digRating": "Deep Dig",
+   "photoCount": 62,
+   "dates": [
+    "2026-11-28"
+   ],
+   "first": "2026-11-28",
+   "last": "2026-11-28",
+   "lat": 33.4814476,
+   "lng": -84.468318,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/ce276e29f90285ec/",
+   "source": "https://www.estatesales.net/GA/Fayetteville/30214/5169111"
+  },
+  {
+   "id": "e0be762fad514e1f",
+   "city": "atlanta",
+   "title": "Kennesaw Estate Sale",
+   "company": "Uncle Bucks Estate Sales",
+   "categories": [],
+   "keywords": [
+    "vehicles"
+   ],
+   "contentsLine": "Vehicles.",
+   "digRating": "Worth a Look",
+   "photoCount": 104,
+   "dates": [
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "first": "2026-11-28",
+   "last": "2026-11-29",
+   "lat": 34.0351787,
+   "lng": -84.5944915,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/e0be762fad514e1f/",
+   "source": "https://www.estatesales.net/GA/Kennesaw/30144/5169405"
   },
   {
    "id": "9edf020a15019786",
@@ -5812,16 +3391,14 @@
     "collectibles"
    ],
    "keywords": [
-    "tools",
-    "furniture",
-    "collectibles",
-    "clothing",
-    "art",
+    "display cabinet",
+    "collectible bells",
     "figurines",
-    "antiques",
-    "christmas decor"
+    "carousel horse figurines",
+    "four-poster bed",
+    "French-door refrigerator"
    ],
-   "contentsLine": "Tools, furniture, collectibles, clothing and art.",
+   "contentsLine": "A glass-front cabinet holds bells and figurines. A four-poster bed and French-door refrigerator are also pictured.",
    "digRating": "Deep Dig",
    "photoCount": 166,
    "dates": [
@@ -5838,7 +3415,7 @@
    "source": "https://www.estatesales.net/GA/Conyers/30094/5158329"
   },
   {
-   "id": "1e5aadf599713086",
+   "id": "489357ee83656c06",
    "city": "atlanta",
    "title": "Peter Brandi Estate Sales presents Million $$$ Plus Huge Marietta Estate Sale",
    "company": "Peter Brandi Estate Sales",
@@ -5852,12 +3429,12 @@
     "art",
     "china",
     "crystal",
-    "rugs",
-    "lamps"
+    "antiques",
+    "rugs"
    ],
    "contentsLine": "Furniture, jewelry, kitchen, clothing and books.",
    "digRating": "Deep Dig",
-   "photoCount": 0,
+   "photoCount": 271,
    "dates": [
     "2026-12-03",
     "2026-12-04",
@@ -5867,29 +3444,8 @@
    "last": "2026-12-05",
    "lat": 33.9684331,
    "lng": -84.4347348,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/1e5aadf599713086/",
-   "source": "https://www.estatesales.net/GA/Marietta/30068/5168280"
-  },
-  {
-   "id": "7bab4c9ddc156d4e",
-   "city": "atlanta",
-   "title": "PREMIER EAST COBB ESTATE SALE",
-   "company": "Estate Sales Over Georgia LLC",
-   "categories": [],
-   "digRating": "Slim Pickings",
-   "photoCount": 0,
-   "dates": [
-    "2026-12-03",
-    "2026-12-04",
-    "2026-12-05",
-    "2026-12-06"
-   ],
-   "first": "2026-12-03",
-   "last": "2026-12-06",
-   "lat": 33.9283727,
-   "lng": -84.4701928,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/7bab4c9ddc156d4e/",
-   "source": "https://www.estatesales.net/GA/Marietta/30067/5167764"
+   "url": "https://rheinze08.github.io/the-dig-web/sale/489357ee83656c06/",
+   "source": "https://estatesales.org/estate-sales/ga/marietta/30068/peter-brandi-estate-sales-presents-2475101"
   },
   {
    "id": "ba5a22df2827e720",
@@ -5931,12 +3487,14 @@
    "company": "Lott's Treasures Estate Sales LLC",
    "categories": [],
    "keywords": [
-    "tools",
-    "furniture",
-    "toys & games",
-    "mid-century"
+    "dining table",
+    "upholstered dining chairs",
+    "camera",
+    "camera case",
+    "Ford manuals",
+    "framed floral art"
    ],
-   "contentsLine": "Tools, furniture, toys & games and mid-century.",
+   "contentsLine": "A round dining table and chairs are shown with a camera and case, Ford manuals and a small framed floral picture.",
    "digRating": "Deep Dig",
    "photoCount": 136,
    "dates": [
@@ -5957,8 +3515,16 @@
    "title": "\"Opulent\" In Brookhaven",
    "company": "Cotton & Company Estate Sales",
    "categories": [],
+   "keywords": [
+    "Buddha statue",
+    "garden planters",
+    "wood lattice cabinet",
+    "armchairs",
+    "decorative vases"
+   ],
+   "contentsLine": "A seated Buddha sits by two planters. Inside are a lattice-front cabinet, a pair of armchairs and decorative vases.",
    "digRating": "Deep Dig",
-   "photoCount": 364,
+   "photoCount": 376,
    "dates": [
     "2026-12-04",
     "2026-12-05",
@@ -5978,20 +3544,16 @@
    "company": "Estate Sales By Ventes",
    "categories": [],
    "keywords": [
-    "tools",
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "books",
-    "china",
-    "mid-century",
-    "lamps",
-    "silver",
-    "christmas decor"
+    "sofa",
+    "coffee table",
+    "end tables",
+    "table lamps",
+    "sideboard",
+    "wicker trunks"
    ],
-   "contentsLine": "Tools, furniture, collectibles, kitchen and books.",
+   "contentsLine": "A sofa, lamps and wood tables furnish the living room. A sideboard and wicker storage trunks are also pictured.",
    "digRating": "Deep Dig",
-   "photoCount": 276,
+   "photoCount": 312,
    "dates": [
     "2026-12-04",
     "2026-12-05",
@@ -6030,17 +3592,13 @@
    "company": "",
    "categories": [],
    "keywords": [
-    "furniture",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "china",
-    "lamps",
-    "mirrors",
-    "christmas decor"
+    "wood dining table",
+    "painted dining chairs",
+    "display hutch",
+    "curved bar",
+    "media console"
    ],
-   "contentsLine": "Furniture, kitchen, clothing, books and art.",
+   "contentsLine": "A wood dining table has turquoise chairs. Other pieces include a display hutch, curved bar and media console.",
    "digRating": "Deep Dig",
    "photoCount": 49,
    "dates": [
@@ -6062,17 +3620,12 @@
    "company": "Happy To Help",
    "categories": [],
    "keywords": [
-    "vinyl & records",
-    "jewelry",
-    "kitchen",
-    "clothing",
-    "books",
-    "toys & games",
-    "lamps",
-    "silver",
-    "christmas decor"
+    "upholstered armchairs",
+    "top-freezer refrigerator",
+    "coffee mugs",
+    "painted vase"
    ],
-   "contentsLine": "Vinyl & records, jewelry, kitchen, clothing and books.",
+   "contentsLine": "A pair of high-backed floral armchairs appears alongside a white refrigerator and boxes of mugs and serving pieces.",
    "digRating": "Deep Dig",
    "photoCount": 96,
    "dates": [
@@ -6093,16 +3646,12 @@
    "company": "Slob Sisters",
    "categories": [],
    "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "christmas decor"
+    "cat figurines",
+    "artificial Christmas tree",
+    "Christmas wreath",
+    "fall wreath"
    ],
-   "contentsLine": "Tools, furniture, jewelry, collectibles and kitchen.",
+   "contentsLine": "Boxes hold painted cat figurines. An artificial Christmas tree and two seasonal wreaths are also pictured.",
    "digRating": "Deep Dig",
    "photoCount": 75,
    "dates": [
@@ -6123,10 +3672,11 @@
    "company": "Cotton & Company Estate Sales",
    "categories": [],
    "keywords": [
-    "mirrors",
-    "christmas decor"
+    "Mazda CX-7",
+    "dining table",
+    "upholstered dining chairs"
    ],
-   "contentsLine": "Mirrors and christmas decor.",
+   "contentsLine": "A blue Mazda CX-7 is shown from three angles, along with a patterned dining table and upholstered chairs.",
    "digRating": "Deep Dig",
    "photoCount": 216,
    "dates": [
@@ -6148,9 +3698,15 @@
    "company": "Ruth's Reselling",
    "categories": [],
    "keywords": [
-    "furniture"
+    "china cabinet",
+    "dining table",
+    "floral sofa",
+    "coffee table",
+    "wall mirror",
+    "table lamps",
+    "chest of drawers"
    ],
-   "contentsLine": "Furniture.",
+   "contentsLine": "A glass-front china cabinet and wood dining table are shown alongside a floral sofa, coffee table and lamps.",
    "digRating": "Worth a Look",
    "photoCount": 40,
    "dates": [
@@ -6165,300 +3721,157 @@
    "source": "https://www.estatesales.net/GA/Peachtree-Corners/30092/5120568"
   },
   {
-   "id": "b999bacc9c00828a",
-   "city": "atlanta",
-   "title": "25% OFF- HOME STAGER GOING OUT OF BUSINESS LIQUIDATION SALE!",
-   "company": "The Perfect Piece Estate Liquidators, Inc",
+   "id": "c9b73de405aafe46",
+   "city": "denver",
+   "title": "Estate Sale In Thornton",
+   "company": "",
    "categories": [],
    "keywords": [
+    "tools",
     "furniture",
-    "lamps"
-   ],
-   "contentsLine": "Furniture and lamps.",
-   "digRating": "Worth a Look",
-   "photoCount": 20,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 33.8787066,
-   "lng": -84.5052053,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/b999bacc9c00828a/",
-   "source": "https://estatesales.org/estate-sales/ga/smyrna/30080/25-off-home-stager-liquidation-2470047"
-  },
-  {
-   "id": "cacc5f0f6e535998",
-   "city": "atlanta",
-   "title": "25% OFF- HOME STAGER GOING OUT OF BUSINESS LIQUIDATION SALE!",
-   "company": "The Perfect Piece Estate Liquidators, Inc.",
-   "categories": [],
-   "keywords": [
-    "furniture",
+    "collectibles",
     "vehicles",
-    "art",
-    "lamps"
+    "kitchen",
+    "clothing"
    ],
-   "contentsLine": "Furniture, vehicles, art and lamps.",
+   "contentsLine": "Tools, furniture, collectibles, vehicles and kitchen.",
    "digRating": "Deep Dig",
-   "photoCount": 526,
+   "photoCount": 24,
    "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
+    "2026-11-27"
    ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 33.890034,
-   "lng": -84.502266,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/cacc5f0f6e535998/",
-   "source": "https://www.estatesales.net/GA/Smyrna/30080/5132196"
+   "first": "2026-11-27",
+   "last": "2026-11-27",
+   "lat": 39.8695516,
+   "lng": -104.985181,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/c9b73de405aafe46/",
+   "source": "https://www.craigslist.org/view/d/denver-estate-sale-in-thornton/mRDfVw5acRumtXaZfgZxdY"
   },
   {
-   "id": "ca31b81372c89b9c",
-   "city": "atlanta",
-   "title": "50% OFF Mega Estate Sale: Multi Family Estate, Vintage, Furniture, Decor, Sculpture",
-   "company": "Concierge Estate Services",
+   "id": "78dc9eaabd02d56a",
+   "city": "denver",
+   "title": "ESTATE SALE Nov 27-29 – Antiques, Art Glass, Jewelry & More – Lakewood",
+   "company": "",
    "categories": [
+    "jewelry"
+   ],
+   "keywords": [
     "furniture",
+    "jewelry",
+    "collectibles",
+    "art",
+    "figurines",
+    "antiques",
+    "rugs"
+   ],
+   "contentsLine": "Furniture, jewelry, collectibles, art and figurines.",
+   "digRating": "Deep Dig",
+   "photoCount": 4,
+   "dates": [
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "first": "2026-11-27",
+   "last": "2026-11-29",
+   "lat": 39.7417411,
+   "lng": -105.0814424,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/78dc9eaabd02d56a/",
+   "source": "https://www.craigslist.org/view/d/denver-estate-sale-nov-antiques-art/nAqmzFsBHuTRhqmPyjHcAE"
+  },
+  {
+   "id": "97c9696a9704a971",
+   "city": "denver",
+   "title": "Garage / Estate sale. Lots to see",
+   "company": "",
+   "categories": [],
+   "keywords": [
+    "furniture",
+    "collectibles",
+    "kitchen",
+    "toys & games",
+    "dolls"
+   ],
+   "contentsLine": "Furniture, collectibles, kitchen, toys & games and dolls.",
+   "digRating": "Deep Dig",
+   "photoCount": 18,
+   "dates": [
+    "2026-11-27",
+    "2026-11-28"
+   ],
+   "first": "2026-11-27",
+   "last": "2026-11-28",
+   "lat": 39.7392364,
+   "lng": -104.984862,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/97c9696a9704a971/",
+   "source": "https://www.craigslist.org/view/d/denver-garage-estate-sale-lots-to-see/a21sxMkQ23fwVhD2VpcQrR"
+  },
+  {
+   "id": "76a26105c471b593",
+   "city": "denver",
+   "title": "Workbench to Wardrobe Estate Sale",
+   "company": "Front Porch Estate Sales",
+   "categories": [
+    "tools"
+   ],
+   "keywords": [
+    "tools",
+    "furniture",
+    "jewelry",
+    "collectibles",
+    "kitchen",
+    "clothing",
+    "books",
+    "art",
+    "figurines",
+    "mid-century"
+   ],
+   "contentsLine": "Tools, furniture, jewelry, collectibles and kitchen.",
+   "digRating": "Deep Dig",
+   "photoCount": 197,
+   "dates": [
+    "2026-11-27",
+    "2026-11-28"
+   ],
+   "first": "2026-11-27",
+   "last": "2026-11-28",
+   "lat": 39.9700959,
+   "lng": -104.8019397,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/76a26105c471b593/",
+   "source": "https://www.estatesales.net/CO/Brighton/80601/5163693"
+  },
+  {
+   "id": "bc2f7d8294bb8ad2",
+   "city": "denver",
+   "title": "Fishing Rods, Reels, Fly Tying and more in Lakewood!",
+   "company": "Ck & Done",
+   "categories": [],
+   "digRating": "Deep Dig",
+   "photoCount": 61,
+   "dates": [
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05"
+   ],
+   "first": "2026-12-03",
+   "last": "2026-12-05",
+   "lat": 39.7460319,
+   "lng": -105.0636428,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/bc2f7d8294bb8ad2/",
+   "source": "https://estatesales.org/estate-sales/co/lakewood/80214/fishing-rods-reels-fly-tying-2475097"
+  },
+  {
+   "id": "099a155d6f87dd45",
+   "city": "denver",
+   "title": "Grasons: HUGE Castle Rock Estate Sale! Native American, Fine Art, John Deere, Knives, Antiques, More",
+   "company": "Grasons Of Southeast Aurora, CO",
+   "categories": [
     "art"
    ],
    "keywords": [
     "tools",
     "furniture",
-    "vinyl & records",
     "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, jewelry and collectibles.",
-   "digRating": "Deep Dig",
-   "photoCount": 424,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 33.92609,
-   "lng": -84.258646,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/ca31b81372c89b9c/",
-   "source": "https://www.estatesales.net/GA/Atlanta/30306/5154375"
-  },
-  {
-   "id": "31d85b438ed4161d",
-   "city": "atlanta",
-   "title": "Holiday Treasures! New Estates Arriving and New Price Drops up to 75% OFF",
-   "company": "The Turnage Place Estate Sales Co.",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "books",
-    "art",
-    "crystal",
-    "rugs",
-    "christmas decor"
-   ],
-   "contentsLine": "Furniture, collectibles, books, art and crystal.",
-   "digRating": "Deep Dig",
-   "photoCount": 36,
-   "dates": [
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-19",
-   "last": "2026-11-22",
-   "lat": 33.795597,
-   "lng": -84.411195,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/31d85b438ed4161d/",
-   "source": "https://www.estatesales.net/GA/Atlanta/30318/5161431"
-  },
-  {
-   "id": "4f10146de68cad43",
-   "city": "atlanta",
-   "title": "*50% OFF* Beautiful Beginnings Estate Sales has a Terrific Sale in LILBURN! BRASS & Beautiful Decor!",
-   "company": "Beautiful Beginnings Estate Sales, LLC",
-   "categories": [],
-   "digRating": "Deep Dig",
-   "photoCount": 648,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.859321,
-   "lng": -84.124369,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/4f10146de68cad43/",
-   "source": "https://www.estatesales.net/GA/Lilburn/30047/5147904"
-  },
-  {
-   "id": "816d80a75c3c1a3a",
-   "city": "atlanta",
-   "title": "50% OFF Chamblee Time Capsule! 1971 Dodge Monaco Wagon Firearms FiXTURES and all appliances!",
-   "company": "Professional Estate Sales, LLC",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "vinyl & records",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "electronics",
-    "antiques"
-   ],
-   "contentsLine": "Furniture, vinyl & records, collectibles, vehicles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 488,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.8956598,
-   "lng": -84.3132683,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/816d80a75c3c1a3a/",
-   "source": "https://www.estatesales.net/GA/Atlanta/30341/5151123"
-  },
-  {
-   "id": "4cc54d87430288b6",
-   "city": "atlanta",
-   "title": "50% OFF Coin collection generator tools mercedes and more in chamblee",
-   "company": "Champion Estate Sales LLC",
-   "categories": [
-    "tools",
-    "collectibles",
-    "vehicles"
-   ],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "vehicles",
-    "kitchen",
-    "clothing",
-    "art",
-    "electronics"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, jewelry and collectibles.",
-   "digRating": "Deep Dig",
-   "photoCount": 359,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.881844,
-   "lng": -84.265341,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/4cc54d87430288b6/",
-   "source": "https://www.estatesales.net/GA/Atlanta/30341/5156256"
-  },
-  {
-   "id": "10df4aed4197009f",
-   "city": "atlanta",
-   "title": "50% off Imbued and Immaculate off Old Ivy - A Buckhead Estate Sale",
-   "company": "Rhett's Estate Sales",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "books",
-    "electronics",
-    "china",
-    "antiques",
-    "rugs",
-    "lamps",
-    "patio furniture"
-   ],
-   "contentsLine": "Furniture, books, electronics, china and antiques.",
-   "digRating": "Deep Dig",
-   "photoCount": 200,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.852658,
-   "lng": -84.372419,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/10df4aed4197009f/",
-   "source": "https://www.estatesales.net/GA/Atlanta/30342/5162976"
-  },
-  {
-   "id": "e1c210a2bb54080b",
-   "city": "atlanta",
-   "title": "50% OFF Knockout Sale in Kennesaw",
-   "company": "Cotton & Company Estate Sales",
-   "categories": [],
-   "keywords": [
-    "toys & games"
-   ],
-   "contentsLine": "Toys & games.",
-   "digRating": "Deep Dig",
-   "photoCount": 195,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 34.018927,
-   "lng": -84.67359,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/e1c210a2bb54080b/",
-   "source": "https://www.estatesales.net/GA/Kennesaw/30152/5142957"
-  },
-  {
-   "id": "d7af71176a5577a0",
-   "city": "atlanta",
-   "title": "50% OFF Mediterranean In Marietta",
-   "company": "Cotton & Company Estate Sales",
-   "categories": [],
-   "digRating": "Deep Dig",
-   "photoCount": 166,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 34.002275,
-   "lng": -84.436986,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/d7af71176a5577a0/",
-   "source": "https://www.estatesales.net/GA/Marietta/30062/5148702"
-  },
-  {
-   "id": "a485eb7331baa7ad",
-   "city": "atlanta",
-   "title": "75% OFF SUN-Blue Moon Huge Sale - Great Deals, Unexpected Finds & More",
-   "company": "Blue Moon Estate Sales Buckhead",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
     "collectibles",
     "kitchen",
     "clothing",
@@ -6467,28 +3880,28 @@
     "electronics",
     "toys & games"
    ],
-   "contentsLine": "Tools, furniture, vinyl & records, collectibles and kitchen.",
+   "contentsLine": "Tools, furniture, jewelry, collectibles and kitchen.",
    "digRating": "Deep Dig",
-   "photoCount": 190,
+   "photoCount": 291,
    "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05"
    ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.8007504,
-   "lng": -84.2473232,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/a485eb7331baa7ad/",
-   "source": "https://estatesales.org/estate-sales/ga/clarkston/30021/50-off-satblue-moon-huge-2474560"
+   "first": "2026-12-03",
+   "last": "2026-12-05",
+   "lat": 39.3953228,
+   "lng": -104.8990983,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/099a155d6f87dd45/",
+   "source": "https://estatesales.org/estate-sales/co/castle-rock/80109/grasons-estate-sales-huge-castle-2474591"
   },
   {
-   "id": "45d842b789edadf9",
-   "city": "atlanta",
-   "title": "75% OFF Whole House Furnishings & Christmas Delight!",
-   "company": "Golden Leira Designs LLC",
+   "id": "31a639e11a262688",
+   "city": "denver",
+   "title": "KISMET ESTATE SALES! Comics, Star Wars, Sports Jerseys, Instruments, Music T-Shirts & More!",
+   "company": "Kismet Estate Sales",
    "categories": [
-    "furniture"
+    "collectibles"
    ],
    "keywords": [
     "tools",
@@ -6497,568 +3910,376 @@
     "kitchen",
     "clothing",
     "books",
-    "art",
     "electronics",
     "toys & games",
-    "mirrors"
+    "guitars",
+    "comics"
    ],
    "contentsLine": "Tools, furniture, collectibles, kitchen and clothing.",
    "digRating": "Deep Dig",
-   "photoCount": 118,
+   "photoCount": 104,
    "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05"
    ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.9923301,
-   "lng": -84.40013739999999,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/45d842b789edadf9/",
-   "source": "https://www.estatesales.net/GA/Marietta/30068/4960173"
+   "first": "2026-12-03",
+   "last": "2026-12-05",
+   "lat": 39.5904609,
+   "lng": -104.721906,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/31a639e11a262688/",
+   "source": "https://www.estatesales.net/CO/Aurora/80016/5168427"
   },
   {
-   "id": "be693ae91512e1e7",
-   "city": "atlanta",
-   "title": "Donna Davis LLC - Great Smyrna Whole House Sale",
-   "company": "Donna Davis Estate Sales LLC, Downsizing, Senior Moves",
+   "id": "e6cc14516545a007",
+   "city": "denver",
+   "title": "Sweet on Stanford",
+   "company": "Silversun Estate Sales",
    "categories": [],
    "digRating": "Worth a Look",
-   "photoCount": 14,
+   "photoCount": 52,
    "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
+    "2026-12-04",
+    "2026-12-05"
    ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.8787066,
-   "lng": -84.5052053,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/be693ae91512e1e7/",
-   "source": "https://estatesales.org/estate-sales/ga/smyrna-/30080/donna-davis-llc-great-smyrna-2474139"
+   "first": "2026-12-04",
+   "last": "2026-12-05",
+   "lat": 39.6579999,
+   "lng": -105.0413717,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/e6cc14516545a007/",
+   "source": "https://www.estatesales.net/CO/Denver/80236/5166141"
   },
   {
-   "id": "0db863ee4941281e",
-   "city": "atlanta",
-   "title": "Donna Davis LLc -Vinings Lake area-Packed full fine furniture. indoor and out everything imaginable",
-   "company": "Donna Davis Estate Sales LLC, Downsizing and Estate Appraisal Services",
-   "categories": [
-    "furniture"
-   ],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, jewelry and collectibles.",
-   "digRating": "Deep Dig",
-   "photoCount": 144,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.8174115,
-   "lng": -84.5510887,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/0db863ee4941281e/",
-   "source": "https://estatesales.org/estate-sales/ga/mableton/30126/donna-davis-llc-beautiful-whole-2474136"
-  },
-  {
-   "id": "503fd9be68becdc9",
-   "city": "atlanta",
-   "title": "Doona Davis LLC. Sunday 50-% off",
-   "company": "Donna Davis Estate Sales LLC, Downsizing and Estate Appraisal Services",
+   "id": "35e1c8a5a69629ad",
+   "city": "nashville",
+   "title": "Berry Hill Black Friday Sale - Phase 2",
+   "company": "Estate Greats",
    "categories": [],
    "keywords": [
-    "tools",
-    "furniture",
-    "kitchen",
     "clothing",
-    "books",
-    "art",
-    "electronics",
-    "toys & games",
-    "mid-century",
-    "rugs"
-   ],
-   "contentsLine": "Tools, furniture, kitchen, clothing and books.",
-   "digRating": "Deep Dig",
-   "photoCount": 140,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.857875,
-   "lng": -84.489664,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/503fd9be68becdc9/",
-   "source": "https://www.estatesales.net/GA/Smyrna/30080/5158035"
-  },
-  {
-   "id": "c01d4e71cabe23ba",
-   "city": "atlanta",
-   "title": "Estate & Yard Sale – Antiques, Collectibles, & Bargains Galore!",
-   "company": "",
-   "categories": [
-    "collectibles"
-   ],
-   "keywords": [
-    "furniture",
-    "collectibles",
-    "kitchen",
-    "antiques",
-    "mid-century",
-    "christmas decor"
-   ],
-   "contentsLine": "Furniture, collectibles, kitchen, antiques and mid-century.",
-   "digRating": "Deep Dig",
-   "photoCount": 12,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.818693,
-   "lng": -84.331004,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/c01d4e71cabe23ba/",
-   "source": "https://www.estatesales.net/GA/Atlanta/30329/5150361"
-  },
-  {
-   "id": "e939117f9e6f2aef",
-   "city": "atlanta",
-   "title": "Estate Sale Decatur/ North Dekalb Mall",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "electronics",
-    "china",
-    "mirrors",
-    "christmas decor"
-   ],
-   "contentsLine": "Furniture, vinyl & records, jewelry, collectibles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 26,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.820342,
-   "lng": -84.26919,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/e939117f9e6f2aef/",
-   "source": "https://www.estatesales.net/GA/Decatur/30033/5167365"
-  },
-  {
-   "id": "e158f2f7d84f0c50",
-   "city": "atlanta",
-   "title": "High-end richness in Lawrenceville round 1 of 2",
-   "company": "Better Buy It Now Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "jewelry",
-    "clothing",
-    "china",
-    "antiques",
-    "mid-century",
-    "rugs",
-    "silver",
-    "christmas decor"
-   ],
-   "contentsLine": "Tools, furniture, jewelry, clothing and china.",
-   "digRating": "Deep Dig",
-   "photoCount": 200,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.891188,
-   "lng": -84.097011,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/e158f2f7d84f0c50/",
-   "source": "https://www.estatesales.net/GA/Lawrenceville/30044/5163558"
-  },
-  {
-   "id": "166eab839f40ea32",
-   "city": "atlanta",
-   "title": "RAVISHING SNELLVILLE ESTATE : COME ONE, COME ALL!!",
-   "company": "B & B Estate Sales & Appraisals",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "vehicles",
-    "clothing",
-    "art",
-    "toys & games",
-    "figurines"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, jewelry and collectibles.",
-   "digRating": "Deep Dig",
-   "photoCount": 385,
-   "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.8958126,
-   "lng": -84.0201002,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/166eab839f40ea32/",
-   "source": "https://estatesales.org/estate-sales/ga/snellville/30078/ravishing-snellville-estate-come-one-2472465"
-  },
-  {
-   "id": "72549b8680cc2dbb",
-   "city": "atlanta",
-   "title": "Sunday Added! Warehouse Cleanout Sale! Antiques, Vintage Furniture, Store Fixtures, Neon & More",
-   "company": "",
-   "categories": [
-    "furniture"
-   ],
-   "keywords": [
-    "furniture",
     "antiques"
    ],
-   "contentsLine": "Furniture and antiques.",
-   "digRating": "Deep Dig",
-   "photoCount": 45,
+   "contentsLine": "Clothing and antiques.",
+   "digRating": "Slim Pickings",
+   "photoCount": 1,
    "dates": [
-    "2026-11-20",
-    "2026-11-21",
-    "2026-11-22"
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29"
    ],
-   "first": "2026-11-20",
-   "last": "2026-11-22",
-   "lat": 33.8595869,
-   "lng": -84.1888266,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/72549b8680cc2dbb/",
-   "source": "https://www.estatesales.net/GA/Tucker/30084/5164089"
+   "first": "2026-11-27",
+   "last": "2026-11-29",
+   "lat": 36.1151393,
+   "lng": -86.7771901,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/35e1c8a5a69629ad/",
+   "source": "https://www.estatesales.net/TN/Nashville/37204/5159613"
   },
   {
-   "id": "6fcc291c701d6d7b",
-   "city": "atlanta",
-   "title": "25-50% OFF Sunday! Pop-up Moving Sale! by Compassionate Transition",
-   "company": "Compassionate Transition",
+   "id": "e275ab209f26a3c1",
+   "city": "nashville",
+   "title": "Executive Home- Like New! Pre-sale Opportunities",
+   "company": "Busy Bee Moving Sales",
    "categories": [],
    "keywords": [
-    "furniture",
-    "vinyl & records",
-    "books",
-    "china",
-    "crystal",
-    "antiques",
-    "pianos",
-    "christmas decor"
-   ],
-   "contentsLine": "Furniture, vinyl & records, books, china and crystal.",
-   "digRating": "Deep Dig",
-   "photoCount": 107,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.7652996,
-   "lng": -84.2622932,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/6fcc291c701d6d7b/",
-   "source": "https://estatesales.org/estate-sales/ga/avondale-estates/30002/2550-off-sunday-popup-moving-2473890"
-  },
-  {
-   "id": "0ff5987ff24d5b5e",
-   "city": "atlanta",
-   "title": "50% OFF SUNDAY! GILDED NEST NEAR MOORES MILL WITH COLLECTIBLES, ASIAN FINDS, MEN’S CLOTHES + MORE",
-   "company": "Gilded Nest Estate Sales",
-   "categories": [
-    "collectibles",
-    "clothing"
-   ],
-   "keywords": [
-    "tools",
     "furniture",
     "collectibles",
     "vehicles",
     "kitchen",
     "clothing",
     "art",
-    "china",
-    "crystal",
-    "lamps"
-   ],
-   "contentsLine": "Tools, furniture, collectibles, vehicles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 266,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.827717,
-   "lng": -84.447117,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/0ff5987ff24d5b5e/",
-   "source": "https://www.estatesales.net/GA/Atlanta/30318/5164413"
-  },
-  {
-   "id": "630c7bf070699bfa",
-   "city": "atlanta",
-   "title": "COTTON PICKIN' ESTATE SALE - SHEPHERD'S HIDEAWAY, MARIETTA",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "furniture",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "art",
-    "china",
-    "antiques",
+    "toys & games",
+    "rugs",
     "lamps",
-    "silver",
-    "watches"
-   ],
-   "contentsLine": "Furniture, jewelry, collectibles, kitchen and art.",
-   "digRating": "Deep Dig",
-   "photoCount": 50,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.959678,
-   "lng": -84.668435,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/630c7bf070699bfa/",
-   "source": "https://www.estatesales.net/GA/Marietta/30064/5166126"
-  },
-  {
-   "id": "983c6d3c00e40f1f",
-   "city": "atlanta",
-   "title": "DEEP DISCOUNTS SUNDAY! MOVING ESTATE SALE with JEWELRY, GUITARS and OLD ALBUMS",
-   "company": "",
-   "categories": [
-    "vinyl-records",
-    "jewelry"
-   ],
-   "keywords": [
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "crystal"
-   ],
-   "contentsLine": "Furniture, vinyl & records, jewelry, collectibles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 47,
-   "dates": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.784305,
-   "lng": -84.348243,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/983c6d3c00e40f1f/",
-   "source": "https://www.estatesales.net/GA/Atlanta/30306/5163927"
-  },
-  {
-   "id": "a512647e9563019a",
-   "city": "atlanta",
-   "title": "Estate Sale - Stone Mountain - Womens Cloting, Houseware, Bike, some Furniture.",
-   "company": "",
-   "categories": [
-    "furniture"
-   ],
-   "keywords": [
-    "furniture",
-    "kitchen",
-    "clothing",
-    "antiques",
     "mirrors"
    ],
-   "contentsLine": "Furniture, kitchen, clothing, antiques and mirrors.",
+   "contentsLine": "Furniture, collectibles, vehicles, kitchen and clothing.",
    "digRating": "Deep Dig",
-   "photoCount": 20,
+   "photoCount": 169,
    "dates": [
-    "2026-11-21",
-    "2026-11-22"
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05"
    ],
-   "first": "2026-11-21",
-   "last": "2026-11-22",
-   "lat": 33.759799,
-   "lng": -84.207532,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/a512647e9563019a/",
-   "source": "https://www.estatesales.net/GA/Stone-Mountain/30083/5167662"
+   "first": "2026-12-03",
+   "last": "2026-12-05",
+   "lat": 35.997952,
+   "lng": -86.7739498,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/e275ab209f26a3c1/",
+   "source": "https://www.estatesales.net/TN/Brentwood/37027/5167590"
   },
   {
-   "id": "8255a9d65c5043b1",
-   "city": "atlanta",
-   "title": "75% OFF SUN-Huge Sale Great Deals, Unexpected Finds and More",
-   "company": "",
-   "categories": [],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "collectibles",
-    "kitchen",
-    "clothing",
-    "books",
-    "art",
-    "electronics",
-    "toys & games"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, collectibles and kitchen.",
-   "digRating": "Deep Dig",
-   "photoCount": 7,
-   "dates": [
-    "2026-11-22"
-   ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 33.8095487,
-   "lng": -84.2396434,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/8255a9d65c5043b1/",
-   "source": "https://www.craigslist.org/view/d/scottdale-75-off-sun-huge-sale-great/gyuJVfEFZFswW7Eg1bLNmm"
-  },
-  {
-   "id": "13808d707c448b3f",
-   "city": "atlanta",
-   "title": "75% OFF SUNDAY- -Find Your PERFECT PIECE at this VINTAGE Sale in Lilburn! COMICS, ALBUMS &am",
-   "company": "The Perfect Piece Estate Liquidators, Inc.",
-   "categories": [
-    "vinyl-records",
-    "collectibles"
-   ],
-   "keywords": [
-    "tools",
-    "furniture",
-    "vinyl & records",
-    "jewelry",
-    "collectibles",
-    "books",
-    "art",
-    "electronics",
-    "toys & games",
-    "mid-century"
-   ],
-   "contentsLine": "Tools, furniture, vinyl & records, jewelry and collectibles.",
-   "digRating": "Deep Dig",
-   "photoCount": 280,
-   "dates": [
-    "2026-11-22"
-   ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 33.884842,
-   "lng": -84.09228,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/13808d707c448b3f/",
-   "source": "https://www.estatesales.net/GA/Lilburn/30047/5168817"
-  },
-  {
-   "id": "17480cfe8b6b136b",
-   "city": "atlanta",
-   "title": "75% OFF SUNDAY-Find Your PERFECT PIECE at this VINTAGE Sale in Lilburn! COMICS, ALBUMS & SHAVERS",
-   "company": "The Perfect Piece Estate Liquidators, Inc",
-   "categories": [
-    "vinyl-records",
-    "collectibles"
-   ],
-   "keywords": [
-    "furniture",
-    "vinyl & records",
-    "collectibles",
-    "electronics",
-    "toys & games",
-    "mid-century",
-    "lamps",
-    "comics"
-   ],
-   "contentsLine": "Furniture, vinyl & records, collectibles, electronics and toys & games.",
-   "digRating": "Deep Dig",
-   "photoCount": 19,
-   "dates": [
-    "2026-11-22"
-   ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 33.8731136,
-   "lng": -84.1186563,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/17480cfe8b6b136b/",
-   "source": "https://estatesales.org/estate-sales/ga/lilburn/30047/75-off-sundayfind-your-perfect-2474955"
-  },
-  {
-   "id": "4f70e14fe1d55ff1",
-   "city": "atlanta",
-   "title": "Huge Estate Sale",
-   "company": "",
+   "id": "6ef7ed8800bbd90b",
+   "city": "nashville",
+   "title": "Old Hickory Lake House Estate Sale!",
+   "company": "Marigold Estate Sales - TN",
    "categories": [],
    "keywords": [
     "furniture"
    ],
    "contentsLine": "Furniture.",
-   "digRating": "Slim Pickings",
-   "photoCount": 1,
+   "digRating": "Deep Dig",
+   "photoCount": 560,
    "dates": [
-    "2026-11-22"
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05"
    ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 33.7465867,
-   "lng": -84.7478588,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/4f70e14fe1d55ff1/",
-   "source": "https://estatesales.org/estate-sales/ga/douglasville/30134/huge-estate-sale-2474689"
+   "first": "2026-12-03",
+   "last": "2026-12-05",
+   "lat": 36.2275854,
+   "lng": -86.6201971,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/6ef7ed8800bbd90b/",
+   "source": "https://www.estatesales.net/TN/Old-Hickory/37138/5156940"
   },
   {
-   "id": "52a474b536c45f6a",
-   "city": "atlanta",
-   "title": "Simply stated Sunday Funday",
-   "company": "Eden And Tate Estate Sales, LLC",
+   "id": "dfe6652fc33661c1",
+   "city": "nashville",
+   "title": "THROUGH THE LOOKING GLASS: A COLLECTOR’S ESTATE SALE",
+   "company": "Southern Crossroads Estate & Tag Sales",
+   "categories": [
+    "collectibles"
+   ],
+   "keywords": [
+    "collectibles",
+    "kitchen",
+    "figurines",
+    "china",
+    "crystal",
+    "antiques"
+   ],
+   "contentsLine": "Collectibles, kitchen, figurines, china and crystal.",
+   "digRating": "Deep Dig",
+   "photoCount": 650,
+   "dates": [
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05",
+    "2026-12-06"
+   ],
+   "first": "2026-12-03",
+   "last": "2026-12-06",
+   "lat": 36.50694,
+   "lng": -86.8742713,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/dfe6652fc33661c1/",
+   "source": "https://www.estatesales.net/TN/Springfield/37172/5158863"
+  },
+  {
+   "id": "182d42bd2a5071b8",
+   "city": "nashville",
+   "title": "Franklin Moving Sale",
+   "company": "Busy Bee Moving Sales",
    "categories": [],
    "digRating": "Worth a Look",
-   "photoCount": 65,
+   "photoCount": 39,
    "dates": [
-    "2026-11-22"
+    "2026-12-04",
+    "2026-12-05"
    ],
-   "first": "2026-11-22",
-   "last": "2026-11-22",
-   "lat": 33.479085,
-   "lng": -84.572934,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/52a474b536c45f6a/",
-   "source": "https://www.estatesales.net/GA/Tyrone/30290/5168901"
+   "first": "2026-12-04",
+   "last": "2026-12-05",
+   "lat": 35.9062737,
+   "lng": -86.8682941,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/182d42bd2a5071b8/",
+   "source": "https://www.estatesales.net/TN/Franklin/37064/5142282"
+  },
+  {
+   "id": "958ad8deb99f9819",
+   "city": "nashville",
+   "title": "Franklin River Rest Sale",
+   "company": "Dogwood Estate Sales",
+   "categories": [],
+   "keywords": [
+    "furniture",
+    "kitchen"
+   ],
+   "contentsLine": "Furniture and kitchen.",
+   "digRating": "Slim Pickings",
+   "photoCount": 0,
+   "dates": [
+    "2026-12-04",
+    "2026-12-05"
+   ],
+   "first": "2026-12-04",
+   "last": "2026-12-05",
+   "lat": 35.9796806,
+   "lng": -86.8992191,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/958ad8deb99f9819/",
+   "source": "https://www.estatesales.net/TN/Franklin/37069/5166318"
+  },
+  {
+   "id": "972ba1eb9bfd77a9",
+   "city": "nashville",
+   "title": "Packed Collectibles Estate Sale",
+   "company": "Estate Greats",
+   "categories": [
+    "collectibles"
+   ],
+   "keywords": [
+    "furniture",
+    "collectibles",
+    "kitchen",
+    "books",
+    "figurines",
+    "china"
+   ],
+   "contentsLine": "Furniture, collectibles, kitchen, books and figurines.",
+   "digRating": "Deep Dig",
+   "photoCount": 1,
+   "dates": [
+    "2026-12-04",
+    "2026-12-05",
+    "2026-12-06"
+   ],
+   "first": "2026-12-04",
+   "last": "2026-12-06",
+   "lat": 36.130938,
+   "lng": -86.6754191,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/972ba1eb9bfd77a9/",
+   "source": "https://www.estatesales.net/TN/Nashville/37214/5168589"
+  },
+  {
+   "id": "cf6d2212ceb133b3",
+   "city": "nashville",
+   "title": "FANTASTIC BRENTWOOD ESTATE SALE!!",
+   "company": "Estate Sales By Sheila",
+   "categories": [],
+   "keywords": [
+    "tools",
+    "furniture",
+    "art",
+    "toys & games",
+    "china",
+    "crystal",
+    "antiques",
+    "christmas decor",
+    "patio furniture"
+   ],
+   "contentsLine": "Tools, furniture, art, toys & games and china.",
+   "digRating": "Deep Dig",
+   "photoCount": 10,
+   "dates": [
+    "2026-12-05",
+    "2026-12-06"
+   ],
+   "first": "2026-12-05",
+   "last": "2026-12-06",
+   "lat": 35.997952,
+   "lng": -86.7739498,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/cf6d2212ceb133b3/",
+   "source": "https://estatesales.org/estate-sales/tn/brentwood/37027/fantastic-brentwood-estate-sale-2472916"
+  },
+  {
+   "id": "0915935d6d21b0b0",
+   "city": "nashville",
+   "title": "FANTASTIC WAREHOUSE SALE!!!",
+   "company": "Estate Sales By Sheila",
+   "categories": [],
+   "keywords": [
+    "furniture",
+    "collectibles",
+    "kitchen",
+    "books",
+    "antiques",
+    "mid-century"
+   ],
+   "contentsLine": "Furniture, collectibles, kitchen, books and antiques.",
+   "digRating": "Worth a Look",
+   "photoCount": 1,
+   "dates": [
+    "2026-12-05",
+    "2026-12-06"
+   ],
+   "first": "2026-12-05",
+   "last": "2026-12-06",
+   "lat": 36.1442382,
+   "lng": -86.7491622,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/0915935d6d21b0b0/",
+   "source": "https://estatesales.org/estate-sales/tn/nashville/37210/fantastic-warehouse-estate-sale-2471423"
+  },
+  {
+   "id": "75ff60faba785a04",
+   "city": "nashville",
+   "title": "SUPER WEST MEADE ESTATE SALE!!",
+   "company": "ESTATE SALES BY SHEILA",
+   "categories": [],
+   "keywords": [
+    "furniture",
+    "kitchen",
+    "art",
+    "mirrors"
+   ],
+   "contentsLine": "Furniture, kitchen, art and mirrors.",
+   "digRating": "Worth a Look",
+   "photoCount": 1,
+   "dates": [
+    "2026-12-05",
+    "2026-12-06"
+   ],
+   "first": "2026-12-05",
+   "last": "2026-12-06",
+   "lat": 36.0663164,
+   "lng": -86.9456557,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/75ff60faba785a04/",
+   "source": "https://estatesales.org/estate-sales/tn/nashville/37221/super-west-meade-estate-sale-2471422"
+  },
+  {
+   "id": "46fe67df2ea66b0a",
+   "city": "nashville",
+   "title": "SUPER WEST MEADE ESTATE SALE!!!",
+   "company": "Estate Sales By Sheila",
+   "categories": [],
+   "keywords": [
+    "furniture",
+    "kitchen",
+    "books",
+    "art",
+    "mirrors",
+    "christmas decor"
+   ],
+   "contentsLine": "Furniture, kitchen, books, art and mirrors.",
+   "digRating": "Worth a Look",
+   "photoCount": 0,
+   "dates": [
+    "2026-12-05",
+    "2026-12-06"
+   ],
+   "first": "2026-12-05",
+   "last": "2026-12-06",
+   "lat": 36.1166075,
+   "lng": -86.8559033,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/46fe67df2ea66b0a/",
+   "source": "https://www.estatesales.net/TN/Nashville/37205/5142771"
+  },
+  {
+   "id": "8142ed7cca66908e",
+   "city": "nashville",
+   "title": "WONDERFUL WESTHAVEN ESTATE SALE!!!",
+   "company": "Estate Sales By Sheila",
+   "categories": [],
+   "keywords": [
+    "tools",
+    "furniture",
+    "kitchen",
+    "clothing",
+    "china",
+    "crystal",
+    "lamps",
+    "mirrors",
+    "christmas decor"
+   ],
+   "contentsLine": "Tools, furniture, kitchen, clothing and china.",
+   "digRating": "Worth a Look",
+   "photoCount": 1,
+   "dates": [
+    "2026-12-05",
+    "2026-12-06"
+   ],
+   "first": "2026-12-05",
+   "last": "2026-12-06",
+   "lat": 35.9062737,
+   "lng": -86.8682941,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/8142ed7cca66908e/",
+   "source": "https://estatesales.org/estate-sales/tn/franklin/37064/wonderful-westhaven-estate-sale-2474196"
   }
  ]
 }

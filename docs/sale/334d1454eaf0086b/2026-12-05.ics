@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:334d1454eaf0086b-2026-12-05@rheinze08.github.io
-DTSTAMP:20261123T150156Z
+DTSTAMP:20261123T225419Z
 DTSTART:20261205T160000Z
 DTEND:20261205T210000Z
 SUMMARY:Beautiful Highest Quality Furniture & Decor @ Steeple Brook
 LOCATION:San Antonio\, TX 78256 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, kitchen\, clothing and toys & games.\nHour
- s: 10 AM – 3 PM (Saturday\, December 5\, local to San Antonio).\nRun by
-  Estates By Emilee LLC.\nOriginal listing (EstateSales.net): https://www.
- estatesales.net/TX/San-Antonio/78256/5163432\nSale page on The Dig: https
- ://rheinze08.github.io/the-dig-web/sale/334d1454eaf0086b/\nConfirm the ad
- dress and hours on the original listing before you travel.
+DESCRIPTION:An upholstered bed stands on a patterned rug beside a curved\,
+  carved nightstand and a floral glass-shade lamp.\nHours: 10 AM – 3 PM 
+ (Saturday\, December 5\, local to San Antonio).\nRun by Estates By Emilee
+  LLC.\nOriginal listing (EstateSales.net): https://www.estatesales.net/TX
+ /San-Antonio/78256/5163432\nSale page on The Dig: https://rheinze08.githu
+ b.io/the-dig-web/sale/334d1454eaf0086b/\nConfirm the address and hours on
+  the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/334d1454eaf0086b/
 END:VEVENT
 END:VCALENDAR
