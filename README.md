@@ -12,8 +12,9 @@ The site is static. `build.mjs` reads the live public feeds in [the-dig-data](ht
 | --- | --- |
 | `/` | What The Dig is, the map and list for the default city, and the Android app download |
 | `/regions/` | Where The Dig works: live cities, preview cities, and the note that more states are coming |
-| `/search/` | One search box, twelve category chips and a Favorites-only filter across every live and preview city. The page holds every result and `assets/search.js` filters it in the browser |
-| `/search/data.json` | The search data the page filters: one record per sale page, with `keywords`, `contentsLine` and `digRating` when the feed carries them |
+| `/map/` | Sale pins colored by Dig rating, with a switcher for live and Preview cities. Opens on Houston. A city link such as `/map/?city=austin` opens that city directly |
+| `/search/` | Keyword search across cities with category, favorites, city, rating, weekend and photo filters. The page holds every result and `assets/search.js` filters it in the browser |
+| `/search/data.json` | The records the search page filters, including city, session dates, photo counts and available Dig ratings |
 | `/<city>/` | Map and list of every sale in that city's feed. A preview city's pages carry a "Preview — still proving itself" banner |
 | `/<city>/this-weekend/` | The same city, only sales open the coming Friday to Sunday (city time) |
 | `/sale/<sale-id>/` | One sale: title, company, full address or city + ZIP with the release time, session dates and hours, source link, schema.org Event data, a Directions link and a favorite heart. When the feed carries them, also the Dig rating with its reasons, the contents line and keyword chips, the photo count at the source, and Call / Company page buttons |
@@ -45,7 +46,7 @@ The push is the deploy. If a feed cannot be read or the generated site fails `te
 | --- | --- |
 | `"status": "live"`, or no status and `"enabled": true` | **Live.** Full pages. The feed must be readable or the build stops and the published site stays as it was. |
 | `"status": "proving"`, or no status and not enabled | **Preview**, once its feed exists (the index's `feedUrl`, or `cities/<slug>/sales.json`). Same pages as a live city, each with the "Preview — still proving itself" banner. |
-| A proving city whose feed is not there yet, or does not read cleanly | **Left off the site.** No page, no count, and its name is not shown. `build.json` lists it under `offSite` with the reason. A broken preview feed never stops the live cities. |
+| A proving city whose feed is not there yet, or does not read cleanly | The map switcher lists the city as Preview and shows that its feed is unavailable. The build omits its city page and records the reason in `build.json` under `offSite`. |
 | Any other status | Left off the site, listed under `offSite`. |
 
 The index's `defaultCity` is the home page city if it is live. A sale two cities both list keeps one page, under the first city, and live cities come first. Counts on the site are always the number of sales in the feed. If the index states a different count, the build prints a note.
@@ -59,6 +60,8 @@ New cities need no change here. A proving city appears on the first rebuild afte
 `/search/` is a static page. The build writes every sale into it, grouped by city, and writes `/search/data.json` beside it. `assets/search.js` fetches that file and hides the results that do not match. A keyword matches the start of any word in a sale's title, company, categories, photo keywords (`photoKeywords` in the feed) or contents line (`contentsLine`). Chips narrow to sales in any of the chosen categories. A search can be linked: `/search/?q=tools&cat=furniture,art`.
 
 Favorites need no account and no server: the heart on a sale card or page stores the sale id in the visitor's browser (`localStorage`, `assets/favorites.js`), and the Favorites-only chip on `/search/` (or `/search/?fav=1`) shows only those sales.
+
+Choosing several ratings includes a sale with any selected rating. City, photos, weekend and the existing search controls narrow that result together. “This weekend” uses scheduled sale sessions on Saturday or Sunday in America/Chicago. The current weekend stays selected through Sunday. “Has photos” requires a positive photo count, and Clear all restores the full list. The build takes ratings and photo counts from the combined search feed when published and fills missing fields from the city feed for that sale.
 
 Where a sale's categories come from:
 

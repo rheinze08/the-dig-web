@@ -1,42 +1,26 @@
-// Draws the sale pins from the JSON the build wrote into the page.
+// Draw the embedded feed data. Switching cities replaces only the marker layer.
 (function () {
   var holder = document.getElementById('map');
   var source = document.getElementById('map-data');
   if (!holder || !source) return;
-  var status = document.getElementById('map-status');
-  if (!window.L) {
-    holder.hidden = true;
-    if (status) status.hidden = false;
-    return;
-  }
   var data = JSON.parse(source.textContent);
-  var pins = data.pins || [];
-  // A sale page shows one unnumbered pin. List pages number their pins.
-  var single = data.single === true && pins.length === 1;
-  var map = L.map(holder, {scrollWheelZoom: false});
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map);
-  // The page scrolls past the map until someone clicks into it.
-  map.on('click', function () { map.scrollWheelZoom.enable(); });
-  holder.addEventListener('mouseleave', function () { map.scrollWheelZoom.disable(); });
-
-  // Sales that share one approximate point are fanned out so each pin can be clicked.
-  var groups = {};
-  pins.forEach(function (pin) {
-    var key = pin.lat.toFixed(5) + ',' + pin.lng.toFixed(5);
-    (groups[key] = groups[key] || []).push(pin);
-  });
-  Object.keys(groups).forEach(function (key) {
-    var group = groups[key];
-    if (group.length < 2) return;
-    group.forEach(function (pin, index) {
-      var angle = 2 * Math.PI * index / group.length;
-      pin.lat += 0.0016 * Math.cos(angle);
-      pin.lng += 0.0019 * Math.sin(angle);
-    });
-  });
+  var chooser = document.getElementById('map-city');
+  var list = document.getElementById('sale-list');
+  var map, markers;
+  if (window.L) {
+    map = L.map(holder, {scrollWheelZoom: false});
+    markers = L.layerGroup().addTo(map);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    map.on('click', function () { map.scrollWheelZoom.enable(); });
+    holder.addEventListener('mouseleave', function () { map.scrollWheelZoom.disable(); });
+  } else {
+    holder.hidden = true;
+    var status = document.getElementById('map-status');
+    if (status) status.hidden = false;
+  }
 
   function popup(pin) {
     var box = document.createElement('div');
@@ -48,35 +32,16 @@
     link.textContent = pin.title;
     var where = document.createElement('span');
     where.textContent = pin.where + (pin.approx ? ' (approximate area)' : '');
-    box.appendChild(when);
-    box.appendChild(link);
-    box.appendChild(where);
+    box.append(when, link, where);
+    if (pin.rating) {
+      var rating = document.createElement('strong');
+      rating.textContent = pin.rating;
+      box.appendChild(rating);
+    }
     return box;
   }
 
-  var list = document.getElementById('sale-list');
-  var points = [];
-  pins.forEach(function (pin) {
-    var point = [pin.lat, pin.lng];
-    points.push(point);
-    var icon = L.divIcon({
-      className: 'dig-pin' + (pin.approx ? ' approximate' : '') + (pin.ended ? ' ended' : ''),
-      html: '<div class="pin-face"><span>' + (single ? '' : Number(pin.n)) + '</span></div>',
-      iconSize: [28, 28],
-      iconAnchor: pin.approx ? [14, 14] : [14, 34],
-      popupAnchor: pin.approx ? [0, -14] : [0, -32]
-    });
-    var marker = L.marker(point, {icon: icon, title: pin.title, alt: single ? pin.title : 'Sale ' + pin.n + ': ' + pin.title});
-    marker.addTo(map);
-    var card = document.getElementById('sale-' + pin.id);
-    if (single) {
-      if (pin.approx) {
-        L.circle(point, {radius: 1300, color: '#944021', weight: 2, dashArray: '6 6', fillColor: '#edb786', fillOpacity: 0.18}).addTo(map);
-      }
-      return;
-    }
-    marker.bindPopup(function () { return popup(pin); });
-    if (!card) return;
+  function connectCard(marker, card) {
     marker.on('popupopen', function () {
       card.classList.add('selected');
       if (list && getComputedStyle(list).overflowY === 'auto') card.scrollIntoView({block: 'nearest'});
@@ -91,15 +56,96 @@
     card.addEventListener('mouseleave', function () { lift(false); });
     card.addEventListener('focusin', function () { lift(true); });
     card.addEventListener('focusout', function () { lift(false); });
-  });
-
-  if (single) {
-    map.setView(points[0], pins[0].approx ? 13 : 15);
-  } else if (points.length) {
-    map.fitBounds(points, {padding: [30, 30], maxZoom: 14});
-  } else if (data.center) {
-    map.setView(data.center, 10);
-  } else {
-    holder.hidden = true;
   }
+
+  function addPin(pin, single, dx, dy) {
+    var point = [pin.lat, pin.lng];
+    var icon = L.divIcon({
+      className: 'dig-pin' + (pin.approx ? ' approximate' : '') + (pin.ended ? ' ended' : ''),
+      html: '<div class="pin-face"><span>' + (single || chooser ? '' : Number(pin.n)) + '</span></div>',
+      iconSize: [28, 28],
+      iconAnchor: [14 - dx, (pin.approx ? 14 : 34) - dy],
+      popupAnchor: [dx, (pin.approx ? -14 : -32) + dy]
+    });
+    var marker = L.marker(point, {icon: icon, title: pin.title, alt: pin.title}).addTo(markers);
+    if (pin.rating) marker.getElement().dataset.rating = pin.rating;
+    if (single) {
+      if (pin.approx) {
+        L.circle(point, {radius: 1300, color: '#944021', weight: 2, dashArray: '6 6', fillColor: '#edb786', fillOpacity: 0.18}).addTo(markers);
+      }
+      return;
+    }
+    // Keep popup text below the zoom buttons, including on narrow screens.
+    marker.bindPopup(function () { return popup(pin); }, {autoPanPaddingTopLeft: [8, 82]});
+    var card = document.getElementById('sale-' + pin.id);
+    if (card) connectCard(marker, card);
+  }
+
+  function draw(city) {
+    if (!map) return;
+    map.closePopup();
+    markers.clearLayers();
+    var pins = city.pins;
+    holder.hidden = !pins.length && !city.center;
+    if (holder.hidden) return;
+    map.invalidateSize();
+    var points = pins.map(function (pin) { return [pin.lat, pin.lng]; });
+    var single = city.single === true && pins.length === 1;
+    if (single) {
+      map.setView(points[0], pins[0].approx ? 13 : 15);
+    } else if (points.length) {
+      map.fitBounds(points, {padding: [42, 42], maxZoom: 14, animate: false});
+    } else {
+      map.setView(city.center, 10, {animate: false});
+    }
+
+    // Offset coincident icons in screen pixels. Their geographic points stay exact.
+    var groups = new Map();
+    pins.forEach(function (pin) {
+      var key = pin.lat.toFixed(5) + ',' + pin.lng.toFixed(5);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(pin);
+    });
+    groups.forEach(function (group) {
+      var radius = group.length > 1 ? 16 / Math.sin(Math.PI / group.length) : 0;
+      group.forEach(function (pin, index) {
+        var angle = 2 * Math.PI * index / group.length;
+        addPin(pin, single, Math.round(radius * Math.cos(angle)), Math.round(radius * Math.sin(angle)));
+      });
+    });
+  }
+
+  if (!chooser) {
+    draw(data);
+    return;
+  }
+
+  var bySlug = new Map(data.cities.map(function (city) { return [city.slug, city]; }));
+  var count = document.getElementById('map-count');
+  var listLink = document.getElementById('map-city-list');
+  function selectCity(slug) {
+    var city = bySlug.get(slug) || bySlug.get(data.defaultCity);
+    chooser.value = city.slug;
+    var mapped = city.pins.length;
+    if (city.total === null) {
+      count.textContent = city.name + ' sales feed is unavailable.';
+    } else {
+      count.textContent = (mapped === city.total ? mapped : mapped + ' of ' + city.total) +
+        (city.total === 1 ? ' sale' : ' sales') + ' mapped in ' + city.name;
+    }
+    listLink.hidden = !city.url;
+    if (city.url) {
+      listLink.href = city.url;
+      listLink.textContent = 'View the ' + city.name + ' sale list';
+    }
+    holder.setAttribute('aria-label', 'Map of ' + city.name + ' estate sales');
+    draw(city);
+  }
+  selectCity(new URL(location.href).searchParams.get('city'));
+  chooser.addEventListener('change', function () {
+    selectCity(chooser.value);
+    var url = new URL(location.href);
+    url.searchParams.set('city', chooser.value);
+    history.replaceState(null, '', url);
+  });
 })();

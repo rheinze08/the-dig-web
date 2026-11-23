@@ -6,6 +6,7 @@
       "categories": ["Tools", "Vinyl & Records", "toys and games"], "dates": ["2026-11-21", "2026-11-22"], "lat": 29.51, "lng": -95.11,
       "sourceUrl": "https://example.com/listing/1"},
     {"id": "bbbb000000000001", "city": "lakeside", "title": "Lakeside Bungalow: Antique Clocks & Fishing Gear", "company": "Preview Fixture Liquidators",
+      "digRating": "Slim Pickings", "photoCount": 0,
       "categories": ["collectibles", "Clocks"], "dates": ["2026-11-21"], "lat": 30.21, "lng": -97.71,
       "sourceUrl": "https://example.com/listing/b1"},
     {"id": "aaaa0000000000ff", "city": "rivertown", "title": "Border Town Sale Both Cities List", "company": "Shared Fixture Sales",

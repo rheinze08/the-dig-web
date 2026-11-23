@@ -34,8 +34,10 @@ async function build(name, change) {
   const holder = {exports: {}};
   new Function('module', await read('assets/search.js'))(holder);
   const data_ = JSON.parse(await read('search/data.json'));
-  return {out, log, read, summary: JSON.parse(await read('build.json')), data: data_,
-    find: (query, categories = [], favorites = null) => holder.exports.find(holder.exports.prepare(data_), query, categories, favorites).map(sale => sale.id)};
+  const search = holder.exports;
+  const prepared = search.prepare(data_);
+  return {out, log, read, search, summary: JSON.parse(await read('build.json')), data: data_,
+    find: (query, categories = [], favorites = null, filters) => search.find(prepared, query, categories, favorites, filters).map(sale => sale.id)};
 }
 
 const banner = 'Preview — still proving itself';
@@ -61,6 +63,15 @@ try {
   expect(!shared.includes(banner) && shared.includes('/dig/rivertown/'), 'A sale a live and a proving city share belongs to the live city');
   expect(!existsSync(join(site.out, 'hilltop')) && !existsSync(join(site.out, 'brokenville')) && !existsSync(join(site.out, 'oldport')),
     'Cities left off the site must have no pages');
+
+  const map = JSON.parse((await site.read('map/index.html')).match(/id="map-data">([^<]*)<\/script>/)[1]);
+  const mapCity = slug => map.cities.find(city => city.slug === slug);
+  expect(mapCity('lakeside').total === 2 && mapCity('lakeside').pins.length === 1,
+    'A missing longitude should leave the sale in the city total without generating a pin');
+  expect(mapCity('rivertown').pins.some(pin => pin.rating === 'Unrated' && pin.approx),
+    'An unrated, approximately located sale should keep both attributes on its pin');
+  expect(mapCity('hilltop')?.total === null && mapCity('brokenville')?.total === null && !mapCity('oldport'),
+    'The switcher should retain indexed Preview cities with unavailable feeds and omit retired cities');
 
   const regions = await site.read('regions/index.html');
   expect(/data-region="lakeside" data-status="proving" data-count="2"/.test(regions), 'Regions should list Lakeside as proving with 2 sales');
@@ -88,6 +99,27 @@ try {
   const search = await site.read('search/index.html');
   expect(/<section class="search-group"[^>]*data-city="lakeside" data-status="proving"[\s\S]*?tag-preview/.test(search), 'Search should label the Lakeside group Preview');
   expect(search.includes('combined search feed'), 'Search should say categories come from the combined feed');
+
+  // Include the weekend already in progress. Roll forward at Chicago midnight on Monday.
+  const weekend = ['2026-11-21', '2026-11-22'];
+  for (const instant of ['2026-11-20T12:00:00Z', '2026-11-21T20:00:00Z', '2026-11-23T05:59:59Z']) {
+    expect(site.search.chicagoWeekend(new Date(instant)).join() === weekend.join(), 'Wrong Chicago weekend at ' + instant);
+  }
+  expect(site.search.chicagoWeekend(new Date('2026-11-23T06:00:00Z')).join() === '2026-11-28,2026-11-29',
+    'The weekend should roll forward at midnight Monday in Chicago');
+  expect(site.search.chicagoWeekend(new Date('2026-03-09T04:59:59Z')).join() === '2026-03-07,2026-03-08',
+    'The Sunday of the daylight-saving change should stay in the current weekend');
+  const ratings = ['Deep Dig', 'Slim Pickings'];
+  expect(site.find('', [], null, {ratings}).length === 2, 'A sale with either selected rating should match');
+  expect(site.find('fixture', ['tools'], null, {city: 'rivertown', ratings, weekend, hasPhotos: true}).join() === 'aaaa000000000001',
+    'City, ratings, photos and weekend should combine with keyword and category');
+  expect(site.find('', [], null, {city: 'lakeside', ratings, weekend}).join() === 'bbbb000000000001',
+    'The preview sale should match the rating from the combined search feed');
+  expect(site.find('', [], null, {city: 'lakeside', hasPhotos: true}).length === 0,
+    'An explicit photoCount of zero in the combined feed should exclude the sale');
+  const gap = site.search.prepare({sales: [{id: 'gap', first: '2026-11-20', last: '2026-11-23', dates: ['2026-11-20', '2026-11-23']}]});
+  expect(site.search.find(gap, '', [], null, {weekend}).length === 0,
+    'A sale that skips both weekend days should not match even when its date range spans the weekend');
 
   // Phase 9 per-sale features: fully enriched, partly enriched, and plain sales.
   const enriched = await site.read('sale/aaaa000000000001/index.html');

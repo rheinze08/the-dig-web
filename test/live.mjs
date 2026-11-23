@@ -47,6 +47,10 @@ async function check() {
     report.push(`GET ${path} -> HTTP ${response.status}`);
     ok &&= response.status === 200;
   }
+  const map = await fetchText(`${build.site}/map/`);
+  const localMap = await readFile(new URL('map/index.html', docs), 'utf8');
+  report.push(`GET /map/ -> HTTP ${map.status}, ${map.text === localMap ? 'same as' : 'DIFFERENT from'} this build.`);
+  ok &&= map.status === 200 && map.text === localMap;
   let feedSales = null;
   if (withFeed) {
     const feed = await fetchText(home.feedUrl);

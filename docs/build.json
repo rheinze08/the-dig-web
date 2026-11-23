@@ -13,12 +13,12 @@
       "sales": 22,
       "indexCount": 22,
       "cleanRuns": 3,
-      "weekendSales": 10,
+      "weekendSales": 4,
       "salePages": 22,
-      "builtFor": "2026-11-22",
+      "builtFor": "2026-11-23",
       "weekend": [
-        "2026-11-22",
-        "2026-11-22"
+        "2026-11-27",
+        "2026-11-29"
       ]
     },
     {
@@ -31,12 +31,12 @@
       "sales": 71,
       "indexCount": 71,
       "cleanRuns": 3,
-      "weekendSales": 38,
+      "weekendSales": 17,
       "salePages": 71,
-      "builtFor": "2026-11-22",
+      "builtFor": "2026-11-23",
       "weekend": [
-        "2026-11-22",
-        "2026-11-22"
+        "2026-11-27",
+        "2026-11-29"
       ]
     },
     {
@@ -49,12 +49,12 @@
       "sales": 28,
       "indexCount": 28,
       "cleanRuns": 3,
-      "weekendSales": 18,
+      "weekendSales": 7,
       "salePages": 28,
-      "builtFor": "2026-11-22",
+      "builtFor": "2026-11-23",
       "weekend": [
-        "2026-11-22",
-        "2026-11-22"
+        "2026-11-27",
+        "2026-11-29"
       ]
     },
     {
@@ -67,12 +67,12 @@
       "sales": 29,
       "indexCount": 29,
       "cleanRuns": 3,
-      "weekendSales": 19,
+      "weekendSales": 2,
       "salePages": 29,
-      "builtFor": "2026-11-22",
+      "builtFor": "2026-11-23",
       "weekend": [
-        "2026-11-22",
-        "2026-11-22"
+        "2026-11-27",
+        "2026-11-29"
       ]
     },
     {
@@ -85,12 +85,12 @@
       "sales": 38,
       "indexCount": 38,
       "cleanRuns": 1,
-      "weekendSales": 19,
+      "weekendSales": 8,
       "salePages": 38,
-      "builtFor": "2026-11-22",
+      "builtFor": "2026-11-23",
       "weekend": [
-        "2026-11-22",
-        "2026-11-22"
+        "2026-11-27",
+        "2026-11-29"
       ]
     },
     {
@@ -103,12 +103,12 @@
       "sales": 57,
       "indexCount": 57,
       "cleanRuns": 1,
-      "weekendSales": 34,
+      "weekendSales": 7,
       "salePages": 57,
-      "builtFor": "2026-11-22",
+      "builtFor": "2026-11-23",
       "weekend": [
-        "2026-11-22",
-        "2026-11-22"
+        "2026-11-27",
+        "2026-11-29"
       ]
     }
   ],

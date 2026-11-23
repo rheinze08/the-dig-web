@@ -158,6 +158,22 @@ h3 { font-size: 1.3rem; line-height: 1.2; letter-spacing: -.02em; }
 .pin-popup b { display: block; color: var(--accent); font-size: .82rem; }
 .pin-popup span { display: block; color: var(--muted); }
 
+/* Full city map */
+.map-chooser { display: flex; align-items: center; gap: 10px; font-weight: 650; }
+.map-chooser select { max-width: 100%; min-height: 44px; padding: 7px 10px; font: inherit; color: var(--ink); background: var(--card); border: 1px solid #899b88; border-radius: 6px; }
+.map-bar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 20px; padding-block: 16px 12px; }
+.map-bar p { font-weight: 650; }
+.city-map [data-rating] { --pin-color: #235c91; --pin-pale: #d9e9f8; }
+.city-map [data-rating="Deep Dig"] { --pin-color: #245335; --pin-pale: #dcebdc; }
+.city-map [data-rating="Worth a Look"] { --pin-color: #a86808; --pin-pale: #ffecbc; }
+.city-map [data-rating="Slim Pickings"] { --pin-color: #61676c; --pin-pale: #e7e9ea; }
+.city-map .legend [data-rating] { background: var(--pin-color); border-radius: 50%; }
+.city-map .legend-area { background: var(--paper); border-color: var(--muted); }
+.city-map .dig-pin[data-rating] .pin-face { background: var(--pin-color); }
+.city-map .dig-pin[data-rating].approximate .pin-face { background: var(--pin-pale); color: var(--pin-color); border-color: var(--pin-color); }
+.city-map .map { height: clamp(340px, 65vh, 730px); }
+.city-map .pin-popup strong { display: block; margin-top: 4px; }
+
 /* How it works, cities */
 .how { margin-top: 56px; padding-top: 30px; border-top: 1px solid var(--line); }
 .how-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px clamp(20px, 3vw, 44px); margin-top: 18px; }
@@ -267,6 +283,13 @@ h2 .tag, .region-name .tag { margin-left: 6px; font-family: "DM Sans", Arial, sa
 .search-box .button { cursor: pointer; font: inherit; font-weight: 650; }
 .split .search-box .button { margin-top: 0; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.search-filters { display: flex; flex-wrap: wrap; align-items: end; gap: 12px 24px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); }
+.search-filters fieldset { min-width: 0; margin: 0; padding: 0; border: 0; }
+.search-filters legend { margin-bottom: 6px; padding: 0; font-size: .9rem; font-weight: 650; }
+.search-filters select { min-height: 38px; max-width: 100%; padding: 6px 10px; border: 1px solid #9aa897; border-radius: 6px; background: var(--card); color: var(--ink); font: inherit; }
+.filter-options { display: flex; align-items: center; flex-wrap: wrap; gap: 0 16px; }
+.filter-options label { display: inline-flex; align-items: center; gap: 6px; min-height: 38px; margin: 0; font-weight: 500; cursor: pointer; }
+.filter-options input { width: 1rem; height: 1rem; margin: 0; accent-color: var(--ink); }
 .chip { min-height: 38px; padding: 6px 13px; border: 1.5px solid #9aa897; border-radius: 999px; background: var(--card); color: var(--ink); font: inherit; font-size: .92rem; font-weight: 650; cursor: pointer; }
 .chip:hover:not(:disabled) { border-color: var(--ink); }
 .chip span { margin-left: 3px; font-size: .8rem; font-weight: 700; color: var(--muted); }

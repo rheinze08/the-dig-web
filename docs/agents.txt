@@ -42,7 +42,9 @@ A proving city's pages carry a "Preview — still proving itself" banner. Its co
 
 ## Regions and search
 - Regions page (live cities, preview cities, what comes next): https://rheinze08.github.io/the-dig-web/regions/
+- Map by city, with pins colored by Dig rating: https://rheinze08.github.io/the-dig-web/map/
 - Search page, across every live and proving city: https://rheinze08.github.io/the-dig-web/search/
+  Filters include city, one or more Dig ratings, sessions on the coming Saturday or Sunday in America/Chicago, and sales with photos.
   Link straight to a search: https://rheinze08.github.io/the-dig-web/search/?q=<words>&cat=<category-id>[,<category-id>]. Add &fav=1 to open the Favorites-only view (favorites are stored in the visitor's browser only; there is no account and nothing is sent to a server).
 - Search data the page filters in the browser: https://rheinze08.github.io/the-dig-web/search/data.json
   245 records, one per sale page: id, city, title, company, categories, first and last day, lat, lng, sale page URL, source listing URL. A record also carries keywords, contentsLine and digRating when that sale's feed record has them.

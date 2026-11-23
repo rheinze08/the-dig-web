@@ -25,14 +25,42 @@
     });
   }
 
+  function calendarDay(instant, timeZone) {
+    var parts = new Intl.DateTimeFormat('en-US', {timeZone: timeZone, year: 'numeric', month: '2-digit', day: '2-digit'}).formatToParts(instant);
+    var pick = function (type) { return parts.find(function (part) { return part.type === type; }).value; };
+    return pick('year') + '-' + pick('month') + '-' + pick('day');
+  }
+
+  // Anchor to Chicago's calendar day first. UTC day arithmetic on that date
+  // keeps both days correct across DST and for visitors in other time zones.
+  function chicagoWeekend(instant) {
+    var day = new Date(calendarDay(instant || new Date(), 'America/Chicago') + 'T00:00:00Z');
+    var weekday = day.getUTCDay();
+    day.setUTCDate(day.getUTCDate() + (weekday === 0 ? -1 : 6 - weekday));
+    var saturday = day.toISOString().slice(0, 10);
+    day.setUTCDate(day.getUTCDate() + 1);
+    return [saturday, day.toISOString().slice(0, 10)];
+  }
+
   // Every word typed must start a word of the sale. With categories chosen,
   // the sale must be in at least one of them. With favorites given (an array
   // of sale ids), only those sales match.
-  function find(prepared, query, categories, favorites) {
+  function find(prepared, query, categories, favorites, filters) {
     var terms = fold(query).split(' ').filter(Boolean);
     var chosen = categories || [];
+    filters = filters || {};
     return prepared.filter(function (entry) {
-      if (favorites && favorites.indexOf(entry.sale.id) === -1) return false;
+      var sale = entry.sale;
+      if (filters.city && sale.city !== filters.city) return false;
+      if (filters.ratings && filters.ratings.length && !filters.ratings.includes(sale.digRating)) return false;
+      if (filters.hasPhotos && !(sale.photoCount > 0)) return false;
+      if (filters.weekend) {
+        // A cached index from before session dates were published only has its range.
+        var overlaps = sale.dates ? sale.dates.some(function (day) { return filters.weekend.includes(day); })
+          : sale.first <= filters.weekend[1] && sale.last >= filters.weekend[0];
+        if (!overlaps) return false;
+      }
+      if (favorites && favorites.indexOf(sale.id) === -1) return false;
       if (chosen.length && !chosen.some(function (id) { return entry.categories.indexOf(id) !== -1; })) return false;
       return terms.every(function (term) {
         return entry.words.some(function (word) { return word.lastIndexOf(term, 0) === 0; });
@@ -40,7 +68,7 @@
     }).map(function (entry) { return entry.sale; });
   }
 
-  var api = {fold: fold, prepare: prepare, find: find};
+  var api = {fold: fold, prepare: prepare, find: find, chicagoWeekend: chicagoWeekend};
   if (typeof module === 'object' && module.exports) {
     module.exports = api;
     return;
@@ -51,6 +79,10 @@
   var results = document.getElementById('results');
   if (!form || !results) return;
   var input = document.getElementById('q');
+  var cityFilter = document.getElementById('filter-city');
+  var ratingFilters = Array.prototype.slice.call(form.querySelectorAll('input[name="rating"]'));
+  var weekendFilter = document.getElementById('filter-weekend');
+  var photoFilter = document.getElementById('filter-photos');
   var countLine = document.getElementById('result-count');
   var nothing = document.getElementById('no-results');
   var status = document.getElementById('search-status');
@@ -67,9 +99,7 @@
   groups.forEach(function (group) {
     var today;
     try {
-      var parts = new Intl.DateTimeFormat('en-US', {timeZone: group.getAttribute('data-time-zone'), year: 'numeric', month: '2-digit', day: '2-digit'}).formatToParts(new Date());
-      var pick = function (type) { return parts.filter(function (part) { return part.type === type; })[0].value; };
-      today = pick('year') + '-' + pick('month') + '-' + pick('day');
+      today = calendarDay(new Date(), group.getAttribute('data-time-zone'));
     } catch (error) {
       return;
     }
@@ -124,12 +154,16 @@
     if (favCount) favCount.textContent = String(favorites().length);
   }
 
-  function remember(query, categories) {
+  function remember(query, categories, filters) {
     if (!window.history || !window.history.replaceState) return;
     var parts = [];
     if (query.trim()) parts.push('q=' + encodeURIComponent(query.trim()).replace(/%20/g, '+'));
     if (categories.length) parts.push('cat=' + categories.join(','));
     if (favsOn()) parts.push('fav=1');
+    if (filters.city) parts.push('city=' + encodeURIComponent(filters.city));
+    filters.ratings.forEach(function (rating) { parts.push('rating=' + encodeURIComponent(rating)); });
+    if (filters.weekend) parts.push('weekend=1');
+    if (filters.hasPhotos) parts.push('photos=1');
     var address = window.location.pathname + (parts.length ? '?' + parts.join('&') : '');
     if (address !== window.location.pathname + window.location.search) window.history.replaceState(null, '', address);
   }
@@ -139,9 +173,16 @@
     if (!prepared) return;
     var query = input.value;
     var categories = chosen();
-    var filtering = fold(query) !== '' || categories.length > 0 || favsOn();
+    var filters = {
+      city: cityFilter ? cityFilter.value : '',
+      ratings: ratingFilters.filter(function (box) { return box.checked; }).map(function (box) { return box.value; }),
+      weekend: weekendFilter && weekendFilter.checked ? chicagoWeekend() : null,
+      hasPhotos: photoFilter && photoFilter.checked
+    };
+    var filtering = fold(query) !== '' || categories.length > 0 || favsOn() ||
+      Boolean(filters.city || filters.ratings.length || filters.weekend || filters.hasPhotos);
     var keep = {};
-    var found = find(prepared, query, categories, favsOn() ? favorites() : null);
+    var found = find(prepared, query, categories, favsOn() ? favorites() : null, filters);
     found.forEach(function (sale) { keep[sale.id] = true; });
     var shown = 0;
     hits.forEach(function (hit) {
@@ -159,12 +200,21 @@
     setCount(shown, filtering);
     nothing.hidden = shown !== 0;
     clear.hidden = !filtering;
-    remember(query, categories);
+    remember(query, categories, filters);
   }
 
   // A link can carry a search: /search/?q=tools&cat=furniture,art
   var asked = new URLSearchParams(window.location.search);
   if (asked.get('q')) input.value = asked.get('q');
+  if (cityFilter) {
+    cityFilter.value = asked.get('city') || '';
+    if (cityFilter.selectedIndex < 0) cityFilter.value = '';
+  }
+  var ratings = asked.getAll('rating');
+  ratingFilters.forEach(function (box) { box.checked = ratings.includes(box.value); });
+  if (weekendFilter) weekendFilter.checked = asked.get('weekend') === '1';
+  if (photoFilter) photoFilter.checked = asked.get('photos') === '1';
+  form.addEventListener('change', show);
   var askedCategories = (asked.get('cat') || '').split(',');
   chips.forEach(function (chip) {
     if (!chip.disabled && askedCategories.indexOf(chip.getAttribute('data-cat')) !== -1) chip.setAttribute('aria-pressed', 'true');
@@ -188,7 +238,7 @@
     show();
   });
   clear.addEventListener('click', function () {
-    input.value = '';
+    form.reset();
     chips.forEach(function (chip) { chip.setAttribute('aria-pressed', 'false'); });
     if (favOnly) favOnly.setAttribute('aria-pressed', 'false');
     show();

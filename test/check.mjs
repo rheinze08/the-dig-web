@@ -56,9 +56,9 @@ for (const file of htmlFiles) {
   if (canonical) pagesWithCanonical.set(canonical, file);
   else if (file !== '404.html') fail(`${where}: no canonical link`);
 
-  // Regions and Search are linked from the header and the footer of every page.
+  // Every page links to the main browsing tools.
   for (const [name, part] of [['header', html.match(/<header class="mast">[\s\S]*?<\/header>/)?.[0] ?? ''], ['footer', html.match(/<footer class="foot">[\s\S]*?<\/footer>/)?.[0] ?? '']]) {
-    for (const target of ['/regions/', '/search/']) {
+    for (const target of ['/regions/', '/map/', '/search/']) {
       if (!part.includes(`href="${base}${target}"`)) fail(`${where}: the ${name} does not link ${target}`);
     }
   }
@@ -98,7 +98,13 @@ for (const file of htmlFiles) {
 
 // City pages: the count shown must equal the feed count and the cards listed.
 const cardCount = html => (html.match(/<li class="sale[ "]/g) ?? []).length;
+const mapData = html => JSON.parse(html.match(/<script type="application\/json" id="map-data">([^<]*)<\/script>/)?.[1] ?? 'null');
+const atlas = all.has('map/index.html') && mapData(await read('map/index.html'));
+const expectedDefault = atlas?.cities?.some(city => city.slug === 'houston') ? 'houston' : summary.defaultCity;
+if (atlas?.defaultCity !== expectedDefault) fail(`/map/: expected default city ${expectedDefault}`);
 for (const city of summary.cities) {
+  const mapped = atlas?.cities?.find(item => item.slug === city.slug);
+  if (mapped?.total !== city.sales || mapped?.preview !== (city.status !== 'live')) fail(`/map/: wrong count or status for ${city.name}`);
   for (const file of [`${city.slug}/index.html`, ...(city.slug === summary.defaultCity ? ['index.html'] : [])]) {
     if (!all.has(file)) {
       fail(`/${file}: missing`);
@@ -112,6 +118,19 @@ for (const city of summary.cities) {
     if ((html.match(/data-fav="/g) ?? []).length !== city.sales) fail(`/${file}: every sale card needs a favorite heart`);
     if ((html.match(/google\.com\/maps\/dir\//g) ?? []).length !== city.sales) fail(`/${file}: every sale card needs a Directions link`);
     if (!html.includes('id="map"') || !html.includes('id="map-data"')) fail(`/${file}: no map`);
+    if (!html.includes(`href="${base}/map/?city=${city.slug}"`)) fail(`/${file}: missing the link to this city's map`);
+    if (mapped && file === `${city.slug}/index.html`) {
+      const cityPins = new Map(mapData(html).pins.map(pin => [pin.id, pin]));
+      for (const pin of mapped.pins) {
+        const local = cityPins.get(pin.id);
+        if (!local || local.lat !== pin.lat || local.lng !== pin.lng || local.approx !== pin.approx
+          || !pin.rating || !pin.when || !pin.title || pin.url !== `${base}/sale/${pin.id}/` || !all.has(fileFor(pin.url))) {
+          fail(`/map/: ${city.name} pin ${pin.id} has invalid coordinates, label or sale link`);
+        }
+        cityPins.delete(pin.id);
+      }
+      if (cityPins.size) fail(`/map/: missing ${cityPins.size} pins from the ${city.name} city page`);
+    }
   }
   const weekendFile = `${city.slug}/this-weekend/index.html`;
   if (!all.has(weekendFile)) fail(`/${weekendFile}: missing`);
@@ -126,10 +145,13 @@ for (const city of summary.cities) {
 
 // Sale pages: one per sale, each with Event data that carries real dates.
 const saleFiles = htmlFiles.filter(file => file.startsWith('sale/'));
+const sessionDaysByPage = new Map();
+let ratedSalePages = 0;
 if (saleFiles.length !== summary.salePages) fail(`Found ${saleFiles.length} sale pages, expected ${summary.salePages}`);
 for (const file of saleFiles) {
   const event = events.get(file);
   const html = await read(file);
+  if (html.includes('id="dig-rating"')) ratedSalePages++;
   if (!event) {
     fail(`/${file}: no Event structured data`);
     continue;
@@ -153,6 +175,7 @@ for (const file of saleFiles) {
   // One calendar file per session row, each a readable VEVENT for that day.
   const table = html.match(/<table class="sessions">[\s\S]*?<\/table>/)?.[0] ?? '';
   const rows = [...table.matchAll(/data-day="(\d{4}-\d{2}-\d{2})"/g)].map(match => match[1]);
+  sessionDaysByPage.set(file, [...new Set(rows)]);
   const icsLinks = [...html.matchAll(new RegExp(`href="${base}/sale/[^"]+/(\\d{4}-\\d{2}-\\d{2})\\.ics"`, 'g'))].map(match => match[1]);
   if (icsLinks.length !== rows.length || rows.some(day => !icsLinks.includes(day))) fail(`/${file}: calendar downloads do not match the session days`);
   for (const day of new Set(icsLinks)) {
@@ -255,13 +278,15 @@ else {
     if (record.keywords !== undefined && (!Array.isArray(record.keywords) || record.keywords.some(word => typeof word !== 'string' || !word))) fail(`search/data.json: ${record.id} has malformed keywords`);
     if (record.contentsLine !== undefined && typeof record.contentsLine !== 'string') fail(`search/data.json: ${record.id} has a malformed contentsLine`);
     if (record.digRating !== undefined && typeof record.digRating !== 'string') fail(`search/data.json: ${record.id} has a malformed digRating`);
+    if (!Number.isInteger(record.photoCount) || record.photoCount < 0) fail(`search/data.json: ${record.id} has an invalid photoCount`);
     const saleHtml = await read(`sale/${record.id}/index.html`);
-    if (Boolean(record.digRating) !== saleHtml.includes('id="dig-rating"')) fail(`/sale/${record.id}/: rating section does not match the feed data`);
+    const sessionDates = sessionDaysByPage.get(`sale/${record.id}/index.html`);
+    if (JSON.stringify(record.dates) !== JSON.stringify(sessionDates)) fail(`search/data.json: ${record.id} has the wrong session dates`);
     if (Boolean(record.keywords?.length || record.contentsLine) && !saleHtml.includes('id="whats-there"')) fail(`/sale/${record.id}/: has keywords or a contents line but no What's there section`);
     if (!record.keywords?.length && !record.contentsLine && saleHtml.includes('class="contents-line"')) fail(`/sale/${record.id}/: shows a contents line the data does not have`);
   }
   const enriched = summary.enriched ?? {};
-  if (enriched.withRating !== records.filter(record => record.digRating).length) fail('build.json enriched.withRating does not match the search data');
+  if (enriched.withRating !== ratedSalePages) fail('build.json enriched.withRating does not match the sale pages');
   if (enriched.withKeywords !== records.filter(record => record.keywords?.length).length) fail('build.json enriched.withKeywords does not match the search data');
   if (enriched.withContentsLine !== records.filter(record => record.contentsLine).length) fail('build.json enriched.withContentsLine does not match the search data');
   if (enriched.calendarFiles !== [...all].filter(file => file.endsWith('.ics')).length) fail('build.json enriched.calendarFiles does not match the calendar files written');
@@ -293,6 +318,8 @@ else {
       if (!body.includes(`href="${base}/sale/${id}/"`)) fail(`/search/: result ${id} does not link its sale page`);
       if (!body.includes('class="sale-title"') || !body.includes('class="dates"') || !body.includes('class="place"')) fail(`/search/: result ${id} lacks a title, dates or city`);
       if (Boolean(record.company) !== body.includes('class="company"')) fail(`/search/: result ${id} shows the wrong company line`);
+      const badge = body.match(/<span class="rating-badge [^"]+">([^<]*)<\/span>/)?.[1] ?? '';
+      if (unescape(badge) !== (record.digRating ?? '')) fail(`/search/: result ${id} shows the wrong rating`);
       if (body.includes('tag-preview') !== (status !== 'live')) fail(`/search/: result ${id} has the wrong Preview label`);
       if ((body.match(/class="cat"/g) ?? []).length !== record.categories.length + (record.tags ?? []).length) fail(`/search/: result ${id} does not show its categories`);
     }

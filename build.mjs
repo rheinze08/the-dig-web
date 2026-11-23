@@ -83,7 +83,7 @@ const BASE = site.pathname.replace(/\/+$/, '');
 const now = process.env.DIG_NOW ? new Date(process.env.DIG_NOW) : new Date();
 const offline = process.env.DIG_OFFLINE === '1';
 const placeholderEmail = /\.example$/i.test(LISTING_EMAIL);
-const reservedSlugs = new Set(['sale', 'list-your-sale', 'assets', 'this-weekend', 'regions', 'search']);
+const reservedSlugs = new Set(['sale', 'list-your-sale', 'assets', 'this-weekend', 'regions', 'search', 'map']);
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 // A failed build leaves docs/ exactly as it was.
@@ -463,12 +463,13 @@ async function loadCities() {
   const cities = loaded.filter(Boolean);
   check(cities.some(city => !city.preview), 'No live city feed could be read');
   // offSite: cities the index names that have no pages in this build, and why.
-  return {cities, offSite, cityIndex: fromIndex ? `${DATA_BASE}/cities.json` : null};
+  const unavailablePreviews = entries.filter((entry, position) => fromIndex && !loaded[position]);
+  return {cities, offSite, unavailablePreviews, cityIndex: fromIndex ? `${DATA_BASE}/cities.json` : null};
 }
 
 // search.json is the combined feed of every sale in the live and proving cities.
-// The site takes each sale's categories from it. Until the-dig-data publishes it,
-// and for any sale it leaves out, categories are read from the listing text here.
+// Search uses its categories, rating and photo count. Older or missing entries
+// fall back to the corresponding listing from the city feed.
 async function loadSearchFeed() {
   const url = `${DATA_BASE}/search.json`;
   const response = await get(url);
@@ -481,8 +482,11 @@ async function loadSearchFeed() {
     const sales = new Map();
     for (const raw of list) {
       if (!raw || typeof raw.id !== 'string' || !Array.isArray(raw.categories)) continue;
-      sales.set(raw.id, raw.categories
-        .map(item => clean(typeof item === 'string' ? item : item?.label ?? item?.name ?? item?.id)).filter(Boolean));
+      sales.set(raw.id, {
+        categories: raw.categories.map(item => clean(typeof item === 'string' ? item : item?.label ?? item?.name ?? item?.id)).filter(Boolean),
+        digRating: clip(clean(raw.digRating), 30) || null,
+        photoCount: Number.isInteger(raw.photoCount) && raw.photoCount >= 0 ? raw.photoCount : null,
+      });
     }
     return {url, published: true, problem: null, sales};
   } catch (error) {
@@ -674,7 +678,7 @@ ${symbols}
   <div class="frame mast-inner">
     <a class="brand" href="${href('/')}" aria-label="The Dig home">${brandMark}The Dig<span>.</span></a>
     <nav aria-label="Site">
-      ${cityLinks}<a href="${href(`/${weekendCity.slug}/this-weekend/`)}">This weekend</a><a href="${href('/regions/')}"${here('/regions/')}>Regions</a><a href="${href('/search/')}"${here('/search/')}>Search</a><a href="${href('/list-your-sale/')}"${here('/list-your-sale/')}>List your sale</a>
+      ${cityLinks}<a href="${href(`/${weekendCity.slug}/this-weekend/`)}">This weekend</a><a href="${href('/regions/')}"${here('/regions/')}>Regions</a><a href="${href('/map/')}"${here('/map/')}>Map</a><a href="${href('/search/')}"${here('/search/')}>Search</a><a href="${href('/list-your-sale/')}"${here('/list-your-sale/')}>List your sale</a>
     </nav>
   </div>
 </header>
@@ -698,6 +702,7 @@ ${body}
     <div>
       <h2>The Dig</h2>
       <ul>
+        <li><a href="${href('/map/')}">Sale map</a></li>
         <li><a href="${href('/search/')}">Search every city</a></li>
         <li><a href="${esc(apk.url)}">Android app (${esc(apk.tag)})</a></li>
         <li><a href="${href('/list-your-sale/')}">List your sale</a></li>
@@ -742,15 +747,50 @@ function saleCard(sale, city, note = null) {
       </li>`;
 }
 
-function mapData(city, sales) {
+function mapData(city, sales, {rated = false} = {}) {
   return {
     center: city.center ? [city.center.lat, city.center.lng] : null,
     pins: sales.filter(sale => sale.lat !== null).map(sale => ({
       n: sale.number, id: sale.id, title: sale.title, when: dayRange(sale.first, sale.last),
       where: placeOf(sale) || city.name, lat: sale.lat, lng: sale.lng,
       approx: sale.approximate, ended: sale.ended, url: href(salePath(sale)),
+      ...(rated ? {rating: sale.digRating || 'Unrated'} : {}),
     })),
   };
+}
+
+function mapPage(context) {
+  const path = '/map/';
+  const cities = context.cities.map(city => ({
+    slug: city.slug, name: city.name, preview: city.preview, url: href(`/${city.slug}/`),
+    total: city.sales.length, ...mapData(city, city.sales, {rated: true}),
+  }));
+  for (const city of context.unavailablePreviews) {
+    cities.push({slug: city.slug, name: city.name, preview: true, url: null, total: null, pins: [],
+      center: Number.isFinite(city.center?.lat) && Number.isFinite(city.center?.lng) ? [city.center.lat, city.center.lng] : null});
+  }
+  const home = cities.find(city => city.slug === DEFAULT_CITY.slug) ?? cities[0];
+  const options = cities.map(city => `<option value="${city.slug}"${city === home ? ' selected' : ''}>${esc(city.name)}${city.preview ? ' (Preview)' : ''}</option>`);
+  const legend = ['Deep Dig', 'Worth a Look', 'Slim Pickings', 'Unrated']
+    .map(rating => `<span><i data-rating="${rating}" aria-hidden="true"></i>${rating}</span>`).join('');
+  const body = `<div class="frame city-map">
+  <div class="page-head">
+    <h1>Estate sale map</h1>
+    <label class="map-chooser">City <select id="map-city">${options.join('')}</select></label>
+  </div>
+  <div class="map-bar">
+    <p id="map-count" role="status"></p>
+    <div class="legend" aria-label="Pin colors">${legend}<span><i class="legend-area" aria-hidden="true"></i>Approximate area</span></div>
+  </div>
+  <div id="map" class="map" role="region" aria-label="Estate sale locations"></div>
+  <p id="map-status" class="note" hidden>The street map could not load.</p>
+  <noscript><p class="note">Enable JavaScript to see the map, or <a href="${href('/regions/')}">browse sales by city</a>.</p></noscript>
+  <p class="feed-link"><a class="text-link" id="map-city-list" href="${home.url || href('/regions/')}">${home.url ? `View the ${esc(home.name)} sale list` : 'Browse sales by city'}</a></p>
+</div>`;
+  put(path, layout({...context, path, title: 'Estate sale map by city | The Dig',
+    description: 'Explore estate sales by city and Dig rating. Select a pin for the sale dates, rating and a link to the sale page on The Dig.',
+    body, map: {defaultCity: home.slug, cities}}));
+  pages.push({path, lastmod: latestCollected(context.cities)});
 }
 
 // The map beside the list. Used by the home page, city pages and weekend pages.
@@ -769,6 +809,7 @@ function results(city, sales, {weekend = false} = {}) {
       <div id="map" class="map" role="region" aria-label="Map of ${esc(city.name)} estate sales"></div>
       <p id="map-status" class="note" hidden>The street map could not load. Every sale is still in the list.</p>
       <noscript><p class="note">The map needs JavaScript. Every sale is in the list.</p></noscript>
+      <p class="feed-link"><a class="text-link" href="${href('/map/?city=' + city.slug)}">See this city's sales on a map</a></p>
     </section>
     <section class="list-pane" aria-labelledby="list-heading">
       <div class="pane-head"><h2 id="list-heading">Sale list</h2></div>
@@ -1172,10 +1213,10 @@ function regionsPage(context) {
 const latestCollected = cities => cities.map(city => city.collectedAt).filter(Boolean).sort().at(-1) ?? null;
 const categoryLabel = new Map(CATEGORIES.map(category => [category.id, category.label]));
 
-function searchHit({sale, city, cats, tags}) {
+function searchHit({sale, city, cats, tags, digRating}) {
   const town = sale.town && fold(sale.town) !== fold(city.name) ? ` · ${esc(sale.town)}` : '';
   const labels = [...cats.map(id => categoryLabel.get(id)), ...tags];
-  const badge = ratingBadge(sale);
+  const badge = ratingBadge({digRating});
   return `<li class="sale hit${sale.ended ? ' is-ended' : ''}" data-id="${sale.id}" data-last="${sale.last}">
         <a href="${href(salePath(sale))}">
           <span class="sale-text">
@@ -1216,7 +1257,7 @@ function searchPage(context) {
   const body = `<div class="frame">
   <div class="search-head">
     <h1>Search every city</h1>
-    <p class="lede">${groups.length === 1 ? `One search across every city on The Dig. Today that is ${esc(where)}.` : `One search across all ${esc(where)} on The Dig, live and preview.`} Type a word, pick a category, or both. Tap the heart on a sale to keep it as a favorite in this browser.</p>
+    <p class="lede">${groups.length === 1 ? `One search across every city on The Dig. Today that is ${esc(where)}.` : `One search across all ${esc(where)} on The Dig, live and preview.`} Tap the heart on a sale to keep it as a favorite in this browser.</p>
   </div>
   <form class="search-form" id="search-form" role="search" action="${href(path)}" method="get">
     <label for="q">Search sale titles, companies and what's being sold</label>
@@ -1226,15 +1267,29 @@ function searchPage(context) {
     </div>
     <div class="chips" id="chips" role="group" aria-label="Categories">
       ${chips.join('\n      ')}
+    </div>
+    <div class="search-filters">
+      <div>
+        <label for="filter-city">City</label>
+        <select id="filter-city" name="city"><option value="">All cities</option>${groups.map(({city}) => `<option value="${city.slug}">${esc(city.name)}${city.preview ? ' (Preview)' : ''}</option>`).join('')}</select>
+      </div>
+      <fieldset>
+        <legend>Rating</legend>
+        <div class="filter-options">${['Deep Dig', 'Worth a Look', 'Slim Pickings'].map(rating => `<label><input type="checkbox" name="rating" value="${rating}"> ${rating}</label>`).join('\n          ')}</div>
+      </fieldset>
+      <div class="filter-options">
+        <label><input type="checkbox" id="filter-weekend" name="weekend" value="1"> This weekend</label>
+        <label><input type="checkbox" id="filter-photos" name="photos" value="1"> Has photos</label>
+      </div>
       <button type="button" class="chip chip-fav" id="fav-only" aria-pressed="false">${icon('heart')}Favorites only <span id="fav-count">0</span></button>
-      <button type="button" class="chip chip-clear" id="clear-filters" hidden>Clear</button>
+      <button type="button" class="chip chip-clear" id="clear-filters" hidden>Clear all</button>
     </div>
   </form>
   <p class="count" id="result-count" role="status" data-total="${hits.length}" data-cities="${groups.length}"><strong>${hits.length}</strong> ${hits.length === 1 ? 'sale' : 'sales'} across ${plural(groups.length, 'city', 'cities')}.</p>
   <p class="fresh" id="search-scope">${scopeLine}</p>
   <p class="note" id="search-status" hidden>Search could not load its data. Every sale is still listed below.</p>
   <noscript><p class="note">Filtering needs JavaScript. Every sale is listed below, grouped by city.</p></noscript>
-  <p class="empty" id="no-results" hidden>No sale matches. Try a shorter word, or clear a category.</p>
+  <p class="empty" id="no-results" hidden>No sale matches. Try a shorter word or clear a filter.</p>
   <div id="results" data-source="${href('/search/data.json')}">
     ${groups.length ? '' : '<p class="empty">No feed has a sale right now. The site is rebuilt every day, so check back soon.</p>'}${groups.map(group => `<section class="search-group" id="results-${group.city.slug}" data-city="${group.city.slug}" data-status="${group.city.status}" data-total="${group.hits.length}" data-time-zone="${esc(group.city.timeZone)}" data-built-for="${group.city.today}" aria-labelledby="group-${group.city.slug}">
       <h2 id="group-${group.city.slug}"><a href="${href(`/${group.city.slug}/`)}">${esc(group.city.name)}</a>${group.city.preview ? ' ' + previewTag : ''} <span class="group-count">${plural(group.hits.length, 'sale')}</span></h2>
@@ -1260,11 +1315,12 @@ function searchData({cities, hits, searchFeed}) {
     categories: CATEGORIES.map(({id, label}) => ({id, label})),
     cities: cities.map(city => ({slug: city.slug, name: city.name, status: city.status, timeZone: city.timeZone,
       results: hits.filter(hit => hit.city === city).length, url: abs(`/${city.slug}/`)})),
-    sales: hits.map(({sale, city, cats, tags}) => ({id: sale.id, city: city.slug, title: sale.title, company: sale.company,
+    sales: hits.map(({sale, city, cats, tags, digRating, photoCount}) => ({id: sale.id, city: city.slug, title: sale.title, company: sale.company,
       categories: cats, ...(tags.length ? {tags} : {}),
       ...(sale.photoKeywords.length ? {keywords: sale.photoKeywords} : {}),
       ...(sale.contentsLine ? {contentsLine: sale.contentsLine} : {}),
-      ...(sale.digRating ? {digRating: sale.digRating} : {}),
+      ...(digRating ? {digRating} : {}),
+      photoCount, dates: [...new Set(sale.sessions.map(session => session.date))],
       first: sale.first, last: sale.last, lat: sale.lat, lng: sale.lng,
       url: abs(salePath(sale)), source: sale.sources[0]?.url ?? null})),
   };
@@ -1361,7 +1417,9 @@ A proving city's pages carry a "Preview — still proving itself" banner. Its co
 
 ## Regions and search
 - Regions page (live cities, preview cities, what comes next): ${abs('/regions/')}
+- Map by city, with pins colored by Dig rating: ${abs('/map/')}
 - Search page, across every live and proving city: ${abs('/search/')}
+  Filters include city, one or more Dig ratings, sessions on the coming Saturday or Sunday in America/Chicago, and sales with photos.
   Link straight to a search: ${abs('/search/')}?q=<words>&cat=<category-id>[,<category-id>]. Add &fav=1 to open the Favorites-only view (favorites are stored in the visitor's browser only; there is no account and nothing is sent to a server).
 - Search data the page filters in the browser: ${abs('/search/data.json')}
   ${plural(hits.length, 'record')}, one per sale page: id, city, title, company, categories, first and last day, lat, lng, sale page URL, source listing URL. A record also carries keywords, contentsLine and digRating when that sale's feed record has them.
@@ -1402,7 +1460,7 @@ function sitemap() {
 }
 
 // ── Build ───────────────────────────────────────────────────────────────────
-const [{cities, offSite, cityIndex}, apk, searchFeed] = await Promise.all([loadCities(), latestApk(), loadSearchFeed()]);
+const [{cities, offSite, unavailablePreviews, cityIndex}, apk, searchFeed] = await Promise.all([loadCities(), latestApk(), loadSearchFeed()]);
 
 // One page and one search result per sale. A sale two cities share belongs to
 // the first city that lists it, and live cities come before proving ones.
@@ -1413,12 +1471,14 @@ for (const city of cities) {
     if (placed.has(sale.id)) continue;
     placed.set(sale.id, city.slug);
     const listed = searchFeed.sales.get(sale.id);
-    hits.push({sale, city, fromFeed: Boolean(listed), ...categorize(sale, listed)});
+    hits.push({sale, city, fromFeed: Boolean(listed), ...categorize(sale, listed?.categories),
+      digRating: listed?.digRating ?? sale.digRating, photoCount: listed?.photoCount ?? sale.photoCount ?? 0});
   }
 }
-const context = {cities, offSite, cityIndex, apk, searchFeed, hits};
+const context = {cities, offSite, unavailablePreviews, cityIndex, apk, searchFeed, hits};
 
 homePage(context);
+mapPage(context);
 regionsPage(context);
 searchPage(context);
 for (const city of cities) {
