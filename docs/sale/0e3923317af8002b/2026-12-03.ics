@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0e3923317af8002b-2026-12-03@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261203T150000Z
+DTEND:20261203T210000Z
+SUMMARY:Sensing Transitions Presents a Charming Colonial Americana and Mor
+ e Marietta Estate Sale
+LOCATION:Marietta\, GA 30064 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 4 PM (Thursday\, December 3\, local to Atlant
+ a).\nRun by Sensing Transitions.\nOriginal listing (EstateSales.net): htt
+ ps://www.estatesales.net/GA/Marietta/30064/5170638\nSale page on The Dig:
+  https://rheinze08.github.io/the-dig-web/sale/0e3923317af8002b/\nConfirm 
+ the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/0e3923317af8002b/
+END:VEVENT
+END:VCALENDAR

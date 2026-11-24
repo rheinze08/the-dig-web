@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cf6d2212ceb133b3-2026-12-05@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261205T140000Z
 DTEND:20261205T230000Z
 SUMMARY:FANTASTIC BRENTWOOD ESTATE SALE!!
 LOCATION:Brentwood\, TN 37027 (Address releases Friday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, art\, toys & games and china.\nHours: 8 AM
-  – 5 PM (Saturday\, December 5\, local to Nashville).\nRun by Estate Sa
- les By Sheila.\nOriginal listing (EstateSales.org): https://estatesales.o
- rg/estate-sales/tn/brentwood/37027/fantastic-brentwood-estate-sale-247291
- 6\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/cf6
- d2212ceb133b3/\nConfirm the address and hours on the original listing bef
- ore you travel.
+DESCRIPTION:A round dolphin suncatcher\, a scrollwork fireplace screen\, t
+ wo oversized wall keys and a framed mirror are pictured.\nHours: 8 AM –
+  5 PM (Saturday\, December 5\, local to Nashville).\nRun by Estate Sales 
+ By Sheila.\nOriginal listing (EstateSales.org): https://estatesales.org/e
+ state-sales/tn/brentwood/37027/fantastic-brentwood-estate-sale-2472916\nS
+ ale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/cf6d221
+ 2ceb133b3/\nConfirm the address and hours on the original listing before 
+ you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/cf6d2212ceb133b3/
 END:VEVENT
 END:VCALENDAR

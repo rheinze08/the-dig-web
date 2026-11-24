@@ -5,19 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:099a155d6f87dd45-2026-12-05@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261205T160000Z
 DTEND:20261205T210000Z
 SUMMARY:Grasons: HUGE Castle Rock Estate Sale! Native American\, Fine Art\
  , John Deere\, Knives\, Antiques\, More
 LOCATION:Castle Rock\, CO 80109 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
- : 9 AM – 2 PM (Saturday\, December 5\, local to Denver).\nRun by Grason
- s Of Southeast Aurora\, CO.\nOriginal listing (EstateSales.org): https://
- estatesales.org/estate-sales/co/castle-rock/80109/grasons-estate-sales-hu
- ge-castle-2474591\nSale page on The Dig: https://rheinze08.github.io/the-
- dig-web/sale/099a155d6f87dd45/\nConfirm the address and hours on the orig
- inal listing before you travel.
+DESCRIPTION:Green and yellow model tractors line shelves below John Deere 
+ signs. The artwork includes red and black abstracts.\nHours: 9 AM – 2 P
+ M (Saturday\, December 5\, local to Denver).\nRun by Grasons Of Southeast
+  Aurora\, CO.\nOriginal listing (EstateSales.org): https://estatesales.or
+ g/estate-sales/co/castle-rock/80109/grasons-estate-sales-huge-castle-2474
+ 591\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/0
+ 99a155d6f87dd45/\nConfirm the address and hours on the original listing b
+ efore you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/099a155d6f87dd45/
 END:VEVENT
 END:VCALENDAR

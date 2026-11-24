@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:97564ef0046733ff-2026-12-05@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261205T160000Z
+DTEND:20261205T230000Z
+SUMMARY:Vintage Guitars & Amps\, Christmas\, Milk Glass\, Ceramics & More
+LOCATION:Hermitage\, TN 37076 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Furniture\, vinyl & records\, collectibles\, vehicles and kitc
+ hen.\nHours: 10 AM – 5 PM (Saturday\, December 5\, local to Nashville).
+ \nOriginal listing (EstateSales.net): https://www.estatesales.net/TN/Herm
+ itage/37076/5157318\nSale page on The Dig: https://rheinze08.github.io/th
+ e-dig-web/sale/97564ef0046733ff/\nConfirm the address and hours on the or
+ iginal listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/97564ef0046733ff/
+END:VEVENT
+END:VCALENDAR

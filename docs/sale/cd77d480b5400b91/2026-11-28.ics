@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cd77d480b5400b91-2026-11-28@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Black Friday Estate Sale Fun
+LOCATION:Brighton\, CO (Address releases Thursday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
+ : Opens 9 AM (Saturday\, November 28\, local to Denver).\nOriginal listin
+ g (Craigslist Denver): https://www.craigslist.org/view/d/brighton-black-f
+ riday-estate-sale-fun/qv7kSh9zmMkTrah6c2xbpf\nSale page on The Dig: https
+ ://rheinze08.github.io/the-dig-web/sale/cd77d480b5400b91/\nConfirm the ad
+ dress and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/cd77d480b5400b91/
+END:VEVENT
+END:VCALENDAR

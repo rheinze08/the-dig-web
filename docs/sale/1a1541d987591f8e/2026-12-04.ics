@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1a1541d987591f8e-2026-12-04@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261204T150000Z
+DTEND:20261204T210000Z
+SUMMARY:Stone Estate Solutions\, LLC - Vintage finds and more in Lilburn
+LOCATION:Lilburn\, GA 30047 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, kitchen\, art and antiques.\nHours: 10 AM 
+ – 4 PM (Friday\, December 4\, local to Atlanta).\nRun by Stone Estate S
+ olutions\, LLC.\nOriginal listing (EstateSales.org): https://estatesales.
+ org/estate-sales/ga/lilburn/30047/stone-estate-solutions-llc-vintage-2475
+ 293\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/1
+ a1541d987591f8e/\nConfirm the address and hours on the original listing b
+ efore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1a1541d987591f8e/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a69a62e3be71bdec-2026-11-25@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Estate Sale-Everything must go
+LOCATION:Arlington\, TX (Address releases Sunday 9:00 AM)
+DESCRIPTION:Hours: Opens 7 AM (Wednesday\, November 25\, local to Dallas
+ –Fort Worth).\nOriginal listing (Craigslist Dallas / Fort Worth): https
+ ://www.craigslist.org/view/d/arlington-estate-sale-everything-must-go/txq
+ Qwt1AJXHJu4Ep5yw8iV\nSale page on The Dig: https://rheinze08.github.io/th
+ e-dig-web/sale/a69a62e3be71bdec/\nConfirm the address and hours on the or
+ iginal listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/a69a62e3be71bdec/
+END:VEVENT
+END:VCALENDAR

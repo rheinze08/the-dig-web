@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:e0be762fad514e1f-2026-11-28@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261128T150000Z
 DTEND:20261128T210000Z
 SUMMARY:Kennesaw Estate Sale
 LOCATION:Kennesaw\, GA 30144 (Address releases Friday 9:00 AM)
-DESCRIPTION:Vehicles.\nHours: 10 AM – 4 PM (Saturday\, November 28\, loc
- al to Atlanta).\nRun by Uncle Bucks Estate Sales.\nOriginal listing (Esta
- teSales.net): https://www.estatesales.net/GA/Kennesaw/30144/5169405\nSale
-  page on The Dig: https://rheinze08.github.io/the-dig-web/sale/e0be762fad
- 514e1f/\nConfirm the address and hours on the original listing before you
-  travel.
+DESCRIPTION:The black Chevrolet Trailblazer has two-tone front seats\, a w
+ ide dashboard screen and silver-colored wheels.\nHours: 10 AM – 4 PM (S
+ aturday\, November 28\, local to Atlanta).\nRun by Uncle Bucks Estate Sal
+ es.\nOriginal listing (EstateSales.net): https://www.estatesales.net/GA/K
+ ennesaw/30144/5169405\nSale page on The Dig: https://rheinze08.github.io/
+ the-dig-web/sale/e0be762fad514e1f/\nConfirm the address and hours on the 
+ original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/e0be762fad514e1f/
 END:VEVENT
 END:VCALENDAR

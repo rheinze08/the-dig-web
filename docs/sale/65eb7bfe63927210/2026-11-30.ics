@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:65eb7bfe63927210-2026-11-30@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261130T150000Z
+DTEND:20261201T010000Z
+SUMMARY:EXCITING EARLY BIRD PRESALE!! COME FIRST! VINTAGE LINENS\, CLOTHIN
+ G\, JEWELRY\, PAPER\,TOYS\,
+LOCATION:Fort Worth\, TX 76148 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Jewelry\, vehicles\, clothing\, art and electronics.\nHours: 9
+  AM – 7 PM (Monday\, November 30\, local to Dallas–Fort Worth).\nRun 
+ by Three Sisters.\nOriginal listing (EstateSales.net): https://www.estate
+ sales.net/TX/Fort-Worth/76148/5170959\nSale page on The Dig: https://rhei
+ nze08.github.io/the-dig-web/sale/65eb7bfe63927210/\nConfirm the address a
+ nd hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/65eb7bfe63927210/
+END:VEVENT
+END:VCALENDAR

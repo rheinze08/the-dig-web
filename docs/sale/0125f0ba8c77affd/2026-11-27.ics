@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:0125f0ba8c77affd-2026-11-27@rheinze08.github.io
-DTSTAMP:20261123T225419Z
-DTSTART:20261127T163000Z
+DTSTAMP:20261124T213013Z
+DTSTART:20261127T160000Z
 DTEND:20261127T220000Z
 SUMMARY:One House\, Many Treasures!! A-multi estate sale
 LOCATION:Houston\, TX 77074 (Address releases Thursday 9:00 AM)
 DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
- : 10:30 AM – 4 PM (Friday\, November 27\, local to Houston).\nRun by So
- ussan Estates.\nOriginal listing (EstateSales.net): https://www.estatesal
- es.net/TX/Houston/77074/5166993\nSale page on The Dig: https://rheinze08.
- github.io/the-dig-web/sale/0125f0ba8c77affd/\nConfirm the address and hou
- rs on the original listing before you travel.
+ : 10 AM – 4 PM (Friday\, November 27\, local to Houston).\nRun by Souss
+ an Estates.\nOriginal listing (EstateSales.net): https://www.estatesales.
+ net/TX/Houston/77074/5166993\nSale page on The Dig: https://rheinze08.git
+ hub.io/the-dig-web/sale/0125f0ba8c77affd/\nConfirm the address and hours 
+ on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/0125f0ba8c77affd/
 END:VEVENT
 END:VCALENDAR

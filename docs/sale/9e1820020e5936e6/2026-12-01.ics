@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9e1820020e5936e6-2026-12-01@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261201T150000Z
+DTEND:20261201T210000Z
+SUMMARY:Bachelor Pad
+LOCATION:San Antonio\, TX 78217 (Address releases Monday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, vinyl & records\, vehicles and clothing.\n
+ Hours: 9 AM – 3 PM (Tuesday\, December 1\, local to San Antonio).\nRun 
+ by Top Hat Estate Sales.\nOriginal listing (EstateSales.net): https://www
+ .estatesales.net/TX/San-Antonio/78217/5170932\nSale page on The Dig: http
+ s://rheinze08.github.io/the-dig-web/sale/9e1820020e5936e6/\nConfirm the a
+ ddress and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/9e1820020e5936e6/
+END:VEVENT
+END:VCALENDAR

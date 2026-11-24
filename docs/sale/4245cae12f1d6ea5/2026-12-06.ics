@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4245cae12f1d6ea5-2026-12-06@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261206T180000Z
+DTEND:20261206T210000Z
+SUMMARY:Blue Moon Estate Sale in Spicewood at Balcones Village with MCM\, 
+ fashion\, art\, furniture\, and more!
+LOCATION:Austin\, TX 78750 (Address releases Friday 9:00 AM)
+DESCRIPTION:Furniture\, jewelry\, kitchen\, clothing and books.\nHours: 12
+  PM – 3 PM (Sunday\, December 6\, local to Austin).\nRun by Blue Moon E
+ state Sales.\nOriginal listing (EstateSales.net): https://www.estatesales
+ .net/TX/Austin/78750/5171430\nSale page on The Dig: https://rheinze08.git
+ hub.io/the-dig-web/sale/4245cae12f1d6ea5/\nConfirm the address and hours 
+ on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/4245cae12f1d6ea5/
+END:VEVENT
+END:VCALENDAR

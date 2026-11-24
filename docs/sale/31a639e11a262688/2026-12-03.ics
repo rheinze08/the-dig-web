@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:31a639e11a262688-2026-12-03@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261203T160000Z
 DTEND:20261203T210000Z
 SUMMARY:KISMET ESTATE SALES! Comics\, Star Wars\, Sports Jerseys\, Instrum
  ents\, Music T-Shirts & More!
 LOCATION:Centennial\, CO 80016 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and clothing.\nHour
- s: 9 AM – 2 PM (Thursday\, December 3\, local to Denver).\nRun by Kisme
- t Estate Sales.\nOriginal listing (EstateSales.net): https://www.estatesa
- les.net/CO/Aurora/80016/5168427\nSale page on The Dig: https://rheinze08.
- github.io/the-dig-web/sale/31a639e11a262688/\nConfirm the address and hou
- rs on the original listing before you travel.
+DESCRIPTION:Rows of packaged Star Wars figures include Hoth Chewbacca and 
+ Jar Jar Binks. A shelf holds Batman books.\nHours: 9 AM – 2 PM (Thursda
+ y\, December 3\, local to Denver).\nRun by Kismet Estate Sales.\nOriginal
+  listing (EstateSales.net): https://www.estatesales.net/CO/Aurora/80016/5
+ 168427\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sal
+ e/31a639e11a262688/\nConfirm the address and hours on the original listin
+ g before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/31a639e11a262688/
 END:VEVENT
 END:VCALENDAR

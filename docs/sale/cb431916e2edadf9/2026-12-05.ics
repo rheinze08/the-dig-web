@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cb431916e2edadf9-2026-12-05@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261205T150000Z
+DTEND:20261205T200000Z
+SUMMARY:Amazing Finds Estate Sales
+LOCATION:Scottsdale\, AZ 85254 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 8 AM – 1 PM (Saturday\, December 5\, local to Phoenix
+ ).\nRun by Amazing Finds Estate Sales.\nOriginal listing (EstateSales.net
+ ): https://www.estatesales.net/AZ/Scottsdale/85254/5169471\nSale page on 
+ The Dig: https://rheinze08.github.io/the-dig-web/sale/cb431916e2edadf9/\n
+ Confirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/cb431916e2edadf9/
+END:VEVENT
+END:VCALENDAR

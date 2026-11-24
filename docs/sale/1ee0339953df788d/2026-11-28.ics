@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1ee0339953df788d-2026-11-28@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261128T153000Z
+DTEND:20261128T220000Z
+SUMMARY:Antiques\, Chimineas\, Waterford Must See
+LOCATION:Atlanta\, GA 30338 (Address releases Tuesday 9:00 AM)
+DESCRIPTION:Furniture\, collectibles\, kitchen\, antiques and mirrors.\nHo
+ urs: 10:30 AM – 5 PM (Saturday\, November 28\, local to Atlanta).\nRun 
+ by Dunwoody Estate Treasures.\nOriginal listing (EstateSales.net): https:
+ //www.estatesales.net/GA/Atlanta/30338/5170545\nSale page on The Dig: htt
+ ps://rheinze08.github.io/the-dig-web/sale/1ee0339953df788d/\nConfirm the 
+ address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1ee0339953df788d/
+END:VEVENT
+END:VCALENDAR

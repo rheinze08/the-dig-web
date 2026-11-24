@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:13c762e2ccc45e3d-2026-12-04@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261204T161500Z
+DTEND:20261204T224500Z
+SUMMARY:Furniture\, Antiques\, Swatch Collections and More!
+LOCATION:Peachtree Corners\, GA 30092 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Furniture\, jewelry\, collectibles\, kitchen and clothing.\nHo
+ urs: 11:15 AM – 5:45 PM (Friday\, December 4\, local to Atlanta).\nRun 
+ by Dunwoody Estate Treasures.\nOriginal listing (EstateSales.net): https:
+ //www.estatesales.net/GA/Peachtree-Corners/30092/5150499\nSale page on Th
+ e Dig: https://rheinze08.github.io/the-dig-web/sale/13c762e2ccc45e3d/\nCo
+ nfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/13c762e2ccc45e3d/
+END:VEVENT
+END:VCALENDAR

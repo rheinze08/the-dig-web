@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:92ac2fa3123ba738-2026-11-28@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261128T160000Z
+DTEND:20261128T220000Z
+SUMMARY:Robinson Estate Sale
+LOCATION:Westminster\, CO 80234 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, jewelry\, vehicles and kitchen.\nHours: 9 
+ AM – 3 PM (Saturday\, November 28\, local to Denver).\nOriginal listing
+  (EstateSales.net): https://www.estatesales.net/CO/Denver/80234/5171205\n
+ Sale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/92ac2f
+ a3123ba738/\nConfirm the address and hours on the original listing before
+  you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/92ac2fa3123ba738/
+END:VEVENT
+END:VCALENDAR

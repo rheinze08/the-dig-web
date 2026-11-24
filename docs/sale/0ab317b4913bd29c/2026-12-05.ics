@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:0ab317b4913bd29c-2026-12-05@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261205T150000Z
 DTEND:20261205T210000Z
 SUMMARY:WOODRIDGE ESTATE SALE
 LOCATION:San Antonio\, TX 78249 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
- : 9 AM – 3 PM (Saturday\, December 5\, local to San Antonio).\nRun by C
- omplete Estate Sale Services.\nOriginal listing (EstateSales.net): https:
- //www.estatesales.net/TX/San-Antonio/78249/5169666\nSale page on The Dig:
-  https://rheinze08.github.io/the-dig-web/sale/0ab317b4913bd29c/\nConfirm 
- the address and hours on the original listing before you travel.
+DESCRIPTION:Bird and butterfly guides cover the sofas and coffee table. A 
+ painted platter sits between two candlesticks.\nHours: 9 AM – 3 PM (Sat
+ urday\, December 5\, local to San Antonio).\nRun by Complete Estate Sale 
+ Services.\nOriginal listing (EstateSales.net): https://www.estatesales.ne
+ t/TX/San-Antonio/78249/5169666\nSale page on The Dig: https://rheinze08.g
+ ithub.io/the-dig-web/sale/0ab317b4913bd29c/\nConfirm the address and hour
+ s on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/0ab317b4913bd29c/
 END:VEVENT
 END:VCALENDAR

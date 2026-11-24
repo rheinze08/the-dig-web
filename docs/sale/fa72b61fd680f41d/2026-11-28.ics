@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fa72b61fd680f41d-2026-11-28@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261128T160000Z
+DTEND:20261128T220000Z
+SUMMARY:Packed Franklin Estate Sale - Carters Creek!!
+LOCATION:Franklin\, TN 37064 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 4 PM (Saturday\, November 28\, local to Nashv
+ ille).\nRun by New Life Estate Sales.\nOriginal listing (EstateSales.net)
+ : https://www.estatesales.net/TN/Franklin/37064/5171094\nSale page on The
+  Dig: https://rheinze08.github.io/the-dig-web/sale/fa72b61fd680f41d/\nCon
+ firm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/fa72b61fd680f41d/
+END:VEVENT
+END:VCALENDAR

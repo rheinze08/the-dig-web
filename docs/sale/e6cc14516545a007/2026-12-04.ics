@@ -5,16 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:e6cc14516545a007-2026-12-04@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261204T170000Z
 DTEND:20261204T210000Z
 SUMMARY:Sweet on Stanford
 LOCATION:Denver\, CO 80236 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 10 AM – 2 PM (Friday\, December 4\, local to Denver).
- \nRun by Silversun Estate Sales.\nOriginal listing (EstateSales.net): htt
- ps://www.estatesales.net/CO/Denver/80236/5166141\nSale page on The Dig: h
- ttps://rheinze08.github.io/the-dig-web/sale/e6cc14516545a007/\nConfirm th
- e address and hours on the original listing before you travel.
+DESCRIPTION:Colored stemware fills a shelf. A floral tureen\, glass bowls 
+ and candelabra sit beneath a framed picture of poppies.\nHours: 10 AM –
+  2 PM (Friday\, December 4\, local to Denver).\nRun by Silversun Estate S
+ ales.\nOriginal listing (EstateSales.net): https://www.estatesales.net/CO
+ /Denver/80236/5166141\nSale page on The Dig: https://rheinze08.github.io/
+ the-dig-web/sale/e6cc14516545a007/\nConfirm the address and hours on the 
+ original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/e6cc14516545a007/
 END:VEVENT
 END:VCALENDAR

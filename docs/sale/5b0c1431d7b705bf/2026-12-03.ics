@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5b0c1431d7b705bf-2026-12-03@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261203T160000Z
+DTEND:20261203T200000Z
+SUMMARY:Phoenix Estate Sale Cobra\, Ford Truck Ford Ford
+LOCATION:Phoenix\, AZ 85021 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:A blue roadster with white racing stripes has a roll bar\, sid
+ e exhaust pipes and white bucket seats.\nHours: 9 AM – 1 PM (Thursday\,
+  December 3\, local to Phoenix).\nRun by Fresh Start Estate Sales.\nOrigi
+ nal listing (EstateSales.org): https://estatesales.org/estate-sales/az/ph
+ oenix/85021/phoenix-estate-sale-2470694\nSale page on The Dig: https://rh
+ einze08.github.io/the-dig-web/sale/5b0c1431d7b705bf/\nConfirm the address
+  and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/5b0c1431d7b705bf/
+END:VEVENT
+END:VCALENDAR

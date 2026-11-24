@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:38c8b43af5d4e191-2026-11-27@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261127T160000Z
+DTEND:20261127T220000Z
+SUMMARY:From Work Bench To Wardrobe Black Friday Estate Sale
+LOCATION:Brighton\, CO 80601 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 3 PM (Friday\, November 27\, local to Denver).
+ \nRun by Front Porch Estate Sales.\nOriginal listing (EstateSales.org): h
+ ttps://estatesales.org/estate-sales/co/brighton/80601/from-work-bench-to-
+ wardrobe-2475219\nSale page on The Dig: https://rheinze08.github.io/the-d
+ ig-web/sale/38c8b43af5d4e191/\nConfirm the address and hours on the origi
+ nal listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/38c8b43af5d4e191/
+END:VEVENT
+END:VCALENDAR

@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:76a26105c471b593-2026-11-27@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261127T160000Z
 DTEND:20261127T220000Z
-SUMMARY:Workbench to Wardrobe Estate Sale
+SUMMARY:Workbench to Wardrobe Thanksgiving Estate Sale
 LOCATION:Brighton\, CO 80601 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
- : 9 AM – 3 PM (Friday\, November 27\, local to Denver).\nRun by Front P
- orch Estate Sales.\nOriginal listing (EstateSales.net): https://www.estat
- esales.net/CO/Brighton/80601/5163693\nSale page on The Dig: https://rhein
- ze08.github.io/the-dig-web/sale/76a26105c471b593/\nConfirm the address an
- d hours on the original listing before you travel.
+DESCRIPTION:A branch-shaped holder carries three pillar candles atop a low
+  cabinet. Other pieces include a standing mirror.\nHours: 9 AM – 3 PM (
+ Friday\, November 27\, local to Denver).\nRun by Front Porch Estate Sales
+ .\nOriginal listing (EstateSales.net): https://www.estatesales.net/CO/Bri
+ ghton/80601/5163693\nSale page on The Dig: https://rheinze08.github.io/th
+ e-dig-web/sale/76a26105c471b593/\nConfirm the address and hours on the or
+ iginal listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/76a26105c471b593/
 END:VEVENT
 END:VCALENDAR

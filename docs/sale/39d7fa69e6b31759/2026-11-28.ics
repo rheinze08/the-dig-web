@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:39d7fa69e6b31759-2026-11-28@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:►► ESTATE SALE - Scuba\, Trolling Motors\, Tools\, Mowers & Mo
+ re! ◄◄
+LOCATION:310 Wildcat Hollow Dr near Roland Ln\, Kyle\, TX
+DESCRIPTION:Tools\, collectibles\, books and electronics.\nHours: Opens 7 
+ AM (Saturday\, November 28\, local to Austin).\nOriginal listing (Craigsl
+ ist Austin): https://www.craigslist.org/view/d/kyle-estate-sale-scuba-tro
+ lling-motors/njBdJr7q8hhNW1ij5K1EKQ\nSale page on The Dig: https://rheinz
+ e08.github.io/the-dig-web/sale/39d7fa69e6b31759/\nConfirm the address and
+  hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/39d7fa69e6b31759/
+END:VEVENT
+END:VCALENDAR

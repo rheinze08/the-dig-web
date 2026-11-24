@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:510a1b9fb19e4d83-2026-11-29@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261129T160000Z
 DTEND:20261129T210000Z
 SUMMARY:Estate Sale by Family Tree Estates
 LOCATION:Kemah\, TX 77565 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 10 AM – 3 PM (Sunday\, November 29\, local to Houston
- ).\nRun by Family Tree Estate Sales.\nOriginal listing (EstateSales.net):
-  https://www.estatesales.net/TX/Kemah/77565/5156790\nSale page on The Dig
- : https://rheinze08.github.io/the-dig-web/sale/510a1b9fb19e4d83/\nConfirm
-  the address and hours on the original listing before you travel.
+DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and books.\nHours: 
+ 10 AM – 3 PM (Sunday\, November 29\, local to Houston).\nRun by Family 
+ Tree Estate Sales.\nOriginal listing (EstateSales.net): https://www.estat
+ esales.net/TX/Kemah/77565/5156790\nSale page on The Dig: https://rheinze0
+ 8.github.io/the-dig-web/sale/510a1b9fb19e4d83/\nConfirm the address and h
+ ours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/510a1b9fb19e4d83/
 END:VEVENT
 END:VCALENDAR

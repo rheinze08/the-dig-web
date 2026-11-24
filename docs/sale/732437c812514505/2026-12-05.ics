@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:732437c812514505-2026-12-05@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261205T160000Z
+DTEND:20261205T210000Z
+SUMMARY:Vintage Treasures
+LOCATION:Gallatin\, TN 37066 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 3 PM (Saturday\, December 5\, local to Nashvi
+ lle).\nRun by A Daisy A Day Estate Sales.\nOriginal listing (EstateSales.
+ net): https://www.estatesales.net/TN/Gallatin/37066/5171322\nSale page on
+  The Dig: https://rheinze08.github.io/the-dig-web/sale/732437c812514505/\
+ nConfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/732437c812514505/
+END:VEVENT
+END:VCALENDAR

@@ -5,18 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:89a05893a83558b3-2026-11-24@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261124T150000Z
 DTEND:20261124T230000Z
-SUMMARY:Plano French Provincial & Hollywood Regency Estate Sale 80% off
+SUMMARY:Plano French Provincial & Hollywood Regency Estate Sale
 LOCATION:1301 Custer #706 (Directly behind the Tee Time Bar\, Plano\, TX 7
  5075
-DESCRIPTION:Furniture.\nHours: 9 AM – 5 PM (Tuesday\, November 24\, loca
- l to Dallas–Fort Worth).\nRun by Consignment Crush Estate Sales.\nOrigi
- nal listing (EstateSales.org): https://estatesales.org/estate-sales/tx/pl
- ano/75075/plano-french-provincial-hollywood-regency-2475119\nSale page on
-  The Dig: https://rheinze08.github.io/the-dig-web/sale/89a05893a83558b3/\
- nConfirm the address and hours on the original listing before you travel.
+DESCRIPTION:A cream two-cushion sofa has a button-tufted back\, scrolling 
+ arms\, nailhead trim and gold-toned claw feet.\nHours: 9 AM – 5 PM (Tue
+ sday\, November 24\, local to Dallas–Fort Worth).\nRun by Consignment C
+ rush Estate Sales.\nOriginal listing (EstateSales.org): https://estatesal
+ es.org/estate-sales/tx/plano/75075/plano-french-provincial-hollywood-rege
+ ncy-2475119\nSale page on The Dig: https://rheinze08.github.io/the-dig-we
+ b/sale/89a05893a83558b3/\nConfirm the address and hours on the original l
+ isting before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/89a05893a83558b3/
 END:VEVENT
 END:VCALENDAR

@@ -5,16 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:dd8117b504e7a929-2026-12-05@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261205T150000Z
 DTEND:20261205T210000Z
 SUMMARY:Hidden Gems Estate Sale
 LOCATION:Chandler\, AZ 85249 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 8 AM – 2 PM (Saturday\, December 5\, local to Phoenix
- ).\nRun by Hidden Gems Estate Sales.\nOriginal listing (EstateSales.net):
-  https://www.estatesales.net/AZ/Chandler/85249/5169927\nSale page on The 
- Dig: https://rheinze08.github.io/the-dig-web/sale/dd8117b504e7a929/\nConf
- irm the address and hours on the original listing before you travel.
+DESCRIPTION:Santa figures include one holding a tennis racket. Two white s
+ tuffed orangutans sit side by side.\nHours: 8 AM – 2 PM (Saturday\, Dec
+ ember 5\, local to Phoenix).\nRun by Hidden Gems Estate Sales.\nOriginal 
+ listing (EstateSales.net): https://www.estatesales.net/AZ/Chandler/85249/
+ 5169927\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sa
+ le/dd8117b504e7a929/\nConfirm the address and hours on the original listi
+ ng before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/dd8117b504e7a929/
 END:VEVENT
 END:VCALENDAR

@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:97c9696a9704a971-2026-11-28@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Garage / Estate sale. Lots to see
 LOCATION:Denver\, CO (Address releases Thursday 9:00 AM)
-DESCRIPTION:Furniture\, collectibles\, kitchen\, toys & games and dolls.\n
- Hours: Opens 9 AM (Saturday\, November 28\, local to Denver).\nOriginal l
- isting (Craigslist Denver): https://www.craigslist.org/view/d/denver-gara
- ge-estate-sale-lots-to-see/a21sxMkQ23fwVhD2VpcQrR\nSale page on The Dig: 
- https://rheinze08.github.io/the-dig-web/sale/97c9696a9704a971/\nConfirm t
- he address and hours on the original listing before you travel.
+DESCRIPTION:Miniature lighthouses fill a tabletop\, plush animals line a c
+ ubby shelf\, and mugs sit above a window.\nHours: Opens 9 AM (Saturday\, 
+ November 28\, local to Denver).\nOriginal listing (Craigslist Denver): ht
+ tps://www.craigslist.org/view/d/denver-garage-estate-sale-lots-to-see/a21
+ sxMkQ23fwVhD2VpcQrR\nSale page on The Dig: https://rheinze08.github.io/th
+ e-dig-web/sale/97c9696a9704a971/\nConfirm the address and hours on the or
+ iginal listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/97c9696a9704a971/
 END:VEVENT
 END:VCALENDAR

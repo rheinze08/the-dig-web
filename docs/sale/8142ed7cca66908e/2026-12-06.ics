@@ -5,18 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8142ed7cca66908e-2026-12-06@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261206T140000Z
 DTEND:20261206T230000Z
 SUMMARY:WONDERFUL WESTHAVEN ESTATE SALE!!!
 LOCATION:Franklin\, TN 37064 (Address releases Friday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, kitchen\, clothing and china.\nHours: 8 AM
-  – 5 PM (Sunday\, December 6\, local to Nashville).\nRun by Estate Sale
- s By Sheila.\nOriginal listing (EstateSales.org): https://estatesales.org
- /estate-sales/tn/franklin/37064/wonderful-westhaven-estate-sale-2474196\n
- Sale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/8142ed
- 7cca66908e/\nConfirm the address and hours on the original listing before
-  you travel.
+DESCRIPTION:A brown armchair with nailhead trim and tapered legs sits on a
+  light rug beside a console table.\nHours: 8 AM – 5 PM (Sunday\, Decemb
+ er 6\, local to Nashville).\nRun by Estate Sales By Sheila.\nOriginal lis
+ ting (EstateSales.org): https://estatesales.org/estate-sales/tn/franklin/
+ 37064/wonderful-westhaven-estate-sale-2474196\nSale page on The Dig: http
+ s://rheinze08.github.io/the-dig-web/sale/8142ed7cca66908e/\nConfirm the a
+ ddress and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/8142ed7cca66908e/
 END:VEVENT
 END:VCALENDAR

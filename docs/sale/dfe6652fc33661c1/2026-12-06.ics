@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:dfe6652fc33661c1-2026-12-06@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261206T180000Z
 DTEND:20261206T220000Z
 SUMMARY:THROUGH THE LOOKING GLASS: A COLLECTOR’S ESTATE SALE
 LOCATION:Springfield\, TN 37172 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Collectibles\, kitchen\, figurines\, china and crystal.\nHours
- : 12 PM – 4 PM (Sunday\, December 6\, local to Nashville).\nRun by Sout
- hern Crossroads Estate & Tag Sales.\nOriginal listing (EstateSales.net): 
- https://www.estatesales.net/TN/Springfield/37172/5158863\nSale page on Th
- e Dig: https://rheinze08.github.io/the-dig-web/sale/dfe6652fc33661c1/\nCo
- nfirm the address and hours on the original listing before you travel.
+DESCRIPTION:A mantel clock has paired columns and an ornate dial. Two hing
+ ed boxes have blue interiors and keyholes.\nHours: 12 PM – 4 PM (Sunday
+ \, December 6\, local to Nashville).\nRun by Southern Crossroads Estate &
+  Tag Sales.\nOriginal listing (EstateSales.net): https://www.estatesales.
+ net/TN/Springfield/37172/5158863\nSale page on The Dig: https://rheinze08
+ .github.io/the-dig-web/sale/dfe6652fc33661c1/\nConfirm the address and ho
+ urs on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/dfe6652fc33661c1/
 END:VEVENT
 END:VCALENDAR

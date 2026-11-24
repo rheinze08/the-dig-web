@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1f717a8402c14936-2026-11-28@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261128T160000Z
+DTEND:20261128T210000Z
+SUMMARY:Black Friday Sale
+LOCATION:Hendersonville\, TN 37075 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture\, vinyl & records\, collectibles\, books and art.\nH
+ ours: 10 AM – 3 PM (Saturday\, November 28\, local to Nashville).\nRun 
+ by Shorty’s Garage Estate Sales.\nOriginal listing (EstateSales.net): h
+ ttps://www.estatesales.net/TN/Hendersonville/37075/5170677\nSale page on 
+ The Dig: https://rheinze08.github.io/the-dig-web/sale/1f717a8402c14936/\n
+ Confirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1f717a8402c14936/
+END:VEVENT
+END:VCALENDAR

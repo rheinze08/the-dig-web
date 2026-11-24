@@ -5,16 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:af319494cbb49347-2026-11-28@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261128T161500Z
 DTEND:20261128T230000Z
 SUMMARY:Black Friday Vintage sale in Lithia Springs
 LOCATION:Lithia Springs\, GA 30122 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Furniture.\nHours: 11:15 AM – 6 PM (Saturday\, November 28\,
-  local to Atlanta).\nOriginal listing (EstateSales.net): https://www.esta
- tesales.net/GA/Lithia-Springs/30122/5169981\nSale page on The Dig: https:
- //rheinze08.github.io/the-dig-web/sale/af319494cbb49347/\nConfirm the add
- ress and hours on the original listing before you travel.
+DESCRIPTION:Collectibles include a No. 3 Oreo model car\, boxed Rachel and
+  Phoebe pins\, and a Mickey Mouse pocket watch.\nHours: 11:15 AM – 6 PM
+  (Saturday\, November 28\, local to Atlanta).\nOriginal listing (EstateSa
+ les.net): https://www.estatesales.net/GA/Lithia-Springs/30122/5169981\nSa
+ le page on The Dig: https://rheinze08.github.io/the-dig-web/sale/af319494
+ cbb49347/\nConfirm the address and hours on the original listing before y
+ ou travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/af319494cbb49347/
 END:VEVENT
 END:VCALENDAR

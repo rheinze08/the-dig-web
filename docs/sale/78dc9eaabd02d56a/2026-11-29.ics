@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:78dc9eaabd02d56a-2026-11-29@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:ESTATE SALE Nov 27-29 – Antiques\, Art Glass\, Jewelry & More 
  – Lakewood
 LOCATION:1565 Wadsworth Blvd\, Lakewood\, CO
-DESCRIPTION:Furniture\, jewelry\, collectibles\, art and figurines.\nHours
- : Opens 10 AM (Sunday\, November 29\, local to Denver).\nOriginal listing
-  (Craigslist Denver): https://www.craigslist.org/view/d/denver-estate-sal
- e-nov-antiques-art/nAqmzFsBHuTRhqmPyjHcAE\nSale page on The Dig: https://
- rheinze08.github.io/the-dig-web/sale/78dc9eaabd02d56a/\nConfirm the addre
- ss and hours on the original listing before you travel.
+DESCRIPTION:An amber floral vase\, two handled jugs in green and blue\, an
+ d a bowl with multicolored squares are pictured.\nHours: Opens 10 AM (Sun
+ day\, November 29\, local to Denver).\nOriginal listing (Craigslist Denve
+ r): https://www.craigslist.org/view/d/denver-estate-sale-nov-antiques-art
+ /nAqmzFsBHuTRhqmPyjHcAE\nSale page on The Dig: https://rheinze08.github.i
+ o/the-dig-web/sale/78dc9eaabd02d56a/\nConfirm the address and hours on th
+ e original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/78dc9eaabd02d56a/
 END:VEVENT
 END:VCALENDAR

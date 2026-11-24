@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b975f66024ea51af-2026-11-27@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261127T150000Z
+DTEND:20261127T190000Z
+SUMMARY:Black Friday madness in Gilbert
+LOCATION:Gilbert\, AZ 85295 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 8 AM – 12 PM (Friday\, November 27\, local to Phoenix
+ ).\nRun by Allegro Estate Sales & Services Az LLC.\nOriginal listing (Est
+ ateSales.net): https://www.estatesales.net/AZ/Gilbert/85295/5171475\nSale
+  page on The Dig: https://rheinze08.github.io/the-dig-web/sale/b975f66024
+ ea51af/\nConfirm the address and hours on the original listing before you
+  travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/b975f66024ea51af/
+END:VEVENT
+END:VCALENDAR

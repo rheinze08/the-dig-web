@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ca0cf235d47feae5-2026-11-27@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261127T160000Z
+DTEND:20261127T110000Z
+SUMMARY:Off-Site Estate Sale\, Antiques & Vintage Treasures – 25% OFF!
+LOCATION:236 W Bedford Euless Rd\, Hurst\, TX 76053
+DESCRIPTION:Antiques.\nHours: 10 AM – 5 AM (Friday\, November 27\, local
+  to Dallas–Fort Worth).\nOriginal listing (EstateSales.org): https://es
+ tatesales.org/estate-sales/tx/hurst/76053/offsite-estate-sale-antiques-vi
+ ntage-2475200\nSale page on The Dig: https://rheinze08.github.io/the-dig-
+ web/sale/ca0cf235d47feae5/\nConfirm the address and hours on the original
+  listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/ca0cf235d47feae5/
+END:VEVENT
+END:VCALENDAR

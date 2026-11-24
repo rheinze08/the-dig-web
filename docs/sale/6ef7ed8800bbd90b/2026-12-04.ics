@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:6ef7ed8800bbd90b-2026-12-04@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261204T150000Z
 DTEND:20261204T210000Z
 SUMMARY:Old Hickory Lake House Estate Sale!
 LOCATION:Old Hickory\, TN 37138 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Furniture.\nHours: 9 AM – 3 PM (Friday\, December 4\, local 
- to Nashville).\nRun by Marigold Estate Sales - TN.\nOriginal listing (Est
- ateSales.net): https://www.estatesales.net/TN/Old-Hickory/37138/5156940\n
- Sale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/6ef7ed
- 8800bbd90b/\nConfirm the address and hours on the original listing before
-  you travel.
+DESCRIPTION:A three-masted model sailboat stands beside a shell guide. Str
+ iped and paisley neckties hang in rows.\nHours: 9 AM – 3 PM (Friday\, D
+ ecember 4\, local to Nashville).\nRun by Marigold Estate Sales - TN.\nOri
+ ginal listing (EstateSales.net): https://www.estatesales.net/TN/Old-Hicko
+ ry/37138/5156940\nSale page on The Dig: https://rheinze08.github.io/the-d
+ ig-web/sale/6ef7ed8800bbd90b/\nConfirm the address and hours on the origi
+ nal listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/6ef7ed8800bbd90b/
 END:VEVENT
 END:VCALENDAR

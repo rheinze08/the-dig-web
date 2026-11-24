@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0996b11d8b268783-2026-11-27@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261127T170000Z
+DTEND:20261128T010000Z
+SUMMARY:THE BIGGEST SALE OF THE YEAR IS HERE — AND IT'S ONLY ONE DAY.
+LOCATION:1862 Wadsworth Blvd\, Lakewood\, CO 80214
+DESCRIPTION:Jewelry and silver.\nHours: 10 AM – 6 PM (Friday\, November 
+ 27\, local to Denver).\nRun by Cobblestone Too.\nOriginal listing (Estate
+ Sales.org): https://estatesales.org/estate-sales/co/lakewood/80214/the-bi
+ ggest-sale-of-the-2475181\nSale page on The Dig: https://rheinze08.github
+ .io/the-dig-web/sale/0996b11d8b268783/\nConfirm the address and hours on 
+ the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/0996b11d8b268783/
+END:VEVENT
+END:VCALENDAR

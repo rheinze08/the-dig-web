@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:7ec8d4e99c3d72cf-2026-11-28@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261128T150000Z
 DTEND:20261128T210000Z
 SUMMARY:Massive Estate Sale in Sandy Springs!
 LOCATION:6810 Sunny Brook Ln NE\, Atlanta\, GA 30328
-DESCRIPTION:Furniture\, collectibles\, kitchen and electronics.\nHours: 10
-  AM – 4 PM (Saturday\, November 28\, local to Atlanta).\nOriginal listi
- ng (EstateSales.org): https://estatesales.org/estate-sales/ga/atlanta/303
- 28/massive-estate-sale-in-sandy-2475039\nSale page on The Dig: https://rh
- einze08.github.io/the-dig-web/sale/7ec8d4e99c3d72cf/\nConfirm the address
-  and hours on the original listing before you travel.
+DESCRIPTION:A patterned bowl and a blue lidded jar sit on a four-drawer wa
+ shstand with a green tile back.\nHours: 10 AM – 4 PM (Saturday\, Novemb
+ er 28\, local to Atlanta).\nOriginal listing (EstateSales.org): https://e
+ statesales.org/estate-sales/ga/atlanta/30328/massive-estate-sale-in-sandy
+ -2475039\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/s
+ ale/7ec8d4e99c3d72cf/\nConfirm the address and hours on the original list
+ ing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/7ec8d4e99c3d72cf/
 END:VEVENT
 END:VCALENDAR

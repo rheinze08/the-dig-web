@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:bb9090b41a98fa85-2026-11-28@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261128T160000Z
 DTEND:20261128T210000Z
 SUMMARY:Estate Sale by Family Tree Estates
 LOCATION:Houston\, TX 77062 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 10 AM – 3 PM (Saturday\, November 28\, local to Houst
- on).\nRun by Family Tree Estate Sales.\nOriginal listing (EstateSales.net
- ): https://www.estatesales.net/TX/Houston/77062/5156793\nSale page on The
-  Dig: https://rheinze08.github.io/the-dig-web/sale/bb9090b41a98fa85/\nCon
- firm the address and hours on the original listing before you travel.
+DESCRIPTION:Furniture\, collectibles\, kitchen\, clothing and art.\nHours:
+  10 AM – 3 PM (Saturday\, November 28\, local to Houston).\nRun by Fami
+ ly Tree Estate Sales.\nOriginal listing (EstateSales.net): https://www.es
+ tatesales.net/TX/Houston/77062/5156793\nSale page on The Dig: https://rhe
+ inze08.github.io/the-dig-web/sale/bb9090b41a98fa85/\nConfirm the address 
+ and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/bb9090b41a98fa85/
 END:VEVENT
 END:VCALENDAR

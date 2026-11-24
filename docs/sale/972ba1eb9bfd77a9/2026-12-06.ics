@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:972ba1eb9bfd77a9-2026-12-06@rheinze08.github.io
-DTSTAMP:20261123T225419Z
+DTSTAMP:20261124T213013Z
 DTSTART:20261206T160000Z
 DTEND:20261206T200000Z
 SUMMARY:Packed Collectibles Estate Sale
 LOCATION:Nashville\, TN 37214 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Furniture\, collectibles\, kitchen\, books and figurines.\nHou
- rs: 10 AM – 2 PM (Sunday\, December 6\, local to Nashville).\nRun by Es
- tate Greats.\nOriginal listing (EstateSales.net): https://www.estatesales
- .net/TN/Nashville/37214/5168589\nSale page on The Dig: https://rheinze08.
- github.io/the-dig-web/sale/972ba1eb9bfd77a9/\nConfirm the address and hou
- rs on the original listing before you travel.
+DESCRIPTION:Dolls sit on a chest of drawers beside a table covered with gn
+ omes\, dogs and owls under a framed mirror.\nHours: 10 AM – 2 PM (Sunda
+ y\, December 6\, local to Nashville).\nRun by Estate Greats.\nOriginal li
+ sting (EstateSales.net): https://www.estatesales.net/TN/Nashville/37214/5
+ 168589\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sal
+ e/972ba1eb9bfd77a9/\nConfirm the address and hours on the original listin
+ g before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/972ba1eb9bfd77a9/
 END:VEVENT
 END:VCALENDAR

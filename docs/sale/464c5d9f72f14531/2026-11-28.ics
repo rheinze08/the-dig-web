@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:464c5d9f72f14531-2026-11-28@rheinze08.github.io
+DTSTAMP:20261124T213013Z
+DTSTART:20261128T150000Z
+DTEND:20261128T220000Z
+SUMMARY:~Massive *2 Phase* Garland\, TX -Black Friday Weekend- Estate Sale
+ ! More info coming soon!
+LOCATION:2316 English Cir\, Garland\, TX 75041
+DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and clothing.\nHour
+ s: 9 AM – 4 PM (Saturday\, November 28\, local to Dallas–Fort Worth).
+ \nRun by DFW ESTATE LIQUIDATORS.\nOriginal listing (EstateSales.org): htt
+ ps://estatesales.org/estate-sales/tx/garland/75041/massive-2-phase-garlan
+ d-tx-2467700\nSale page on The Dig: https://rheinze08.github.io/the-dig-w
+ eb/sale/464c5d9f72f14531/\nConfirm the address and hours on the original 
+ listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/464c5d9f72f14531/
+END:VEVENT
+END:VCALENDAR
