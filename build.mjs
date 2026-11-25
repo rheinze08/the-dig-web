@@ -25,9 +25,9 @@ const DEFAULT_CITY = {slug: 'houston', name: 'Houston'};
 // (Phase 9D); earlier builds cannot be updated in place, so the
 // fallback must never point below v0.4.1.
 const APK_FALLBACK = {
-  tag: 'v0.6.0',
-  url: `https://github.com/${DATA_REPO}/releases/download/v0.6.0/The-Dig-v0.6.0.apk`,
-  page: `https://github.com/${DATA_REPO}/releases/tag/v0.6.0`,
+  tag: 'v0.7.0',
+  url: `https://github.com/${DATA_REPO}/releases/download/v0.7.0/The-Dig-v0.7.0.apk`,
+  page: `https://github.com/${DATA_REPO}/releases/tag/v0.7.0`,
 };
 
 const LEAFLET = {
