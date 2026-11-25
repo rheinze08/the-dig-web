@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:13c762e2ccc45e3d-2026-12-03@rheinze08.github.io
-DTSTAMP:20261124T213013Z
+DTSTAMP:20261125T151526Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Furniture\, Antiques\, Swatch Collections and More!
 LOCATION:Peachtree Corners\, GA 30092 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Furniture\, jewelry\, collectibles\, kitchen and clothing.\nHo
- urs: Opens 10 AM (Thursday\, December 3\, local to Atlanta).\nRun by Dunw
- oody Estate Treasures.\nOriginal listing (EstateSales.net): https://www.e
- statesales.net/GA/Peachtree-Corners/30092/5150499\nSale page on The Dig: 
- https://rheinze08.github.io/the-dig-web/sale/13c762e2ccc45e3d/\nConfirm t
- he address and hours on the original listing before you travel.
+DESCRIPTION:A dark sectional and armchair have pale piping and patterned p
+ illows. A black TV stand has sliding doors.\nHours: Opens 10 AM (Thursday
+ \, December 3\, local to Atlanta).\nRun by Dunwoody Estate Treasures.\nOr
+ iginal listing (EstateSales.net): https://www.estatesales.net/GA/Peachtre
+ e-Corners/30092/5150499\nSale page on The Dig: https://rheinze08.github.i
+ o/the-dig-web/sale/13c762e2ccc45e3d/\nConfirm the address and hours on th
+ e original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/13c762e2ccc45e3d/
 END:VEVENT
 END:VCALENDAR

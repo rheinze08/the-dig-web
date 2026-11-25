@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b036d8f7647e70c1-2026-12-03@rheinze08.github.io
+DTSTAMP:20261125T151526Z
+DTSTART:20261203T140000Z
+DTEND:20261203T200000Z
+SUMMARY:Snellville Estate Sale | Antique Oak\, Victorian Bedroom\, Grandfa
+ ther Clock & So Much More!
+LOCATION:Snellville\, GA 30039 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Furniture\, art and antiques.\nHours: 9 AM – 3 PM (Thursday\
+ , December 3\, local to Atlanta).\nRun by Top Shelf Estate Sales.\nOrigin
+ al listing (EstateSales.org): https://estatesales.org/estate-sales/ga/sne
+ llville/30039/snellville-estate-sale-antique-oak-2474740\nSale page on Th
+ e Dig: https://rheinze08.github.io/the-dig-web/sale/b036d8f7647e70c1/\nCo
+ nfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/b036d8f7647e70c1/
+END:VEVENT
+END:VCALENDAR

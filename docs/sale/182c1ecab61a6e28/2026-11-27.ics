@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:182c1ecab61a6e28-2026-11-27@rheinze08.github.io
+DTSTAMP:20261125T151526Z
+DTSTART:20261127T160000Z
+DTEND:20261127T220000Z
+SUMMARY:Upscale Multi-Million Dollar Forrest Hills Estate Sale!
+LOCATION:Nashville\, TN 37215 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Dining tables hold stemware\, pitchers and serving trays. Fram
+ ed landscapes sit on tables and upholstered chairs.\nHours: 10 AM – 4 P
+ M (Friday\, November 27\, local to Nashville).\nRun by New Life Estate Sa
+ les.\nOriginal listing (EstateSales.net): https://www.estatesales.net/TN/
+ Nashville/37215/5171124\nSale page on The Dig: https://rheinze08.github.i
+ o/the-dig-web/sale/182c1ecab61a6e28/\nConfirm the address and hours on th
+ e original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/182c1ecab61a6e28/
+END:VEVENT
+END:VCALENDAR

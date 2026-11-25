@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:1a1541d987591f8e-2026-12-05@rheinze08.github.io
-DTSTAMP:20261124T213013Z
+DTSTAMP:20261125T151526Z
 DTSTART:20261205T150000Z
 DTEND:20261205T210000Z
 SUMMARY:Stone Estate Solutions\, LLC - Vintage finds and more in Lilburn
 LOCATION:Lilburn\, GA 30047 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, kitchen\, art and antiques.\nHours: 10 AM 
- – 4 PM (Saturday\, December 5\, local to Atlanta).\nRun by Stone Estate
-  Solutions\, LLC.\nOriginal listing (EstateSales.org): https://estatesale
- s.org/estate-sales/ga/lilburn/30047/stone-estate-solutions-llc-vintage-24
- 75293\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale
- /1a1541d987591f8e/\nConfirm the address and hours on the original listing
-  before you travel.
+DESCRIPTION:A glass-front china cabinet holds matching plates\, cups and s
+ erving bowls with an orange-and-brown leaf pattern.\nHours: 10 AM – 4 P
+ M (Saturday\, December 5\, local to Atlanta).\nRun by Stone Estate Soluti
+ ons\, LLC.\nOriginal listing (EstateSales.org): https://estatesales.org/e
+ state-sales/ga/lilburn/30047/stone-estate-solutions-llc-vintage-2475293\n
+ Sale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/1a1541
+ d987591f8e/\nConfirm the address and hours on the original listing before
+  you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/1a1541d987591f8e/
 END:VEVENT
 END:VCALENDAR

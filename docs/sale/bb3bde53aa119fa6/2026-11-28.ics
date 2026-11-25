@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bb3bde53aa119fa6-2026-11-28@rheinze08.github.io
+DTSTAMP:20261125T151526Z
+DTSTART:20261128T143000Z
+DTEND:20261128T193000Z
+SUMMARY:25% Zen Decor\, Rattan\, Asian & Classic Furniture \, Household It
+ ems
+LOCATION:10722 W. Welk Dr.\, Sun City\, AZ 85373
+DESCRIPTION:Tools\, furniture\, mirrors and silver.\nHours: 7:30 AM – 12
+ :30 PM (Saturday\, November 28\, local to Phoenix).\nRun by His & Hers Es
+ tate Sale Services.\nOriginal listing (EstateSales.net): https://www.esta
+ tesales.net/AZ/Sun-City/85373/5168328\nSale page on The Dig: https://rhei
+ nze08.github.io/the-dig-web/sale/bb3bde53aa119fa6/\nConfirm the address a
+ nd hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/bb3bde53aa119fa6/
+END:VEVENT
+END:VCALENDAR

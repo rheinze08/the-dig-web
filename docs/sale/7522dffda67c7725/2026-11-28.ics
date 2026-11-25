@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:7522dffda67c7725-2026-11-28@rheinze08.github.io
-DTSTAMP:20261124T213013Z
+DTSTAMP:20261125T151526Z
 DTSTART:20261128T140000Z
 DTEND:20261128T203000Z
 SUMMARY:An Estate Sale With Something For Everyone
 LOCATION:Peachtree Corners\, GA 30092 (Address releases Friday 9:00 AM)
-DESCRIPTION:Furniture\, clothing\, art\, china and lamps.\nHours: 9 AM –
-  3:30 PM (Saturday\, November 28\, local to Atlanta).\nOriginal listing (
- EstateSales.net): https://www.estatesales.net/GA/Peachtree-Corners/30092/
- 5170725\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sa
- le/7522dffda67c7725/\nConfirm the address and hours on the original listi
- ng before you travel.
+DESCRIPTION:Framed flowers\, rabbits and landscapes hang on the walls. Tab
+ les hold Easter figurines\, baskets and an elephant lamp.\nHours: 9 AM 
+ – 3:30 PM (Saturday\, November 28\, local to Atlanta).\nOriginal listin
+ g (EstateSales.net): https://www.estatesales.net/GA/Peachtree-Corners/300
+ 92/5170725\nSale page on The Dig: https://rheinze08.github.io/the-dig-web
+ /sale/7522dffda67c7725/\nConfirm the address and hours on the original li
+ sting before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/7522dffda67c7725/
 END:VEVENT
 END:VCALENDAR

@@ -5,16 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:fa72b61fd680f41d-2026-11-29@rheinze08.github.io
-DTSTAMP:20261124T213013Z
+DTSTAMP:20261125T151526Z
 DTSTART:20261129T160000Z
 DTEND:20261129T220000Z
 SUMMARY:Packed Franklin Estate Sale - Carters Creek!!
 LOCATION:Franklin\, TN 37064 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 10 AM – 4 PM (Sunday\, November 29\, local to Nashvil
- le).\nRun by New Life Estate Sales.\nOriginal listing (EstateSales.net): 
- https://www.estatesales.net/TN/Franklin/37064/5171094\nSale page on The D
- ig: https://rheinze08.github.io/the-dig-web/sale/fa72b61fd680f41d/\nConfi
- rm the address and hours on the original listing before you travel.
+DESCRIPTION:A monitor\, keyboard\, phone and calculators sit on a corner d
+ esk with a paper shredder and computer tower below.\nHours: 10 AM – 4 P
+ M (Sunday\, November 29\, local to Nashville).\nRun by New Life Estate Sa
+ les.\nOriginal listing (EstateSales.net): https://www.estatesales.net/TN/
+ Franklin/37064/5171094\nSale page on The Dig: https://rheinze08.github.io
+ /the-dig-web/sale/fa72b61fd680f41d/\nConfirm the address and hours on the
+  original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/fa72b61fd680f41d/
 END:VEVENT
 END:VCALENDAR

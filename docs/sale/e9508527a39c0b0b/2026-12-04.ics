@@ -5,19 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:e9508527a39c0b0b-2026-12-04@rheinze08.github.io
-DTSTAMP:20261124T213013Z
+DTSTAMP:20261125T151526Z
 DTSTART:20261204T150000Z
 DTEND:20261204T210000Z
 SUMMARY:Donna Davis LLC- Fine European and American Antique Furniture Coll
  ectibles
 LOCATION:Kennesaw\, GA 30152 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Furniture\, collectibles\, antiques and lamps.\nHours: 10 AM 
- – 4 PM (Friday\, December 4\, local to Atlanta).\nRun by Donna Davis Es
- tate Sales LLC\, Downsizing and Estate Appraisal Services.\nOriginal list
- ing (EstateSales.net): https://www.estatesales.net/GA/Kennesaw/30152/5170
- 347\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/e
- 9508527a39c0b0b/\nConfirm the address and hours on the original listing b
- efore you travel.
+DESCRIPTION:A glass-front secretary desk holds framed photos\, and a statu
+ ette stands on a sideboard with two oval mirrors.\nHours: 10 AM – 4 PM 
+ (Friday\, December 4\, local to Atlanta).\nRun by Donna Davis Estate Sale
+ s LLC\, Downsizing and Estate Appraisal Services.\nOriginal listing (Esta
+ teSales.net): https://www.estatesales.net/GA/Kennesaw/30152/5170347\nSale
+  page on The Dig: https://rheinze08.github.io/the-dig-web/sale/e9508527a3
+ 9c0b0b/\nConfirm the address and hours on the original listing before you
+  travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/e9508527a39c0b0b/
 END:VEVENT
 END:VCALENDAR

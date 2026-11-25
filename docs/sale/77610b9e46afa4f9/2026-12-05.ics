@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:77610b9e46afa4f9-2026-12-05@rheinze08.github.io
+DTSTAMP:20261125T151526Z
+DTSTART:20261205T160000Z
+DTEND:20261205T210000Z
+SUMMARY:Tempe Treasure Hunt – Former Dealer's Estate Sale
+LOCATION:Tempe\, AZ 85282 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture\, collectibles\, kitchen\, clothing and art.\nHours:
+  9 AM – 2 PM (Saturday\, December 5\, local to Phoenix).\nRun by Milton
+  Estate Sales.\nOriginal listing (EstateSales.net): https://www.estatesal
+ es.net/AZ/Tempe/85282/5172114\nSale page on The Dig: https://rheinze08.gi
+ thub.io/the-dig-web/sale/77610b9e46afa4f9/\nConfirm the address and hours
+  on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/77610b9e46afa4f9/
+END:VEVENT
+END:VCALENDAR

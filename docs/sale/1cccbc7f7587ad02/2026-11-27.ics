@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1cccbc7f7587ad02-2026-11-27@rheinze08.github.io
+DTSTAMP:20261125T151526Z
+DTSTART:20261127T150000Z
+DTEND:20261127T220000Z
+SUMMARY:Estate Sale
+LOCATION:Houston\, TX 77007 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
+ .\nHours: 9 AM – 4 PM (Friday\, November 27\, local to Houston).\nOrigi
+ nal listing (EstateSales.net): https://www.estatesales.net/TX/Houston/770
+ 07/5170362\nSale page on The Dig: https://rheinze08.github.io/the-dig-web
+ /sale/1cccbc7f7587ad02/\nConfirm the address and hours on the original li
+ sting before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1cccbc7f7587ad02/
+END:VEVENT
+END:VCALENDAR

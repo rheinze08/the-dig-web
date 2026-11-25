@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7b3e47ac502b0e48-2026-12-05@rheinze08.github.io
+DTSTAMP:20261125T151526Z
+DTSTART:20261205T140000Z
+DTEND:20261205T210000Z
+SUMMARY:Estate Sale benefiting St Vincent de Paul
+LOCATION:Sun City\, AZ 85373 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Furniture\, collectibles\, kitchen\, books and toys & games.\n
+ Hours: 7 AM – 2 PM (Saturday\, December 5\, local to Phoenix).\nOrigina
+ l listing (EstateSales.net): https://www.estatesales.net/AZ/Sun-City/8537
+ 3/5172129\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/
+ sale/7b3e47ac502b0e48/\nConfirm the address and hours on the original lis
+ ting before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/7b3e47ac502b0e48/
+END:VEVENT
+END:VCALENDAR

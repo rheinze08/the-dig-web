@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:1f717a8402c14936-2026-11-27@rheinze08.github.io
-DTSTAMP:20261124T213013Z
+DTSTAMP:20261125T151526Z
 DTSTART:20261127T160000Z
 DTEND:20261127T210000Z
 SUMMARY:Black Friday Sale
 LOCATION:Hendersonville\, TN 37075 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Furniture\, vinyl & records\, collectibles\, books and art.\nH
- ours: 10 AM – 3 PM (Friday\, November 27\, local to Nashville).\nRun by
-  Shorty’s Garage Estate Sales.\nOriginal listing (EstateSales.net): htt
- ps://www.estatesales.net/TN/Hendersonville/37075/5170677\nSale page on Th
- e Dig: https://rheinze08.github.io/the-dig-web/sale/1f717a8402c14936/\nCo
- nfirm the address and hours on the original listing before you travel.
+DESCRIPTION:A fishnet leg lamp has a fringed shade. Ladder-back chairs and
+  upholstered armchairs surround a dining table.\nHours: 10 AM – 3 PM (F
+ riday\, November 27\, local to Nashville).\nRun by Shorty’s Garage Esta
+ te Sales.\nOriginal listing (EstateSales.net): https://www.estatesales.ne
+ t/TN/Hendersonville/37075/5170677\nSale page on The Dig: https://rheinze0
+ 8.github.io/the-dig-web/sale/1f717a8402c14936/\nConfirm the address and h
+ ours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/1f717a8402c14936/
 END:VEVENT
 END:VCALENDAR

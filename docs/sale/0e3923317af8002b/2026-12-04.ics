@@ -5,17 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:0e3923317af8002b-2026-12-04@rheinze08.github.io
-DTSTAMP:20261124T213013Z
+DTSTAMP:20261125T151526Z
 DTSTART:20261204T150000Z
 DTEND:20261204T210000Z
 SUMMARY:Sensing Transitions Presents a Charming Colonial Americana and Mor
  e Marietta Estate Sale
 LOCATION:Marietta\, GA 30064 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Hours: 10 AM – 4 PM (Friday\, December 4\, local to Atlanta)
- .\nRun by Sensing Transitions.\nOriginal listing (EstateSales.net): https
- ://www.estatesales.net/GA/Marietta/30064/5170638\nSale page on The Dig: h
- ttps://rheinze08.github.io/the-dig-web/sale/0e3923317af8002b/\nConfirm th
- e address and hours on the original listing before you travel.
+DESCRIPTION:Striped-seat chairs surround a table set with teacups and plat
+ es. A lidded box holds smoking pipes and tobacco boxes.\nHours: 10 AM –
+  4 PM (Friday\, December 4\, local to Atlanta).\nRun by Sensing Transitio
+ ns.\nOriginal listing (EstateSales.net): https://www.estatesales.net/GA/M
+ arietta/30064/5170638\nSale page on The Dig: https://rheinze08.github.io/
+ the-dig-web/sale/0e3923317af8002b/\nConfirm the address and hours on the 
+ original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/0e3923317af8002b/
 END:VEVENT
 END:VCALENDAR

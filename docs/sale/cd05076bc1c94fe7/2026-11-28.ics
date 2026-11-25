@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cd05076bc1c94fe7-2026-11-28@rheinze08.github.io
+DTSTAMP:20261125T151526Z
+DTSTART:20261128T140000Z
+DTEND:20261128T190000Z
+SUMMARY:Amazing Finds Estate Sales
+LOCATION:Sun City West\, AZ 85375 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 7 AM – 12 PM (Saturday\, November 28\, local to Phoen
+ ix).\nRun by Amazing Finds Estate Sales.\nOriginal listing (EstateSales.n
+ et): https://www.estatesales.net/AZ/Sun-City-West/85375/5144997\nSale pag
+ e on The Dig: https://rheinze08.github.io/the-dig-web/sale/cd05076bc1c94f
+ e7/\nConfirm the address and hours on the original listing before you tra
+ vel.
+URL:https://rheinze08.github.io/the-dig-web/sale/cd05076bc1c94fe7/
+END:VEVENT
+END:VCALENDAR

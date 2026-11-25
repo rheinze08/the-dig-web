@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9c6ecef6a9af9c74-2026-11-29@rheinze08.github.io
+DTSTAMP:20261125T151526Z
+DTSTART:20261129T170000Z
+DTEND:20261129T220000Z
+SUMMARY:Nostalgic November Discount Sale
+LOCATION:Aurora\, CO 80010 (Address releases Friday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, books\, art and toys & games.\nHours: 10 A
+ M – 3 PM (Sunday\, November 29\, local to Denver).\nRun by Caring Trans
+ itions Of North Aurora.\nOriginal listing (EstateSales.org): https://esta
+ tesales.org/estate-sales/co/aurora/80010/nostalgic-november-toys-and-esta
+ te-2475355\nSale page on The Dig: https://rheinze08.github.io/the-dig-web
+ /sale/9c6ecef6a9af9c74/\nConfirm the address and hours on the original li
+ sting before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/9c6ecef6a9af9c74/
+END:VEVENT
+END:VCALENDAR

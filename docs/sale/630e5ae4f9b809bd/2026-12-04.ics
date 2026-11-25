@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:630e5ae4f9b809bd-2026-12-04@rheinze08.github.io
+DTSTAMP:20261125T151526Z
+DTSTART:20261204T150000Z
+DTEND:20261204T210000Z
+SUMMARY:Magnificent Sale in Marietta with Comfy Cozy!!
+LOCATION:Marietta\, GA 30062 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
+ .\nHours: 10 AM – 4 PM (Friday\, December 4\, local to Atlanta).\nRun b
+ y Comfy Cozy Estate Sales.\nOriginal listing (EstateSales.net): https://w
+ ww.estatesales.net/GA/Marietta/30062/5172192\nSale page on The Dig: https
+ ://rheinze08.github.io/the-dig-web/sale/630e5ae4f9b809bd/\nConfirm the ad
+ dress and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/630e5ae4f9b809bd/
+END:VEVENT
+END:VCALENDAR

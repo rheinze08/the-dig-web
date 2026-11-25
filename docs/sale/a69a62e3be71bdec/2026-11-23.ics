@@ -5,17 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a69a62e3be71bdec-2026-11-23@rheinze08.github.io
-DTSTAMP:20261124T213013Z
+DTSTAMP:20261125T151526Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Estate Sale-Everything must go
 LOCATION:Arlington\, TX (Address releases Sunday 9:00 AM)
-DESCRIPTION:Hours: Opens 7 AM (Monday\, November 23\, local to Dallas–Fo
- rt Worth).\nOriginal listing (Craigslist Dallas / Fort Worth): https://ww
- w.craigslist.org/view/d/arlington-estate-sale-everything-must-go/txqQwt1A
- JXHJu4Ep5yw8iV\nSale page on The Dig: https://rheinze08.github.io/the-dig
- -web/sale/a69a62e3be71bdec/\nConfirm the address and hours on the origina
- l listing before you travel.
+DESCRIPTION:A bed has a white shelf headboard and gray comforter. A one-dr
+ awer nightstand and black Squier guitar are also shown.\nHours: Opens 7 A
+ M (Monday\, November 23\, local to Dallas–Fort Worth).\nOriginal listin
+ g (Craigslist Dallas / Fort Worth): https://www.craigslist.org/view/d/arl
+ ington-estate-sale-everything-must-go/txqQwt1AJXHJu4Ep5yw8iV\nSale page o
+ n The Dig: https://rheinze08.github.io/the-dig-web/sale/a69a62e3be71bdec/
+ \nConfirm the address and hours on the original listing before you travel
+ .
 URL:https://rheinze08.github.io/the-dig-web/sale/a69a62e3be71bdec/
 END:VEVENT
 END:VCALENDAR

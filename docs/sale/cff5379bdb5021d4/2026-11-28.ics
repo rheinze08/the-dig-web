@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cff5379bdb5021d4-2026-11-28@rheinze08.github.io
+DTSTAMP:20261125T151526Z
+DTSTART:20261128T150000Z
+DTEND:20261128T220000Z
+SUMMARY:Incredible Denton Estate Sale! Collectibles\, Silver\, Brass\, Cur
+ io\, Antiques\, Fashion\, Accents\, Fine Furniture\, Mid Century\, Nice P
+ atio Furniture\, Appliances\, Leather & More!
+LOCATION:10500 Cascade Dr\, Denton\, TX 76207
+DESCRIPTION:Furniture\, collectibles\, clothing\, antiques and mid-century
+ .\nHours: 9 AM – 4 PM (Saturday\, November 28\, local to Dallas–Fort 
+ Worth).\nRun by DFW ESTATE LIQUIDATORS.\nOriginal listing (EstateSales.or
+ g): https://estatesales.org/estate-sales/tx/denton/76207/incredible-dento
+ n-estate-sale-more-2468441\nSale page on The Dig: https://rheinze08.githu
+ b.io/the-dig-web/sale/cff5379bdb5021d4/\nConfirm the address and hours on
+  the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/cff5379bdb5021d4/
+END:VEVENT
+END:VCALENDAR

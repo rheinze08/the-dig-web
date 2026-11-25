@@ -5,19 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:44781583afdd37a6-2026-12-03@rheinze08.github.io
-DTSTAMP:20261124T213013Z
+DTSTAMP:20261125T151526Z
 DTSTART:20261203T150000Z
 DTEND:20261203T200000Z
 SUMMARY:7 Straight Days-Largest Vintage Sale of the Year! 63 Years of Coll
  ecting
 LOCATION:Fort Worth\, TX 76114 (Address releases Sunday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, vinyl & records\, collectibles and vehicle
- s.\nHours: 9 AM – 2 PM (Thursday\, December 3\, local to Dallas–Fort 
- Worth).\nRun by Kitty Wade Estate Sales.\nOriginal listing (EstateSales.n
- et): https://www.estatesales.net/TX/Fort-Worth/76114/5105760\nSale page o
- n The Dig: https://rheinze08.github.io/the-dig-web/sale/44781583afdd37a6/
- \nConfirm the address and hours on the original listing before you travel
- .
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
+ .\nHours: 9 AM – 2 PM (Thursday\, December 3\, local to Dallas–Fort W
+ orth).\nRun by Kitty Wade Estate Sales.\nOriginal listing (EstateSales.ne
+ t): https://www.estatesales.net/TX/Fort-Worth/76114/5105760\nSale page on
+  The Dig: https://rheinze08.github.io/the-dig-web/sale/44781583afdd37a6/\
+ nConfirm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/44781583afdd37a6/
 END:VEVENT
 END:VCALENDAR

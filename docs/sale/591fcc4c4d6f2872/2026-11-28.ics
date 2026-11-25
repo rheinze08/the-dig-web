@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:591fcc4c4d6f2872-2026-11-28@rheinze08.github.io
+DTSTAMP:20261125T151526Z
+DTSTART:20261128T150000Z
+DTEND:20261128T220000Z
+SUMMARY:Overton Park Beauty Has Jewelry\, Designer Furnishings\, Vintage C
+ lothing\, and MUCH MORE
+LOCATION:Fort Worth\, TX 76109 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture\, jewelry and clothing.\nHours: 9 AM – 4 PM (Satur
+ day\, November 28\, local to Dallas–Fort Worth).\nRun by Head Of Estate
+ s.\nOriginal listing (EstateSales.net): https://www.estatesales.net/TX/Fo
+ rt-Worth/76109/5172096\nSale page on The Dig: https://rheinze08.github.io
+ /the-dig-web/sale/591fcc4c4d6f2872/\nConfirm the address and hours on the
+  original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/591fcc4c4d6f2872/
+END:VEVENT
+END:VCALENDAR

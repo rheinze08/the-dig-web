@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ccc4bf63d600014f-2026-12-05@rheinze08.github.io
+DTSTAMP:20261125T151526Z
+DTSTART:20261205T160000Z
+DTEND:20261205T210000Z
+SUMMARY:Antique Collectors’ Estate Sale — This House Is Stuffed Full o
+ f Antiques!
+LOCATION:Sun City\, AZ 85351 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Furniture\, jewelry\, collectibles\, kitchen and china.\nHours
+ : 9 AM – 2 PM (Saturday\, December 5\, local to Phoenix).\nRun by The D
+ igs.\nOriginal listing (EstateSales.net): https://www.estatesales.net/AZ/
+ Sun-City/85351/5171718\nSale page on The Dig: https://rheinze08.github.io
+ /the-dig-web/sale/ccc4bf63d600014f/\nConfirm the address and hours on the
+  original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/ccc4bf63d600014f/
+END:VEVENT
+END:VCALENDAR

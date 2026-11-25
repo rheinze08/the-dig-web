@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a628edad8e6c4386-2026-11-29@rheinze08.github.io
-DTSTAMP:20261124T213013Z
+DTSTAMP:20261125T151526Z
 DTSTART:20261129T160000Z
 DTEND:20261129T230000Z
 SUMMARY:Black Friday Estate Sale in Fairmount Historic District - Ft Worth
 LOCATION:Fort Worth\, TX 76110 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Furniture\, collectibles\, vehicles\, kitchen and clothing.\nH
- ours: 10 AM – 5 PM (Sunday\, November 29\, local to Dallas–Fort Worth
- ).\nRun by Millchell Inc..\nOriginal listing (EstateSales.net): https://w
- ww.estatesales.net/TX/Fort-Worth/76110/5171352\nSale page on The Dig: htt
- ps://rheinze08.github.io/the-dig-web/sale/a628edad8e6c4386/\nConfirm the 
- address and hours on the original listing before you travel.
+DESCRIPTION:Plug-in window candles stand beside ribbon spools and a miniat
+ ure tree fence. Floral dishes have gold-colored trim.\nHours: 10 AM – 5
+  PM (Sunday\, November 29\, local to Dallas–Fort Worth).\nRun by Millch
+ ell Inc..\nOriginal listing (EstateSales.net): https://www.estatesales.ne
+ t/TX/Fort-Worth/76110/5171352\nSale page on The Dig: https://rheinze08.gi
+ thub.io/the-dig-web/sale/a628edad8e6c4386/\nConfirm the address and hours
+  on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/a628edad8e6c4386/
 END:VEVENT
 END:VCALENDAR

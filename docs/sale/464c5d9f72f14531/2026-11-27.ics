@@ -5,19 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:464c5d9f72f14531-2026-11-27@rheinze08.github.io
-DTSTAMP:20261124T213013Z
+DTSTAMP:20261125T151526Z
 DTSTART:20261127T150000Z
 DTEND:20261127T220000Z
 SUMMARY:~Massive *2 Phase* Garland\, TX -Black Friday Weekend- Estate Sale
- ! More info coming soon!
+ ! Collectibles\, Memorabilia\, Shop\, Tools\, Instruments\, Bronze Sculpt
+ ures\, Christmas\, Blenko Collection & Much More!
 LOCATION:2316 English Cir\, Garland\, TX 75041
-DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and clothing.\nHour
- s: 9 AM – 4 PM (Friday\, November 27\, local to Dallas–Fort Worth).\n
- Run by DFW ESTATE LIQUIDATORS.\nOriginal listing (EstateSales.org): https
- ://estatesales.org/estate-sales/tx/garland/75041/massive-2-phase-garland-
- tx-2467700\nSale page on The Dig: https://rheinze08.github.io/the-dig-web
- /sale/464c5d9f72f14531/\nConfirm the address and hours on the original li
- sting before you travel.
+DESCRIPTION:Sculptures depict two drakes\, riders on horseback\, a man's b
+ ust and an eagle with an American flag.\nHours: 9 AM – 4 PM (Friday\, N
+ ovember 27\, local to Dallas–Fort Worth).\nRun by DFW ESTATE LIQUIDATOR
+ S.\nOriginal listing (EstateSales.org): https://estatesales.org/estate-sa
+ les/tx/garland/75041/massive-2-phase-garland-tx-2467700\nSale page on The
+  Dig: https://rheinze08.github.io/the-dig-web/sale/464c5d9f72f14531/\nCon
+ firm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/464c5d9f72f14531/
 END:VEVENT
 END:VCALENDAR
