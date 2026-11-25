@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f267ff177e7340c1-2026-12-06@rheinze08.github.io
+DTSTAMP:20261125T203740Z
+DTSTART:20261206T140000Z
+DTEND:20261206T210000Z
+SUMMARY:Kennesaw Early American and Antiques
+LOCATION:Kennesaw\, GA 30152 (Address releases Friday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, kitchen\, clothing and books.\nHours: 9 AM
+  – 4 PM (Sunday\, December 6\, local to Atlanta).\nOriginal listing (Es
+ tateSales.net): https://www.estatesales.net/GA/Kennesaw/30152/5172417\nSa
+ le page on The Dig: https://rheinze08.github.io/the-dig-web/sale/f267ff17
+ 7e7340c1/\nConfirm the address and hours on the original listing before y
+ ou travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/f267ff177e7340c1/
+END:VEVENT
+END:VCALENDAR

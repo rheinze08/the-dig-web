@@ -66,7 +66,7 @@
    "name": "Dallas–Fort Worth",
    "status": "live",
    "timeZone": "America/Chicago",
-   "results": 43,
+   "results": 44,
    "url": "https://rheinze08.github.io/the-dig-web/dallas-fort-worth/"
   },
   {
@@ -90,7 +90,7 @@
    "name": "Phoenix",
    "status": "live",
    "timeZone": "America/Phoenix",
-   "results": 32,
+   "results": 33,
    "url": "https://rheinze08.github.io/the-dig-web/phoenix/"
   },
   {
@@ -98,7 +98,7 @@
    "name": "Atlanta",
    "status": "live",
    "timeZone": "America/New_York",
-   "results": 40,
+   "results": 41,
    "url": "https://rheinze08.github.io/the-dig-web/atlanta/"
   },
   {
@@ -295,8 +295,8 @@
    ],
    "first": "2026-11-28",
    "last": "2026-11-29",
-   "lat": 29.2743047,
-   "lng": -94.9161403,
+   "lat": 29.2973777,
+   "lng": -94.9118315,
    "url": "https://rheinze08.github.io/the-dig-web/sale/0b5aaa0aea070799/",
    "source": "https://www.estatesale.com/sales/view/912284.html"
   },
@@ -527,6 +527,35 @@
    "source": "https://www.estatesales.net/TX/Houston/77071/5168991"
   },
   {
+   "id": "89a05893a83558b3",
+   "city": "dallas-fort-worth",
+   "title": "Bold & Beautiful Estate Sale + 7 sales at 70% off",
+   "company": "Crush Estate Sales",
+   "categories": [],
+   "keywords": [
+    "tufted sofa",
+    "scroll arms",
+    "nailhead trim",
+    "claw feet"
+   ],
+   "contentsLine": "A cream two-cushion sofa has a button-tufted back, scrolling arms, nailhead trim and gold-toned claw feet.",
+   "digRating": "Deep Dig",
+   "photoCount": 300,
+   "dates": [
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-27",
+    "2026-11-28"
+   ],
+   "first": "2026-11-23",
+   "last": "2026-11-28",
+   "lat": 33.018423,
+   "lng": -96.735494,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/89a05893a83558b3/",
+   "source": "https://estatesales.org/estate-sales/tx/plano/75075/plano-french-provincial-hollywood-regency-2475119"
+  },
+  {
    "id": "a69a62e3be71bdec",
    "city": "dallas-fort-worth",
    "title": "Estate Sale-Everything must go",
@@ -553,33 +582,6 @@
    "lng": -97.1071186,
    "url": "https://rheinze08.github.io/the-dig-web/sale/a69a62e3be71bdec/",
    "source": "https://www.craigslist.org/view/d/arlington-estate-sale-everything-must-go/txqQwt1AJXHJu4Ep5yw8iV"
-  },
-  {
-   "id": "89a05893a83558b3",
-   "city": "dallas-fort-worth",
-   "title": "Plano French Provincial & Hollywood Regency Estate Sale",
-   "company": "Consignment Crush Estate Sales",
-   "categories": [],
-   "keywords": [
-    "tufted sofa",
-    "scroll arms",
-    "nailhead trim",
-    "claw feet"
-   ],
-   "contentsLine": "A cream two-cushion sofa has a button-tufted back, scrolling arms, nailhead trim and gold-toned claw feet.",
-   "digRating": "Slim Pickings",
-   "photoCount": 1,
-   "dates": [
-    "2026-11-23",
-    "2026-11-24",
-    "2026-11-25"
-   ],
-   "first": "2026-11-23",
-   "last": "2026-11-25",
-   "lat": 33.0162157,
-   "lng": -96.7363333,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/89a05893a83558b3/",
-   "source": "https://estatesales.org/estate-sales/tx/plano/75075/plano-french-provincial-hollywood-regency-2475119"
   },
   {
    "id": "6d176e2c350eeb23",
@@ -999,7 +1001,35 @@
    "source": "https://estatesales.org/estate-sales/tx/farmers-branch/75234/farmers-branch-estate-sale-by-2475201"
   },
   {
-   "id": "cff5379bdb5021d4",
+   "id": "9c06f475e30bb4d8",
+   "city": "dallas-fort-worth",
+   "title": "Highland Park/Beverly Dr. Diggers Estate Sale",
+   "company": "",
+   "categories": [],
+   "keywords": [
+    "tools",
+    "furniture",
+    "clothing",
+    "toys & games",
+    "antiques",
+    "dolls"
+   ],
+   "contentsLine": "Tools, furniture, clothing, toys & games and antiques.",
+   "digRating": "Deep Dig",
+   "photoCount": 23,
+   "dates": [
+    "2026-11-27",
+    "2026-11-28"
+   ],
+   "first": "2026-11-27",
+   "last": "2026-11-28",
+   "lat": 32.8366956,
+   "lng": -96.7888596,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/9c06f475e30bb4d8/",
+   "source": "https://www.estatesales.net/TX/Dallas/75205/5172699"
+  },
+  {
+   "id": "97682ffd2fcdb836",
    "city": "dallas-fort-worth",
    "title": "Incredible Denton Estate Sale! Collectibles, Silver, Brass, Curio, Antiques, Fashion, Accents, Fine Furniture, Mid Century, Nice Patio Furniture, Appliances, Leather & More!",
    "company": "DFW ESTATE LIQUIDATORS",
@@ -1009,17 +1039,20 @@
     "clothing"
    ],
    "keywords": [
+    "tools",
     "furniture",
     "collectibles",
+    "kitchen",
     "clothing",
-    "antiques",
-    "mid-century",
-    "silver",
-    "patio furniture"
+    "books",
+    "art",
+    "electronics",
+    "crystal",
+    "antiques"
    ],
-   "contentsLine": "Furniture, collectibles, clothing, antiques and mid-century.",
+   "contentsLine": "Tools, furniture, collectibles, kitchen and clothing.",
    "digRating": "Deep Dig",
-   "photoCount": 20,
+   "photoCount": 121,
    "dates": [
     "2026-11-27",
     "2026-11-28"
@@ -1028,8 +1061,8 @@
    "last": "2026-11-28",
    "lat": 33.1437328,
    "lng": -97.236173,
-   "url": "https://rheinze08.github.io/the-dig-web/sale/cff5379bdb5021d4/",
-   "source": "https://estatesales.org/estate-sales/tx/denton/76207/incredible-denton-estate-sale-more-2468441"
+   "url": "https://rheinze08.github.io/the-dig-web/sale/97682ffd2fcdb836/",
+   "source": "https://estatesales.org/estate-sales/tx/denton/76207/incredible-denton-estate-sale-collectibles-2468441"
   },
   {
    "id": "cf771fca93be4e7c",
@@ -1067,7 +1100,7 @@
    ],
    "contentsLine": "Antiques.",
    "digRating": "Slim Pickings",
-   "photoCount": 1,
+   "photoCount": 0,
    "dates": [
     "2026-11-27"
    ],
@@ -1178,7 +1211,7 @@
    ],
    "contentsLine": "Tools, furniture, collectibles, kitchen and clothing.",
    "digRating": "Deep Dig",
-   "photoCount": 837,
+   "photoCount": 846,
    "dates": [
     "2026-11-27",
     "2026-11-28"
@@ -1439,6 +1472,19 @@
    "title": "Plano: Unbeatable Deals by Dayspring",
    "company": "Dayspring Estate Sales",
    "categories": [],
+   "keywords": [
+    "tools",
+    "furniture",
+    "jewelry",
+    "collectibles",
+    "vehicles",
+    "kitchen",
+    "clothing",
+    "books",
+    "art",
+    "electronics"
+   ],
+   "contentsLine": "Tools, furniture, jewelry, collectibles and vehicles.",
    "digRating": "Deep Dig",
    "photoCount": 1095,
    "dates": [
@@ -1791,7 +1837,7 @@
    ],
    "contentsLine": "Collectibles, books and comics.",
    "digRating": "Deep Dig",
-   "photoCount": 152,
+   "photoCount": 157,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -2147,7 +2193,7 @@
    "company": "1dandelion LLC",
    "categories": [],
    "digRating": "Deep Dig",
-   "photoCount": 64,
+   "photoCount": 69,
    "dates": [
     "2026-11-24",
     "2026-11-25",
@@ -2340,7 +2386,7 @@
    ],
    "contentsLine": "Framed figure and animal artwork appears alongside a horse head sculpture and a tall wooden secretary desk.",
    "digRating": "Deep Dig",
-   "photoCount": 243,
+   "photoCount": 242,
    "dates": [
     "2026-12-03",
     "2026-12-04",
@@ -2746,7 +2792,7 @@
    ],
    "contentsLine": "Tools, furniture, jewelry, collectibles and kitchen.",
    "digRating": "Deep Dig",
-   "photoCount": 82,
+   "photoCount": 68,
    "dates": [
     "2026-11-27",
     "2026-11-28",
@@ -2793,6 +2839,41 @@
    "lng": -112.3940798,
    "url": "https://rheinze08.github.io/the-dig-web/sale/1529965de9ec588a/",
    "source": "https://www.estatesales.net/AZ/Goodyear/85395/5162955"
+  },
+  {
+   "id": "743e8108da2462a7",
+   "city": "phoenix",
+   "title": "Sun City West Estate Sale | Patio Furniture, Jewelry, Sewing Supplies & More",
+   "company": "Linden Estate Sales",
+   "categories": [
+    "furniture",
+    "jewelry"
+   ],
+   "keywords": [
+    "tools",
+    "furniture",
+    "jewelry",
+    "collectibles",
+    "vehicles",
+    "kitchen",
+    "clothing",
+    "books",
+    "art",
+    "electronics"
+   ],
+   "contentsLine": "Tools, furniture, jewelry, collectibles and vehicles.",
+   "digRating": "Deep Dig",
+   "photoCount": 70,
+   "dates": [
+    "2026-11-27",
+    "2026-11-28"
+   ],
+   "first": "2026-11-27",
+   "last": "2026-11-28",
+   "lat": 33.691199,
+   "lng": -112.3718039,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/743e8108da2462a7/",
+   "source": "https://www.craigslist.org/view/d/sun-city-west-sun-city-west-estate-sale/7pGDzXGyNXbyY26juvj2aj"
   },
   {
    "id": "32367a54e4d3fcc5",
@@ -3343,7 +3424,7 @@
    ],
    "contentsLine": "Blue-and-white dishes and vases fill a cabinet. Other photos show a round mirror and a side table with puzzles.",
    "digRating": "Worth a Look",
-   "photoCount": 20,
+   "photoCount": 47,
    "dates": [
     "2026-12-04",
     "2026-12-05"
@@ -3491,7 +3572,7 @@
    ],
    "contentsLine": "A black grand piano and bench, a sideboard with turned legs, a mirrored dresser and a lamp with a rose-patterned shade.",
    "digRating": "Deep Dig",
-   "photoCount": 39,
+   "photoCount": 41,
    "dates": [
     "2026-11-25",
     "2026-11-27",
@@ -3862,7 +3943,7 @@
    ],
    "contentsLine": "The black Chevrolet Trailblazer has two-tone front seats, a wide dashboard screen and silver-colored wheels.",
    "digRating": "Worth a Look",
-   "photoCount": 97,
+   "photoCount": 96,
    "dates": [
     "2026-11-28",
     "2026-11-29"
@@ -4546,6 +4627,38 @@
    "source": "https://www.estatesales.net/GA/Peachtree-Corners/30092/5120568"
   },
   {
+   "id": "f267ff177e7340c1",
+   "city": "atlanta",
+   "title": "Kennesaw Early American and Antiques",
+   "company": "",
+   "categories": [],
+   "keywords": [
+    "tools",
+    "furniture",
+    "kitchen",
+    "clothing",
+    "books",
+    "toys & games",
+    "crystal",
+    "antiques",
+    "dolls",
+    "christmas decor"
+   ],
+   "contentsLine": "Tools, furniture, kitchen, clothing and books.",
+   "digRating": "Deep Dig",
+   "photoCount": 49,
+   "dates": [
+    "2026-12-05",
+    "2026-12-06"
+   ],
+   "first": "2026-12-05",
+   "last": "2026-12-06",
+   "lat": 34.0013766,
+   "lng": -84.6463064,
+   "url": "https://rheinze08.github.io/the-dig-web/sale/f267ff177e7340c1/",
+   "source": "https://www.estatesales.net/GA/Kennesaw/30152/5172417"
+  },
+  {
    "id": "cd77d480b5400b91",
    "city": "denver",
    "title": "Black Friday Estate Sale Fun",
@@ -4973,15 +5086,15 @@
     "vinyl & records",
     "jewelry",
     "collectibles",
+    "vehicles",
     "kitchen",
     "clothing",
     "books",
-    "art",
-    "electronics"
+    "art"
    ],
    "contentsLine": "Tools, furniture, vinyl & records, jewelry and collectibles.",
    "digRating": "Deep Dig",
-   "photoCount": 581,
+   "photoCount": 580,
    "dates": [
     "2026-11-27",
     "2026-11-28",

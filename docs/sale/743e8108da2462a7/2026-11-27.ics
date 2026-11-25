@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:743e8108da2462a7-2026-11-27@rheinze08.github.io
+DTSTAMP:20261125T203740Z
+DTSTART:20261127T150000Z
+DTEND:20261127T210000Z
+SUMMARY:Sun City West Estate Sale | Patio Furniture\, Jewelry\, Sewing Sup
+ plies & More
+LOCATION:14413 W Via Tercero\, Sun City West\, AZ 85375
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and vehicles.\nHour
+ s: 8 AM – 2 PM (Friday\, November 27\, local to Phoenix).\nRun by Linde
+ n Estate Sales.\nOriginal listing (Craigslist Phoenix): https://www.craig
+ slist.org/view/d/sun-city-west-sun-city-west-estate-sale/7pGDzXGyNXbyY26j
+ uvj2aj\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sal
+ e/743e8108da2462a7/\nConfirm the address and hours on the original listin
+ g before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/743e8108da2462a7/
+END:VEVENT
+END:VCALENDAR
