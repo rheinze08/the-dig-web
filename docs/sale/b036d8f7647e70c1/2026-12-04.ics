@@ -5,18 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:b036d8f7647e70c1-2026-12-04@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261204T140000Z
 DTEND:20261204T200000Z
 SUMMARY:Snellville Estate Sale | Antique Oak\, Victorian Bedroom\, Grandfa
  ther Clock & So Much More!
 LOCATION:Snellville\, GA 30039 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Furniture\, art and antiques.\nHours: 9 AM – 3 PM (Friday\, 
- December 4\, local to Atlanta).\nRun by Top Shelf Estate Sales.\nOriginal
-  listing (EstateSales.org): https://estatesales.org/estate-sales/ga/snell
- ville/30039/snellville-estate-sale-antique-oak-2474740\nSale page on The 
- Dig: https://rheinze08.github.io/the-dig-web/sale/b036d8f7647e70c1/\nConf
- irm the address and hours on the original listing before you travel.
+DESCRIPTION:An open mirrored armoire holds bracelets. Eagle plates hang on
+  a wall\, and a lamp sits on a three-drawer nightstand.\nHours: 9 AM – 
+ 3 PM (Friday\, December 4\, local to Atlanta).\nRun by Top Shelf & Co Rea
+ lty & Estate Sales.\nOriginal listing (EstateSales.org): https://estatesa
+ les.org/estate-sales/ga/snellville/30039/snellville-estate-sale-antique-o
+ ak-2474740\nSale page on The Dig: https://rheinze08.github.io/the-dig-web
+ /sale/b036d8f7647e70c1/\nConfirm the address and hours on the original li
+ sting before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/b036d8f7647e70c1/
 END:VEVENT
 END:VCALENDAR

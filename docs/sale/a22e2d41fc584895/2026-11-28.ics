@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a22e2d41fc584895-2026-11-28@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261128T160000Z
 DTEND:20261128T200000Z
 SUMMARY:Scottsdale Estate Sale 4 Million Dollar Home
 LOCATION:Scottsdale\, AZ 85255 (Address releases Friday 9:00 AM)
-DESCRIPTION:Hours: 9 AM – 1 PM (Saturday\, November 28\, local to Phoeni
- x).\nRun by Fresh Start Estate Sales.\nOriginal listing (EstateSales.org)
- : https://estatesales.org/estate-sales/az/scottsdale/85255/scottsdale-4-m
- illion-dollar-home-2474735\nSale page on The Dig: https://rheinze08.githu
- b.io/the-dig-web/sale/a22e2d41fc584895/\nConfirm the address and hours on
-  the original listing before you travel.
+DESCRIPTION:Furniture\, collectibles\, kitchen\, figurines and rugs.\nHour
+ s: 9 AM – 1 PM (Saturday\, November 28\, local to Phoenix).\nRun by Fre
+ sh Start Estate Sales.\nOriginal listing (EstateSales.org): https://estat
+ esales.org/estate-sales/az/scottsdale/85255/scottsdale-4-million-dollar-h
+ ome-2474735\nSale page on The Dig: https://rheinze08.github.io/the-dig-we
+ b/sale/a22e2d41fc584895/\nConfirm the address and hours on the original l
+ isting before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/a22e2d41fc584895/
 END:VEVENT
 END:VCALENDAR

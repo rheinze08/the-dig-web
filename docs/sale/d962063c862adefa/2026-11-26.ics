@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d962063c862adefa-2026-11-26@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261126T150000Z
+DTEND:20261127T010000Z
+SUMMARY:Estate sale 61 yrs 50% off thanksgiving day nov26 8 am to 6
+LOCATION:51st ave. . near Komatke lane\, Laveen\, AZ
+DESCRIPTION:One-dollar silver certificates and a two-dollar bill sit in sl
+ eeves. A blue bicycle and pink tricycle are also pictured.\nHours: 8 AM 
+ – 6 PM (Thursday\, November 26\, local to Phoenix).\nOriginal listing (
+ Craigslist Phoenix): https://www.craigslist.org/view/d/laveen-estate-sale
+ -61-yrs-50-off/nMkJymcHKeF3iPFGS2USYG\nSale page on The Dig: https://rhei
+ nze08.github.io/the-dig-web/sale/d962063c862adefa/\nConfirm the address a
+ nd hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/d962063c862adefa/
+END:VEVENT
+END:VCALENDAR

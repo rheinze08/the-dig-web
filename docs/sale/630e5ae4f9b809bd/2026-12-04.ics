@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:630e5ae4f9b809bd-2026-12-04@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261204T150000Z
 DTEND:20261204T210000Z
 SUMMARY:Magnificent Sale in Marietta with Comfy Cozy!!
 LOCATION:Marietta\, GA 30062 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
- .\nHours: 10 AM – 4 PM (Friday\, December 4\, local to Atlanta).\nRun b
- y Comfy Cozy Estate Sales.\nOriginal listing (EstateSales.net): https://w
- ww.estatesales.net/GA/Marietta/30062/5172192\nSale page on The Dig: https
- ://rheinze08.github.io/the-dig-web/sale/630e5ae4f9b809bd/\nConfirm the ad
- dress and hours on the original listing before you travel.
+DESCRIPTION:A rose wreath and a pear still life rest on display easels bes
+ ide a floral vase and a book about Monticello.\nHours: 10 AM – 4 PM (Fr
+ iday\, December 4\, local to Atlanta).\nRun by Comfy Cozy Estate Sales.\n
+ Original listing (EstateSales.net): https://www.estatesales.net/GA/Mariet
+ ta/30062/5172192\nSale page on The Dig: https://rheinze08.github.io/the-d
+ ig-web/sale/630e5ae4f9b809bd/\nConfirm the address and hours on the origi
+ nal listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/630e5ae4f9b809bd/
 END:VEVENT
 END:VCALENDAR

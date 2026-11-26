@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1993cf67859d6b5a-2026-11-28@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:ESTATE SALE Sat 11/28 9-4 Marietta: Antiques\, Spode\, Brass\, Pai
+ ntings
+LOCATION:1040 Olde Canter Ct\, Marietta\, GA
+DESCRIPTION:Furniture\, vehicles\, kitchen\, books and art.\nHours: Hours 
+ not listed (Saturday\, November 28\, local to Atlanta).\nOriginal listing
+  (Craigslist Atlanta): https://www.craigslist.org/view/d/marietta-estate-
+ sale-sat-marietta/1G6xrw7k4Gb5rsxp3WX3YG\nSale page on The Dig: https://r
+ heinze08.github.io/the-dig-web/sale/1993cf67859d6b5a/\nConfirm the addres
+ s and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1993cf67859d6b5a/
+END:VEVENT
+END:VCALENDAR

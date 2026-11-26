@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9f5f9f319298536d-2026-11-29@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261129T140000Z
+DTEND:20261129T210000Z
+SUMMARY:Vintage antiques
+LOCATION:Phoenix\, AZ 85013 (Address releases Friday 9:00 AM)
+DESCRIPTION:Clothing and antiques.\nHours: 7 AM – 2 PM (Sunday\, Novembe
+ r 29\, local to Phoenix).\nOriginal listing (EstateSales.net): https://ww
+ w.estatesales.net/AZ/Phoenix/85013/5173518\nSale page on The Dig: https:/
+ /rheinze08.github.io/the-dig-web/sale/9f5f9f319298536d/\nConfirm the addr
+ ess and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/9f5f9f319298536d/
+END:VEVENT
+END:VCALENDAR

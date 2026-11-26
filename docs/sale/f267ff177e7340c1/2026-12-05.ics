@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:f267ff177e7340c1-2026-12-05@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261205T140000Z
 DTEND:20261205T210000Z
 SUMMARY:Kennesaw Early American and Antiques
 LOCATION:Kennesaw\, GA 30152 (Address releases Friday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, kitchen\, clothing and books.\nHours: 9 AM
-  – 4 PM (Saturday\, December 5\, local to Atlanta).\nOriginal listing (
- EstateSales.net): https://www.estatesales.net/GA/Kennesaw/30152/5172417\n
- Sale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/f267ff
- 177e7340c1/\nConfirm the address and hours on the original listing before
-  you travel.
+DESCRIPTION:Ladder-back chairs surround a dining table. Other pieces inclu
+ de a floral armchair\, an armoire and a drop-front desk.\nHours: 9 AM –
+  4 PM (Saturday\, December 5\, local to Atlanta).\nOriginal listing (Esta
+ teSales.net): https://www.estatesales.net/GA/Kennesaw/30152/5172417\nSale
+  page on The Dig: https://rheinze08.github.io/the-dig-web/sale/f267ff177e
+ 7340c1/\nConfirm the address and hours on the original listing before you
+  travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/f267ff177e7340c1/
 END:VEVENT
 END:VCALENDAR

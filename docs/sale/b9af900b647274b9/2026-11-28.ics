@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b9af900b647274b9-2026-11-28@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261128T160000Z
+DTEND:20261128T220000Z
+SUMMARY:The Heights Sale\, Fantastic Furniture\, Art\, Glass\, Jewelry\, S
+ portcards\, Comic Books & More
+LOCATION:1213 Oxford St\, Houston\, TX 77008
+DESCRIPTION:Furniture\, jewelry\, collectibles\, books and art.\nHours: 10
+  AM – 4 PM (Saturday\, November 28\, local to Houston).\nRun by Treasur
+ e Hunt Auction Co..\nOriginal listing (EstateSales.net): https://www.esta
+ tesales.net/TX/Houston/77008/5170956\nSale page on The Dig: https://rhein
+ ze08.github.io/the-dig-web/sale/b9af900b647274b9/\nConfirm the address an
+ d hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/b9af900b647274b9/
+END:VEVENT
+END:VCALENDAR

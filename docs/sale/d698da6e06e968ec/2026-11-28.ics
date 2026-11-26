@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d698da6e06e968ec-2026-11-28@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261128T150000Z
 DTEND:20261128T220000Z
 SUMMARY:Black Friday Weekend Sale!!!
-LOCATION:Grand Prairie\, TX 75051 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 28\, local to Dallas
- –Fort Worth).\nRun by Decades Estate Liquidators.\nOriginal listing (Es
- tateSales.net): https://www.estatesales.net/TX/Grand-Prairie/75051/516862
- 2\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/d69
- 8da6e06e968ec/\nConfirm the address and hours on the original listing bef
- ore you travel.
+LOCATION:406 San Pedro Drive\, Grand Prairie\, TX 75051
+DESCRIPTION:Vinyl & records\, kitchen and electronics.\nHours: 9 AM – 4 
+ PM (Saturday\, November 28\, local to Dallas–Fort Worth).\nRun by Decad
+ es Estate Liquidators.\nOriginal listing (EstateSales.net): https://www.e
+ statesales.net/TX/Grand-Prairie/75051/5168622\nSale page on The Dig: http
+ s://rheinze08.github.io/the-dig-web/sale/d698da6e06e968ec/\nConfirm the a
+ ddress and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/d698da6e06e968ec/
 END:VEVENT
 END:VCALENDAR

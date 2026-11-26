@@ -5,17 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:9081b1e6adb2b110-2026-12-04@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261204T150000Z
 DTEND:20261204T210000Z
 SUMMARY:Fun in the Sun City!
 LOCATION:Sun City West\, AZ 85375 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Hours: 8 AM – 2 PM (Friday\, December 4\, local to Phoenix).
- \nRun by Az Elegant Estates LLC.\nOriginal listing (EstateSales.org): htt
- ps://estatesales.org/estate-sales/az/sun-city-west/85375/fun-in-the-sun-c
- ity-2472805\nSale page on The Dig: https://rheinze08.github.io/the-dig-we
- b/sale/9081b1e6adb2b110/\nConfirm the address and hours on the original l
- isting before you travel.
+DESCRIPTION:Peacock ornaments stand among potted palms. Other photos show 
+ fish sculptures\, a powder advertising sign and cabinets.\nHours: 8 AM 
+ – 2 PM (Friday\, December 4\, local to Phoenix).\nRun by Az Elegant Est
+ ates LLC.\nOriginal listing (EstateSales.org): https://estatesales.org/es
+ tate-sales/az/sun-city-west/85375/fun-in-the-sun-city-2472805\nSale page 
+ on The Dig: https://rheinze08.github.io/the-dig-web/sale/9081b1e6adb2b110
+ /\nConfirm the address and hours on the original listing before you trave
+ l.
 URL:https://rheinze08.github.io/the-dig-web/sale/9081b1e6adb2b110/
 END:VEVENT
 END:VCALENDAR

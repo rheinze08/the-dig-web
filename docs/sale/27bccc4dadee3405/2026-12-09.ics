@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:27bccc4dadee3405-2026-12-09@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261209T160000Z
+DTEND:20261209T220000Z
+SUMMARY:A Holiday Extravaganza of Exciting Jewelry & Handbag Sale\, Gold\,
+  Sterling\, Pearls\, Native American
+LOCATION:San Antonio\, TX 78213 (Address releases Tuesday 9:00 AM)
+DESCRIPTION:Jewelry and clothing.\nHours: 10 AM – 4 PM (Wednesday\, Dece
+ mber 9\, local to San Antonio).\nRun by Professional Estate Sales LLC.\nO
+ riginal listing (EstateSales.net): https://www.estatesales.net/TX/San-Ant
+ onio/78213/5168286\nSale page on The Dig: https://rheinze08.github.io/the
+ -dig-web/sale/27bccc4dadee3405/\nConfirm the address and hours on the ori
+ ginal listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/27bccc4dadee3405/
+END:VEVENT
+END:VCALENDAR

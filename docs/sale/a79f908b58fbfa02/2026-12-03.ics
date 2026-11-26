@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a79f908b58fbfa02-2026-12-03@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261203T150000Z
 DTEND:20261203T210000Z
 SUMMARY:Secret stash in Monte Vista
 LOCATION:San Antonio\, TX 78212 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Furniture\, jewelry\, kitchen\, clothing and books.\nHours: 9 
- AM – 3 PM (Thursday\, December 3\, local to San Antonio).\nRun by Top H
- at Estate Sales.\nOriginal listing (EstateSales.net): https://www.estates
- ales.net/TX/San-Antonio/78212/5167146\nSale page on The Dig: https://rhei
- nze08.github.io/the-dig-web/sale/a79f908b58fbfa02/\nConfirm the address a
- nd hours on the original listing before you travel.
+DESCRIPTION:Nativity figures stand beside a table of beaded necklaces\, co
+ lored glass bottles\, goblets\, pitchers and lidded jars.\nHours: 9 AM 
+ – 3 PM (Thursday\, December 3\, local to San Antonio).\nRun by Top Hat 
+ Estate Sales.\nOriginal listing (EstateSales.net): https://www.estatesale
+ s.net/TX/San-Antonio/78212/5167146\nSale page on The Dig: https://rheinze
+ 08.github.io/the-dig-web/sale/a79f908b58fbfa02/\nConfirm the address and 
+ hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/a79f908b58fbfa02/
 END:VEVENT
 END:VCALENDAR

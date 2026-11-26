@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:2ae505037f0dd2fd-2026-11-28@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:5830 Grandwood dr estate sale
 LOCATION:5830 Grandwood dr\, Windcrest\, TX
-DESCRIPTION:Furniture.\nHours: Opens 8 AM (Saturday\, November 28\, local 
- to San Antonio).\nOriginal listing (Craigslist San Antonio): https://www.
- craigslist.org/view/d/san-antonio-5830-grandwood-dr-estate/7XAzTnsgj1P3s5
- pgoJH1L6\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/s
- ale/2ae505037f0dd2fd/\nConfirm the address and hours on the original list
- ing before you travel.
+DESCRIPTION:A round pedestal table has carved-back chairs. Other photos sh
+ ow a rolltop desk and an open storage chest.\nHours: Opens 8 AM (Saturday
+ \, November 28\, local to San Antonio).\nOriginal listing (Craigslist San
+  Antonio): https://www.craigslist.org/view/d/san-antonio-5830-grandwood-d
+ r-estate/7XAzTnsgj1P3s5pgoJH1L6\nSale page on The Dig: https://rheinze08.
+ github.io/the-dig-web/sale/2ae505037f0dd2fd/\nConfirm the address and hou
+ rs on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/2ae505037f0dd2fd/
 END:VEVENT
 END:VCALENDAR

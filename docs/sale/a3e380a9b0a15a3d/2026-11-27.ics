@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a3e380a9b0a15a3d-2026-11-27@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261127T150000Z
 DTEND:20261127T220000Z
 SUMMARY:#634: Sale of the Season!
-LOCATION:San Antonio\, TX 78232 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 9 AM – 4 PM (Friday\, November 27\, local to San Anto
- nio).\nRun by A Better Estate Sale Co..\nOriginal listing (EstateSales.ne
- t): https://www.estatesales.net/TX/San-Antonio/78232/5163381\nSale page o
- n The Dig: https://rheinze08.github.io/the-dig-web/sale/a3e380a9b0a15a3d/
- \nConfirm the address and hours on the original listing before you travel
- .
+LOCATION:2314 Oak Castle\, San Antonio\, TX 78232
+DESCRIPTION:Tools\, furniture\, vinyl & records\, collectibles and kitchen
+ .\nHours: 9 AM – 4 PM (Friday\, November 27\, local to San Antonio).\nR
+ un by A Better Estate Sale Co..\nOriginal listing (EstateSales.net): http
+ s://www.estatesales.net/TX/San-Antonio/78232/5163381\nSale page on The Di
+ g: https://rheinze08.github.io/the-dig-web/sale/a3e380a9b0a15a3d/\nConfir
+ m the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/a3e380a9b0a15a3d/
 END:VEVENT
 END:VCALENDAR

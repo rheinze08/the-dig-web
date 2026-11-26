@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c4a96f34ec02f0eb-2026-11-28@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261128T180000Z
+DTEND:20261129T000000Z
+SUMMARY:Connie's Antiques & Treasures-In Store Shopping of Vintage\, Antiq
+ ues and Collectibles
+LOCATION:6080 W 92nd Ave\, Westminster\, CO 80031
+DESCRIPTION:Collectibles\, antiques and christmas decor.\nHours: 11 AM –
+  5 PM (Saturday\, November 28\, local to Denver).\nRun by Connie's Antiqu
+ es & Treasures.\nOriginal listing (EstateSales.org): https://estatesales.
+ org/estate-sales/co/westminster/80031/connies-antiques-treasuresin-store-
+ shopping-2475493\nSale page on The Dig: https://rheinze08.github.io/the-d
+ ig-web/sale/c4a96f34ec02f0eb/\nConfirm the address and hours on the origi
+ nal listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/c4a96f34ec02f0eb/
+END:VEVENT
+END:VCALENDAR

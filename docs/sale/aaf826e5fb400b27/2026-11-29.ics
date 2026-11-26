@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:aaf826e5fb400b27-2026-11-29@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261129T161500Z
+DTEND:20261129T210000Z
+SUMMARY:SOUTHMOOR PARK - HUGE BLACK FRIDAY SALE
+LOCATION:4054 S. Poplar Way\, Denver\, CO 80237
+DESCRIPTION:Furniture\, jewelry\, collectibles\, kitchen and clothing.\nHo
+ urs: 9:15 AM – 2 PM (Sunday\, November 29\, local to Denver).\nRun by T
+ ransition Services.\nOriginal listing (EstateSales.net): https://www.esta
+ tesales.net/CO/Denver/80237/5172078\nSale page on The Dig: https://rheinz
+ e08.github.io/the-dig-web/sale/aaf826e5fb400b27/\nConfirm the address and
+  hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/aaf826e5fb400b27/
+END:VEVENT
+END:VCALENDAR

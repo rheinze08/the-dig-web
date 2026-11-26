@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d829136ac1ac8e12-2026-12-05@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261205T140000Z
 DTEND:20261205T210000Z
-SUMMARY:🏡 FULL HOUSE - PICKER’S DREAM ESTATE SALE! Vintage and Collec
- tibles
+SUMMARY:FULL HOUSE - PICKER’S DREAM ESTATE SALE! Vintage and Collectible
+ s
 LOCATION:Conyers\, GA 30094 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Collectibles and antiques.\nHours: 9 AM – 4 PM (Saturday\, D
- ecember 5\, local to Atlanta).\nRun by Rapid Estate Sales / Auctions.\nOr
- iginal listing (EstateSales.org): https://estatesales.org/estate-sales/ga
- /conyers/30094/full-house-pickers-dream-estate-2473461\nSale page on The 
- Dig: https://rheinze08.github.io/the-dig-web/sale/d829136ac1ac8e12/\nConf
- irm the address and hours on the original listing before you travel.
+DESCRIPTION:Tools\, furniture\, collectibles\, clothing and art.\nHours: 9
+  AM – 4 PM (Saturday\, December 5\, local to Atlanta).\nRun by Rapid Es
+ tate Sales / Auction.\nOriginal listing (EstateSales.org): https://estate
+ sales.org/estate-sales/ga/conyers/30094/full-house-pickers-dream-estate-2
+ 473461\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sal
+ e/d829136ac1ac8e12/\nConfirm the address and hours on the original listin
+ g before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/d829136ac1ac8e12/
 END:VEVENT
 END:VCALENDAR

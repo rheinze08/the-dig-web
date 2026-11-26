@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:4a8b36b6b63c940c-2026-11-28@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261128T150000Z
 DTEND:20261128T220000Z
 SUMMARY:Plano Remodeling Spectacular Black Friday Weekend
-LOCATION:Plano\, TX 75023 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 9 AM – 4 PM (Saturday\, November 28\, local to Dallas
- –Fort Worth).\nRun by Treasures Once More Estate Sales.\nOriginal listi
- ng (EstateSales.org): https://estatesales.org/estate-sales/tx/plano/75023
- /plano-remodeling-spectacular-black-friday-2474108\nSale page on The Dig:
-  https://rheinze08.github.io/the-dig-web/sale/4a8b36b6b63c940c/\nConfirm 
- the address and hours on the original listing before you travel.
+LOCATION:3908 Cross Bend Road\, Plano\, TX 75023
+DESCRIPTION:Furniture\, kitchen\, clothing\, art and antiques.\nHours: 9 A
+ M – 4 PM (Saturday\, November 28\, local to Dallas–Fort Worth).\nRun 
+ by Treasures Once More\, LLC.\nOriginal listing (EstateSales.org): https:
+ //estatesales.org/estate-sales/tx/plano/75023/plano-remodeling-spectacula
+ r-black-friday-2474108\nSale page on The Dig: https://rheinze08.github.io
+ /the-dig-web/sale/4a8b36b6b63c940c/\nConfirm the address and hours on the
+  original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/4a8b36b6b63c940c/
 END:VEVENT
 END:VCALENDAR

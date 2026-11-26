@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:52b98c7943cc1951-2026-12-05@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261205T150000Z
+DTEND:20261205T210000Z
+SUMMARY:MONARCH - La Cantera Sale
+LOCATION:San Antonio\, TX 78256 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 3 PM (Saturday\, December 5\, local to San Ant
+ onio).\nRun by Monarch Estate Sales.\nOriginal listing (EstateSales.net):
+  https://www.estatesales.net/TX/San-Antonio/78256/5173299\nSale page on T
+ he Dig: https://rheinze08.github.io/the-dig-web/sale/52b98c7943cc1951/\nC
+ onfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/52b98c7943cc1951/
+END:VEVENT
+END:VCALENDAR

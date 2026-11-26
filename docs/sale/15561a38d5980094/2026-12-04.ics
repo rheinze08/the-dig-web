@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:15561a38d5980094-2026-12-04@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261204T150000Z
 DTEND:20261204T220000Z
 SUMMARY:Welcome Home AMAZING VINTAGE COLLECTION SALE
 LOCATION:Dallas\, TX 75228 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Christmas decor.\nHours: 9 AM – 4 PM (Friday\, December 4\, 
- local to Dallas–Fort Worth).\nRun by Welcome Home.\nOriginal listing (E
- stateSales.net): https://www.estatesales.net/TX/Dallas/75228/5169933\nSal
- e page on The Dig: https://rheinze08.github.io/the-dig-web/sale/15561a38d
- 5980094/\nConfirm the address and hours on the original listing before yo
- u travel.
+DESCRIPTION:Blue butterfly mugs line a shelf\, and yellow-handled pliers r
+ est in a red toolbox.\nHours: 9 AM – 4 PM (Friday\, December 4\, local 
+ to Dallas–Fort Worth).\nRun by Welcome Home.\nOriginal listing (EstateS
+ ales.net): https://www.estatesales.net/TX/Dallas/75228/5169933\nSale page
+  on The Dig: https://rheinze08.github.io/the-dig-web/sale/15561a38d598009
+ 4/\nConfirm the address and hours on the original listing before you trav
+ el.
 URL:https://rheinze08.github.io/the-dig-web/sale/15561a38d5980094/
 END:VEVENT
 END:VCALENDAR

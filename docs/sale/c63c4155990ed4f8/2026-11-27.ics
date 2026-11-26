@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c63c4155990ed4f8-2026-11-27@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261127T140000Z
+DTEND:20261127T200000Z
+SUMMARY:3 Home Purge
+LOCATION:900 E. 53 1/2 Street\, Austin\, TX 78751
+DESCRIPTION:Tools\, furniture\, kitchen and clothing.\nHours: 8 AM – 2 P
+ M (Friday\, November 27\, local to Austin).\nOriginal listing (EstateSale
+ s.net): https://www.estatesales.net/TX/Austin/78751/5172957\nSale page on
+  The Dig: https://rheinze08.github.io/the-dig-web/sale/c63c4155990ed4f8/\
+ nConfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/c63c4155990ed4f8/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ad56f6879c307adc-2026-12-04@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261204T150000Z
+DTEND:20261204T210000Z
+SUMMARY:Follow the Relic Road in Round Rock
+LOCATION:Austin\, TX 78717 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Hours: 9 AM – 3 PM (Friday\, December 4\, local to Austin).\
+ nRun by Relic Road Estate Sales.\nOriginal listing (EstateSales.net): htt
+ ps://www.estatesales.net/TX/Austin/78717/5173257\nSale page on The Dig: h
+ ttps://rheinze08.github.io/the-dig-web/sale/ad56f6879c307adc/\nConfirm th
+ e address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/ad56f6879c307adc/
+END:VEVENT
+END:VCALENDAR

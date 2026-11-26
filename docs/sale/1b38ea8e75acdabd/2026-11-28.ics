@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:1b38ea8e75acdabd-2026-11-28@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261128T150000Z
 DTEND:20261128T210000Z
 SUMMARY:Berry Hill Black Friday Sale - Phase 2
-LOCATION:Nashville\, TN 37204 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Clothing and antiques.\nHours: 9 AM – 3 PM (Saturday\, Novem
- ber 28\, local to Nashville).\nRun by Estate Greats Estate Sales.\nOrigin
- al listing (EstateSales.org): https://estatesales.org/estate-sales/tn/nas
- hville/37204/berry-hill-black-friday-sale-2475373\nSale page on The Dig: 
- https://rheinze08.github.io/the-dig-web/sale/1b38ea8e75acdabd/\nConfirm t
- he address and hours on the original listing before you travel.
+LOCATION:644 West Iris Dr\, Nashville\, TN 37204
+DESCRIPTION:A turquoise window sash leans against a green-topped drawer ca
+ binet beside a ram sculpture and boxed backgammon game.\nHours: 9 AM – 
+ 3 PM (Saturday\, November 28\, local to Nashville).\nRun by Estate Greats
+ .\nOriginal listing (EstateSales.org): https://estatesales.org/estate-sal
+ es/tn/nashville/37204/berry-hill-black-friday-sale-2475373\nSale page on 
+ The Dig: https://rheinze08.github.io/the-dig-web/sale/1b38ea8e75acdabd/\n
+ Confirm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/1b38ea8e75acdabd/
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d2148aeee441b44f-2026-12-05@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261205T160000Z
+DTEND:20261205T210000Z
+SUMMARY:Tarrytown/Highland Park West
+LOCATION:Austin\, TX 78731 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture\, kitchen\, clothing\, art and antiques.\nHours: 10 
+ AM – 3 PM (Saturday\, December 5\, local to Austin).\nRun by Laura Kuyk
+ endall Estate Sales & Staging.\nOriginal listing (EstateSales.net): https
+ ://www.estatesales.net/TX/Austin/78731/5170680\nSale page on The Dig: htt
+ ps://rheinze08.github.io/the-dig-web/sale/d2148aeee441b44f/\nConfirm the 
+ address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/d2148aeee441b44f/
+END:VEVENT
+END:VCALENDAR

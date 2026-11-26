@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9e52f1dac3def090-2026-12-03@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261203T190000Z
+DTEND:20261204T000000Z
+SUMMARY:Books Galore in Nashville!
+LOCATION:Nashville\, TN 37205 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Furniture\, jewelry\, vehicles\, kitchen and clothing.\nHours:
+  1 PM – 6 PM (Thursday\, December 3\, local to Nashville).\nRun by Anot
+ her's Treasure Estate Sales LLC.\nOriginal listing (EstateSales.net): htt
+ ps://www.estatesales.net/TN/Nashville/37205/5173326\nSale page on The Dig
+ : https://rheinze08.github.io/the-dig-web/sale/9e52f1dac3def090/\nConfirm
+  the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/9e52f1dac3def090/
+END:VEVENT
+END:VCALENDAR

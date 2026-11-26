@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:9c06f475e30bb4d8-2026-11-27@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261127T150000Z
 DTEND:20261127T220000Z
 SUMMARY:Highland Park/Beverly Dr. Diggers Estate Sale
-LOCATION:Dallas\, TX 75205 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, clothing\, toys & games and antiques.\nHou
- rs: 9 AM – 4 PM (Friday\, November 27\, local to Dallas–Fort Worth).\
- nOriginal listing (EstateSales.net): https://www.estatesales.net/TX/Dalla
- s/75205/5172699\nSale page on The Dig: https://rheinze08.github.io/the-di
- g-web/sale/9c06f475e30bb4d8/\nConfirm the address and hours on the origin
- al listing before you travel.
+LOCATION:4436 Beverly Drive\, Dallas\, TX 75205
+DESCRIPTION:Boxed dolls sit near a doll in a ruffled dress. Another room h
+ olds Santa decorations\, an armchair and a pendulum clock.\nHours: 9 AM 
+ – 4 PM (Friday\, November 27\, local to Dallas–Fort Worth).\nOriginal
+  listing (EstateSales.net): https://www.estatesales.net/TX/Dallas/75205/5
+ 172699\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sal
+ e/9c06f475e30bb4d8/\nConfirm the address and hours on the original listin
+ g before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/9c06f475e30bb4d8/
 END:VEVENT
 END:VCALENDAR

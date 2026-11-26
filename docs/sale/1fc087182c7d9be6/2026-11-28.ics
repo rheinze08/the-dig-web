@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1fc087182c7d9be6-2026-11-28@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261128T150000Z
+DTEND:20261128T230000Z
+SUMMARY:Bold & Beautiful Estate Sale + 7 sales at 70% off
+LOCATION:1301 Custer #706 (Directly behind the Tee Time Bar)\, Plano\, TX 
+ 75075
+DESCRIPTION:Hours: 9 AM – 5 PM (Saturday\, November 28\, local to Dallas
+ –Fort Worth).\nRun by Crush Estate Sales.\nOriginal listing (EstateSale
+ s.net): https://www.estatesales.net/TX/Plano/75075/5172522\nSale page on 
+ The Dig: https://rheinze08.github.io/the-dig-web/sale/1fc087182c7d9be6/\n
+ Confirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1fc087182c7d9be6/
+END:VEVENT
+END:VCALENDAR

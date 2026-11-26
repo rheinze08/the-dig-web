@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:421d3c23be16038d-2026-11-28@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261128T160000Z
+DTEND:20261128T210000Z
+SUMMARY:BLACK FRIDAY WEEKEND ESTATE SALE SPECIAL **TWO ESTATE SALES COMBIN
+ ED INTO ONE HUGE WEEKEND EVENT!
+LOCATION:Phoenix\, AZ 85085 (Address releases Friday 9:00 AM)
+DESCRIPTION:Furniture\, jewelry\, collectibles\, vehicles and clothing.\nH
+ ours: 9 AM – 2 PM (Saturday\, November 28\, local to Phoenix).\nRun by 
+ The Encore Rummage Estate & Garage Clearance.\nOriginal listing (EstateSa
+ les.net): https://www.estatesales.net/AZ/Phoenix/85085/5173527\nSale page
+  on The Dig: https://rheinze08.github.io/the-dig-web/sale/421d3c23be16038
+ d/\nConfirm the address and hours on the original listing before you trav
+ el.
+URL:https://rheinze08.github.io/the-dig-web/sale/421d3c23be16038d/
+END:VEVENT
+END:VCALENDAR

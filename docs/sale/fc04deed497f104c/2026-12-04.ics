@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fc04deed497f104c-2026-12-04@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261204T150000Z
+DTEND:20261204T230000Z
+SUMMARY:Pianos - Furniture - Bose Speakers - Military - Hummels
+LOCATION:San Antonio\, TX 78248 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, vinyl & records\, collectibles and kitchen
+ .\nHours: 9 AM – 5 PM (Friday\, December 4\, local to San Antonio).\nRu
+ n by About Face Estate Sales Service LLC.\nOriginal listing (EstateSales.
+ net): https://www.estatesales.net/TX/San-Antonio/78248/5173149\nSale page
+  on The Dig: https://rheinze08.github.io/the-dig-web/sale/fc04deed497f104
+ c/\nConfirm the address and hours on the original listing before you trav
+ el.
+URL:https://rheinze08.github.io/the-dig-web/sale/fc04deed497f104c/
+END:VEVENT
+END:VCALENDAR

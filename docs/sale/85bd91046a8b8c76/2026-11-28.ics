@@ -5,17 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:85bd91046a8b8c76-2026-11-28@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261128T160000Z
 DTEND:20261128T230000Z
 SUMMARY:New Photos added Daily! Vintage Glamour Estate Sale
 LOCATION:Austin\, TX 78748 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Jewelry\, collectibles\, clothing\, art and antiques.\nHours: 
- 10 AM – 5 PM (Saturday\, November 28\, local to Austin).\nRun by Timele
- ss Estate Sale.\nOriginal listing (EstateSales.net): https://www.estatesa
- les.net/TX/Austin/78748/5168253\nSale page on The Dig: https://rheinze08.
- github.io/the-dig-web/sale/85bd91046a8b8c76/\nConfirm the address and hou
- rs on the original listing before you travel.
+DESCRIPTION:Furniture\, jewelry\, collectibles\, clothing and art.\nHours:
+  10 AM – 5 PM (Saturday\, November 28\, local to Austin).\nRun by Timel
+ ess Estate Sale.\nOriginal listing (EstateSales.net): https://www.estates
+ ales.net/TX/Austin/78748/5168253\nSale page on The Dig: https://rheinze08
+ .github.io/the-dig-web/sale/85bd91046a8b8c76/\nConfirm the address and ho
+ urs on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/85bd91046a8b8c76/
 END:VEVENT
 END:VCALENDAR

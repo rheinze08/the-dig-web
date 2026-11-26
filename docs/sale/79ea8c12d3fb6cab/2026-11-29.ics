@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:79ea8c12d3fb6cab-2026-11-29@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261129T160000Z
+DTEND:20261129T230000Z
+SUMMARY:Groovy 1970s Estate Sale: Retro Furniture\, Decor & Collectibles
+LOCATION:San Antonio\, TX 78239 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, collectibles\, vehicles and kitchen.\nHour
+ s: 10 AM – 5 PM (Sunday\, November 29\, local to San Antonio).\nRun by 
+ San Antonio Estate Sales LLC.\nOriginal listing (EstateSales.net): https:
+ //www.estatesales.net/TX/San-Antonio/78239/5173539\nSale page on The Dig:
+  https://rheinze08.github.io/the-dig-web/sale/79ea8c12d3fb6cab/\nConfirm 
+ the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/79ea8c12d3fb6cab/
+END:VEVENT
+END:VCALENDAR

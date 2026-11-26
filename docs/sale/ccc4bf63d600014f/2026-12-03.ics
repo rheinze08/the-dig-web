@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ccc4bf63d600014f-2026-12-03@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261203T160000Z
 DTEND:20261203T210000Z
 SUMMARY:Antique Collectors’ Estate Sale — This House Is Stuffed Full o
  f Antiques!
 LOCATION:Sun City\, AZ 85351 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Furniture\, jewelry\, collectibles\, kitchen and china.\nHours
- : 9 AM – 2 PM (Thursday\, December 3\, local to Phoenix).\nRun by The D
- igs.\nOriginal listing (EstateSales.net): https://www.estatesales.net/AZ/
- Sun-City/85351/5171718\nSale page on The Dig: https://rheinze08.github.io
- /the-dig-web/sale/ccc4bf63d600014f/\nConfirm the address and hours on the
-  original listing before you travel.
+DESCRIPTION:Three jugs sit atop a china cabinet filled with teacups\, bird
+  figurines and a green cabbage-shaped teapot.\nHours: 9 AM – 2 PM (Thur
+ sday\, December 3\, local to Phoenix).\nRun by The Digs.\nOriginal listin
+ g (EstateSales.net): https://www.estatesales.net/AZ/Sun-City/85351/517171
+ 8\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/ccc
+ 4bf63d600014f/\nConfirm the address and hours on the original listing bef
+ ore you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/ccc4bf63d600014f/
 END:VEVENT
 END:VCALENDAR

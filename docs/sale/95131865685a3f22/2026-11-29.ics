@@ -5,18 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:95131865685a3f22-2026-11-29@rheinze08.github.io
-DTSTAMP:20261125T203740Z
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-SUMMARY:HUGE MAEVEL/DC\, Movies & Books Estate Sale
-LOCATION:13813 Field Spar Dr.\, Manor\, TX
+DTSTAMP:20261126T203142Z
+DTSTART:20261129T170000Z
+DTEND:20261129T210000Z
+SUMMARY:AVENGERS ASSEMBLE! HUGE MARVEL\, DC & VINTAGE ENTERTAINMENT ESTATE
+  SALE!
+LOCATION:13813 Field Spar Dr\, Manor\, TX 78653
 DESCRIPTION:Action figures stand among shelves of books. Framed movie post
- ers hang behind a green poker table and folding chairs.\nHours: Opens 10 
- AM (Sunday\, November 29\, local to Austin).\nOriginal listing (Craigslis
- t Austin): https://www.craigslist.org/view/d/manor-huge-maevel-dc-movies-
- books/vMHFcdwFMKszk3wZMRNi8W\nSale page on The Dig: https://rheinze08.git
- hub.io/the-dig-web/sale/95131865685a3f22/\nConfirm the address and hours 
- on the original listing before you travel.
+ ers hang behind a green poker table and folding chairs.\nHours: 11 AM –
+  3 PM (Sunday\, November 29\, local to Austin).\nRun by My Estate To Liqu
+ idate.\nOriginal listing (Craigslist Austin): https://www.craigslist.org/
+ view/d/manor-huge-maevel-dc-movies-books/vMHFcdwFMKszk3wZMRNi8W\nSale pag
+ e on The Dig: https://rheinze08.github.io/the-dig-web/sale/95131865685a3f
+ 22/\nConfirm the address and hours on the original listing before you tra
+ vel.
 URL:https://rheinze08.github.io/the-dig-web/sale/95131865685a3f22/
 END:VEVENT
 END:VCALENDAR

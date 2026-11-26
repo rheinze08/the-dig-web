@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:bc6df8ae74172e03-2026-12-05@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261205T150000Z
 DTEND:20261205T220000Z
 SUMMARY:EveryTreasure has a Story
 LOCATION:San Antonio\, TX 78260 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Electronics.\nHours: 9 AM – 4 PM (Saturday\, December 5\, lo
- cal to San Antonio).\nRun by Carousel of Life Estate Sales and Service.\n
- Original listing (EstateSales.net): https://www.estatesales.net/TX/San-An
- tonio/78260/5171421\nSale page on The Dig: https://rheinze08.github.io/th
- e-dig-web/sale/bc6df8ae74172e03/\nConfirm the address and hours on the or
- iginal listing before you travel.
+DESCRIPTION:A floral armchair stands beside a hat stand. Other items inclu
+ de a framed streetscape\, a covered dish and a painted egg.\nHours: 9 AM 
+ – 4 PM (Saturday\, December 5\, local to San Antonio).\nRun by Carousel
+  of Life Estate Sales and Service.\nOriginal listing (EstateSales.net): h
+ ttps://www.estatesales.net/TX/San-Antonio/78260/5171421\nSale page on The
+  Dig: https://rheinze08.github.io/the-dig-web/sale/bc6df8ae74172e03/\nCon
+ firm the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/bc6df8ae74172e03/
 END:VEVENT
 END:VCALENDAR

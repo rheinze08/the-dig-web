@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0382b9e09b8a6751-2026-11-29@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261129T150000Z
+DTEND:20261129T220000Z
+SUMMARY:Bob Timberlake Bedroom Sets\, Leather Couch\, French Pieces and Mo
+ re in Sandy Springs
+LOCATION:Sandy Springs\, GA 30328 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture\, electronics\, crystal\, mid-century and silver.\nH
+ ours: 10 AM – 5 PM (Sunday\, November 29\, local to Atlanta).\nRun by D
+ unwoody Estate Treasures.\nOriginal listing (EstateSales.net): https://ww
+ w.estatesales.net/GA/Atlanta/30328/5136282\nSale page on The Dig: https:/
+ /rheinze08.github.io/the-dig-web/sale/0382b9e09b8a6751/\nConfirm the addr
+ ess and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/0382b9e09b8a6751/
+END:VEVENT
+END:VCALENDAR

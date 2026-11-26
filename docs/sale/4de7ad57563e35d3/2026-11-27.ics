@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4de7ad57563e35d3-2026-11-27@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261127T170000Z
+DTEND:20261127T200000Z
+SUMMARY:West University Thanksgiving Weekend 2 days PHOTOS IN LINK
+LOCATION:Houston\, TX 77005 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
+ : 11 AM – 2 PM (Friday\, November 27\, local to Houston).\nRun by By Ro
+ nnalynn.\nOriginal listing (EstateSales.net): https://www.estatesales.net
+ /TX/Houston/77005/5172813\nSale page on The Dig: https://rheinze08.github
+ .io/the-dig-web/sale/4de7ad57563e35d3/\nConfirm the address and hours on 
+ the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/4de7ad57563e35d3/
+END:VEVENT
+END:VCALENDAR

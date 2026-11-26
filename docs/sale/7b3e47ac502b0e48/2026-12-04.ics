@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:7b3e47ac502b0e48-2026-12-04@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261204T140000Z
 DTEND:20261204T210000Z
 SUMMARY:Estate Sale benefiting St Vincent de Paul
 LOCATION:Sun City\, AZ 85373 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Furniture\, collectibles\, kitchen\, books and toys & games.\n
- Hours: 7 AM – 2 PM (Friday\, December 4\, local to Phoenix).\nOriginal 
- listing (EstateSales.net): https://www.estatesales.net/AZ/Sun-City/85373/
- 5172129\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sa
- le/7b3e47ac502b0e48/\nConfirm the address and hours on the original listi
- ng before you travel.
+DESCRIPTION:A Singer treadle sewing machine sits in a drawer cabinet. Othe
+ r pieces include a drop-leaf tea cart and a rocking chair.\nHours: 7 AM 
+ – 2 PM (Friday\, December 4\, local to Phoenix).\nOriginal listing (Est
+ ateSales.net): https://www.estatesales.net/AZ/Sun-City/85373/5172129\nSal
+ e page on The Dig: https://rheinze08.github.io/the-dig-web/sale/7b3e47ac5
+ 02b0e48/\nConfirm the address and hours on the original listing before yo
+ u travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/7b3e47ac502b0e48/
 END:VEVENT
 END:VCALENDAR

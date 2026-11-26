@@ -5,17 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:86779704b23169ac-2026-11-28@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261128T150000Z
 DTEND:20261128T190000Z
 SUMMARY:Black Friday madness in Gilbert
-LOCATION:4043 E Pony Ln\, Gilbert\, AZ 85295
-DESCRIPTION:Hours: 8 AM – 12 PM (Saturday\, November 28\, local to Phoen
- ix).\nRun by Allegro Estate Sales & Services AZ LLC.\nOriginal listing (E
- stateSales.org): https://estatesales.org/estate-sales/az/gilbert-/85295/b
- lack-friday-madness-in-gilbert-2475320\nSale page on The Dig: https://rhe
- inze08.github.io/the-dig-web/sale/86779704b23169ac/\nConfirm the address 
- and hours on the original listing before you travel.
+LOCATION:4043 E Pony Lane\, Gilbert\, AZ 85295
+DESCRIPTION:Camera close-ups show an Olympus\, a Kodak 35 and a Polaroid M
+ odel 80. A table holds rows of clear stemware.\nHours: 8 AM – 12 PM (Sa
+ turday\, November 28\, local to Phoenix).\nRun by Allegro Estate Sales & 
+ Services Az LLC.\nOriginal listing (EstateSales.org): https://estatesales
+ .org/estate-sales/az/gilbert-/85295/black-friday-madness-in-gilbert-24753
+ 20\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/86
+ 779704b23169ac/\nConfirm the address and hours on the original listing be
+ fore you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/86779704b23169ac/
 END:VEVENT
 END:VCALENDAR

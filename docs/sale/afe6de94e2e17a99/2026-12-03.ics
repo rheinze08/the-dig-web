@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:afe6de94e2e17a99-2026-12-03@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261203T150000Z
+DTEND:20261203T220000Z
+SUMMARY:Huge Warehouse Sale James Avery Legos Antiques Collectibles Funko 
+ Tactical Tools
+LOCATION:3903 Eisenhauer\, San Antonio\, TX 78218
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
+ : 9 AM – 4 PM (Thursday\, December 3\, local to San Antonio).\nRun by A
+ lamo City Mercantale.\nOriginal listing (EstateSales.net): https://www.es
+ tatesales.net/TX/San-Antonio/78218/5173416\nSale page on The Dig: https:/
+ /rheinze08.github.io/the-dig-web/sale/afe6de94e2e17a99/\nConfirm the addr
+ ess and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/afe6de94e2e17a99/
+END:VEVENT
+END:VCALENDAR

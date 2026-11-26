@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0d059f7a68411d22-2026-12-04@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261204T153000Z
+DTEND:20261204T210000Z
+SUMMARY:Just in time for XMAS
+LOCATION:San Antonio\, TX 78212 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Vinyl & records\, jewelry\, clothing\, books and electronics.\
+ nHours: 9:30 AM – 3 PM (Friday\, December 4\, local to San Antonio).\nR
+ un by Estate Solutions.\nOriginal listing (EstateSales.net): https://www.
+ estatesales.net/TX/San-Antonio/78212/5173548\nSale page on The Dig: https
+ ://rheinze08.github.io/the-dig-web/sale/0d059f7a68411d22/\nConfirm the ad
+ dress and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/0d059f7a68411d22/
+END:VEVENT
+END:VCALENDAR

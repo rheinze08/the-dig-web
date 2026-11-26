@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ef7ceb2de0d54b72-2026-12-09@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261209T150000Z
+DTEND:20261210T000000Z
+SUMMARY:Sweetly Collected & Steeped in Americana
+LOCATION:Baytown\, TX 77520 (Address releases Tuesday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and clothing.\nHour
+ s: 9 AM – 6 PM (Wednesday\, December 9\, local to Houston).\nRun by Vir
+ tue Estate Sales.\nOriginal listing (EstateSales.net): https://www.estate
+ sales.net/TX/Baytown/77520/5152005\nSale page on The Dig: https://rheinze
+ 08.github.io/the-dig-web/sale/ef7ceb2de0d54b72/\nConfirm the address and 
+ hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/ef7ceb2de0d54b72/
+END:VEVENT
+END:VCALENDAR

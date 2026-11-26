@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:5d8a059bd75e7055-2026-12-04@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261204T143000Z
 DTEND:20261204T220000Z
 SUMMARY:Plano: Unbeatable Deals by Dayspring
 LOCATION:Plano\, TX 75025 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and vehicles.\nHour
- s: 8:30 AM – 4 PM (Friday\, December 4\, local to Dallas–Fort Worth).
- \nRun by Dayspring Estate Sales.\nOriginal listing (EstateSales.net): htt
- ps://www.estatesales.net/TX/Plano/75025/5156826\nSale page on The Dig: ht
- tps://rheinze08.github.io/the-dig-web/sale/5d8a059bd75e7055/\nConfirm the
-  address and hours on the original listing before you travel.
+DESCRIPTION:Spoons fill wall racks. A tray holds bracelets and wine glass 
+ markers\, and figurines line the TV cabinet.\nHours: 8:30 AM – 4 PM (Fr
+ iday\, December 4\, local to Dallas–Fort Worth).\nRun by Dayspring Esta
+ te Sales.\nOriginal listing (EstateSales.net): https://www.estatesales.ne
+ t/TX/Plano/75025/5156826\nSale page on The Dig: https://rheinze08.github.
+ io/the-dig-web/sale/5d8a059bd75e7055/\nConfirm the address and hours on t
+ he original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/5d8a059bd75e7055/
 END:VEVENT
 END:VCALENDAR

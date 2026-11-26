@@ -5,16 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:6fd24466516630a1-2026-11-27@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261127T140000Z
 DTEND:20261127T190000Z
 SUMMARY:Amazing Finds Estate Sales
-LOCATION:Sun City\, AZ 85351 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 7 AM – 12 PM (Friday\, November 27\, local to Phoenix
- ).\nRun by Amazing Finds Estate Sales.\nOriginal listing (EstateSales.net
- ): https://www.estatesales.net/AZ/Sun-City/85351/5144991\nSale page on Th
- e Dig: https://rheinze08.github.io/the-dig-web/sale/6fd24466516630a1/\nCo
- nfirm the address and hours on the original listing before you travel.
+LOCATION:11844 N Cherry Hills Dr E\, Sun City\, AZ 85351
+DESCRIPTION:A framed picture of dogs in a green truck hangs above a TV. Ta
+ bles hold ankle boots\, figurines and glass jars.\nHours: 7 AM – 12 PM 
+ (Friday\, November 27\, local to Phoenix).\nRun by Amazing Finds Estate S
+ ales.\nOriginal listing (EstateSales.net): https://www.estatesales.net/AZ
+ /Sun-City/85351/5144991\nSale page on The Dig: https://rheinze08.github.i
+ o/the-dig-web/sale/6fd24466516630a1/\nConfirm the address and hours on th
+ e original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/6fd24466516630a1/
 END:VEVENT
 END:VCALENDAR

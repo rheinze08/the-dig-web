@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:24113802cfc9a4d8-2026-12-11@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261211T150000Z
+DTEND:20261211T210000Z
+SUMMARY:Picker's Dream Sale
+LOCATION:Glendale\, AZ 85302 (Address releases Tuesday 9:00 AM)
+DESCRIPTION:Jewelry and clothing.\nHours: 8 AM – 2 PM (Friday\, December
+  11\, local to Phoenix).\nRun by Busy Bees Concierge & Home Services of A
+ Z\, LLC.\nOriginal listing (EstateSales.net): https://www.estatesales.net
+ /AZ/Glendale/85302/5170500\nSale page on The Dig: https://rheinze08.githu
+ b.io/the-dig-web/sale/24113802cfc9a4d8/\nConfirm the address and hours on
+  the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/24113802cfc9a4d8/
+END:VEVENT
+END:VCALENDAR

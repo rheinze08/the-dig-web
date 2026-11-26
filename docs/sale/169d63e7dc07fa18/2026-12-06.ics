@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:169d63e7dc07fa18-2026-12-06@rheinze08.github.io
+DTSTAMP:20261126T203142Z
+DTSTART:20261206T150000Z
+DTEND:20261206T230000Z
+SUMMARY:Castle Couture & Curiosities!
+LOCATION:Carrollton\, TX 75010 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture\, jewelry\, clothing\, art and rugs.\nHours: 9 AM 
+ – 5 PM (Sunday\, December 6\, local to Dallas–Fort Worth).\nRun by Br
+ ight Side Flips.\nOriginal listing (EstateSales.net): https://www.estates
+ ales.net/TX/Carrollton/75010/5173086\nSale page on The Dig: https://rhein
+ ze08.github.io/the-dig-web/sale/169d63e7dc07fa18/\nConfirm the address an
+ d hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/169d63e7dc07fa18/
+END:VEVENT
+END:VCALENDAR

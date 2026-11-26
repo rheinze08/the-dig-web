@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:591fcc4c4d6f2872-2026-11-27@rheinze08.github.io
-DTSTAMP:20261125T203740Z
+DTSTAMP:20261126T203142Z
 DTSTART:20261127T150000Z
 DTEND:20261127T220000Z
 SUMMARY:Overton Park Beauty Has Jewelry\, Designer Furnishings\, Vintage C
  lothing\, and MUCH MORE
-LOCATION:Fort Worth\, TX 76109 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Furniture\, jewelry and clothing.\nHours: 9 AM – 4 PM (Frida
- y\, November 27\, local to Dallas–Fort Worth).\nRun by Head Of Estates.
- \nOriginal listing (EstateSales.net): https://www.estatesales.net/TX/Fort
- -Worth/76109/5172096\nSale page on The Dig: https://rheinze08.github.io/t
- he-dig-web/sale/591fcc4c4d6f2872/\nConfirm the address and hours on the o
- riginal listing before you travel.
+LOCATION:4829 Overton Woods Dr.\, Fort Worth\, TX 76109
+DESCRIPTION:Photos show a Beatles '65 album cover\, rows of pink stemware\
+ , cased flatware and a tall blue and white vase.\nHours: 9 AM – 4 PM (F
+ riday\, November 27\, local to Dallas–Fort Worth).\nRun by Head Of Esta
+ tes.\nOriginal listing (EstateSales.net): https://www.estatesales.net/TX/
+ Fort-Worth/76109/5172096\nSale page on The Dig: https://rheinze08.github.
+ io/the-dig-web/sale/591fcc4c4d6f2872/\nConfirm the address and hours on t
+ he original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/591fcc4c4d6f2872/
 END:VEVENT
 END:VCALENDAR
