@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:169d63e7dc07fa18-2026-12-04@rheinze08.github.io
-DTSTAMP:20261126T203142Z
+DTSTAMP:20261127T201717Z
 DTSTART:20261204T150000Z
 DTEND:20261204T230000Z
 SUMMARY:Castle Couture & Curiosities!
 LOCATION:Carrollton\, TX 75010 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Furniture\, jewelry\, clothing\, art and rugs.\nHours: 9 AM 
- – 5 PM (Friday\, December 4\, local to Dallas–Fort Worth).\nRun by Br
- ight Side Flips.\nOriginal listing (EstateSales.net): https://www.estates
- ales.net/TX/Carrollton/75010/5173086\nSale page on The Dig: https://rhein
- ze08.github.io/the-dig-web/sale/169d63e7dc07fa18/\nConfirm the address an
- d hours on the original listing before you travel.
+DESCRIPTION:A woven chaise has a black-and-white checked cushion. A black 
+ coat has floral embroidery on its front and sleeves.\nHours: 9 AM – 5 P
+ M (Friday\, December 4\, local to Dallas–Fort Worth).\nRun by Bright Si
+ de Flips.\nOriginal listing (EstateSales.net): https://www.estatesales.ne
+ t/TX/Carrollton/75010/5173086\nSale page on The Dig: https://rheinze08.gi
+ thub.io/the-dig-web/sale/169d63e7dc07fa18/\nConfirm the address and hours
+  on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/169d63e7dc07fa18/
 END:VEVENT
 END:VCALENDAR

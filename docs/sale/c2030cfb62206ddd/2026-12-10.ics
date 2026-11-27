@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c2030cfb62206ddd-2026-12-10@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261210T150000Z
+DTEND:20261210T220000Z
+SUMMARY:RITZY POP-UP 3 ESTATES BOUTIQUE SHOPPING EXTRAVAGANZA!
+LOCATION:Fort Worth\, TX 76107 (Address releases Tuesday 9:00 AM)
+DESCRIPTION:Furniture\, kitchen\, clothing\, art and antiques.\nHours: 9 A
+ M – 4 PM (Thursday\, December 10\, local to Dallas–Fort Worth).\nRun 
+ by Cottage Classics Estate Sales.\nOriginal listing (EstateSales.net): ht
+ tps://www.estatesales.net/TX/Fort-Worth/76107/5173875\nSale page on The D
+ ig: https://rheinze08.github.io/the-dig-web/sale/c2030cfb62206ddd/\nConfi
+ rm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/c2030cfb62206ddd/
+END:VEVENT
+END:VCALENDAR

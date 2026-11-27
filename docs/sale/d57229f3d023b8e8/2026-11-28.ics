@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d57229f3d023b8e8-2026-11-28@rheinze08.github.io
-DTSTAMP:20261126T203142Z
+DTSTAMP:20261127T201717Z
 DTSTART:20261128T143000Z
 DTEND:20261128T203000Z
 SUMMARY:Persian Rugs\, Asian Decor\, Mid-Century 40-50% Off
-LOCATION:Fort Worth\, TX 76112 (Address releases Friday 9:00 AM)
-DESCRIPTION:Furniture\, kitchen\, clothing\, books and art.\nHours: 8:30 A
- M – 2:30 PM (Saturday\, November 28\, local to Dallas–Fort Worth).\nR
- un by Dixie Chatham.\nOriginal listing (EstateSales.net): https://www.est
- atesales.net/TX/Fort-Worth/76112/5172729\nSale page on The Dig: https://r
- heinze08.github.io/the-dig-web/sale/d57229f3d023b8e8/\nConfirm the addres
- s and hours on the original listing before you travel.
+LOCATION:5901 Forest River Dr\, Fort Worth\, TX 76112
+DESCRIPTION:Fringed hallway runners have navy or cream grounds. Larger flo
+ ral rugs show pink borders and a blue central medallion.\nHours: 8:30 AM 
+ – 2:30 PM (Saturday\, November 28\, local to Dallas–Fort Worth).\nRun
+  by Dixie Chatham.\nOriginal listing (EstateSales.net): https://www.estat
+ esales.net/TX/Fort-Worth/76112/5172729\nSale page on The Dig: https://rhe
+ inze08.github.io/the-dig-web/sale/d57229f3d023b8e8/\nConfirm the address 
+ and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/d57229f3d023b8e8/
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:494187373dadbdab-2026-11-28@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261128T143000Z
+DTEND:20261128T230000Z
+SUMMARY:Four Family Estate Sale
+LOCATION:5311 N 8th Place near 7th Street and Missouri\, Phoenix\, AZ
+DESCRIPTION:Furniture\, collectibles\, kitchen\, clothing and toys & games
+ .\nHours: 7:30 AM – 4 PM (Saturday\, November 28\, local to Phoenix).\n
+ Original listing (Craigslist Phoenix): https://www.craigslist.org/view/d/
+ phoenix-four-family-estate-sale/x8RWrqRxpJMJPvaTuA6cbB\nSale page on The 
+ Dig: https://rheinze08.github.io/the-dig-web/sale/494187373dadbdab/\nConf
+ irm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/494187373dadbdab/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e4fcbad8d1fed385-2026-12-05@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261205T150000Z
+DTEND:20261205T210000Z
+SUMMARY:FAMILY ESTATE DOWNSIZING SALE
+LOCATION:League City\, TX 77573 (Address releases Friday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
+ : 9 AM – 3 PM (Saturday\, December 5\, local to Houston).\nOriginal lis
+ ting (EstateSales.net): https://www.estatesales.net/TX/League-City/77573/
+ 5172744\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sa
+ le/e4fcbad8d1fed385/\nConfirm the address and hours on the original listi
+ ng before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/e4fcbad8d1fed385/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7acdc932c95aa58b-2026-12-10@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261210T160000Z
+DTEND:20261210T220000Z
+SUMMARY:COLLECTIBLE TREASURES ESTATE SALE
+LOCATION:San Antonio\, TX 78239 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and clothing.\nHour
+ s: 10 AM – 4 PM (Thursday\, December 10\, local to San Antonio).\nRun b
+ y Complete Estate Sale Services.\nOriginal listing (EstateSales.net): htt
+ ps://www.estatesales.net/TX/San-Antonio/78239/5169681\nSale page on The D
+ ig: https://rheinze08.github.io/the-dig-web/sale/7acdc932c95aa58b/\nConfi
+ rm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/7acdc932c95aa58b/
+END:VEVENT
+END:VCALENDAR

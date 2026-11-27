@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5433ef1047adebde-2026-12-13@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261213T170000Z
+DTEND:20261213T210000Z
+SUMMARY:A GENTLEMAN'S WISH LIST
+LOCATION:Nashville\, TN 37215 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, kitchen\, clothing and books.\nHours: 11 A
+ M – 3 PM (Sunday\, December 13\, local to Nashville).\nRun by Looky Loo
+  Estate Sales.\nOriginal listing (EstateSales.net): https://www.estatesal
+ es.net/TN/Nashville/37215/5172942\nSale page on The Dig: https://rheinze0
+ 8.github.io/the-dig-web/sale/5433ef1047adebde/\nConfirm the address and h
+ ours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/5433ef1047adebde/
+END:VEVENT
+END:VCALENDAR

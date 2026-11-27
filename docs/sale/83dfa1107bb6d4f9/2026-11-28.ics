@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:83dfa1107bb6d4f9-2026-11-28@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261128T170000Z
+DTEND:20261128T090000Z
+SUMMARY:Christmas Estate Last Day Saturday Fill a Bag we add it up then Gr
+ eat Discount
+LOCATION:6167 S Dover St\, Littleton\, CO 80123
+DESCRIPTION:Christmas decor.\nHours: 10 AM – 2 AM (Saturday\, November 2
+ 8\, local to Denver).\nOriginal listing (EstateSales.org): https://estate
+ sales.org/estate-sales/co/littleton/80123/christmas-estate-last-day-satur
+ day-2475626\nSale page on The Dig: https://rheinze08.github.io/the-dig-we
+ b/sale/83dfa1107bb6d4f9/\nConfirm the address and hours on the original l
+ isting before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/83dfa1107bb6d4f9/
+END:VEVENT
+END:VCALENDAR

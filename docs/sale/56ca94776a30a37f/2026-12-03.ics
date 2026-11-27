@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:56ca94776a30a37f-2026-12-03@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261203T150000Z
+DTEND:20261203T200000Z
+SUMMARY:BEES KNEES IS IN SANDY SPRINGS
+LOCATION:Atlanta\, GA 30342 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Furniture\, china and mid-century.\nHours: 10 AM – 3 PM (Thu
+ rsday\, December 3\, local to Atlanta).\nRun by Bee's Knees Estate Sales 
+ LLC.\nOriginal listing (EstateSales.org): https://estatesales.org/estate-
+ sales/ga/atlanta/30342/bees-knees-is-in-sandy-2475641\nSale page on The D
+ ig: https://rheinze08.github.io/the-dig-web/sale/56ca94776a30a37f/\nConfi
+ rm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/56ca94776a30a37f/
+END:VEVENT
+END:VCALENDAR

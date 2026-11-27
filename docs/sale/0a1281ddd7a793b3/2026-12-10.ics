@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0a1281ddd7a793b3-2026-12-10@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261210T150000Z
+DTEND:20261210T200000Z
+SUMMARY:Hidden Gems of Round Rock
+LOCATION:Round Rock\, TX 78664 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, collectibles\, electronics and toys & game
+ s.\nHours: 9 AM – 2 PM (Thursday\, December 10\, local to Austin).\nRun
+  by Sunrise Estate Sales.\nOriginal listing (EstateSales.net): https://ww
+ w.estatesales.net/TX/Round-Rock/78664/5167236\nSale page on The Dig: http
+ s://rheinze08.github.io/the-dig-web/sale/0a1281ddd7a793b3/\nConfirm the a
+ ddress and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/0a1281ddd7a793b3/
+END:VEVENT
+END:VCALENDAR

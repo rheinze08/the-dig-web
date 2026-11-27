@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6f19555888b3e2be-2026-12-12@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261212T150000Z
+DTEND:20261212T200000Z
+SUMMARY:Buckhead Elegance....Presented by Nanette
+LOCATION:Atlanta\, GA 30327 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 3 PM (Saturday\, December 12\, local to Atlan
+ ta).\nRun by Signature Estate Sales.\nOriginal listing (EstateSales.net):
+  https://www.estatesales.net/GA/Atlanta/30327/5150661\nSale page on The D
+ ig: https://rheinze08.github.io/the-dig-web/sale/6f19555888b3e2be/\nConfi
+ rm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/6f19555888b3e2be/
+END:VEVENT
+END:VCALENDAR

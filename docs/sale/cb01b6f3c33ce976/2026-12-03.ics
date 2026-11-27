@@ -5,19 +5,20 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cb01b6f3c33ce976-2026-12-03@rheinze08.github.io
-DTSTAMP:20261126T203142Z
+DTSTAMP:20261127T201717Z
 DTSTART:20261203T150000Z
 DTEND:20261203T220000Z
 SUMMARY:Fabulous Finds in Flower Mound!! Antiques\, Vintage\, Pottery Barn
   and All!
 LOCATION:Flower Mound\, TX 75022 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
- .\nHours: 9 AM – 4 PM (Thursday\, December 3\, local to Dallas–Fort W
- orth).\nRun by Treasure Trove Estate Sale Services.\nOriginal listing (Es
- tateSales.org): https://estatesales.org/estate-sales/tx/flower-mound/7502
- 2/fabulous-finds-in-flower-mound-2474899\nSale page on The Dig: https://r
- heinze08.github.io/the-dig-web/sale/cb01b6f3c33ce976/\nConfirm the addres
- s and hours on the original listing before you travel.
+DESCRIPTION:Plush snowmen and Christmas pillows line a bench. Santa figuri
+ nes fill a table\, and red Christmas mugs sit on shelves.\nHours: 9 AM 
+ – 4 PM (Thursday\, December 3\, local to Dallas–Fort Worth).\nRun by 
+ Treasure Trove Estate Sale Services.\nOriginal listing (EstateSales.org):
+  https://estatesales.org/estate-sales/tx/flower-mound/75022/fabulous-find
+ s-in-flower-mound-2474899\nSale page on The Dig: https://rheinze08.github
+ .io/the-dig-web/sale/cb01b6f3c33ce976/\nConfirm the address and hours on 
+ the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/cb01b6f3c33ce976/
 END:VEVENT
 END:VCALENDAR

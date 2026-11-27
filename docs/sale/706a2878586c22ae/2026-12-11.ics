@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:706a2878586c22ae-2026-12-11@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261211T143000Z
+DTEND:20261211T230000Z
+SUMMARY:University Park: Unbeatable Deals by Dayspring
+LOCATION:Dallas\, TX 75205 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and kitchen.\nHours
+ : 8:30 AM – 5 PM (Friday\, December 11\, local to Dallas–Fort Worth).
+ \nRun by Dayspring Estate Sales.\nOriginal listing (EstateSales.net): htt
+ ps://www.estatesales.net/TX/Dallas/75205/5168148\nSale page on The Dig: h
+ ttps://rheinze08.github.io/the-dig-web/sale/706a2878586c22ae/\nConfirm th
+ e address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/706a2878586c22ae/
+END:VEVENT
+END:VCALENDAR

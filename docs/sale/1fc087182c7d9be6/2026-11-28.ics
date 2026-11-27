@@ -5,17 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:1fc087182c7d9be6-2026-11-28@rheinze08.github.io
-DTSTAMP:20261126T203142Z
+DTSTAMP:20261127T201717Z
 DTSTART:20261128T150000Z
 DTEND:20261128T230000Z
 SUMMARY:Bold & Beautiful Estate Sale + 7 sales at 70% off
 LOCATION:1301 Custer #706 (Directly behind the Tee Time Bar)\, Plano\, TX 
  75075
-DESCRIPTION:Hours: 9 AM – 5 PM (Saturday\, November 28\, local to Dallas
- –Fort Worth).\nRun by Crush Estate Sales.\nOriginal listing (EstateSale
- s.net): https://www.estatesales.net/TX/Plano/75075/5172522\nSale page on 
- The Dig: https://rheinze08.github.io/the-dig-web/sale/1fc087182c7d9be6/\n
- Confirm the address and hours on the original listing before you travel.
+DESCRIPTION:A loveseat and high-back armchair have tufted backs. Fringed p
+ illows line a curved sofa.\nHours: 9 AM – 5 PM (Saturday\, November 28\
+ , local to Dallas–Fort Worth).\nRun by Crush Estate Sales.\nOriginal li
+ sting (EstateSales.net): https://www.estatesales.net/TX/Plano/75075/51725
+ 22\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/1f
+ c087182c7d9be6/\nConfirm the address and hours on the original listing be
+ fore you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/1fc087182c7d9be6/
 END:VEVENT
 END:VCALENDAR

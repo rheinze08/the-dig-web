@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:345e1c15b440947b-2026-12-12@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261212T150000Z
+DTEND:20261212T210000Z
+SUMMARY:Crafty Elegance in Trilogy!
+LOCATION:Gilbert\, AZ 85298 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Hours: 8 AM – 2 PM (Saturday\, December 12\, local to Phoeni
+ x).\nRun by Az Elegant Estates LLC.\nOriginal listing (EstateSales.org): 
+ https://estatesales.org/estate-sales/az/gilbert/85298/crafty-elegance-in-
+ trilogy-2473054\nSale page on The Dig: https://rheinze08.github.io/the-di
+ g-web/sale/345e1c15b440947b/\nConfirm the address and hours on the origin
+ al listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/345e1c15b440947b/
+END:VEVENT
+END:VCALENDAR

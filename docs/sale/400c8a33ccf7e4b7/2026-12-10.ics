@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:400c8a33ccf7e4b7-2026-12-10@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261210T150000Z
+DTEND:20261210T220000Z
+SUMMARY:A FAMILY AFFAIR MODERN FURNITURE & CHILD'S PLAY ESTATE SALE BY ALA
+ MO AZTEK ESTATE SALES DFW
+LOCATION:Carrollton\, TX 75007 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, kitchen\, clothing and books.\nHours: 9 AM
+  – 4 PM (Thursday\, December 10\, local to Dallas–Fort Worth).\nRun b
+ y Alamo Aztek Estate Sales.\nOriginal listing (EstateSales.org): https://
+ estatesales.org/estate-sales/tx/carrollton/75007/a-family-affair-modern-f
+ urniture-2473794\nSale page on The Dig: https://rheinze08.github.io/the-d
+ ig-web/sale/400c8a33ccf7e4b7/\nConfirm the address and hours on the origi
+ nal listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/400c8a33ccf7e4b7/
+END:VEVENT
+END:VCALENDAR

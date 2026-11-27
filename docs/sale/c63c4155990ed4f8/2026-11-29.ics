@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c63c4155990ed4f8-2026-11-29@rheinze08.github.io
-DTSTAMP:20261126T203142Z
+DTSTAMP:20261127T201717Z
 DTSTART:20261129T140000Z
 DTEND:20261129T200000Z
 SUMMARY:3 Home Purge
 LOCATION:900 E. 53 1/2 Street\, Austin\, TX 78751
-DESCRIPTION:Tools\, furniture\, kitchen and clothing.\nHours: 8 AM – 2 P
- M (Sunday\, November 29\, local to Austin).\nOriginal listing (EstateSale
- s.net): https://www.estatesales.net/TX/Austin/78751/5172957\nSale page on
-  The Dig: https://rheinze08.github.io/the-dig-web/sale/c63c4155990ed4f8/\
- nConfirm the address and hours on the original listing before you travel.
+DESCRIPTION:Cowboy boots and loafers cover a table. Two floral armchairs f
+ lank a round table with stemware.\nHours: 8 AM – 2 PM (Sunday\, Novembe
+ r 29\, local to Austin).\nOriginal listing (EstateSales.net): https://www
+ .estatesales.net/TX/Austin/78751/5172957\nSale page on The Dig: https://r
+ heinze08.github.io/the-dig-web/sale/c63c4155990ed4f8/\nConfirm the addres
+ s and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/c63c4155990ed4f8/
 END:VEVENT
 END:VCALENDAR

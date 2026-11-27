@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d4598ea7781d594b-2026-11-27@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261127T140000Z
+DTEND:20261127T220000Z
+SUMMARY:Tools tools and more
+LOCATION:7432 e Roosevelt street\, Scottsdale AZ\, Scottsdale\, AZ 85257
+DESCRIPTION:Tools and vehicles.\nHours: 7 AM – 3 PM (Friday\, November 2
+ 7\, local to Phoenix).\nOriginal listing (EstateSales.net): https://www.e
+ statesales.net/AZ/Scottsdale/85257/5173755\nSale page on The Dig: https:/
+ /rheinze08.github.io/the-dig-web/sale/d4598ea7781d594b/\nConfirm the addr
+ ess and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/d4598ea7781d594b/
+END:VEVENT
+END:VCALENDAR

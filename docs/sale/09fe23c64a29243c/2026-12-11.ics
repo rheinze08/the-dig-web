@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:09fe23c64a29243c-2026-12-11@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261211T140000Z
+DTEND:20261211T210000Z
+SUMMARY:Brentwood Moving Sale - TOOLS GALORE
+LOCATION:Brentwood\, TN 37027 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Tools and furniture.\nHours: 8 AM – 3 PM (Friday\, December 
+ 11\, local to Nashville).\nRun by Busy Bee Moving Sales.\nOriginal listin
+ g (EstateSales.net): https://www.estatesales.net/TN/Brentwood/37027/50570
+ 13\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/09
+ fe23c64a29243c/\nConfirm the address and hours on the original listing be
+ fore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/09fe23c64a29243c/
+END:VEVENT
+END:VCALENDAR

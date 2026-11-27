@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:03403af350b1af68-2026-12-02@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261202T160000Z
+DTEND:20261202T200000Z
+SUMMARY:December in Donelson (please read description)
+LOCATION:Nashville\, TN 37214 (Address releases Tuesday 9:00 AM)
+DESCRIPTION:Furniture\, vehicles\, kitchen\, clothing and china.\nHours: 1
+ 0 AM – 2 PM (Wednesday\, December 2\, local to Nashville).\nRun by Room
+ s And Boards Estate Sales.\nOriginal listing (EstateSales.net): https://w
+ ww.estatesales.net/TN/Nashville/37214/5173986\nSale page on The Dig: http
+ s://rheinze08.github.io/the-dig-web/sale/03403af350b1af68/\nConfirm the a
+ ddress and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/03403af350b1af68/
+END:VEVENT
+END:VCALENDAR

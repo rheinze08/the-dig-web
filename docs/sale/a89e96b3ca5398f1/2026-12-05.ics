@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a89e96b3ca5398f1-2026-12-05@rheinze08.github.io
-DTSTAMP:20261126T203142Z
+DTSTAMP:20261127T201717Z
 DTSTART:20261205T170000Z
 DTEND:20261205T210000Z
 SUMMARY:Estate Sale | Quality Furniture\, Cherry Dining Set\, Executive De
  sk\, Kitchen Items\, Outdoor Patio\,etc
 LOCATION:Centennial\, CO 80112 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, kitchen\, art and electronics.\nHours: 10 
- AM – 2 PM (Saturday\, December 5\, local to Denver).\nRun by Centennial
-  Estate Sales.\nOriginal listing (EstateSales.net): https://www.estatesal
- es.net/CO/Englewood/80112/5173212\nSale page on The Dig: https://rheinze0
- 8.github.io/the-dig-web/sale/a89e96b3ca5398f1/\nConfirm the address and h
- ours on the original listing before you travel.
+DESCRIPTION:A pale green tufted sofa and two matching armchairs surround a
+  round coffee table with a floral border.\nHours: 10 AM – 2 PM (Saturda
+ y\, December 5\, local to Denver).\nRun by Centennial Estate Sales.\nOrig
+ inal listing (EstateSales.net): https://www.estatesales.net/CO/Englewood/
+ 80112/5173212\nSale page on The Dig: https://rheinze08.github.io/the-dig-
+ web/sale/a89e96b3ca5398f1/\nConfirm the address and hours on the original
+  listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/a89e96b3ca5398f1/
 END:VEVENT
 END:VCALENDAR

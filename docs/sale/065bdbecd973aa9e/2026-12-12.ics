@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:065bdbecd973aa9e-2026-12-12@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261212T140000Z
+DTEND:20261212T220000Z
+SUMMARY:"THE TREASURE SEEKER"
+LOCATION:Austin\, TX 78758 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, art\, china and mid-century.\nHours: 8 AM 
+ – 4 PM (Saturday\, December 12\, local to Austin).\nRun by Unity Estate
+  Services.\nOriginal listing (EstateSales.net): https://www.estatesales.n
+ et/TX/Austin/78758/5172288\nSale page on The Dig: https://rheinze08.githu
+ b.io/the-dig-web/sale/065bdbecd973aa9e/\nConfirm the address and hours on
+  the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/065bdbecd973aa9e/
+END:VEVENT
+END:VCALENDAR

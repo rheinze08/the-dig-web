@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9b3b9be3b93c839a-2026-12-06@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261206T140000Z
+DTEND:20261206T180000Z
+SUMMARY:Downsizing sale: antiques\, vintage\, decors etc.
+LOCATION:Tyrone\, GA 30290 (Address releases Thursday 9:00 AM)
+DESCRIPTION:Furniture\, collectibles\, art\, antiques and lamps.\nHours: 9
+  AM – 1 PM (Sunday\, December 6\, local to Atlanta).\nRun by Pinewood A
+ ntiques\, LLC.\nOriginal listing (EstateSales.net): https://www.estatesal
+ es.net/GA/Tyrone/30290/5172444\nSale page on The Dig: https://rheinze08.g
+ ithub.io/the-dig-web/sale/9b3b9be3b93c839a/\nConfirm the address and hour
+ s on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/9b3b9be3b93c839a/
+END:VEVENT
+END:VCALENDAR

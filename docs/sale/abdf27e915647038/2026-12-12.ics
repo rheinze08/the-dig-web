@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:abdf27e915647038-2026-12-12@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261212T160000Z
+DTEND:20261212T190000Z
+SUMMARY:ESTATE IN TIME® - NORTH SCOTTSDALE ESTATE SALE| EXTRAORDINARY ART
+  & RARE TREASURES
+LOCATION:Scottsdale\, AZ 85255 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Art and crystal.\nHours: 9 AM – 12 PM (Saturday\, December 1
+ 2\, local to Phoenix).\nRun by An Estate In Time\, LLC.\nOriginal listing
+  (EstateSales.net): https://www.estatesales.net/AZ/Scottsdale/85255/51363
+ 03\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/ab
+ df27e915647038/\nConfirm the address and hours on the original listing be
+ fore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/abdf27e915647038/
+END:VEVENT
+END:VCALENDAR

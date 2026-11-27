@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ef7ceb2de0d54b72-2026-12-11@rheinze08.github.io
-DTSTAMP:20261126T203142Z
+DTSTAMP:20261127T201717Z
 DTSTART:20261211T150000Z
 DTEND:20261212T000000Z
 SUMMARY:Sweetly Collected & Steeped in Americana
 LOCATION:Baytown\, TX 77520 (Address releases Tuesday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, jewelry\, collectibles and clothing.\nHour
- s: 9 AM – 6 PM (Friday\, December 11\, local to Houston).\nRun by Virtu
- e Estate Sales.\nOriginal listing (EstateSales.net): https://www.estatesa
- les.net/TX/Baytown/77520/5152005\nSale page on The Dig: https://rheinze08
- .github.io/the-dig-web/sale/ef7ceb2de0d54b72/\nConfirm the address and ho
- urs on the original listing before you travel.
+DESCRIPTION:Cups ring a footed punch bowl on its tray. Framed needlework s
+ tands between stacks of patchwork quilts.\nHours: 9 AM – 6 PM (Friday\,
+  December 11\, local to Houston).\nRun by Virtue Estate Sales.\nOriginal 
+ listing (EstateSales.net): https://www.estatesales.net/TX/Baytown/77520/5
+ 152005\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sal
+ e/ef7ceb2de0d54b72/\nConfirm the address and hours on the original listin
+ g before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/ef7ceb2de0d54b72/
 END:VEVENT
 END:VCALENDAR

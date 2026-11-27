@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1c978166b8d0ad5a-2026-11-28@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261128T150000Z
+DTEND:20261128T100000Z
+SUMMARY:Estate Sale - Everything Discounted! Attn resellers!
+LOCATION:1600 Ross Ave\, Carrollton\, TX 75006
+DESCRIPTION:Furniture\, kitchen and books.\nHours: 9 AM – 4 AM (Saturday
+ \, November 28\, local to Dallas–Fort Worth).\nOriginal listing (Estate
+ Sales.org): https://estatesales.org/estate-sales/tx/carrollton/75006/esta
+ te-sale-everything-discounted-attn-2475713\nSale page on The Dig: https:/
+ /rheinze08.github.io/the-dig-web/sale/1c978166b8d0ad5a/\nConfirm the addr
+ ess and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1c978166b8d0ad5a/
+END:VEVENT
+END:VCALENDAR

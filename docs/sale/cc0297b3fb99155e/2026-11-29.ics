@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cc0297b3fb99155e-2026-11-29@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261129T173000Z
+DTEND:20261129T220000Z
+SUMMARY:Annie's Estate Sales ~ Arlington
+LOCATION:4223 Oak Springs Drive\, Arlington\, TX 76016
+DESCRIPTION:Tools\, furniture\, vinyl & records\, jewelry and collectibles
+ .\nHours: 11:30 AM – 4 PM (Sunday\, November 29\, local to Dallas–For
+ t Worth).\nRun by Annie's Estate Sales.\nOriginal listing (EstateSales.ne
+ t): https://www.estatesales.net/TX/Arlington/76016/5120742\nSale page on 
+ The Dig: https://rheinze08.github.io/the-dig-web/sale/cc0297b3fb99155e/\n
+ Confirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/cc0297b3fb99155e/
+END:VEVENT
+END:VCALENDAR

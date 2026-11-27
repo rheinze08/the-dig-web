@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9a367b1405a00120-2026-12-11@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261211T160000Z
+DTEND:20261211T210000Z
+SUMMARY:Helping Hands in Plano
+LOCATION:Plano\, TX 75023 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Furniture\, collectibles\, vehicles\, art and toys & games.\nH
+ ours: 10 AM – 3 PM (Friday\, December 11\, local to Dallas–Fort Worth
+ ).\nRun by Helping Hands By Ms.kay.\nOriginal listing (EstateSales.net): 
+ https://www.estatesales.net/TX/Plano/75023/5167953\nSale page on The Dig:
+  https://rheinze08.github.io/the-dig-web/sale/9a367b1405a00120/\nConfirm 
+ the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/9a367b1405a00120/
+END:VEVENT
+END:VCALENDAR

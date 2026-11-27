@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fa812e53b4216b77-2026-12-06@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261206T160000Z
+DTEND:20261206T220000Z
+SUMMARY:LANN Estate Sale - Bent Tree North (PART TWO)
+LOCATION:Dallas\, TX 75287 (Address releases Friday 9:00 AM)
+DESCRIPTION:Furniture\, kitchen\, clothing\, books and art.\nHours: 10 AM 
+ – 4 PM (Sunday\, December 6\, local to Dallas–Fort Worth).\nRun by La
+ nn Estate Sales.\nOriginal listing (EstateSales.net): https://www.estates
+ ales.net/TX/Dallas/75287/5174178\nSale page on The Dig: https://rheinze08
+ .github.io/the-dig-web/sale/fa812e53b4216b77/\nConfirm the address and ho
+ urs on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/fa812e53b4216b77/
+END:VEVENT
+END:VCALENDAR

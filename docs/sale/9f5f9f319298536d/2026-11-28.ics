@@ -5,16 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:9f5f9f319298536d-2026-11-28@rheinze08.github.io
-DTSTAMP:20261126T203142Z
+DTSTAMP:20261127T201717Z
 DTSTART:20261128T140000Z
 DTEND:20261128T210000Z
 SUMMARY:Vintage antiques
-LOCATION:Phoenix\, AZ 85013 (Address releases Friday 9:00 AM)
-DESCRIPTION:Clothing and antiques.\nHours: 7 AM – 2 PM (Saturday\, Novem
- ber 28\, local to Phoenix).\nOriginal listing (EstateSales.net): https://
- www.estatesales.net/AZ/Phoenix/85013/5173518\nSale page on The Dig: https
- ://rheinze08.github.io/the-dig-web/sale/9f5f9f319298536d/\nConfirm the ad
- dress and hours on the original listing before you travel.
+LOCATION:523 west highland avenue\, Phoenix\, AZ 85013
+DESCRIPTION:Antlers\, a horse figurine and a large decorative star sit ato
+ p a display hutch with glass-front doors.\nHours: 7 AM – 2 PM (Saturday
+ \, November 28\, local to Phoenix).\nOriginal listing (EstateSales.net): 
+ https://www.estatesales.net/AZ/Phoenix/85013/5173518\nSale page on The Di
+ g: https://rheinze08.github.io/the-dig-web/sale/9f5f9f319298536d/\nConfir
+ m the address and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/9f5f9f319298536d/
 END:VEVENT
 END:VCALENDAR

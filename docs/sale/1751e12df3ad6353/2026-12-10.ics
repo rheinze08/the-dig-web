@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1751e12df3ad6353-2026-12-10@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261210T140000Z
+DTEND:20261210T230000Z
+SUMMARY:BEAUTIFUL BRENTWOOD ESTATE SALE!!
+LOCATION:Brentwood\, TN 37027 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Tools\, furniture\, kitchen\, clothing and books.\nHours: 8 AM
+  – 5 PM (Thursday\, December 10\, local to Nashville).\nRun by Estate S
+ ales By Sheila.\nOriginal listing (EstateSales.org): https://estatesales.
+ org/estate-sales/tn/brentwood/37027/beautiful-brentwood-estate-sale-24714
+ 24\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/17
+ 51e12df3ad6353/\nConfirm the address and hours on the original listing be
+ fore you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1751e12df3ad6353/
+END:VEVENT
+END:VCALENDAR

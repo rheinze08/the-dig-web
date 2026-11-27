@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fee5aa425a7aa049-2026-12-11@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261211T160000Z
+DTEND:20261211T200000Z
+SUMMARY:Grasons of Nashville - West Meade Estate Sale - Treasures before T
+ eardown
+LOCATION:801 Belton Drive\, Nashville\, TN 37205
+DESCRIPTION:Furniture and mid-century.\nHours: 10 AM – 2 PM (Friday\, De
+ cember 11\, local to Nashville).\nRun by Grasons Of Nashville\, TN.\nOrig
+ inal listing (EstateSales.org): https://estatesales.org/estate-sales/tn/n
+ ashville/37205/grasons-of-nashville-west-meade-2472533\nSale page on The 
+ Dig: https://rheinze08.github.io/the-dig-web/sale/fee5aa425a7aa049/\nConf
+ irm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/fee5aa425a7aa049/
+END:VEVENT
+END:VCALENDAR

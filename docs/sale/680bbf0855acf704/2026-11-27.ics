@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:680bbf0855acf704-2026-11-27@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261127T150000Z
+DTEND:20261127T190000Z
+SUMMARY:Black Friday madness in Gilbert **unit 101**
+LOCATION:4043 E Pony Ln\, Gilbert\, AZ 85295
+DESCRIPTION:Hours: 8 AM – 12 PM (Friday\, November 27\, local to Phoenix
+ ).\nRun by Allegro Estate Sales & Services AZ LLC.\nOriginal listing (Est
+ ateSales.org): https://estatesales.org/estate-sales/az/gilbert/85295/blac
+ k-friday-madness-in-gilbert-2475320\nSale page on The Dig: https://rheinz
+ e08.github.io/the-dig-web/sale/680bbf0855acf704/\nConfirm the address and
+  hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/680bbf0855acf704/
+END:VEVENT
+END:VCALENDAR

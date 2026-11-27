@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:db9ec92ccfd9672c-2026-12-10@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261210T150000Z
+DTEND:20261210T210000Z
+SUMMARY:ANOTHER GREAT SALE IN SNELLVILLE BY KICKIN' & PICKIN'! STAY TUNED
+LOCATION:Snellville\, GA 30078 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 4 PM (Thursday\, December 10\, local to Atlan
+ ta).\nRun by A Kickin' & Pickin' Estate Sales.\nOriginal listing (EstateS
+ ales.net): https://www.estatesales.net/GA/Snellville/30078/5105694\nSale 
+ page on The Dig: https://rheinze08.github.io/the-dig-web/sale/db9ec92ccfd
+ 9672c/\nConfirm the address and hours on the original listing before you 
+ travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/db9ec92ccfd9672c/
+END:VEVENT
+END:VCALENDAR

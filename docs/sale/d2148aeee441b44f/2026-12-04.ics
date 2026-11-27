@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d2148aeee441b44f-2026-12-04@rheinze08.github.io
-DTSTAMP:20261126T203142Z
+DTSTAMP:20261127T201717Z
 DTSTART:20261204T160000Z
 DTEND:20261204T210000Z
 SUMMARY:Tarrytown/Highland Park West
 LOCATION:Austin\, TX 78731 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Furniture\, kitchen\, clothing\, art and antiques.\nHours: 10 
- AM – 3 PM (Friday\, December 4\, local to Austin).\nRun by Laura Kuyken
- dall Estate Sales & Staging.\nOriginal listing (EstateSales.net): https:/
- /www.estatesales.net/TX/Austin/78731/5170680\nSale page on The Dig: https
- ://rheinze08.github.io/the-dig-web/sale/d2148aeee441b44f/\nConfirm the ad
- dress and hours on the original listing before you travel.
+DESCRIPTION:A floral armoire opens to shelves and drawers. A writing desk 
+ has curved legs\, and a blue garden stool has cutout sides.\nHours: 10 AM
+  – 3 PM (Friday\, December 4\, local to Austin).\nRun by Laura Kuykenda
+ ll Estate Sales & Staging.\nOriginal listing (EstateSales.net): https://w
+ ww.estatesales.net/TX/Austin/78731/5170680\nSale page on The Dig: https:/
+ /rheinze08.github.io/the-dig-web/sale/d2148aeee441b44f/\nConfirm the addr
+ ess and hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/d2148aeee441b44f/
 END:VEVENT
 END:VCALENDAR

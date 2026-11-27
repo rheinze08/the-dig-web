@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1ee0339953df788d-2026-11-30@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261130T153000Z
+DTEND:20261130T220000Z
+SUMMARY:Mahogany and Marble Antiques\, Waterford\, Outdoor Must Haves
+LOCATION:Atlanta\, GA 30338 (Address releases Thursday 9:00 AM)
+DESCRIPTION:A black grand piano and bench\, a sideboard with turned legs\,
+  a mirrored dresser and a lamp with a rose-patterned shade.\nHours: 10:30
+  AM – 5 PM (Monday\, November 30\, local to Atlanta).\nRun by Dunwoody 
+ Estate Treasures.\nOriginal listing (EstateSales.net): https://www.estate
+ sales.net/GA/Atlanta/30338/5170545\nSale page on The Dig: https://rheinze
+ 08.github.io/the-dig-web/sale/1ee0339953df788d/\nConfirm the address and 
+ hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/1ee0339953df788d/
+END:VEVENT
+END:VCALENDAR

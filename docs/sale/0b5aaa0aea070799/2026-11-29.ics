@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0b5aaa0aea070799-2026-11-29@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261129T160000Z
+DTEND:20261129T220000Z
+SUMMARY:POST-THANKSGIVING ESTATE SALE Listing ID#: 912284
+LOCATION:1019 Tiki Drive\, Tiki Island\, TX 77554
+DESCRIPTION:Hours: 10 AM – 4 PM (Sunday\, November 29\, local to Houston
+ ).\nRun by Karacostas Estate Sale Services.\nOriginal listing (EstateSale
+ .com): https://www.estatesale.com/sales/view/912284.html\nSale page on Th
+ e Dig: https://rheinze08.github.io/the-dig-web/sale/0b5aaa0aea070799/\nCo
+ nfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/0b5aaa0aea070799/
+END:VEVENT
+END:VCALENDAR

@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:9e52f1dac3def090-2026-12-05@rheinze08.github.io
-DTSTAMP:20261126T203142Z
+DTSTAMP:20261127T201717Z
 DTSTART:20261205T150000Z
 DTEND:20261205T210000Z
 SUMMARY:Books Galore in Nashville!
 LOCATION:Nashville\, TN 37205 (Address releases Wednesday 9:00 AM)
-DESCRIPTION:Furniture\, jewelry\, vehicles\, kitchen and clothing.\nHours:
-  9 AM – 3 PM (Saturday\, December 5\, local to Nashville).\nRun by Anot
- her's Treasure Estate Sales LLC.\nOriginal listing (EstateSales.net): htt
- ps://www.estatesales.net/TN/Nashville/37205/5173326\nSale page on The Dig
- : https://rheinze08.github.io/the-dig-web/sale/9e52f1dac3def090/\nConfirm
-  the address and hours on the original listing before you travel.
+DESCRIPTION:The four-door sedan has tan seats and a sunroof. Its odometer 
+ displays 095132.\nHours: 9 AM – 3 PM (Saturday\, December 5\, local to 
+ Nashville).\nRun by Another's Treasure Estate Sales LLC.\nOriginal listin
+ g (EstateSales.net): https://www.estatesales.net/TN/Nashville/37205/51733
+ 26\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/9e
+ 52f1dac3def090/\nConfirm the address and hours on the original listing be
+ fore you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/9e52f1dac3def090/
 END:VEVENT
 END:VCALENDAR

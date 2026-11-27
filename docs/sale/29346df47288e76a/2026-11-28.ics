@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:29346df47288e76a-2026-11-28@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261128T140000Z
+DTEND:20261128T210000Z
+SUMMARY:1 DAY SALE ONLY! EVERYTHING MUST GO. NO REASONABLE OFFER REFUSED. 
+ LARGE 3 LEVEL HOME IN ALPHARETTA
+LOCATION:1825 BROADWELL OAKS DRIVE\, Alpharetta\, GA 30004
+DESCRIPTION:Furniture\, collectibles\, kitchen\, books and toys & games.\n
+ Hours: 9 AM – 4 PM (Saturday\, November 28\, local to Atlanta).\nOrigin
+ al listing (EstateSales.net): https://www.estatesales.net/GA/Alpharetta/3
+ 0004/5170650\nSale page on The Dig: https://rheinze08.github.io/the-dig-w
+ eb/sale/29346df47288e76a/\nConfirm the address and hours on the original 
+ listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/29346df47288e76a/
+END:VEVENT
+END:VCALENDAR

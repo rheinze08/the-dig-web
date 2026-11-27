@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:24b423a9d90a769b-2026-12-06@rheinze08.github.io
-DTSTAMP:20261126T203142Z
+DTSTAMP:20261127T201717Z
 DTSTART:20261206T150000Z
 DTEND:20261206T210000Z
-SUMMARY:CASTLE ESTATE SALES by Steve & Deanna
+SUMMARY:TONS OF GOODIES! CASTLE ESTATE SALES by Steve & Deanna
 LOCATION:Marietta\, GA 30064 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Tools\, furniture\, collectibles\, kitchen and clothing.\nHour
- s: 10 AM – 4 PM (Sunday\, December 6\, local to Atlanta).\nRun by Castl
- e Estate Sales.\nOriginal listing (EstateSales.net): https://www.estatesa
- les.net/GA/Marietta/30064/5171568\nSale page on The Dig: https://rheinze0
- 8.github.io/the-dig-web/sale/24b423a9d90a769b/\nConfirm the address and h
- ours on the original listing before you travel.
+DESCRIPTION:A grandfather clock stands beside a framed garden scene. Two b
+ otanical prints flank a candle sconce.\nHours: 10 AM – 4 PM (Sunday\, D
+ ecember 6\, local to Atlanta).\nRun by Castle Estate Sales.\nOriginal lis
+ ting (EstateSales.net): https://www.estatesales.net/GA/Marietta/30064/517
+ 1568\nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/
+ 24b423a9d90a769b/\nConfirm the address and hours on the original listing 
+ before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/24b423a9d90a769b/
 END:VEVENT
 END:VCALENDAR

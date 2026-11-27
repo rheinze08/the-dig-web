@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:be56dcbc29c8b09d-2026-12-10@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261210T150000Z
+DTEND:20261210T220000Z
+SUMMARY:Maple Street Estate Sales: East Cobb Estate Sale
+LOCATION:Marietta\, GA 30067 (Address releases Wednesday 9:00 AM)
+DESCRIPTION:Hours: 10 AM – 5 PM (Thursday\, December 10\, local to Atlan
+ ta).\nRun by Maple Street Estate Sales.\nOriginal listing (EstateSales.ne
+ t): https://www.estatesales.net/GA/Marietta/30067/5170404\nSale page on T
+ he Dig: https://rheinze08.github.io/the-dig-web/sale/be56dcbc29c8b09d/\nC
+ onfirm the address and hours on the original listing before you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/be56dcbc29c8b09d/
+END:VEVENT
+END:VCALENDAR

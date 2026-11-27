@@ -5,16 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ad56f6879c307adc-2026-12-05@rheinze08.github.io
-DTSTAMP:20261126T203142Z
+DTSTAMP:20261127T201717Z
 DTSTART:20261205T150000Z
 DTEND:20261205T210000Z
 SUMMARY:Follow the Relic Road in Round Rock
 LOCATION:Austin\, TX 78717 (Address releases Thursday 9:00 AM)
-DESCRIPTION:Hours: 9 AM – 3 PM (Saturday\, December 5\, local to Austin)
- .\nRun by Relic Road Estate Sales.\nOriginal listing (EstateSales.net): h
- ttps://www.estatesales.net/TX/Austin/78717/5173257\nSale page on The Dig:
-  https://rheinze08.github.io/the-dig-web/sale/ad56f6879c307adc/\nConfirm 
- the address and hours on the original listing before you travel.
+DESCRIPTION:Pastel birthday figurines carry gold numbers. A basket holds S
+ anta and bear ornaments beside a clear tabletop tree.\nHours: 9 AM – 3 
+ PM (Saturday\, December 5\, local to Austin).\nRun by Relic Road Estate S
+ ales.\nOriginal listing (EstateSales.net): https://www.estatesales.net/TX
+ /Austin/78717/5173257\nSale page on The Dig: https://rheinze08.github.io/
+ the-dig-web/sale/ad56f6879c307adc/\nConfirm the address and hours on the 
+ original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/ad56f6879c307adc/
 END:VEVENT
 END:VCALENDAR

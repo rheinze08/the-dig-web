@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Dig//Estate sale calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ce68a043595e2ed5-2026-11-29@rheinze08.github.io
+DTSTAMP:20261127T201717Z
+DTSTART:20261129T150000Z
+DTEND:20261129T210000Z
+SUMMARY:Rare lifetime perfume bottle collection.
+LOCATION:1790 Cheshire Bridge Rd NE\, Atlanta\, GA 30324
+DESCRIPTION:Antiques.\nHours: 10 AM – 4 PM (Sunday\, November 29\, local
+  to Atlanta).\nRun by Donna Davis Estate Sales LLC\, Downsizing\, Senior 
+ Moves.\nOriginal listing (EstateSales.org): https://estatesales.org/estat
+ e-sales/ga/atlanta/30324/rare-lifetime-perfume-bottle-collection-2475705\
+ nSale page on The Dig: https://rheinze08.github.io/the-dig-web/sale/ce68a
+ 043595e2ed5/\nConfirm the address and hours on the original listing befor
+ e you travel.
+URL:https://rheinze08.github.io/the-dig-web/sale/ce68a043595e2ed5/
+END:VEVENT
+END:VCALENDAR

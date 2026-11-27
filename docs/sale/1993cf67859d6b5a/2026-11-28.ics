@@ -5,18 +5,19 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:1993cf67859d6b5a-2026-11-28@rheinze08.github.io
-DTSTAMP:20261126T203142Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:ESTATE SALE Sat 11/28 9-4 Marietta: Antiques\, Spode\, Brass\, Pai
- ntings
-LOCATION:1040 Olde Canter Ct\, Marietta\, GA
-DESCRIPTION:Furniture\, vehicles\, kitchen\, books and art.\nHours: Hours 
- not listed (Saturday\, November 28\, local to Atlanta).\nOriginal listing
-  (Craigslist Atlanta): https://www.craigslist.org/view/d/marietta-estate-
- sale-sat-marietta/1G6xrw7k4Gb5rsxp3WX3YG\nSale page on The Dig: https://r
- heinze08.github.io/the-dig-web/sale/1993cf67859d6b5a/\nConfirm the addres
- s and hours on the original listing before you travel.
+DTSTAMP:20261127T201717Z
+DTSTART:20261128T140000Z
+DTEND:20261128T210000Z
+SUMMARY:Fine Antiques\, Spode Christmas\, Restoration Wood Furniture & Oil
+  Paintings: 1-Day Marietta Sale
+LOCATION:1040 Olde Canter Ct\, Marietta\, GA 30064
+DESCRIPTION:A spindle bed frame and a pair of red-seat chairs appear along
+ side framed pictures of a flower\, a fish and an estate.\nHours: 9 AM –
+  4 PM (Saturday\, November 28\, local to Atlanta).\nOriginal listing (Cra
+ igslist Atlanta): https://www.craigslist.org/view/d/marietta-estate-sale-
+ sat-marietta/1G6xrw7k4Gb5rsxp3WX3YG\nSale page on The Dig: https://rheinz
+ e08.github.io/the-dig-web/sale/1993cf67859d6b5a/\nConfirm the address and
+  hours on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/1993cf67859d6b5a/
 END:VEVENT
 END:VCALENDAR

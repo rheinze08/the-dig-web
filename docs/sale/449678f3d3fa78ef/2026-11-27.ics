@@ -5,17 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:449678f3d3fa78ef-2026-11-27@rheinze08.github.io
-DTSTAMP:20261126T203142Z
+DTSTAMP:20261127T201717Z
 DTSTART:20261127T150000Z
 DTEND:20261127T230000Z
 SUMMARY:Farmers Branch Estate Sale by Elaine
 LOCATION:13342 Mount Castle Drive\, Farmers Branch\, TX 75234
-DESCRIPTION:Furniture\, jewelry\, vehicles\, kitchen and clothing.\nHours:
-  9 AM – 5 PM (Friday\, November 27\, local to Dallas–Fort Worth).\nRu
- n by Estate Sales By Elaine.\nOriginal listing (EstateSales.net): https:/
- /www.estatesales.net/TX/Dallas/75234/5170788\nSale page on The Dig: https
- ://rheinze08.github.io/the-dig-web/sale/449678f3d3fa78ef/\nConfirm the ad
- dress and hours on the original listing before you travel.
+DESCRIPTION:A foosball table stands over framed art. Shelves hold folded b
+ lankets\, and a rack holds shirts beside a bookcase.\nHours: 9 AM – 5 P
+ M (Friday\, November 27\, local to Dallas–Fort Worth).\nRun by Estate S
+ ales By Elaine.\nOriginal listing (EstateSales.net): https://www.estatesa
+ les.net/TX/Dallas/75234/5170788\nSale page on The Dig: https://rheinze08.
+ github.io/the-dig-web/sale/449678f3d3fa78ef/\nConfirm the address and hou
+ rs on the original listing before you travel.
 URL:https://rheinze08.github.io/the-dig-web/sale/449678f3d3fa78ef/
 END:VEVENT
 END:VCALENDAR
